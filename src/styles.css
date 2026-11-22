@@ -1,0 +1,8 @@
+/*
+  Hoja de estilos principal de la aplicación.
+  Debe contener:
+  - Diseño responsivo para escritorio (panel lateral + grilla amplia) y móvil (controles accesibles y vistas adaptadas) (RNF-USA-01).
+  - Estilos para filtros, lista de materias/grupos, tarjetas de recomendaciones y alertas de conflicto o solapamiento.
+  - Estilos de la grilla semanal (LU-SA) con posicionamiento proporcional por hora y duración de los bloques.
+  - Reglas @media print para una exportación limpia en impresión/PDF (RF-VIS-03).
+*/
