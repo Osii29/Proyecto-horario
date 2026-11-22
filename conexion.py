@@ -1,71 +1,91 @@
-import requests
 import html
+import re
+import requests
 
-# tipo = 2: busqueda de horarios
-#sem 33: semestre 26-1
-# carr 12: carrera(Ingenieria en Computacion)
-payload = {'tipo': 2, 'sem': 33, 'carr':12, 'grupo':1559}
-r = requests.get('https://www.aragon.unam.mx/horarios/horarios/index_archivos/php/queysA.php', params=payload)
-
-#lo cambia a un diccionario de python json
-r.encoding = 'utf-8'
-horario = r.json()
+DIAS = ["LU", "MA", "MI", "JU", "VI", "SA"]
 
 
-#corrige los caracteres especiales
-def FormatoHorario(horario):
+def limpiar_texto(valor):
+    if not valor:
+        return ""
+    texto = html.unescape(str(valor)).strip()
+    try:
+        return texto.encode("cp1252").decode("utf-8").strip()
+    except UnicodeError:
+        return texto
+
+
+def hora_a_minutos(hhmm):
+    partes = hhmm.strip().split(":")
+    return int(partes[0]) * 60 + int(partes[1])
+
+
+def parsear_bloques(dia_codigo, raw_dia):
+    if not raw_dia:
+        return []
+
+    limpio = html.unescape(str(raw_dia))
+    partes = [p.strip() for p in re.split(r"<br\s*/?>", limpio, flags=re.IGNORECASE) if p.strip()]
+    bloques = []
+
+    # Agrupa de dos en dos: [hora_inicio, hora_fin]
+    for i in range(0, len(partes) - 1, 2):
+        h_ini, h_fin = partes[i], partes[i + 1]
+        if re.fullmatch(r"\d{1,2}:\d{2}", h_ini) and re.fullmatch(r"\d{1,2}:\d{2}", h_fin):
+            bloques.append({
+                "dia": dia_codigo,
+                "hora_texto": f"{h_ini}-{h_fin}",
+                "inicio_min": hora_a_minutos(h_ini),
+                "fin_min": hora_a_minutos(h_fin),
+            })
+        else:
+            bloques.append({
+                "dia": dia_codigo,
+                "hora_texto": f"{h_ini} -> {h_fin}",
+                "inicio_min": None,
+                "fin_min": None,
+            })
+
+    # Si sobra un elemento impar (caso atípico)
+    if len(partes) % 2 != 0:
+        bloques.append({
+            "dia": dia_codigo,
+            "hora_texto": partes[-1],
+            "inicio_min": None,
+            "fin_min": None,
+        })
+
+    return bloques
+
+
+def formatear_horario(datos, sem="", carr=""):
     resultado = []
-    for item in horario:
+    for item in datos:
+        bloques = []
+        for dia in DIAS:
+            bloques.extend(parsear_bloques(dia, item.get(dia)))
+
         resultado.append({
-            'Materia': html.unescape(item['nomb_cmateria']).encode('cp1252').decode('utf-8'),
-            'Profesor': html.unescape(item['nomb_prof']).encode('cp1252').decode('utf-8'),
-            'Salon': html.unescape(item['clv_salon']),
-            'Lunes' : html.unescape(item['LU']).split("<br />") if item['LU'] else [],
-            'Martes': html.unescape(item['MA']).split("<br />") if item['MA'] else [],
-            'Miercoles' : html.unescape(item['MI']).split("<br />") if item['MI'] else [],
-            'Jueves': html.unescape(item['JU']).split("<br />") if item['JU'] else [],
-            'Viernes' : html.unescape(item['VI']).split("<br />") if item['VI'] else [],
-            'Sabado': html.unescape(item['SA']).split("<br />") if item['SA'] else [],
+            "clv_materia": limpiar_texto(item.get("clv_materia")),
+            "grupo": limpiar_texto(item.get("grupo")),
+            "semestre": str(sem),
+            "carrera": str(carr),
+            "materia": limpiar_texto(item.get("nomb_cmateria")),
+            "profesor": limpiar_texto(item.get("nomb_prof")),
+            "salon": limpiar_texto(item.get("clv_salon")),
+            "cupo": limpiar_texto(item.get("cupo")),
+            "tipo_clase": limpiar_texto(item.get("tipoclase")),
+            "bloques": bloques,
         })
     return resultado
 
-def BusquedaMateria(horario, materia, criterio):
-    materia.strip().lower()
-    horarioFormateado = FormatoHorario(horario)
-    
-    match criterio:
-            case "Maestro":
-                criterio = materias["Profesor"]
-            case "Materia":
-                criterio = materias["Materia"]
-            case "dia":
-                dia = input("Ingrese el dia a buscar: ")
-                match dia:
-                    case "Lunes":
-                        dia = materias["Lunes"]
-                    case "Martes":
-                        dia = materias["Martes"]
-                    case "Miercoles":
-                        dia = materias["Miercoles"]
-                    case "Jueves":
-                        dia = materias["Jueves"]
-                    case "Viernes":
-                        dia = materias["Viernes"]
-                    case "Sabado":
-                        dia = materias["sabado"]
-                criterio=dia
-
-    for materias in horarioFormateado:
-        if materia in criterio.lower():
-            print("--- Materia Encontrada ---")
-            print(f"Materia: {materias['Materia']}")
-            print(f"Profesor: {materias['Profesor']}")
-            print(f"Salón: {materias['Salon']}")
-            print(f"Lunes: {materias['Lunes']}")
-            print(f"Martes: {materias['Martes']}")
-            print(f"Miércoles: {materias['Miercoles']}")
-            print(f"Jueves: {materias['Jueves']}")
-            print(f"Viernes: {materias['Viernes']}")
-            print(f"Sábado: {materias['Sabado']}")
-            print("-" * 30)
-            break
+payload = {"tipo": 2, "sem": 33, "carr": 12, "grupo": 1558}
+r = requests.get(
+    "https://www.aragon.unam.mx/horarios/horarios/index_archivos/php/queysA.php",
+    params=payload,
+    timeout=15,
+)
+r.raise_for_status()
+r.encoding = "utf-8"
+horario_normalizado = formatear_horario(r.json(), payload)
+print(horario_normalizado)
