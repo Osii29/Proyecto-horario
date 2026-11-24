@@ -1,0 +1,347 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
+import test from "node:test";
+import { fileURLToPath } from "node:url";
+
+import {
+  agruparPorGrupo,
+  agruparPorMateria,
+  cargarDataset,
+  consolidarRegistrosPorGrupoMateria,
+  crearControladorHorarios,
+  filtrarHorarios,
+  formatearEtiquetaSemestre,
+  normalizarTexto,
+  obtenerCatalogosDeFiltros,
+  obtenerSemestreDeGrupo,
+} from "../src/app.js";
+import { calcularCarrilesSolapados, escapeHtml } from "../src/render.js";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT_DIR = path.resolve(__dirname, "..");
+
+const HORARIOS_PRUEBA = [
+  {
+    id: "35_12_1500_1557",
+    clv_materia: "1500",
+    grupo: "1557",
+    semestre: "35",
+    carrera: "12",
+    materia: "DISEÑO Y ANALISIS DE ALGORITMOS",
+    profesor: "PÉREZ GARCÍA JUAN",
+    salon: "A11203",
+    cupo: 40,
+    tipo_clase: "PRESENCIAL",
+    bloques: [
+      { dia: "MA", hora_texto: "17:00-19:00", inicio_min: 1020, fin_min: 1140 },
+      { dia: "JU", hora_texto: "17:00-19:00", inicio_min: 1020, fin_min: 1140 },
+    ],
+  },
+  {
+    id: "35_12_1500_1558",
+    clv_materia: "1500",
+    grupo: "1558",
+    semestre: "35",
+    carrera: "12",
+    materia: "DISEÑO Y ANALISIS DE ALGORITMOS",
+    profesor: "LÓPEZ MARTÍN",
+    salon: "A504",
+    cupo: 0,
+    tipo_clase: "A DISTANCIA",
+    bloques: [
+      { dia: "LU", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 },
+      { dia: "MI", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 },
+    ],
+  },
+  {
+    id: "35_12_1504_1557",
+    clv_materia: "1504",
+    grupo: "1557",
+    semestre: "35",
+    carrera: "12",
+    materia: "PROGRAMACION WEB 1",
+    profesor: "SÁNCHEZ MIGUEL",
+    salon: "A204",
+    cupo: 60,
+    tipo_clase: "PRESENCIAL",
+    bloques: [
+      { dia: "LU", hora_texto: "13:00-14:30", inicio_min: 780, fin_min: 870 },
+      { dia: "MI", hora_texto: "13:00-14:30", inicio_min: 780, fin_min: 870 },
+    ],
+  },
+];
+
+test("normalizarTexto elimina acentos, mayúsculas y espacios extra", () => {
+  assert.equal(normalizarTexto("  DISEÑO   Y ÁNALISIS  "), "diseno y analisis");
+  assert.equal(normalizarTexto(null), "");
+});
+
+test("filtrarHorarios soporta texto sin acentos, días, rango horario, cupo, tipo y exclusiones", () => {
+  // Búsqueda insensible a acentos/mayúsculas por profesor, materia o clave
+  assert.equal(filtrarHorarios(HORARIOS_PRUEBA, { texto: "perez diseno" }).length, 1);
+  assert.equal(filtrarHorarios(HORARIOS_PRUEBA, { texto: "1504" }).length, 1);
+  assert.equal(filtrarHorarios(HORARIOS_PRUEBA, { texto: "1557" }).length, 2);
+
+  // Días activos
+  assert.equal(
+    filtrarHorarios(HORARIOS_PRUEBA, { diasActivos: ["LU", "MI"] }).length,
+    2
+  );
+
+  // Rango horario
+  assert.equal(
+    filtrarHorarios(HORARIOS_PRUEBA, {
+      horaMinInicio: "07:00",
+      horaMaxFin: "15:00",
+    }).length,
+    2
+  );
+
+  // Cupo y modalidad
+  assert.equal(filtrarHorarios(HORARIOS_PRUEBA, { soloConCupo: true }).length, 2);
+  assert.equal(
+    filtrarHorarios(HORARIOS_PRUEBA, { tiposClase: ["A DISTANCIA"] }).length,
+    1
+  );
+
+  // Exclusiones de profesor y grupo
+  assert.equal(
+    filtrarHorarios(HORARIOS_PRUEBA, {
+      profesoresExcluidos: ["perez garcia juan"],
+    }).length,
+    2
+  );
+  assert.equal(
+    filtrarHorarios(HORARIOS_PRUEBA, {
+      gruposExcluidos: ["1557"],
+    }).length,
+    1
+  );
+});
+
+test("agruparPorMateria y obtenerCatalogosDeFiltros estructuran el catálogo correctamente", () => {
+  const agrupado = agruparPorMateria(HORARIOS_PRUEBA);
+  assert.equal(agrupado.length, 2);
+  assert.equal(agrupado[0].clave, "1500");
+  assert.equal(agrupado[0].totalGrupos, 2);
+
+  const catalogos = obtenerCatalogosDeFiltros(HORARIOS_PRUEBA);
+  assert.deepEqual(catalogos.tiposClase, ["A DISTANCIA", "PRESENCIAL"]);
+  assert.equal(catalogos.minHoraMin, 420);
+  assert.equal(catalogos.maxHoraMin, 1140);
+
+  const porGrupo = agruparPorGrupo(HORARIOS_PRUEBA);
+  assert.deepEqual(
+    porGrupo.map((g) => g.grupo),
+    ["1557", "1558"]
+  );
+  assert.deepEqual(porGrupo[0].clavesMaterias, ["1500", "1504"]);
+  assert.equal(porGrupo[0].totalMaterias, 2);
+});
+
+test("crearControladorHorarios gestiona carga, suscripciones, presets, recomendaciones y horario manual", async () => {
+  const fetchMock = async () => ({
+    ok: true,
+    json: async () => ({
+      metadata: { semestre: "35", carrera: "12" },
+      horarios: HORARIOS_PRUEBA,
+    }),
+  });
+
+  const cargados = await cargarDataset("/data/sem_35_carr_12.json", fetchMock);
+  assert.equal(cargados.horarios.length, 3);
+
+  const ctrl = crearControladorHorarios();
+  let notificaciones = 0;
+  const desuscribir = ctrl.suscribir(() => {
+    notificaciones += 1;
+  });
+
+  await ctrl.cargarDatos("/data/sem_35_carr_12.json", fetchMock);
+  ctrl.aplicarPresetPreferencias("masDiasLibres");
+  ctrl.actualizarFiltros({ soloConCupo: true });
+  ctrl.seleccionarMaterias(["1500", "1504"]);
+
+  const res = ctrl.generarHorariosRecomendados();
+  assert.equal(res.recomendaciones.length, 1);
+  assert.equal(res.recomendaciones[0].registros[0].grupo, "1557");
+
+  const manual = ctrl.construirHorarioManual([
+    HORARIOS_PRUEBA[0],
+    HORARIOS_PRUEBA[2],
+  ]);
+  assert.equal(manual.tieneSolapamiento, false);
+  assert.ok(manual.puntaje > 100);
+
+  desuscribir();
+  assert.ok(notificaciones >= 4);
+});
+
+test("controlador funciona de extremo a extremo sobre el dataset real generado", (t) => {
+  const rutaReal = path.join(ROOT_DIR, "data", "sem_35_carr_12.json");
+  if (!fs.existsSync(rutaReal)) {
+    t.skip("data/sem_35_carr_12.json aún no existe.");
+    return;
+  }
+
+  const payload = JSON.parse(fs.readFileSync(rutaReal, "utf-8"));
+  const ctrl = crearControladorHorarios();
+  ctrl.establecerDatos(payload);
+
+  const materias = ctrl.obtenerMateriasFiltradas();
+  assert.ok(materias.length >= 10);
+
+  const seleccion = materias.slice(0, 4).map((m) => m.clave);
+  ctrl.seleccionarMaterias(seleccion);
+  ctrl.actualizarPreferencias({
+    permitirSolapamiento: true,
+    toleranciaSolapamientoMin: 60,
+  });
+
+  const res = ctrl.generarHorariosRecomendados();
+  assert.ok(
+    res.recomendaciones.length > 0 || res.diagnostico !== null,
+    "Debe producir recomendaciones o un diagnóstico claro"
+  );
+});
+
+test("render.js calcula carriles para bloques solapados y escapa HTML de forma segura", () => {
+  const carriles = calcularCarrilesSolapados([
+    { inicio_min: 420, fin_min: 540, registro: { clv_materia: "A" } },
+    { inicio_min: 480, fin_min: 600, registro: { clv_materia: "B" } },
+    { inicio_min: 660, fin_min: 780, registro: { clv_materia: "C" } },
+  ]);
+  assert.equal(carriles.length, 3);
+  assert.equal(carriles[0].totalCols, 2);
+  assert.equal(carriles[1].totalCols, 2);
+  assert.equal(carriles[0].enChoque, true);
+  assert.equal(carriles[2].totalCols, 1);
+  assert.equal(carriles[2].enChoque, false);
+
+  assert.equal(escapeHtml(`<script>"x"</script>`), "&lt;script&gt;&quot;x&quot;&lt;/script&gt;");
+});
+
+test("obtenerSemestreDeGrupo, filtro por semestre y combinación entre distintos semestres funcionan", () => {
+  assert.equal(obtenerSemestreDeGrupo("1557"), 5);
+  assert.equal(obtenerSemestreDeGrupo("1005"), 10);
+  assert.equal(obtenerSemestreDeGrupo("81101"), 1);
+  assert.equal(obtenerSemestreDeGrupo("99"), null);
+  assert.equal(formatearEtiquetaSemestre(5), "5° semestre");
+  assert.equal(formatearEtiquetaSemestre(10), "10° / Optativas");
+
+  const datosMultiSem = [
+    ...HORARIOS_PRUEBA,
+    {
+      id: "35_12_1700_1757",
+      clv_materia: "1700",
+      grupo: "1757",
+      semestre: "35",
+      carrera: "12",
+      materia: "INTELIGENCIA ARTIFICIAL",
+      profesor: "RUIZ CARLOS",
+      salon: "A301",
+      cupo: 30,
+      tipo_clase: "PRESENCIAL",
+      bloques: [
+        { dia: "VI", hora_texto: "09:00-11:00", inicio_min: 540, fin_min: 660 },
+      ],
+    },
+  ];
+
+  const cat = obtenerCatalogosDeFiltros(datosMultiSem);
+  assert.deepEqual(
+    cat.semestresGrupo.map((s) => s.numero),
+    [5, 7]
+  );
+
+  assert.equal(
+    filtrarHorarios(datosMultiSem, { semestresGrupo: [5] }).length,
+    3
+  );
+  assert.equal(
+    filtrarHorarios(datosMultiSem, { semestresGrupo: [7] }).length,
+    1
+  );
+
+  // Al cambiar el filtro de semestre del catálogo, el motor conserva materias elegidas de otro semestre
+  const ctrl = crearControladorHorarios({ horarios: datosMultiSem });
+  ctrl.actualizarFiltros({ semestresGrupo: [5] });
+  ctrl.alternarMateriaSeleccionada("1500");
+  ctrl.actualizarFiltros({ semestresGrupo: [7] });
+  ctrl.alternarMateriaSeleccionada("1700");
+
+  const res = ctrl.generarHorariosRecomendados();
+  assert.ok(res.recomendaciones.length > 0);
+  assert.equal(res.recomendaciones[0].registros.length, 2);
+});
+
+test("consolidarRegistrosPorGrupoMateria fusiona salones por día y unifica codocentes", () => {
+  const crudos = [
+    {
+      id: "35_5_0002_1318",
+      clv_materia: "0002",
+      grupo: "1318",
+      semestre: "35",
+      carrera: "5",
+      materia: "GEOPOLITICA",
+      profesor: "DOCENTE UNO",
+      salon: "SINDEF",
+      cupo: 40,
+      tipo_clase: "PRESENCIAL",
+      bloques: [{ dia: "MI", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 }],
+    },
+    {
+      id: "35_5_0002_1318_2",
+      clv_materia: "0002",
+      grupo: "1318",
+      semestre: "35",
+      carrera: "5",
+      materia: "GEOPOLITICA",
+      profesor: "DOCENTE UNO",
+      salon: "A114",
+      cupo: 45,
+      tipo_clase: "PRESENCIAL",
+      bloques: [{ dia: "VI", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 }],
+    },
+    {
+      id: "35_2_1036_1701",
+      clv_materia: "1036",
+      grupo: "1701",
+      semestre: "35",
+      carrera: "2",
+      materia: "ADMIN CONSTRUCCION",
+      profesor: "PROF A",
+      salon: "A911",
+      cupo: 35,
+      tipo_clase: "PRESENCIAL",
+      bloques: [{ dia: "MI", hora_texto: "10:00-13:00", inicio_min: 600, fin_min: 780 }],
+    },
+    {
+      id: "35_2_1036_1701_2",
+      clv_materia: "1036",
+      grupo: "1701",
+      semestre: "35",
+      carrera: "2",
+      materia: "ADMIN CONSTRUCCION",
+      profesor: "PROF B",
+      salon: "A911",
+      cupo: 35,
+      tipo_clase: "PRESENCIAL",
+      bloques: [{ dia: "MI", hora_texto: "10:00-13:00", inicio_min: 600, fin_min: 780 }],
+    },
+  ];
+
+  const consolidados = consolidarRegistrosPorGrupoMateria(crudos);
+  assert.equal(consolidados.length, 2);
+  assert.equal(consolidados[0].id, "35_5_0002_1318");
+  assert.equal(consolidados[0].salon, "SINDEF / A114");
+  assert.equal(consolidados[0].cupo, 45);
+  assert.deepEqual(
+    consolidados[0].bloques.map((b) => b.dia),
+    ["MI", "VI"]
+  );
+
+  assert.equal(consolidados[1].profesor, "PROF A / PROF B");
+  assert.equal(consolidados[1].bloques.length, 1);
+});

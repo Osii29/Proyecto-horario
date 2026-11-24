@@ -1,11 +1,598 @@
-<!--
-  Estructura HTML principal de la aplicación web estática (JAMstack).
-  Debe contener:
-  - Encabezado y descripción breve del Sistema de Consulta y Recomendación de Horarios.
-  - Panel lateral de controles y filtros: búsqueda por texto libre (RF-BUS-01), filtros por días activos, rango horario, tipo de clase y cupo (RF-BUS-02), exclusión de profesores/grupos (RF-BUS-03) y selección de materias objetivo (RF-BUS-04).
-  - Controles de preferencias/pesos para el cálculo de puntaje y opción para permitir solapamiento con advertencia (RF-REC-02, RF-REC-04).
-  - Sección de tarjetas de recomendaciones ordenadas por puntaje y mensajes claros cuando no haya combinaciones válidas (RF-REC-05, RF-VIS-01).
-  - Contenedor de la grilla semanal interactiva (LU-SA), comparación manual y botones de exportación (impresión/PDF o imagen) (RF-VIS-02, RF-VIS-03).
-  - Espacio discreto para apoyo o donación voluntaria sin interferir con los controles principales (RF-MON-02).
-  - Enlaces a styles.css y módulos JS (app.js, scheduler.js, render.js).
--->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HORARIOS · Sistema de Consulta y Recomendación</title>
+    <meta
+      name="description"
+      content="Consulta horarios del semestre vigente para todas las carreras de FES Aragón, filtra por días y profesores, y genera combinaciones óptimas."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <div id="app-horarios" class="app-root">
+      <!-- Barra superior fija -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <a href="#app-horarios" class="brand-cell" aria-label="Inicio Horarios">
+            <svg
+              class="brand-mark"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path
+                d="M3 17L9.5 3H12.2L17 17H14.2L12.9 13.2H7.2L5.8 17H3ZM8.1 10.8H12L10.1 5.6L8.1 10.8Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span class="brand-name">HORARIOS</span>
+            <span id="badge-semestre-activo" class="semester-pill">2027-1</span>
+          </a>
+
+          <button
+            id="btn-toggle-sidebar"
+            type="button"
+            class="topbar-tool-btn sidebar-toggle-btn"
+            aria-controls="panel-inspector"
+            aria-expanded="true"
+            title="Contraer o expandir el panel lateral"
+          >
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 16 16"
+              fill="none"
+              aria-hidden="true"
+            >
+              <rect x="1.5" y="2" width="13" height="12" stroke="currentColor" stroke-width="1.4" />
+              <line x1="6" y1="2" x2="6" y2="14" stroke="currentColor" stroke-width="1.4" />
+            </svg>
+            <span id="label-toggle-sidebar">OCULTAR PANEL</span>
+          </button>
+        </div>
+
+        <nav class="topbar-nav" aria-label="Navegación y selector de carrera">
+          <label class="nav-badge-inverted career-badge" title="Cambiar carrera del semestre actual">
+            <span class="badge-prefix">CARRERA</span>
+            <select id="dataset-select" aria-label="Elegir carrera">
+              <option value="">Cargando carreras...</option>
+            </select>
+          </label>
+
+          <a href="#seccion-recomendaciones" class="nav-link">RECOMENDACIONES</a>
+          <a href="#seccion-grilla" class="nav-link">HORARIO</a>
+          <button
+            id="btn-nav-manual"
+            type="button"
+            class="nav-link nav-link-btn"
+          >
+            MANUAL
+          </button>
+        </nav>
+
+        <div class="topbar-actions">
+          <button id="btn-generar-top" type="button" class="cta-primary">
+            GENERAR HORARIO
+          </button>
+        </div>
+      </header>
+
+      <!-- Contenedor principal: Inspector colapsable | Estudio | Riel técnico -->
+      <div id="app-shell" class="app-shell">
+        <!-- Columna izquierda colapsable organizada en 3 pestañas -->
+        <aside
+          id="panel-inspector"
+          class="inspector-panel"
+          aria-label="Configurador de materias, filtros y motor"
+        >
+          <div class="inspector-header">
+            <div class="inspector-title-wrap">
+              <h2 class="inspector-title">Configurador</h2>
+              <span id="contador-catalogo" class="inspector-subtitle">
+                0 materias · 0 grupos
+              </span>
+            </div>
+            <button
+              id="btn-cerrar-inspector"
+              type="button"
+              class="btn-outline btn-xs"
+              title="Contraer barra lateral"
+              aria-label="Contraer barra lateral"
+            >
+              «
+            </button>
+          </div>
+
+          <!-- Navegación segmentada del panel lateral -->
+          <div class="inspector-tabs" role="tablist" aria-label="Secciones del panel lateral">
+            <button
+              id="tab-panel-materias"
+              type="button"
+              role="tab"
+              aria-selected="true"
+              aria-controls="vista-panel-materias"
+              data-panel-tab="materias"
+              class="inspector-tab is-active"
+            >
+              <span>01 MATERIAS</span>
+            </button>
+            <button
+              id="tab-panel-filtros"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="vista-panel-filtros"
+              data-panel-tab="filtros"
+              class="inspector-tab"
+            >
+              <span>02 FILTROS</span>
+              <span id="badge-filtros" class="tab-badge" hidden>0</span>
+            </button>
+            <button
+              id="tab-panel-motor"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="vista-panel-motor"
+              data-panel-tab="motor"
+              class="inspector-tab"
+            >
+              <span>03 MOTOR</span>
+              <span id="badge-motor" class="tab-badge" hidden>!</span>
+            </button>
+          </div>
+
+          <!-- Vista 01: Búsqueda y catálogo de materias -->
+          <div id="vista-panel-materias" class="inspector-tabpanel" role="tabpanel">
+            <div class="search-block">
+              <label for="filtro-texto" class="field-label">
+                BUSCAR ASIGNATURA, CLAVE, DOCENTE O GRUPO
+              </label>
+              <div class="search-input-wrap">
+                <input
+                  id="filtro-texto"
+                  type="search"
+                  class="input-control"
+                  placeholder="Ej. cálculo, 1500, lópez, 1557..."
+                  autocomplete="off"
+                />
+                <button
+                  id="btn-limpiar-texto"
+                  type="button"
+                  class="btn-clear-input"
+                  aria-label="Limpiar búsqueda"
+                  hidden
+                >
+                  ×
+                </button>
+              </div>
+              <div class="semester-filter-row">
+                <label for="filtro-semestre-grupo" class="field-label semester-inline-label">
+                  SEMESTRE
+                </label>
+                <select
+                  id="filtro-semestre-grupo"
+                  class="select-control select-sm"
+                  aria-label="Filtrar materias y grupos por semestre"
+                >
+                  <option value="">Todos los semestres</option>
+                </select>
+              </div>
+            </div>
+
+            <div id="resumen-filtros-activos" class="catalog-summary-strip">
+              <span id="texto-resumen-catalogo" class="mono-meta">
+                Clic en un grupo para ver o elegir sus materias
+              </span>
+              <button
+                id="btn-ir-filtros"
+                type="button"
+                class="filter-jump-pill"
+                hidden
+              >
+                0 filtros activos →
+              </button>
+            </div>
+
+            <div class="catalog-mode-switch" role="group" aria-label="Modo de agrupación del catálogo">
+              <button
+                id="btn-agrupar-grupo"
+                type="button"
+                class="catalog-mode-btn is-active"
+                aria-pressed="true"
+              >
+                POR GRUPO
+              </button>
+              <button
+                id="btn-agrupar-materia"
+                type="button"
+                class="catalog-mode-btn"
+                aria-pressed="false"
+              >
+                POR MATERIA
+              </button>
+            </div>
+
+            <div id="catalogo-materias" class="catalogo-materias"></div>
+          </div>
+
+          <!-- Vista 02: Filtros en tarjetas diferenciadas -->
+          <div id="vista-panel-filtros" class="inspector-tabpanel inspector-scroll" role="tabpanel" hidden>
+            <section class="filter-card">
+              <div class="filter-card-head">
+                <h3 class="filter-card-title">Disponibilidad semanal</h3>
+                <p class="filter-card-desc">Restringe días permitidos y ventana horaria de clases.</p>
+              </div>
+
+              <div class="field-group">
+                <span class="field-label">DÍAS PERMITIDOS</span>
+                <div id="filtro-dias" class="days-grid" role="group" aria-label="Días de la semana">
+                  <button type="button" class="day-toggle is-active" data-dia="LU" aria-pressed="true">LU</button>
+                  <button type="button" class="day-toggle is-active" data-dia="MA" aria-pressed="true">MA</button>
+                  <button type="button" class="day-toggle is-active" data-dia="MI" aria-pressed="true">MI</button>
+                  <button type="button" class="day-toggle is-active" data-dia="JU" aria-pressed="true">JU</button>
+                  <button type="button" class="day-toggle is-active" data-dia="VI" aria-pressed="true">VI</button>
+                  <button type="button" class="day-toggle is-active" data-dia="SA" aria-pressed="true">SA</button>
+                </div>
+              </div>
+
+              <div class="two-cols">
+                <div class="field-group">
+                  <label for="filtro-hora-min" class="field-label">DESDE</label>
+                  <select id="filtro-hora-min" class="select-control"></select>
+                </div>
+                <div class="field-group">
+                  <label for="filtro-hora-max" class="field-label">HASTA</label>
+                  <select id="filtro-hora-max" class="select-control"></select>
+                </div>
+              </div>
+            </section>
+
+            <section class="filter-card">
+              <div class="filter-card-head">
+                <h3 class="filter-card-title">Modalidad y cupo</h3>
+                <p class="filter-card-desc">Filtra grupos presenciales, a distancia o por lugares.</p>
+              </div>
+
+              <div class="field-group">
+                <span class="field-label">MODALIDAD</span>
+                <div id="filtro-tipos-clase" class="pill-group"></div>
+              </div>
+
+              <div class="two-cols align-center">
+                <label class="checkbox-row">
+                  <input id="filtro-solo-cupo" type="checkbox" />
+                  <span>Solo con cupo &gt; 0</span>
+                </label>
+                <div class="field-group">
+                  <label for="filtro-cupo-min" class="field-label">CUPO MÍN.</label>
+                  <input
+                    id="filtro-cupo-min"
+                    type="number"
+                    min="0"
+                    class="input-control input-sm"
+                    placeholder="—"
+                  />
+                </div>
+              </div>
+            </section>
+
+            <section class="filter-card">
+              <div class="filter-card-head">
+                <h3 class="filter-card-title">Exclusiones</h3>
+                <p class="filter-card-desc">Descarta profesores o grupos específicos del cálculo.</p>
+              </div>
+
+              <div class="field-group">
+                <label for="input-excluir-profesor" class="field-label">EXCLUIR PROFESOR</label>
+                <div class="inline-action">
+                  <input
+                    id="input-excluir-profesor"
+                    type="text"
+                    list="datalist-profesores"
+                    class="input-control"
+                    placeholder="Nombre del docente..."
+                  />
+                  <button id="btn-excluir-profesor" type="button" class="btn-outline">
+                    EXCLUIR
+                  </button>
+                </div>
+                <datalist id="datalist-profesores"></datalist>
+                <div id="lista-profesores-excluidos" class="chips-wrap"></div>
+              </div>
+
+              <div class="field-group">
+                <label for="input-excluir-grupo" class="field-label">EXCLUIR GRUPO O CLAVE:GRUPO</label>
+                <div class="inline-action">
+                  <input
+                    id="input-excluir-grupo"
+                    type="text"
+                    list="datalist-grupos"
+                    class="input-control"
+                    placeholder="Ej. 1557 o 1500:1557"
+                  />
+                  <button id="btn-excluir-grupo" type="button" class="btn-outline">
+                    EXCLUIR
+                  </button>
+                </div>
+                <datalist id="datalist-grupos"></datalist>
+                <div id="lista-grupos-excluidos" class="chips-wrap"></div>
+              </div>
+            </section>
+
+            <div class="panel-bottom-action">
+              <button id="btn-limpiar-filtros" type="button" class="btn-outline btn-full">
+                RESTABLECER TODOS LOS FILTROS
+              </button>
+            </div>
+          </div>
+
+          <!-- Vista 03: Preferencias del motor y tolerancia de solapamientos -->
+          <div id="vista-panel-motor" class="inspector-tabpanel inspector-scroll" role="tabpanel" hidden>
+            <section class="filter-card">
+              <div class="filter-card-head">
+                <h3 class="filter-card-title">Prioridad de acomodo</h3>
+                <p class="filter-card-desc">Define cómo ordenar tus horarios recomendados.</p>
+              </div>
+
+              <div id="preset-preferencias" class="preset-stack">
+                <button type="button" class="preset-card-btn is-active" data-preset="balanceado">
+                  <span class="preset-name">Balanceado</span>
+                  <span class="preset-hint">Equilibrio entre días libres y huecos cortos</span>
+                </button>
+                <button type="button" class="preset-card-btn" data-preset="masDiasLibres">
+                  <span class="preset-name">Más días libres</span>
+                  <span class="preset-hint">Compacta las clases en menos días</span>
+                </button>
+                <button type="button" class="preset-card-btn" data-preset="menosHuecos">
+                  <span class="preset-name">Menos huecos</span>
+                  <span class="preset-hint">Evita horas muertas entre asignaturas</span>
+                </button>
+                <button type="button" class="preset-card-btn" data-preset="matutino">
+                  <span class="preset-name">Turno matutino</span>
+                  <span class="preset-hint">Prioriza clases entre 07:00 y 15:00</span>
+                </button>
+                <button type="button" class="preset-card-btn" data-preset="vespertino">
+                  <span class="preset-name">Turno vespertino</span>
+                  <span class="preset-hint">Prioriza clases entre 14:00 y 22:00</span>
+                </button>
+              </div>
+            </section>
+
+            <section class="filter-card overlap-card">
+              <div class="filter-card-head">
+                <h3 class="filter-card-title">Tolerancia de solapamiento</h3>
+                <p class="filter-card-desc">Autoriza choques con advertencia según minutos máximos.</p>
+              </div>
+
+              <label class="checkbox-row checkbox-strong">
+                <input id="pref-permitir-solapamiento" type="checkbox" />
+                <span>Permitir solapamientos entre materias</span>
+              </label>
+
+              <div id="controles-tolerancia" class="tolerancia-box" hidden>
+                <div class="two-cols align-center">
+                  <label for="pref-tolerancia-min" class="field-label">TOLERANCIA MÁX. (MIN)</label>
+                  <input
+                    id="pref-tolerancia-min"
+                    type="number"
+                    min="0"
+                    step="5"
+                    value="30"
+                    class="input-control input-sm"
+                  />
+                </div>
+                <div id="chips-tolerancia" class="pill-group">
+                  <button type="button" class="pill-btn" data-tolerancia="15">15m</button>
+                  <button type="button" class="pill-btn is-active" data-tolerancia="30">30m</button>
+                  <button type="button" class="pill-btn" data-tolerancia="60">60m</button>
+                  <button type="button" class="pill-btn" data-tolerancia="90">90m</button>
+                  <button type="button" class="pill-btn" data-tolerancia="sin-limite">Sin límite</button>
+                </div>
+                <p class="helper-note">
+                  Admite cualquier cantidad de choques mientras la suma total no supere los minutos elegidos.
+                </p>
+              </div>
+            </section>
+
+            <details class="advanced-details">
+              <summary class="advanced-summary">Ajuste avanzado de pesos y turno</summary>
+              <div class="advanced-body">
+                <div class="two-cols">
+                  <div class="field-group">
+                    <label for="pref-hora-ideal-inicio" class="field-label">INICIO IDEAL</label>
+                    <select id="pref-hora-ideal-inicio" class="select-control"></select>
+                  </div>
+                  <div class="field-group">
+                    <label for="pref-hora-ideal-fin" class="field-label">FIN IDEAL</label>
+                    <select id="pref-hora-ideal-fin" class="select-control"></select>
+                  </div>
+                </div>
+
+                <div class="sliders-stack">
+                  <div class="slider-row">
+                    <label for="peso-dias-libres" class="field-label">
+                      PESO DÍAS LIBRES <span id="val-peso-dias-libres" class="mono-val">20</span>
+                    </label>
+                    <input id="peso-dias-libres" type="range" min="0" max="50" step="1" value="20" />
+                  </div>
+                  <div class="slider-row">
+                    <label for="peso-huecos" class="field-label">
+                      PENALIZAR HUECOS <span id="val-peso-huecos" class="mono-val">10</span>
+                    </label>
+                    <input id="peso-huecos" type="range" min="0" max="50" step="1" value="10" />
+                  </div>
+                  <div class="slider-row">
+                    <label for="peso-rango" class="field-label">
+                      FUERA DE TURNO <span id="val-peso-rango" class="mono-val">10</span>
+                    </label>
+                    <input id="peso-rango" type="range" min="0" max="50" step="1" value="10" />
+                  </div>
+                </div>
+
+                <div class="field-group">
+                  <label for="pref-max-combinaciones" class="field-label">
+                    LÍMITE DE COMBINACIONES EVALUADAS
+                  </label>
+                  <select id="pref-max-combinaciones" class="select-control">
+                    <option value="5000">5,000 combinaciones</option>
+                    <option value="15000">15,000 combinaciones</option>
+                    <option value="25000" selected>25,000 combinaciones</option>
+                    <option value="50000">50,000 combinaciones</option>
+                  </select>
+                </div>
+              </div>
+            </details>
+          </div>
+        </aside>
+
+        <!-- Área principal -->
+        <main class="workspace-main">
+          <!-- Barra de materias seleccionadas -->
+          <section
+            id="barra-seleccionadas"
+            class="selection-strip"
+            aria-label="Materias seleccionadas"
+          >
+            <div class="selection-meta">
+              <span class="mono-overline">MATERIAS OBJETIVO</span>
+              <span id="contador-seleccionadas" class="mono-counter-pill">
+                0 SELECCIONADAS
+              </span>
+            </div>
+
+            <div id="lista-seleccionadas" class="chips-wrap selection-chips">
+              <span class="empty-inline">
+                Elige tus materias desde el panel izquierdo para calcular horarios.
+              </span>
+            </div>
+
+            <div class="selection-actions">
+              <button id="btn-limpiar-seleccion" type="button" class="btn-outline">
+                LIMPIAR
+              </button>
+              <button id="btn-generar-main" type="button" class="btn-solid">
+                GENERAR COMBINACIONES
+              </button>
+            </div>
+          </section>
+
+          <!-- Sección 02: Recomendaciones -->
+          <section
+            id="seccion-recomendaciones"
+            class="studio-section"
+          >
+            <div class="section-band">
+              <div class="section-band-left">
+                <span class="mono-overline">01 / COMBINACIONES ÓPTIMAS</span>
+                <span id="telemetry-recomendaciones" class="mono-meta">
+                  ESPERANDO SELECCIÓN
+                </span>
+              </div>
+              <h1 class="section-display-title">RECOMENDACIONES</h1>
+            </div>
+
+            <div id="panel-diagnostico" class="diagnostico-panel" hidden></div>
+            <div id="grid-recomendaciones" class="rec-grid"></div>
+            <div id="recs-footer" class="recs-footer" hidden>
+              <button id="btn-ver-mas-recs" type="button" class="btn-outline">
+                MOSTRAR MÁS RECOMENDACIONES
+              </button>
+            </div>
+          </section>
+
+          <!-- Sección 03: Ventana de estudio semanal -->
+          <section
+            id="seccion-grilla"
+            class="studio-section"
+          >
+            <div class="section-band">
+              <div class="section-band-left">
+                <span class="mono-overline">02 / HORARIO SEMANAL</span>
+                <span class="mono-meta">LU – SA · VISTA PROPORCIONAL</span>
+              </div>
+              <h2 class="section-display-title">VISTA DE ESTUDIO</h2>
+            </div>
+
+            <div class="studio-window">
+              <div class="studio-bar">
+                <div class="studio-tabs" role="tablist" aria-label="Modo de visualización">
+                  <button
+                    id="tab-modo-recomendado"
+                    type="button"
+                    role="tab"
+                    aria-selected="true"
+                    data-modo="recomendado"
+                    class="studio-tab is-active"
+                  >
+                    RECOMENDACIÓN ACTIVA
+                  </button>
+                  <button
+                    id="tab-modo-manual"
+                    type="button"
+                    role="tab"
+                    aria-selected="false"
+                    data-modo="manual"
+                    class="studio-tab"
+                  >
+                    COMPARADOR MANUAL
+                  </button>
+                </div>
+
+                <div id="studio-titulo" class="studio-title">
+                  SIN HORARIO ACTIVO
+                </div>
+
+                <div class="studio-bar-right">
+                  <div id="studio-kpis" class="studio-kpis"></div>
+                  <div class="export-group">
+                    <button id="btn-exportar-pdf" type="button" class="btn-outline btn-xs">
+                      IMPRIMIR / PDF
+                    </button>
+                    <button id="btn-exportar-png" type="button" class="btn-outline btn-xs">
+                      EXPORTAR PNG
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div id="banner-advertencias" class="banner-advertencias" hidden></div>
+              <div id="panel-manual" class="panel-manual" hidden></div>
+
+              <div class="grilla-scroll">
+                <div id="grilla-semanal" class="grilla-semanal"></div>
+              </div>
+
+              <div id="inspector-bloque" class="inspector-bloque" hidden></div>
+              <div id="leyenda-impresion" class="leyenda-impresion"></div>
+            </div>
+          </section>
+
+          <footer class="site-footer">
+            <div class="footer-cell">
+              <span id="footer-dataset-info" class="mono-meta">
+                CARGANDO CATÁLOGO...
+              </span>
+            </div>
+            <div class="footer-cell footer-center">
+              <span>
+                Herramienta gratuita de apoyo académico · Procesamiento local en navegador
+              </span>
+            </div>
+          </footer>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

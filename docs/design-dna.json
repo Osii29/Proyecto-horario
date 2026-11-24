@@ -1,0 +1,452 @@
+{
+  "meta": {
+    "name": "Dark Swiss Architectural Studio",
+    "description": "Sistema visual oscuro arquitectónico inspirado en la referencia Photocraft / Craft Apps: retícula de líneas capilares 1px, bloques monolíticos de alto contraste monocromático, tipografía técnica monoespaciada en mayúsculas y ventana de estudio profesional para edición horaria.",
+    "source_references": [
+      "media_1795489330306_10bfeb98.jpg"
+    ],
+    "created_at": "2026-11-23T21:05:00-06:00"
+  },
+  "design_system": {
+    "color": {
+      "palette_type": "monochromatic",
+      "primary": {
+        "hex": "#f6f7f7",
+        "role": "Alto contraste monocromático para texto principal, insignia invertida de contexto activo y bloque CTA principal."
+      },
+      "secondary": {
+        "hex": "#4f7ec8",
+        "role": "Acento técnico azul frío heredado del riel derecho de telemetría para indicadores de progreso y foco."
+      },
+      "accent": {
+        "hex": "#9c6f52",
+        "role": "Acento cálido medido en la referencia, reservado con moderación para advertencias de solapamiento y señales de atención."
+      },
+      "neutral": {
+        "scale": [
+          "#f6f7f7",
+          "#969697",
+          "#86878c",
+          "#555556",
+          "#3a3b40",
+          "#2d2d2e",
+          "#26272b",
+          "#1e1f21",
+          "#17181d",
+          "#121317",
+          "#0b0c0f"
+        ],
+        "usage": "El extremo claro (#f6f7f7 y #969697) actúa como texto principal y secundario sobre lienzos oscuros (#121317 y #0b0c0f), manteniendo contraste >= 4.5:1."
+      },
+      "semantic": {
+        "success": "#5fa87e",
+        "warning": "#d4945a",
+        "error": "#d66565",
+        "info": "#4f7ec8"
+      },
+      "surface": {
+        "background": "#121317",
+        "card": "#17181d",
+        "elevated": "#2d2d2e"
+      },
+      "contrast_strategy": "Alto contraste monocromático (#f6f7f7 sobre #121317) con separación estructural por líneas capilares 1px (#26272b) en lugar de sombras difusas.",
+      "measurement": {
+        "k": 8,
+        "sampling": {
+          "method": "deterministic_stratified",
+          "max_pixels": 160000,
+          "sampled_pixels": 160000
+        }
+      },
+      "measured_palette": [
+        {
+          "hex": "#121317",
+          "coverage": 0.6717,
+          "role": "background"
+        },
+        {
+          "hex": "#2d2d2e",
+          "coverage": 0.1575,
+          "role": "unassigned"
+        },
+        {
+          "hex": "#9c6f52",
+          "coverage": 0.0483,
+          "role": "accent"
+        },
+        {
+          "hex": "#7c7c6f",
+          "coverage": 0.0463,
+          "role": "unassigned"
+        },
+        {
+          "hex": "#ae866d",
+          "coverage": 0.0331,
+          "role": "unassigned"
+        },
+        {
+          "hex": "#555556",
+          "coverage": 0.0173,
+          "role": "unassigned"
+        },
+        {
+          "hex": "#f6f7f7",
+          "coverage": 0.0142,
+          "role": "text"
+        },
+        {
+          "hex": "#969697",
+          "coverage": 0.0116,
+          "role": "unassigned"
+        }
+      ]
+    },
+    "typography": {
+      "type_scale": {
+        "display": {
+          "size": "2rem",
+          "weight": "700",
+          "line_height": "1.05",
+          "tracking": "-0.02em"
+        },
+        "heading_1": {
+          "size": "1.5rem",
+          "weight": "600",
+          "line_height": "1.15",
+          "tracking": "-0.015em"
+        },
+        "heading_2": {
+          "size": "1.125rem",
+          "weight": "600",
+          "line_height": "1.25",
+          "tracking": "-0.01em"
+        },
+        "heading_3": {
+          "size": "0.95rem",
+          "weight": "600",
+          "line_height": "1.3",
+          "tracking": "0"
+        },
+        "body": {
+          "size": "0.875rem",
+          "weight": "400",
+          "line_height": "1.55",
+          "tracking": "0"
+        },
+        "body_small": {
+          "size": "0.8125rem",
+          "weight": "400",
+          "line_height": "1.45",
+          "tracking": "0.01em"
+        },
+        "caption": {
+          "size": "0.75rem",
+          "weight": "500",
+          "line_height": "1.35",
+          "tracking": "0.04em"
+        },
+        "overline": {
+          "size": "0.6875rem",
+          "weight": "500",
+          "line_height": "1.2",
+          "tracking": "0.14em"
+        }
+      },
+      "font_families": {
+        "heading": "'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+        "body": "'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+      },
+      "font_style_notes": "Títulos geométricos limpios combinados con etiquetas técnicas monoespaciadas en mayúsculas y espaciado amplio."
+    },
+    "spacing": {
+      "base_unit": "4px",
+      "scale": [
+        "4px",
+        "8px",
+        "12px",
+        "16px",
+        "20px",
+        "24px",
+        "32px",
+        "48px"
+      ],
+      "content_density": "comfortable",
+      "section_rhythm": "Secciones divididas por barras horizontales de 1px con encabezados bicolumna (índice mono a la izquierda y display a la derecha)."
+    },
+    "layout": {
+      "grid_system": "CSS Grid arquitectónico de tres zonas: inspector izquierdo (380px), área de trabajo principal fluida y riel técnico derecho (52px).",
+      "max_content_width": "1680px",
+      "columns": 3,
+      "gutter": "1px",
+      "breakpoints": {
+        "mobile": "680px",
+        "tablet": "1024px",
+        "desktop": "1280px"
+      },
+      "alignment_tendency": "strict grid"
+    },
+    "shape": {
+      "border_radius": {
+        "small": "0px",
+        "medium": "2px",
+        "large": "2px",
+        "pill": "2px"
+      },
+      "border_usage": "subtle 1px",
+      "divider_style": "Líneas capilares rectas de 1px (#26272b) sin bordes redondeados suaves."
+    },
+    "elevation": {
+      "shadow_style": "none",
+      "levels": {
+        "low": "none",
+        "medium": "0 0 0 1px #26272b",
+        "high": "0 12px 32px rgba(0, 0, 0, 0.55)"
+      },
+      "depth_cues": "color intensity"
+    },
+    "iconography": {
+      "style": "Geométrica lineal 1.5px",
+      "stroke_weight": "1.5px",
+      "size_scale": "14px / 16px / 20px",
+      "preferred_set": "SVG inline minimalista"
+    },
+    "motion": {
+      "easing": "cubic-bezier(0.2, 0, 0, 1)",
+      "duration_scale": {
+        "micro": "120ms",
+        "normal": "180ms",
+        "macro": "260ms"
+      },
+      "entrance_pattern": "Transición sutil de opacidad sin rebotes",
+      "exit_pattern": "Desvanecimiento rápido 120ms",
+      "philosophy": "minimal functional"
+    },
+    "components": {
+      "button_style": "Bloques rectangulares nítidos: CTA principal sólido en #f6f7f7 con texto #09090b; secundarios fantasma con borde 1px #3a3b40.",
+      "input_style": "Campos oscuros #0b0c0f con borde 1px #26272b, foco blanco #f6f7f7 y etiqueta superior monoespaciada.",
+      "card_style": "Celdas de retícula 1px sin sombra con índice numérico superior derecho (01, 02, 03...) y cambio de fondo al pasar el cursor.",
+      "navigation_pattern": "Barra superior fija de 52px dividida en celdas con insignia invertida blanca para el contexto activo.",
+      "modal_style": "Diálogo nativo centrado de borde recto 1px sobre fondo #121317 con respaldo oscuro.",
+      "list_style": "Filas separadas por líneas 1px con estados activos marcados en borde izquierdo.",
+      "component_notes": "La grilla horaria adopta el marco de ventana de aplicación de estudio (#2d2d2e barra superior, #17181d lienzo interior)."
+    }
+  },
+  "design_style": {
+    "aesthetic": {
+      "mood": [
+        "preciso",
+        "técnico",
+        "editorial",
+        "profesional",
+        "sobrio"
+      ],
+      "visual_metaphor": "Estación de trabajo creativa y plano arquitectónico suizo en modo oscuro.",
+      "era_influence": "Tipografía suiza contemporánea mezclada con software creativo profesional (2025-2026).",
+      "genre": "creative developer tool",
+      "personality_traits": [
+        "metódico",
+        "directo",
+        "confiable",
+        "preciso"
+      ],
+      "adjectives": [
+        "geométrico",
+        "monocromático",
+        "modular",
+        "nítido"
+      ]
+    },
+    "visual_language": {
+      "complexity": "moderate",
+      "ornamentation": "subtle accents",
+      "whitespace_usage": "Respiración controlada dentro de celdas estrictas divididas por retícula visible.",
+      "visual_weight_distribution": "Peso concentrado en la grilla de estudio y el botón blanco superior derecho; controles ordenados en columna izquierda.",
+      "focal_strategy": "distributed interest",
+      "contrast_level": "high",
+      "texture_usage": "Superficies mates planas sin ruido ni degradados llamativos."
+    },
+    "composition": {
+      "hierarchy_method": "typographic hierarchy",
+      "balance_type": "asymmetric",
+      "flow_direction": "left-to-right",
+      "grouping_strategy": "División mediante celdas de borde 1px e índices numéricos 01/02/03.",
+      "negative_space_role": "Encuadra las etiquetas monoespaciadas y resalta bloques de datos."
+    },
+    "imagery": {
+      "photo_treatment": "N/A (interfaz basada en datos y geometría vectorial)",
+      "illustration_style": "Trazos geométricos mínimos",
+      "graphic_elements": "Monograma angular en esquina superior izquierda y marcadores técnicos de riel.",
+      "pattern_usage": "Retícula visible de horas y días en el horario semanal.",
+      "image_shape": "rectangular"
+    },
+    "interaction_feel": {
+      "feedback_style": "Instantáneo mediante cambio de contraste de borde y fondo",
+      "hover_behavior": "Iluminación sutil de celda (#1e1f21) e inversión limpia en botones clave",
+      "transition_personality": "snappy",
+      "loading_style": "Indicador textual técnico en barra superior y estado vacío limpio",
+      "microinteraction_density": "low"
+    },
+    "brand_voice_in_ui": {
+      "tone": "Claro, técnico y directo al grano en español.",
+      "formality": "semiformal",
+      "cta_style": "direct imperative",
+      "empty_state_approach": "Instrucciones concretas y accionables dentro de celdas limpias.",
+      "error_tone": "Diagnóstico transparente con sugerencias prácticas de ajuste."
+    }
+  },
+  "visual_effects": {
+    "overview": {
+      "effect_intensity": "subtle-accent",
+      "performance_tier": "lightweight",
+      "fallback_strategy": "reduce to CSS",
+      "primary_technology": "CSS only"
+    },
+    "background_effects": {
+      "type": "none",
+      "description": "Fondo sólido mate #121317 estructurado por líneas de retícula 1px.",
+      "technology": "CSS",
+      "params": {
+        "color_palette": [
+          "#121317",
+          "#26272b"
+        ],
+        "speed": "0",
+        "density": "low",
+        "opacity": "1",
+        "blend_mode": "normal"
+      }
+    },
+    "particle_systems": {
+      "enabled": false,
+      "type": "none",
+      "description": "Sin partículas para preservar legibilidad máxima de horarios.",
+      "technology": "none",
+      "params": {
+        "count": "0",
+        "shape": "none",
+        "size_range": "0",
+        "movement_pattern": "none",
+        "color_behavior": "none",
+        "interaction": "none",
+        "spawn_area": "none"
+      }
+    },
+    "3d_elements": {
+      "enabled": false,
+      "type": "none",
+      "description": "Interfaz 2D plana de precisión.",
+      "technology": "none",
+      "params": {
+        "renderer": "none",
+        "lighting": "none",
+        "camera": "none",
+        "materials": "none",
+        "geometry": "none",
+        "post_processing": [],
+        "interaction_model": "none"
+      }
+    },
+    "shader_effects": {
+      "enabled": false,
+      "type": "none",
+      "description": "Sin shaders WebGL.",
+      "technology": "none",
+      "params": {
+        "uniforms": "none",
+        "vertex_manipulation": "none",
+        "fragment_output": "none",
+        "noise_type": "none",
+        "distortion": "none"
+      }
+    },
+    "scroll_effects": {
+      "parallax": {
+        "enabled": false,
+        "layers": "0",
+        "depth_range": "0",
+        "speed_curve": "none"
+      },
+      "scroll_triggered_animations": {
+        "enabled": true,
+        "trigger_points": "Secciones 02 y 03 observadas por IntersectionObserver",
+        "animation_type": "counter",
+        "scrub_behavior": "triggered"
+      },
+      "scroll_morphing": {
+        "enabled": false,
+        "description": "Sin morphing de scroll."
+      }
+    },
+    "text_effects": {
+      "type": "none",
+      "description": "Tipografía estática nítida sin deformaciones.",
+      "technology": "CSS",
+      "params": {
+        "split_strategy": "none",
+        "animation_per_unit": "none",
+        "stagger": "0ms",
+        "effect_style": "none"
+      }
+    },
+    "cursor_effects": {
+      "enabled": false,
+      "type": "none",
+      "description": "Cursor nativo del sistema.",
+      "params": {
+        "shape": "default",
+        "size": "default",
+        "blend_mode": "normal",
+        "trail": "none",
+        "interaction_zone": "none"
+      }
+    },
+    "image_effects": {
+      "type": "none",
+      "description": "Sin filtros de imagen dinámicos.",
+      "technology": "CSS",
+      "params": {
+        "filter_pipeline": "none",
+        "hover_transform": "none",
+        "reveal_animation": "none",
+        "distortion_type": "none"
+      }
+    },
+    "glassmorphism_neumorphism": {
+      "enabled": false,
+      "style": "none",
+      "params": {
+        "blur_radius": "0px",
+        "transparency": "0",
+        "border_treatment": "1px solid #26272b",
+        "shadow_type": "none",
+        "light_source_angle": "none"
+      }
+    },
+    "canvas_drawings": {
+      "enabled": true,
+      "type": "data-visualization",
+      "description": "Canvas 2D fuera de pantalla empleado únicamente bajo demanda para exportar el horario semanal como PNG en alta resolución.",
+      "technology": "Canvas 2D",
+      "params": {
+        "draw_method": "Retícula horaria vectorial con bloques y leyenda",
+        "animation_loop": "static",
+        "color_scheme": "dark-studio",
+        "responsiveness": "2x HiDPI",
+        "interaction": "export-on-click"
+      }
+    },
+    "svg_animations": {
+      "enabled": false,
+      "type": "none",
+      "description": "Iconos SVG estáticos de trazo geométrico.",
+      "params": {
+        "animation_method": "none",
+        "path_morphing": "false",
+        "stroke_animation": "false",
+        "filter_effects": "none"
+      }
+    },
+    "composite_notes": "En la captura de referencia, los tonos cálidos #9c6f52, #7c7c6f y #ae866d provienen del cuadro ilustrativo incrustado dentro de la ventana de Photocraft, mientras que el marco del sitio es monocromático (#121317 / #f6f7f7 / #2d2d2e) con líneas capilares 1px y un acento técnico azul (#4f7ec8 / #354c78) en el riel derecho. Esta aplicación reproduce fielmente el marco oscuro arquitectónico y usa los tonos cálidos solo en alertas de traslape."
+  }
+}

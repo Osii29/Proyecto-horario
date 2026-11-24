@@ -1,0 +1,6223 @@
+{
+  "metadata": {
+    "semestre": "35",
+    "etiqueta_semestre": "2027-1",
+    "carrera": "5",
+    "nombre_carrera": "RELACIONES INTERNACIONALES",
+    "generado_en": "2026-11-24T03:30:13.949798+00:00",
+    "total_grupos_consultados": 87,
+    "total_grupos_con_datos": 87,
+    "total_grupos_vacios": 0,
+    "total_grupos_con_error": 0,
+    "grupos_fallidos": [],
+    "total_registros": 272,
+    "total_materias_unicas": 47,
+    "duplicados_omitidos": 0,
+    "total_incidencias": 83
+  },
+  "resumen_incidencias": {
+    "total": 83,
+    "por_tipo": {
+      "registro_duplicado_distinto": 83
+    },
+    "muestra": [
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1105 grupo=1101",
+        "detalle": "Múltiples registros distintos para 35_5_1105_1101; conservado como 35_5_1105_1101_2 (INTRODUCCION ESTUDIO DERECHO)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1116 grupo=1101",
+        "detalle": "Múltiples registros distintos para 35_5_1116_1101; conservado como 35_5_1116_1101_2 (INGLES I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1123 grupo=1101",
+        "detalle": "Múltiples registros distintos para 35_5_1123_1101; conservado como 35_5_1123_1101_2 (FUNDAMENTOS DE TEORIA ECONOMICA)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1123 grupo=1105",
+        "detalle": "Múltiples registros distintos para 35_5_1123_1105; conservado como 35_5_1123_1105_2 (FUNDAMENTOS DE TEORIA ECONOMICA)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1124 grupo=1105",
+        "detalle": "Múltiples registros distintos para 35_5_1124_1105; conservado como 35_5_1124_1105_2 (INTRODUCCION AL PENSAMIENTO SOCIAL)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1123 grupo=1111",
+        "detalle": "Múltiples registros distintos para 35_5_1123_1111; conservado como 35_5_1123_1111_2 (FUNDAMENTOS DE TEORIA ECONOMICA)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1124 grupo=1111",
+        "detalle": "Múltiples registros distintos para 35_5_1124_1111; conservado como 35_5_1124_1111_2 (INTRODUCCION AL PENSAMIENTO SOCIAL)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1105 grupo=1151",
+        "detalle": "Múltiples registros distintos para 35_5_1105_1151; conservado como 35_5_1105_1151_2 (INTRODUCCION ESTUDIO DERECHO)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1116 grupo=1155",
+        "detalle": "Múltiples registros distintos para 35_5_1116_1155; conservado como 35_5_1116_1155_2 (INGLES I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1124 grupo=1155",
+        "detalle": "Múltiples registros distintos para 35_5_1124_1155; conservado como 35_5_1124_1155_2 (INTRODUCCION AL PENSAMIENTO SOCIAL)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=0080 grupo=1211",
+        "detalle": "Múltiples registros distintos para 35_5_0080_1211; conservado como 35_5_0080_1211_2 (CIENCIA POLITICA)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1213 grupo=1226",
+        "detalle": "Múltiples registros distintos para 35_5_1213_1226; conservado como 35_5_1213_1226_2 (INGLES II)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1304 grupo=1269",
+        "detalle": "Múltiples registros distintos para 35_5_1304_1269; conservado como 35_5_1304_1269_2 (DERECHO INTERNACIONAL PUBLICO I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1401 grupo=1311",
+        "detalle": "Múltiples registros distintos para 35_5_1401_1311; conservado como 35_5_1401_1311_2 (ORGANIZACIÓN INTERNACIONAL)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1404 grupo=1311",
+        "detalle": "Múltiples registros distintos para 35_5_1404_1311; conservado como 35_5_1404_1311_2 (DERECHO INTERNACIONAL PUBLICO II)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1317 grupo=1312",
+        "detalle": "Múltiples registros distintos para 35_5_1317_1312; conservado como 35_5_1317_1312_2 (INGLES III)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1317 grupo=1313",
+        "detalle": "Múltiples registros distintos para 35_5_1317_1313; conservado como 35_5_1317_1313_2 (INGLES III)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1318 grupo=1313",
+        "detalle": "Múltiples registros distintos para 35_5_1318_1313; conservado como 35_5_1318_1313_2 (HISTORIA DE LAS RELACIONES INTERNACIONALES II)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1303 grupo=1314",
+        "detalle": "Múltiples registros distintos para 35_5_1303_1314; conservado como 35_5_1303_1314_2 (INT AL ESTUDIO DE LAS REL. INT.)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1317 grupo=1314",
+        "detalle": "Múltiples registros distintos para 35_5_1317_1314; conservado como 35_5_1317_1314_2 (INGLES III)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1318 grupo=1314",
+        "detalle": "Múltiples registros distintos para 35_5_1318_1314; conservado como 35_5_1318_1314_2 (HISTORIA DE LAS RELACIONES INTERNACIONALES II)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1401 grupo=1314",
+        "detalle": "Múltiples registros distintos para 35_5_1401_1314; conservado como 35_5_1401_1314_2 (ORGANIZACIÓN INTERNACIONAL)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=1404 grupo=1314",
+        "detalle": "Múltiples registros distintos para 35_5_1404_1314; conservado como 35_5_1404_1314_2 (DERECHO INTERNACIONAL PUBLICO II)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=0003 grupo=1316",
+        "detalle": "Múltiples registros distintos para 35_5_0003_1316; conservado como 35_5_0003_1316_2 (LIDERAZGO, COOPERACIÓN Y NEGOCIACIÓN INTERNACIONAL)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=5 materia=0002 grupo=1318",
+        "detalle": "Múltiples registros distintos para 35_5_0002_1318; conservado como 35_5_0002_1318_2 (GEOPOLÍTICA Y GEOECONÓMICA)."
+      }
+    ]
+  },
+  "horarios": [
+    {
+      "id": "35_5_0001_1317",
+      "clv_materia": "0001",
+      "grupo": "1317",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "EMPRENDIMIENTO SOCIAL",
+      "profesor": "SPROSS BARCENAS MYRHGE DEL CARMEN",
+      "salon": "A113",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0001_1364",
+      "clv_materia": "0001",
+      "grupo": "1364",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "EMPRENDIMIENTO SOCIAL",
+      "profesor": "GAYTAN VELAZQUEZ ISAMELY YERANIA",
+      "salon": "A414",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_0002_1318",
+      "clv_materia": "0002",
+      "grupo": "1318",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "GEOPOLÍTICA Y GEOECONÓMICA",
+      "profesor": "BARANDA CARMONA PATRICIA",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_0002_1318_2",
+      "clv_materia": "0002",
+      "grupo": "1318",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "GEOPOLÍTICA Y GEOECONÓMICA",
+      "profesor": "BARANDA CARMONA PATRICIA",
+      "salon": "A114",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_0002_1322",
+      "clv_materia": "0002",
+      "grupo": "1322",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "GEOPOLÍTICA Y GEOECONÓMICA",
+      "profesor": "PONCE URQUIZA ARTURO",
+      "salon": "A412",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0002_1322_2",
+      "clv_materia": "0002",
+      "grupo": "1322",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "GEOPOLÍTICA Y GEOECONÓMICA",
+      "profesor": "PONCE URQUIZA ARTURO",
+      "salon": "A115",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0002_1365",
+      "clv_materia": "0002",
+      "grupo": "1365",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "GEOPOLÍTICA Y GEOECONÓMICA",
+      "profesor": "OLGUIN MONROY VICTOR FRANCISCO",
+      "salon": "A414",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0003_1316",
+      "clv_materia": "0003",
+      "grupo": "1316",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "LIDERAZGO, COOPERACIÓN Y NEGOCIACIÓN INTERNACIONAL",
+      "profesor": "TAJONAR BARAJAS PERLA ALELI ALEJANDRA",
+      "salon": "SINDEF",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_0003_1316_2",
+      "clv_materia": "0003",
+      "grupo": "1316",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "LIDERAZGO, COOPERACIÓN Y NEGOCIACIÓN INTERNACIONAL",
+      "profesor": "TAJONAR BARAJAS PERLA ALELI ALEJANDRA",
+      "salon": "A11109",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_0003_1363",
+      "clv_materia": "0003",
+      "grupo": "1363",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "LIDERAZGO, COOPERACIÓN Y NEGOCIACIÓN INTERNACIONAL",
+      "profesor": "SOTO MORALES LIZBETH",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0003_1363_2",
+      "clv_materia": "0003",
+      "grupo": "1363",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "LIDERAZGO, COOPERACIÓN Y NEGOCIACIÓN INTERNACIONAL",
+      "profesor": "SOTO MORALES LIZBETH",
+      "salon": "A1007",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0004_1319",
+      "clv_materia": "0004",
+      "grupo": "1319",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "EMPRENDIMIENTO Y COMUNICACIÓN INTERCULTURAL",
+      "profesor": "TAJONAR BARAJAS PERLA ALELI ALEJANDRA",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_0004_1319_2",
+      "clv_materia": "0004",
+      "grupo": "1319",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "EMPRENDIMIENTO Y COMUNICACIÓN INTERCULTURAL",
+      "profesor": "TAJONAR BARAJAS PERLA ALELI ALEJANDRA",
+      "salon": "A11109",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_0004_1323",
+      "clv_materia": "0004",
+      "grupo": "1323",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "EMPRENDIMIENTO Y COMUNICACIÓN INTERCULTURAL",
+      "profesor": "RIVERA FUENTES CLAUDIA",
+      "salon": "A128",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_0004_1366",
+      "clv_materia": "0004",
+      "grupo": "1366",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "EMPRENDIMIENTO Y COMUNICACIÓN INTERCULTURAL",
+      "profesor": "GARCIA ARANDA PENELOPE",
+      "salon": "A114",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0005_1321",
+      "clv_materia": "0005",
+      "grupo": "1321",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "GLOBALIZACIÓN, INTEGRACIÓN Y MERCADOS EMERGENTES",
+      "profesor": "LOPEZ ALVARADO CARLOS MANUEL",
+      "salon": "A11204",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_0005_1321_2",
+      "clv_materia": "0005",
+      "grupo": "1321",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "GLOBALIZACIÓN, INTEGRACIÓN Y MERCADOS EMERGENTES",
+      "profesor": "LOPEZ ALVARADO CARLOS MANUEL",
+      "salon": "A11109",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_0005_1325",
+      "clv_materia": "0005",
+      "grupo": "1325",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "GLOBALIZACIÓN, INTEGRACIÓN Y MERCADOS EMERGENTES",
+      "profesor": "RODRIGUEZ PEREZ ADAN MIGUEL",
+      "salon": "A116",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_0005_1325_2",
+      "clv_materia": "0005",
+      "grupo": "1325",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "GLOBALIZACIÓN, INTEGRACIÓN Y MERCADOS EMERGENTES",
+      "profesor": "RODRIGUEZ PEREZ ADAN MIGUEL",
+      "salon": "A112",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0005_1368",
+      "clv_materia": "0005",
+      "grupo": "1368",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "GLOBALIZACIÓN, INTEGRACIÓN Y MERCADOS EMERGENTES",
+      "profesor": "VENCES MACEO MELANIE DANIELS",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_0005_1368_2",
+      "clv_materia": "0005",
+      "grupo": "1368",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "GLOBALIZACIÓN, INTEGRACIÓN Y MERCADOS EMERGENTES",
+      "profesor": "VENCES MACEO MELANIE DANIELS",
+      "salon": "A128",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_0007_1320",
+      "clv_materia": "0007",
+      "grupo": "1320",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "MERCADOTECNIA INTERNACIONAL",
+      "profesor": "VILLAVICENCIO LOPEZ RODOLFO ARTURO",
+      "salon": "A116",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_0007_1324",
+      "clv_materia": "0007",
+      "grupo": "1324",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "MERCADOTECNIA INTERNACIONAL",
+      "profesor": "GONZALEZ ROMERO JENY GUADALUPE",
+      "salon": "A11109",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_0007_1367",
+      "clv_materia": "0007",
+      "grupo": "1367",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "MERCADOTECNIA INTERNACIONAL",
+      "profesor": "REYES TECONTERO NORMA",
+      "salon": "A113",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_0027_1516",
+      "clv_materia": "0027",
+      "grupo": "1516",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO DIPLOMATICO PRACTICA CONSUL",
+      "profesor": "DIAZ ABREGO ALINA GABRIELA",
+      "salon": "A11109",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_0027_1516_2",
+      "clv_materia": "0027",
+      "grupo": "1516",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO DIPLOMATICO PRACTICA CONSUL",
+      "profesor": "DIAZ ABREGO ALINA GABRIELA",
+      "salon": "A414",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_0027_1522",
+      "clv_materia": "0027",
+      "grupo": "1522",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO DIPLOMATICO PRACTICA CONSUL",
+      "profesor": "ARCE MORA MARIA ANGELICA",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_0027_1563",
+      "clv_materia": "0027",
+      "grupo": "1563",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO DIPLOMATICO PRACTICA CONSUL",
+      "profesor": "SOLORZANO CORREA NORMA ANGELICA",
+      "salon": "A414",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0027_1563_2",
+      "clv_materia": "0027",
+      "grupo": "1563",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO DIPLOMATICO PRACTICA CONSUL",
+      "profesor": "SOLORZANO CORREA NORMA ANGELICA",
+      "salon": "A623",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0035_1518",
+      "clv_materia": "0035",
+      "grupo": "1518",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DESARROLLO SOSTEN GOBERNANZA GLOB",
+      "profesor": "CABRIADA JARQUIN ALBA GABRIELA",
+      "salon": "A11109",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_0035_1523",
+      "clv_materia": "0035",
+      "grupo": "1523",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DESARROLLO SOSTEN GOBERNANZA GLOB",
+      "profesor": "OLGUIN MONROY VICTOR FRANCISCO",
+      "salon": "A412",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0035_1523_2",
+      "clv_materia": "0035",
+      "grupo": "1523",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DESARROLLO SOSTEN GOBERNANZA GLOB",
+      "profesor": "OLGUIN MONROY VICTOR FRANCISCO",
+      "salon": "A414",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0035_1565",
+      "clv_materia": "0035",
+      "grupo": "1565",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DESARROLLO SOSTEN GOBERNANZA GLOB",
+      "profesor": "LUGO HERNANDEZ YESSICA",
+      "salon": "A116",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_0035_1565_2",
+      "clv_materia": "0035",
+      "grupo": "1565",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DESARROLLO SOSTEN GOBERNANZA GLOB",
+      "profesor": "LUGO HERNANDEZ YESSICA",
+      "salon": "A112",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_0036_1517",
+      "clv_materia": "0036",
+      "grupo": "1517",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "NUEVOS PARADIGMAS DE RELS INTERNALES",
+      "profesor": "ABAD CORRAL OSCAR ARTURO",
+      "salon": "A626",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_0036_1517_2",
+      "clv_materia": "0036",
+      "grupo": "1517",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "NUEVOS PARADIGMAS DE RELS INTERNALES",
+      "profesor": "ABAD CORRAL OSCAR ARTURO",
+      "salon": "A114",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_0036_1564",
+      "clv_materia": "0036",
+      "grupo": "1564",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "NUEVOS PARADIGMAS DE RELS INTERNALES",
+      "profesor": "ALDANA GONZALEZ CLAUDIA MATILDE",
+      "salon": "A112",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_0036_1564_2",
+      "clv_materia": "0036",
+      "grupo": "1564",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "NUEVOS PARADIGMAS DE RELS INTERNALES",
+      "profesor": "ALDANA GONZALEZ CLAUDIA MATILDE",
+      "salon": "A114",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_0037_1521",
+      "clv_materia": "0037",
+      "grupo": "1521",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INNOVACION Y DESARROLLO DE NEGOC GLOBAL",
+      "profesor": "MENDEZ BAUTISTA MARIA DEL ROCIO",
+      "salon": "A1007",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_0037_1521_2",
+      "clv_materia": "0037",
+      "grupo": "1521",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INNOVACION Y DESARROLLO DE NEGOC GLOBAL",
+      "profesor": "MENDEZ BAUTISTA MARIA DEL ROCIO",
+      "salon": "A627",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_0037_1526",
+      "clv_materia": "0037",
+      "grupo": "1526",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INNOVACION Y DESARROLLO DE NEGOC GLOBAL",
+      "profesor": "CARTUJANO VERGARA NELIDA YADIRA",
+      "salon": "A113",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0037_1526_2",
+      "clv_materia": "0037",
+      "grupo": "1526",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INNOVACION Y DESARROLLO DE NEGOC GLOBAL",
+      "profesor": "CARTUJANO VERGARA NELIDA YADIRA",
+      "salon": "A125",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_0037_1568",
+      "clv_materia": "0037",
+      "grupo": "1568",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INNOVACION Y DESARROLLO DE NEGOC GLOBAL",
+      "profesor": "GONZALEZ ROMERO JENY GUADALUPE",
+      "salon": "A11109",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0037_1568_2",
+      "clv_materia": "0037",
+      "grupo": "1568",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INNOVACION Y DESARROLLO DE NEGOC GLOBAL",
+      "profesor": "GONZALEZ ROMERO JENY GUADALUPE",
+      "salon": "A113",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0038_1520",
+      "clv_materia": "0038",
+      "grupo": "1520",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "MARCO JUDCO. INST. COMER. EXT. MEXICANO",
+      "profesor": "NAVA FLORES JUAN JOSE",
+      "salon": "A413",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0038_1520_2",
+      "clv_materia": "0038",
+      "grupo": "1520",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "MARCO JUDCO. INST. COMER. EXT. MEXICANO",
+      "profesor": "NAVA FLORES JUAN JOSE",
+      "salon": "A412",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0038_1525",
+      "clv_materia": "0038",
+      "grupo": "1525",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "MARCO JUDCO. INST. COMER. EXT. MEXICANO",
+      "profesor": "ROMAN ACEVEDO ARTURO",
+      "salon": "A11109",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0038_1567",
+      "clv_materia": "0038",
+      "grupo": "1567",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "MARCO JUDCO. INST. COMER. EXT. MEXICANO",
+      "profesor": "MENDEZ BAUTISTA MARIA DEL ROCIO",
+      "salon": "A112",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0038_1567_2",
+      "clv_materia": "0038",
+      "grupo": "1567",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "MARCO JUDCO. INST. COMER. EXT. MEXICANO",
+      "profesor": "MENDEZ BAUTISTA MARIA DEL ROCIO",
+      "salon": "A116",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0039_1570",
+      "clv_materia": "0039",
+      "grupo": "1570",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "REPENS. DEMOCR. SIGLO XXI PERSP. DESAF. SOC. GL.",
+      "profesor": "ACKERMAN ROSE JOHN MILL",
+      "salon": "SINDEF",
+      "cupo": 20,
+      "tipo_clase": "HIBRIDO",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_5_0042_1519",
+      "clv_materia": "0042",
+      "grupo": "1519",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "PLANEACION ESTRATEGICA",
+      "profesor": "VENCES MACEO MELANIE DANIELS",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_0042_1519_2",
+      "clv_materia": "0042",
+      "grupo": "1519",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "PLANEACION ESTRATEGICA",
+      "profesor": "VENCES MACEO MELANIE DANIELS",
+      "salon": "A11109",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_0042_1524",
+      "clv_materia": "0042",
+      "grupo": "1524",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "PLANEACION ESTRATEGICA",
+      "profesor": "GARCIA ROMERO JANNET",
+      "salon": "A411",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0042_1524_2",
+      "clv_materia": "0042",
+      "grupo": "1524",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "PLANEACION ESTRATEGICA",
+      "profesor": "GARCIA ROMERO JANNET",
+      "salon": "A414",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0042_1566",
+      "clv_materia": "0042",
+      "grupo": "1566",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "PLANEACION ESTRATEGICA",
+      "profesor": "PIOQUINTO PALACIOS LUIS",
+      "salon": "A114",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_0042_1566_2",
+      "clv_materia": "0042",
+      "grupo": "1566",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "PLANEACION ESTRATEGICA",
+      "profesor": "PIOQUINTO PALACIOS LUIS",
+      "salon": "A116",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_0049_1718",
+      "clv_materia": "0049",
+      "grupo": "1718",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "CAMBIO CLIMATICO, ENERG. GESTION AMB.",
+      "profesor": "GODOS GONZALEZ MARIA CRISTINA",
+      "salon": "A623",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0049_1718_2",
+      "clv_materia": "0049",
+      "grupo": "1718",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "CAMBIO CLIMATICO, ENERG. GESTION AMB.",
+      "profesor": "GODOS GONZALEZ MARIA CRISTINA",
+      "salon": "A115",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0049_1724",
+      "clv_materia": "0049",
+      "grupo": "1724",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "CAMBIO CLIMATICO, ENERG. GESTION AMB.",
+      "profesor": "NEYRA JIMENEZ KARINA ELIZABETH",
+      "salon": "A111",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0049_1724_2",
+      "clv_materia": "0049",
+      "grupo": "1724",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "CAMBIO CLIMATICO, ENERG. GESTION AMB.",
+      "profesor": "NEYRA JIMENEZ KARINA ELIZABETH",
+      "salon": "A627",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0049_1765",
+      "clv_materia": "0049",
+      "grupo": "1765",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "CAMBIO CLIMATICO, ENERG. GESTION AMB.",
+      "profesor": "MENESES MATA LUIS ARTURO",
+      "salon": "A114",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0049_1765_2",
+      "clv_materia": "0049",
+      "grupo": "1765",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "CAMBIO CLIMATICO, ENERG. GESTION AMB.",
+      "profesor": "MENESES MATA LUIS ARTURO",
+      "salon": "A111",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_0050_1722",
+      "clv_materia": "0050",
+      "grupo": "1722",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHOS HUMANOS Y ESTUDIOS GENERO",
+      "profesor": "DIAZ ABREGO ALINA GABRIELA",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_0050_1722_2",
+      "clv_materia": "0050",
+      "grupo": "1722",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHOS HUMANOS Y ESTUDIOS GENERO",
+      "profesor": "DIAZ ABREGO ALINA GABRIELA",
+      "salon": "A623",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_0050_1763",
+      "clv_materia": "0050",
+      "grupo": "1763",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHOS HUMANOS Y ESTUDIOS GENERO",
+      "profesor": "SPROSS BARCENAS MYRHGE DEL CARMEN",
+      "salon": "A411",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0050_1763_2",
+      "clv_materia": "0050",
+      "grupo": "1763",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHOS HUMANOS Y ESTUDIOS GENERO",
+      "profesor": "SPROSS BARCENAS MYRHGE DEL CARMEN",
+      "salon": "A113",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_0051_1717",
+      "clv_materia": "0051",
+      "grupo": "1717",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ENGLISH FOR INTERNATIONAL AFFAIRS I",
+      "profesor": "LOPEZ LOPEZ ANDRES ALEXIS",
+      "salon": "A411",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_0051_1717_2",
+      "clv_materia": "0051",
+      "grupo": "1717",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ENGLISH FOR INTERNATIONAL AFFAIRS I",
+      "profesor": "LOPEZ LOPEZ ANDRES ALEXIS",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_5_0051_1764",
+      "clv_materia": "0051",
+      "grupo": "1764",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ENGLISH FOR INTERNATIONAL AFFAIRS I",
+      "profesor": "LOPEZ LOPEZ ANDRES ALEXIS",
+      "salon": "A11109",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-16:00",
+          "inicio_min": 900,
+          "fin_min": 960
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0052_1725",
+      "clv_materia": "0052",
+      "grupo": "1725",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ENGLISH FOR BUSINESS I",
+      "profesor": "LOPEZ LOPEZ ANDRES ALEXIS",
+      "salon": "A11109",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-12:00",
+          "inicio_min": 660,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_5_0052_1766",
+      "clv_materia": "0052",
+      "grupo": "1766",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ENGLISH FOR BUSINESS I",
+      "profesor": "LOPEZ LOPEZ ANDRES ALEXIS",
+      "salon": "A413",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0052_1766_2",
+      "clv_materia": "0052",
+      "grupo": "1766",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ENGLISH FOR BUSINESS I",
+      "profesor": "LOPEZ LOPEZ ANDRES ALEXIS",
+      "salon": "A1007",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_0053_1720",
+      "clv_materia": "0053",
+      "grupo": "1720",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "FINANCIAMIENTO FORMAS PAGO INTERNAL.",
+      "profesor": "RODRIGUEZ LOZANO EDGAR",
+      "salon": "A113",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_0053_1726",
+      "clv_materia": "0053",
+      "grupo": "1726",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "FINANCIAMIENTO FORMAS PAGO INTERNAL.",
+      "profesor": "LUGO HERNANDEZ YESSICA",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0053_1726_2",
+      "clv_materia": "0053",
+      "grupo": "1726",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "FINANCIAMIENTO FORMAS PAGO INTERNAL.",
+      "profesor": "LUGO HERNANDEZ YESSICA",
+      "salon": "A116",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0053_1767",
+      "clv_materia": "0053",
+      "grupo": "1767",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "FINANCIAMIENTO FORMAS PAGO INTERNAL.",
+      "profesor": "GONZALEZ ROMERO JENY GUADALUPE",
+      "salon": "A412",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0053_1767_2",
+      "clv_materia": "0053",
+      "grupo": "1767",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "FINANCIAMIENTO FORMAS PAGO INTERNAL.",
+      "profesor": "GONZALEZ ROMERO JENY GUADALUPE",
+      "salon": "A413",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0054_1721",
+      "clv_materia": "0054",
+      "grupo": "1721",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TRANSPORTE INTERNACIONAL",
+      "profesor": "RODRIGUEZ LOZANO EDGAR",
+      "salon": "A411",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_0054_1721_2",
+      "clv_materia": "0054",
+      "grupo": "1721",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TRANSPORTE INTERNACIONAL",
+      "profesor": "RODRIGUEZ LOZANO EDGAR",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_0054_1727",
+      "clv_materia": "0054",
+      "grupo": "1727",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TRANSPORTE INTERNACIONAL",
+      "profesor": "BAEZ MARTINEZ ROSALINA",
+      "salon": "A626",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_0054_1768",
+      "clv_materia": "0054",
+      "grupo": "1768",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TRANSPORTE INTERNACIONAL",
+      "profesor": "GARCIA ROMERO JANNET",
+      "salon": "A116",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_0080_1211",
+      "clv_materia": "0080",
+      "grupo": "1211",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "ROMO TRONCOSO JOSE MANUEL",
+      "salon": "A1008",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_0080_1211_2",
+      "clv_materia": "0080",
+      "grupo": "1211",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "ROMO TRONCOSO JOSE MANUEL",
+      "salon": "A1007",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1105_1101",
+      "clv_materia": "1105",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION ESTUDIO DERECHO",
+      "profesor": "ORTIZ GUZMAN MARIA DE LOS ANGELES",
+      "salon": "A1007",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1105_1101_2",
+      "clv_materia": "1105",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION ESTUDIO DERECHO",
+      "profesor": "ORTIZ GUZMAN MARIA DE LOS ANGELES",
+      "salon": "A412",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1105_1105",
+      "clv_materia": "1105",
+      "grupo": "1105",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION ESTUDIO DERECHO",
+      "profesor": "FRANCO HERNANDEZ MARIA DE LOS ANGELES",
+      "salon": "A113",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1105_1109",
+      "clv_materia": "1105",
+      "grupo": "1109",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION ESTUDIO DERECHO",
+      "profesor": "FRANCO HERNANDEZ MARIA DE LOS ANGELES",
+      "salon": "A113",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-17:00",
+          "inicio_min": 780,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1105_1111",
+      "clv_materia": "1105",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION ESTUDIO DERECHO",
+      "profesor": "OCHOA GONZALEZ JOSEFINA",
+      "salon": "A411",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_5_1105_1151",
+      "clv_materia": "1105",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION ESTUDIO DERECHO",
+      "profesor": "MARTINEZ RAMIREZ JUANA OTILIA",
+      "salon": "A116",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1105_1151_2",
+      "clv_materia": "1105",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION ESTUDIO DERECHO",
+      "profesor": "MARTINEZ RAMIREZ JUANA OTILIA",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1105_1155",
+      "clv_materia": "1105",
+      "grupo": "1155",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION ESTUDIO DERECHO",
+      "profesor": "FRANCO HERNANDEZ MARIA DE LOS ANGELES",
+      "salon": "A113",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1116_1101",
+      "clv_materia": "1116",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES I",
+      "profesor": "REBOLLEDO PEREZ MARIA JOSE",
+      "salon": "A114",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_5_1116_1101_2",
+      "clv_materia": "1116",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES I",
+      "profesor": "REBOLLEDO PEREZ MARIA JOSE",
+      "salon": "A411",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1116_1105",
+      "clv_materia": "1116",
+      "grupo": "1105",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES I",
+      "profesor": "LUEVANO FLORES ESTEFANY",
+      "salon": "A412",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-08:00",
+          "inicio_min": 420,
+          "fin_min": 480
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1116_1109",
+      "clv_materia": "1116",
+      "grupo": "1109",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES I",
+      "profesor": "SANCHEZ OCAMPO NANCY NANLLIBY",
+      "salon": "A411",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1116_1111",
+      "clv_materia": "1116",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES I",
+      "profesor": "HERNANDEZ TORRES OCTAVIO ISAAC",
+      "salon": "A114",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_5_1116_1151",
+      "clv_materia": "1116",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES I",
+      "profesor": "MIRANDA RUIZ BERENICE",
+      "salon": "A411",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1116_1155",
+      "clv_materia": "1116",
+      "grupo": "1155",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES I",
+      "profesor": "MIRANDA RUIZ BERENICE",
+      "salon": "A11109",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-21:00",
+          "inicio_min": 1200,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1116_1155_2",
+      "clv_materia": "1116",
+      "grupo": "1155",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES I",
+      "profesor": "MIRANDA RUIZ BERENICE",
+      "salon": "A412",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1122_1101",
+      "clv_materia": "1122",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ANALISIS CUANTITATIVO D MEXICO-MUNDO",
+      "profesor": "FLORES HERNANDEZ GRISELDA LUCERO",
+      "salon": "A411",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1122_1105",
+      "clv_materia": "1122",
+      "grupo": "1105",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ANALISIS CUANTITATIVO D MEXICO-MUNDO",
+      "profesor": "FLORES HERNANDEZ GRISELDA LUCERO",
+      "salon": "A412",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1122_1109",
+      "clv_materia": "1122",
+      "grupo": "1109",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ANALISIS CUANTITATIVO D MEXICO-MUNDO",
+      "profesor": "PALACIOS ESPINOSA LETICIA",
+      "salon": "A413",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1122_1111",
+      "clv_materia": "1122",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ANALISIS CUANTITATIVO D MEXICO-MUNDO",
+      "profesor": "PALACIOS ESPINOSA LETICIA",
+      "salon": "A413",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1122_1151",
+      "clv_materia": "1122",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ANALISIS CUANTITATIVO D MEXICO-MUNDO",
+      "profesor": "DORANTES DIAZ GUADALUPE REGINA",
+      "salon": "A411",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1122_1155",
+      "clv_materia": "1122",
+      "grupo": "1155",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ANALISIS CUANTITATIVO D MEXICO-MUNDO",
+      "profesor": "REYES TECONTERO NORMA",
+      "salon": "A412",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1123_1101",
+      "clv_materia": "1123",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "FUNDAMENTOS DE TEORIA ECONOMICA",
+      "profesor": "PALACIOS ESPINOSA LETICIA",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1123_1101_2",
+      "clv_materia": "1123",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "FUNDAMENTOS DE TEORIA ECONOMICA",
+      "profesor": "PALACIOS ESPINOSA LETICIA",
+      "salon": "A411",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1123_1105",
+      "clv_materia": "1123",
+      "grupo": "1105",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "FUNDAMENTOS DE TEORIA ECONOMICA",
+      "profesor": "PALACIOS ESPINOSA LETICIA",
+      "salon": "A411",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1123_1105_2",
+      "clv_materia": "1123",
+      "grupo": "1105",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "FUNDAMENTOS DE TEORIA ECONOMICA",
+      "profesor": "PALACIOS ESPINOSA LETICIA",
+      "salon": "A413",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1123_1109",
+      "clv_materia": "1123",
+      "grupo": "1109",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "FUNDAMENTOS DE TEORIA ECONOMICA",
+      "profesor": "RAMIREZ BECERRA ARMANDO",
+      "salon": "A411",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1123_1111",
+      "clv_materia": "1123",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "FUNDAMENTOS DE TEORIA ECONOMICA",
+      "profesor": "RAMIREZ BECERRA ARMANDO",
+      "salon": "A411",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1123_1111_2",
+      "clv_materia": "1123",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "FUNDAMENTOS DE TEORIA ECONOMICA",
+      "profesor": "RAMIREZ BECERRA ARMANDO",
+      "salon": "A412",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1123_1151",
+      "clv_materia": "1123",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "FUNDAMENTOS DE TEORIA ECONOMICA",
+      "profesor": "RAMIREZ BECERRA ARMANDO",
+      "salon": "A411",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1123_1155",
+      "clv_materia": "1123",
+      "grupo": "1155",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "FUNDAMENTOS DE TEORIA ECONOMICA",
+      "profesor": "RAMIREZ BECERRA ARMANDO",
+      "salon": "A412",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1124_1101",
+      "clv_materia": "1124",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION AL PENSAMIENTO SOCIAL",
+      "profesor": "TOBIAS ALONSO GILBERTO",
+      "salon": "A113",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1124_1105",
+      "clv_materia": "1124",
+      "grupo": "1105",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION AL PENSAMIENTO SOCIAL",
+      "profesor": "REYES GOMEZ GALVAN ORLANDO RAFAEL",
+      "salon": "A114",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1124_1105_2",
+      "clv_materia": "1124",
+      "grupo": "1105",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION AL PENSAMIENTO SOCIAL",
+      "profesor": "REYES GOMEZ GALVAN ORLANDO RAFAEL",
+      "salon": "A412",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1124_1109",
+      "clv_materia": "1124",
+      "grupo": "1109",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION AL PENSAMIENTO SOCIAL",
+      "profesor": "ROMO TRONCOSO JOSE MANUEL",
+      "salon": "A1007",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1124_1111",
+      "clv_materia": "1124",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION AL PENSAMIENTO SOCIAL",
+      "profesor": "FLORES HERNANDEZ GRISELDA LUCERO",
+      "salon": "A413",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1124_1111_2",
+      "clv_materia": "1124",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION AL PENSAMIENTO SOCIAL",
+      "profesor": "FLORES HERNANDEZ GRISELDA LUCERO",
+      "salon": "A411",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1124_1151",
+      "clv_materia": "1124",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION AL PENSAMIENTO SOCIAL",
+      "profesor": "JARAMILLO RIOS SALUD SOCORRO",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1124_1155",
+      "clv_materia": "1124",
+      "grupo": "1155",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION AL PENSAMIENTO SOCIAL",
+      "profesor": "BALLADARES GOMEZ JAVIER",
+      "salon": "A414",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1124_1155_2",
+      "clv_materia": "1124",
+      "grupo": "1155",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INTRODUCCION AL PENSAMIENTO SOCIAL",
+      "profesor": "BALLADARES GOMEZ JAVIER",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1125_1101",
+      "clv_materia": "1125",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TALLER DE LECTURA Y TECNICAS REDACC.",
+      "profesor": "GARCIA CONTRERAS DAVID",
+      "salon": "A116",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1125_1105",
+      "clv_materia": "1125",
+      "grupo": "1105",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TALLER DE LECTURA Y TECNICAS REDACC.",
+      "profesor": "MARTINEZ RAMIREZ JUANA OTILIA",
+      "salon": "A113",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1125_1109",
+      "clv_materia": "1125",
+      "grupo": "1109",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TALLER DE LECTURA Y TECNICAS REDACC.",
+      "profesor": "GARCIA CONTRERAS DAVID",
+      "salon": "A116",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1125_1111",
+      "clv_materia": "1125",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TALLER DE LECTURA Y TECNICAS REDACC.",
+      "profesor": "MARTINEZ RAMIREZ JUANA OTILIA",
+      "salon": "A116",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1125_1151",
+      "clv_materia": "1125",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TALLER DE LECTURA Y TECNICAS REDACC.",
+      "profesor": "PEÑA MARTINEZ ANGELICA",
+      "salon": "A411",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1125_1155",
+      "clv_materia": "1125",
+      "grupo": "1155",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TALLER DE LECTURA Y TECNICAS REDACC.",
+      "profesor": "ALATORRE PEREZ GUSTAVO",
+      "salon": "A412",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_5_1213_1226",
+      "clv_materia": "1213",
+      "grupo": "1226",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES II",
+      "profesor": "MORENO MARTINEZ RAFAEL",
+      "salon": "A411",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-12:00",
+          "inicio_min": 660,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_5_1213_1226_2",
+      "clv_materia": "1213",
+      "grupo": "1226",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES II",
+      "profesor": "MORENO MARTINEZ RAFAEL",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1303_1311",
+      "clv_materia": "1303",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INT AL ESTUDIO DE LAS REL. INT.",
+      "profesor": "VILCHIS RODRIGUEZ MARGARITA HILDA",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1303_1312",
+      "clv_materia": "1303",
+      "grupo": "1312",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INT AL ESTUDIO DE LAS REL. INT.",
+      "profesor": "ARAUJO GOMEZ ISRAEL CUAUHTEMOC",
+      "salon": "A412",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1303_1313",
+      "clv_materia": "1303",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INT AL ESTUDIO DE LAS REL. INT.",
+      "profesor": "PONCE URQUIZA ARTURO",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1303_1314",
+      "clv_materia": "1303",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INT AL ESTUDIO DE LAS REL. INT.",
+      "profesor": "ROMO TRONCOSO JOSE MANUEL",
+      "salon": "A1007",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1303_1314_2",
+      "clv_materia": "1303",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INT AL ESTUDIO DE LAS REL. INT.",
+      "profesor": "ROMO TRONCOSO JOSE MANUEL",
+      "salon": "A1008",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1303_1361",
+      "clv_materia": "1303",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INT AL ESTUDIO DE LAS REL. INT.",
+      "profesor": "CARMONA TLASECA LEONARD",
+      "salon": "A114",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1303_1362",
+      "clv_materia": "1303",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INT AL ESTUDIO DE LAS REL. INT.",
+      "profesor": "RODRIGUEZ OROZCO ALAN RICARDO",
+      "salon": "A412",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1303_1369",
+      "clv_materia": "1303",
+      "grupo": "1369",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INT AL ESTUDIO DE LAS REL. INT.",
+      "profesor": "PIÑA MONDRAGON KEVIN ALAN",
+      "salon": "A116",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1303_1369_2",
+      "clv_materia": "1303",
+      "grupo": "1369",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INT AL ESTUDIO DE LAS REL. INT.",
+      "profesor": "PIÑA MONDRAGON KEVIN ALAN",
+      "salon": "A1007",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1304_1269",
+      "clv_materia": "1304",
+      "grupo": "1269",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO INTERNACIONAL PUBLICO I",
+      "profesor": "REYES CORTES ANTONIO",
+      "salon": "A111",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1304_1269_2",
+      "clv_materia": "1304",
+      "grupo": "1269",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO INTERNACIONAL PUBLICO I",
+      "profesor": "REYES CORTES ANTONIO",
+      "salon": "A112",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1317_1311",
+      "clv_materia": "1317",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES III",
+      "profesor": "REBOLLEDO PEREZ MARIA JOSE",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1317_1312",
+      "clv_materia": "1317",
+      "grupo": "1312",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES III",
+      "profesor": "PILIADO DE LA ROSA ITZEL AMEYALI",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1317_1312_2",
+      "clv_materia": "1317",
+      "grupo": "1312",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES III",
+      "profesor": "PILIADO DE LA ROSA ITZEL AMEYALI",
+      "salon": "A414",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-12:00",
+          "inicio_min": 660,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_5_1317_1313",
+      "clv_materia": "1317",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES III",
+      "profesor": "REBOLLEDO PEREZ MARIA JOSE",
+      "salon": "A113",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1317_1313_2",
+      "clv_materia": "1317",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES III",
+      "profesor": "REBOLLEDO PEREZ MARIA JOSE",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_5_1317_1314",
+      "clv_materia": "1317",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES III",
+      "profesor": "PILIADO DE LA ROSA ITZEL AMEYALI",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1317_1314_2",
+      "clv_materia": "1317",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES III",
+      "profesor": "PILIADO DE LA ROSA ITZEL AMEYALI",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:00",
+          "inicio_min": 600,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1317_1329",
+      "clv_materia": "1317",
+      "grupo": "1329",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES III",
+      "profesor": "BUENO CARO CRUZ MANUEL",
+      "salon": "A414",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_5_1317_1361",
+      "clv_materia": "1317",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES III",
+      "profesor": "MIRANDA RUIZ BERENICE",
+      "salon": "A114",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-20:00",
+          "inicio_min": 1140,
+          "fin_min": 1200
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1317_1362",
+      "clv_materia": "1317",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES III",
+      "profesor": "LUEVANO FLORES ESTEFANY",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1317_1362_2",
+      "clv_materia": "1317",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES III",
+      "profesor": "LUEVANO FLORES ESTEFANY",
+      "salon": "A411",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-17:00",
+          "inicio_min": 960,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1318_1311",
+      "clv_materia": "1318",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LAS RELACIONES INTERNACIONALES II",
+      "profesor": "LOPEZ RUBI DANIELA",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1318_1312",
+      "clv_materia": "1318",
+      "grupo": "1312",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LAS RELACIONES INTERNACIONALES II",
+      "profesor": "MUÑOZ TORRES DANIEL EDGAR",
+      "salon": "A116",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1318_1313",
+      "clv_materia": "1318",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LAS RELACIONES INTERNACIONALES II",
+      "profesor": "CRUZ VALENCIA CARLOS OCTAVIO",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1318_1313_2",
+      "clv_materia": "1318",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LAS RELACIONES INTERNACIONALES II",
+      "profesor": "CRUZ VALENCIA CARLOS OCTAVIO",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1318_1314",
+      "clv_materia": "1318",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LAS RELACIONES INTERNACIONALES II",
+      "profesor": "DOMINGUEZ CHAVEZ TZITZITLINI PAULINA",
+      "salon": "A627",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1318_1314_2",
+      "clv_materia": "1318",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LAS RELACIONES INTERNACIONALES II",
+      "profesor": "DOMINGUEZ CHAVEZ TZITZITLINI PAULINA",
+      "salon": "A622",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1318_1328",
+      "clv_materia": "1318",
+      "grupo": "1328",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LAS RELACIONES INTERNACIONALES II",
+      "profesor": "RAMOS MUÑOZ RUBEN",
+      "salon": "A11109",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1318_1361",
+      "clv_materia": "1318",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LAS RELACIONES INTERNACIONALES II",
+      "profesor": "MUÑOZ TORRES DANIEL EDGAR",
+      "salon": "A116",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1318_1362",
+      "clv_materia": "1318",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LAS RELACIONES INTERNACIONALES II",
+      "profesor": "VELASCO GONZALEZ MIGUEL ANGEL",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1318_1362_2",
+      "clv_materia": "1318",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LAS RELACIONES INTERNACIONALES II",
+      "profesor": "VELASCO GONZALEZ MIGUEL ANGEL",
+      "salon": "A411",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1401_1311",
+      "clv_materia": "1401",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ORGANIZACIÓN INTERNACIONAL",
+      "profesor": "ZAMARRIPA RUIZ MARLENE",
+      "salon": "A412",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1401_1311_2",
+      "clv_materia": "1401",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ORGANIZACIÓN INTERNACIONAL",
+      "profesor": "ZAMARRIPA RUIZ MARLENE",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1401_1312",
+      "clv_materia": "1401",
+      "grupo": "1312",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ORGANIZACIÓN INTERNACIONAL",
+      "profesor": "ZAMARRIPA RUIZ MARLENE",
+      "salon": "A414",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1401_1313",
+      "clv_materia": "1401",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ORGANIZACIÓN INTERNACIONAL",
+      "profesor": "MEJORADA RODRIGUEZ EDNA NAYELI",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1401_1314",
+      "clv_materia": "1401",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ORGANIZACIÓN INTERNACIONAL",
+      "profesor": "MENDIETA GONZALEZ YURITZI BRISEIDA",
+      "salon": "A116",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1401_1314_2",
+      "clv_materia": "1401",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ORGANIZACIÓN INTERNACIONAL",
+      "profesor": "MENDIETA GONZALEZ YURITZI BRISEIDA",
+      "salon": "A1008",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1401_1361",
+      "clv_materia": "1401",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ORGANIZACIÓN INTERNACIONAL",
+      "profesor": "ALDANA GONZALEZ CLAUDIA MATILDE",
+      "salon": "A114",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1401_1362",
+      "clv_materia": "1401",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ORGANIZACIÓN INTERNACIONAL",
+      "profesor": "ANDRADE CHAVEZ MA. GUADALUPE",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1404_1311",
+      "clv_materia": "1404",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO INTERNACIONAL PUBLICO II",
+      "profesor": "DIAZ ABREGO ALINA GABRIELA",
+      "salon": "A411",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1404_1311_2",
+      "clv_materia": "1404",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO INTERNACIONAL PUBLICO II",
+      "profesor": "DIAZ ABREGO ALINA GABRIELA",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1404_1312",
+      "clv_materia": "1404",
+      "grupo": "1312",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO INTERNACIONAL PUBLICO II",
+      "profesor": "ROMAN ACEVEDO ARTURO",
+      "salon": "A414",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1404_1313",
+      "clv_materia": "1404",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO INTERNACIONAL PUBLICO II",
+      "profesor": "SPROSS BARCENAS MYRHGE DEL CARMEN",
+      "salon": "A412",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1404_1314",
+      "clv_materia": "1404",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO INTERNACIONAL PUBLICO II",
+      "profesor": "CARBAJAL CHAVEZ ADRIANA ESTEFANY",
+      "salon": "A114",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1404_1314_2",
+      "clv_materia": "1404",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO INTERNACIONAL PUBLICO II",
+      "profesor": "CARBAJAL CHAVEZ ADRIANA ESTEFANY",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1404_1361",
+      "clv_materia": "1404",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO INTERNACIONAL PUBLICO II",
+      "profesor": "MARTINEZ RAMIREZ JUANA OTILIA",
+      "salon": "A116",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1404_1362",
+      "clv_materia": "1404",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO INTERNACIONAL PUBLICO II",
+      "profesor": "SOLORZANO CORREA NORMA ANGELICA",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1404_1362_2",
+      "clv_materia": "1404",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "DERECHO INTERNACIONAL PUBLICO II",
+      "profesor": "SOLORZANO CORREA NORMA ANGELICA",
+      "salon": "A212",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1417_1412",
+      "clv_materia": "1417",
+      "grupo": "1412",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES IV",
+      "profesor": "PILIADO DE LA ROSA ITZEL AMEYALI",
+      "salon": "A114",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-13:00",
+          "inicio_min": 720,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1417_1412_2",
+      "clv_materia": "1417",
+      "grupo": "1412",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES IV",
+      "profesor": "PILIADO DE LA ROSA ITZEL AMEYALI",
+      "salon": "A516",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1436_1411",
+      "clv_materia": "1436",
+      "grupo": "1411",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "AMERICA LATINA:UNA VISIÓN HISTORICA",
+      "profesor": "GARCIA NAJERA JORGE",
+      "salon": "A1023",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1517_1711",
+      "clv_materia": "1517",
+      "grupo": "1711",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "COMERCIO INTERNACIONAL",
+      "profesor": "ABAD CORRAL OSCAR ARTURO",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1517_1712",
+      "clv_materia": "1517",
+      "grupo": "1712",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "COMERCIO INTERNACIONAL",
+      "profesor": "NAVA FLORES JUAN JOSE",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1517_1713",
+      "clv_materia": "1517",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "COMERCIO INTERNACIONAL",
+      "profesor": "VILLAVICENCIO LOPEZ RODOLFO ARTURO",
+      "salon": "A411",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1517_1713_2",
+      "clv_materia": "1517",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "COMERCIO INTERNACIONAL",
+      "profesor": "VILLAVICENCIO LOPEZ RODOLFO ARTURO",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1517_1714",
+      "clv_materia": "1517",
+      "grupo": "1714",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "COMERCIO INTERNACIONAL",
+      "profesor": "VILLAVICENCIO LOPEZ RODOLFO ARTURO",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1517_1714_2",
+      "clv_materia": "1517",
+      "grupo": "1714",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "COMERCIO INTERNACIONAL",
+      "profesor": "VILLAVICENCIO LOPEZ RODOLFO ARTURO",
+      "salon": "A114",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1517_1761",
+      "clv_materia": "1517",
+      "grupo": "1761",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "COMERCIO INTERNACIONAL",
+      "profesor": "MENDEZ BAUTISTA MARIA DEL ROCIO",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1517_1762",
+      "clv_materia": "1517",
+      "grupo": "1762",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "COMERCIO INTERNACIONAL",
+      "profesor": "PERNICE  LARS",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1518_1511",
+      "clv_materia": "1518",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES V",
+      "profesor": "LUEVANO FLORES ESTEFANY",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1518_1511_2",
+      "clv_materia": "1518",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES V",
+      "profesor": "LUEVANO FLORES ESTEFANY",
+      "salon": "A114",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1518_1512",
+      "clv_materia": "1518",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES V",
+      "profesor": "LUEVANO FLORES ESTEFANY",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_5_1518_1512_2",
+      "clv_materia": "1518",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES V",
+      "profesor": "LUEVANO FLORES ESTEFANY",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1518_1513",
+      "clv_materia": "1518",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES V",
+      "profesor": "MORENO MARTINEZ RAFAEL",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1518_1513_2",
+      "clv_materia": "1518",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES V",
+      "profesor": "MORENO MARTINEZ RAFAEL",
+      "salon": "A414",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-13:00",
+          "inicio_min": 720,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1518_1514",
+      "clv_materia": "1518",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES V",
+      "profesor": "LOPEZ LOPEZ ANDRES ALEXIS",
+      "salon": "A114",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "12:00-13:00",
+          "inicio_min": 720,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1518_1515",
+      "clv_materia": "1518",
+      "grupo": "1515",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES V",
+      "profesor": "LUEVANO FLORES ESTEFANY",
+      "salon": "A414",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1518_1515_2",
+      "clv_materia": "1518",
+      "grupo": "1515",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES V",
+      "profesor": "LUEVANO FLORES ESTEFANY",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_5_1518_1561",
+      "clv_materia": "1518",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES V",
+      "profesor": "LOPEZ LOPEZ ANDRES ALEXIS",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-20:00",
+          "inicio_min": 1140,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1518_1562",
+      "clv_materia": "1518",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES V",
+      "profesor": "MIRANDA RUIZ BERENICE",
+      "salon": "A11109",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_5_1518_1562_2",
+      "clv_materia": "1518",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES V",
+      "profesor": "MIRANDA RUIZ BERENICE",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-17:00",
+          "inicio_min": 960,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1539_1511",
+      "clv_materia": "1539",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LA DIPLOMACIA MEXICANA",
+      "profesor": "GARCIA ARANDA PENELOPE",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1539_1511_2",
+      "clv_materia": "1539",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LA DIPLOMACIA MEXICANA",
+      "profesor": "GARCIA ARANDA PENELOPE",
+      "salon": "A113",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1539_1512",
+      "clv_materia": "1539",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LA DIPLOMACIA MEXICANA",
+      "profesor": "WILSON OROPEZA DAVID RENE",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1539_1513",
+      "clv_materia": "1539",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LA DIPLOMACIA MEXICANA",
+      "profesor": "RIVERA FUENTES CLAUDIA",
+      "salon": "A414",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1539_1514",
+      "clv_materia": "1539",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LA DIPLOMACIA MEXICANA",
+      "profesor": "GARCIA ARANDA PENELOPE",
+      "salon": "A116",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1539_1514_2",
+      "clv_materia": "1539",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LA DIPLOMACIA MEXICANA",
+      "profesor": "GARCIA ARANDA PENELOPE",
+      "salon": "A412",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1539_1561",
+      "clv_materia": "1539",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LA DIPLOMACIA MEXICANA",
+      "profesor": "VEGA GUILLEN IVAN",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1539_1562",
+      "clv_materia": "1539",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "HISTORIA DE LA DIPLOMACIA MEXICANA",
+      "profesor": "VEGA GUILLEN IVAN",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1540_1511",
+      "clv_materia": "1540",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "PROTOCOLO Y CONVENIOS INTERNACIONALES",
+      "profesor": "OCHOA GONZALEZ JOSEFINA",
+      "salon": "A411",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1540_1512",
+      "clv_materia": "1540",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "PROTOCOLO Y CONVENIOS INTERNACIONALES",
+      "profesor": "OCHOA GONZALEZ JOSEFINA",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1540_1512_2",
+      "clv_materia": "1540",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "PROTOCOLO Y CONVENIOS INTERNACIONALES",
+      "profesor": "OCHOA GONZALEZ JOSEFINA",
+      "salon": "A412",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1540_1513",
+      "clv_materia": "1540",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "PROTOCOLO Y CONVENIOS INTERNACIONALES",
+      "profesor": "SOLIS MORAN GRISELDA ODETH",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1540_1514",
+      "clv_materia": "1540",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "PROTOCOLO Y CONVENIOS INTERNACIONALES",
+      "profesor": "FRANCO HERNANDEZ MARIA DE LOS ANGELES",
+      "salon": "A113",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1540_1561",
+      "clv_materia": "1540",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "PROTOCOLO Y CONVENIOS INTERNACIONALES",
+      "profesor": "SPROSS BARCENAS MYRHGE DEL CARMEN",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1540_1562",
+      "clv_materia": "1540",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "PROTOCOLO Y CONVENIOS INTERNACIONALES",
+      "profesor": "SOLIS MORAN GRISELDA ODETH",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1540_1562_2",
+      "clv_materia": "1540",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "PROTOCOLO Y CONVENIOS INTERNACIONALES",
+      "profesor": "SOLIS MORAN GRISELDA ODETH",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1541_1511",
+      "clv_materia": "1541",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TEORIAS CLASICAS DE LAS RELS INTERNALES",
+      "profesor": "VILCHIS RODRIGUEZ MARGARITA HILDA",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1541_1511_2",
+      "clv_materia": "1541",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TEORIAS CLASICAS DE LAS RELS INTERNALES",
+      "profesor": "VILCHIS RODRIGUEZ MARGARITA HILDA",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1541_1512",
+      "clv_materia": "1541",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TEORIAS CLASICAS DE LAS RELS INTERNALES",
+      "profesor": "LOPEZ ALVARADO CARLOS MANUEL",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1541_1513",
+      "clv_materia": "1541",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TEORIAS CLASICAS DE LAS RELS INTERNALES",
+      "profesor": "SERRANO SOLARES CLAUDIA EDITH",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1541_1514",
+      "clv_materia": "1541",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TEORIAS CLASICAS DE LAS RELS INTERNALES",
+      "profesor": "SERRANO SOLARES CLAUDIA EDITH",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1541_1514_2",
+      "clv_materia": "1541",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TEORIAS CLASICAS DE LAS RELS INTERNALES",
+      "profesor": "SERRANO SOLARES CLAUDIA EDITH",
+      "salon": "A114",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1541_1561",
+      "clv_materia": "1541",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TEORIAS CLASICAS DE LAS RELS INTERNALES",
+      "profesor": "CARMONA TLASECA LEONARD",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1541_1562",
+      "clv_materia": "1541",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "TEORIAS CLASICAS DE LAS RELS INTERNALES",
+      "profesor": "ORTEGA ROBLEDO LUIS CARLOS",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1607_1711",
+      "clv_materia": "1607",
+      "grupo": "1711",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ASIA PACIFICO Y DEL SUR",
+      "profesor": "MARTINEZ SERRANO ALEJANDRO",
+      "salon": "A113",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1607_1712",
+      "clv_materia": "1607",
+      "grupo": "1712",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ASIA PACIFICO Y DEL SUR",
+      "profesor": "WILSON OROPEZA DAVID RENE",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1607_1713",
+      "clv_materia": "1607",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ASIA PACIFICO Y DEL SUR",
+      "profesor": "GODOS GONZALEZ MARIA CRISTINA",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1607_1714",
+      "clv_materia": "1607",
+      "grupo": "1714",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ASIA PACIFICO Y DEL SUR",
+      "profesor": "AGUILAR ANTONIO JUAN MANUEL",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1607_1761",
+      "clv_materia": "1607",
+      "grupo": "1761",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ASIA PACIFICO Y DEL SUR",
+      "profesor": "GODOS GONZALEZ MARIA CRISTINA",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1607_1762",
+      "clv_materia": "1607",
+      "grupo": "1762",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ASIA PACIFICO Y DEL SUR",
+      "profesor": "SOTO MORALES CESAR",
+      "salon": "A414",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1607_1762_2",
+      "clv_materia": "1607",
+      "grupo": "1762",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ASIA PACIFICO Y DEL SUR",
+      "profesor": "SOTO MORALES CESAR",
+      "salon": "A113",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1608_1670",
+      "clv_materia": "1608",
+      "grupo": "1670",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES VI",
+      "profesor": "LUEVANO FLORES ESTEFANY",
+      "salon": "A624",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1608_1670_2",
+      "clv_materia": "1608",
+      "grupo": "1670",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "INGLES VI",
+      "profesor": "LUEVANO FLORES ESTEFANY",
+      "salon": "A623",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-18:00",
+          "inicio_min": 1020,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_5_1710_1511",
+      "clv_materia": "1710",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ESTADOS UNIDOS Y CANADA",
+      "profesor": "CARDENAS SANCHEZ LUIS MIGUEL",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1710_1511_2",
+      "clv_materia": "1710",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ESTADOS UNIDOS Y CANADA",
+      "profesor": "CARDENAS SANCHEZ LUIS MIGUEL",
+      "salon": "A411",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1710_1512",
+      "clv_materia": "1710",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ESTADOS UNIDOS Y CANADA",
+      "profesor": "TORRES TECOTL OSCAR NOE",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1710_1513",
+      "clv_materia": "1710",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ESTADOS UNIDOS Y CANADA",
+      "profesor": "AGUILAR ANTONIO JUAN MANUEL",
+      "salon": "A114",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1710_1514",
+      "clv_materia": "1710",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ESTADOS UNIDOS Y CANADA",
+      "profesor": "AGUILAR ANTONIO JUAN MANUEL",
+      "salon": "A114",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1710_1514_2",
+      "clv_materia": "1710",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ESTADOS UNIDOS Y CANADA",
+      "profesor": "AGUILAR ANTONIO JUAN MANUEL",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1710_1561",
+      "clv_materia": "1710",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ESTADOS UNIDOS Y CANADA",
+      "profesor": "GARAY SALDAÑA JUAN DANIEL",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1710_1562",
+      "clv_materia": "1710",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ESTADOS UNIDOS Y CANADA",
+      "profesor": "GARAY SALDAÑA JUAN DANIEL",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1710_1569",
+      "clv_materia": "1710",
+      "grupo": "1569",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ESTADOS UNIDOS Y CANADA",
+      "profesor": "OLGUIN MONROY VICTOR FRANCISCO",
+      "salon": "A414",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1710_1569_2",
+      "clv_materia": "1710",
+      "grupo": "1569",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "ESTADOS UNIDOS Y CANADA",
+      "profesor": "OLGUIN MONROY VICTOR FRANCISCO",
+      "salon": "A115",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1715_1711",
+      "clv_materia": "1715",
+      "grupo": "1711",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "AFRICA Y MEDIO ORIENTE",
+      "profesor": "FLORES CASTRO ARCELIA",
+      "salon": "A113",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1715_1712",
+      "clv_materia": "1715",
+      "grupo": "1712",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "AFRICA Y MEDIO ORIENTE",
+      "profesor": "RODRIGUEZ PEREZ ADAN MIGUEL",
+      "salon": "A414",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1715_1712_2",
+      "clv_materia": "1715",
+      "grupo": "1712",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "AFRICA Y MEDIO ORIENTE",
+      "profesor": "RODRIGUEZ PEREZ ADAN MIGUEL",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1715_1713",
+      "clv_materia": "1715",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "AFRICA Y MEDIO ORIENTE",
+      "profesor": "RODRIGUEZ PEREZ ADAN MIGUEL",
+      "salon": "A412",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1715_1713_2",
+      "clv_materia": "1715",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "AFRICA Y MEDIO ORIENTE",
+      "profesor": "RODRIGUEZ PEREZ ADAN MIGUEL",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1715_1714",
+      "clv_materia": "1715",
+      "grupo": "1714",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "AFRICA Y MEDIO ORIENTE",
+      "profesor": "CARTUJANO VERGARA NELIDA YADIRA",
+      "salon": "A112",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1715_1761",
+      "clv_materia": "1715",
+      "grupo": "1761",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "AFRICA Y MEDIO ORIENTE",
+      "profesor": "VELASCO GONZALEZ MIGUEL ANGEL",
+      "salon": "A114",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1715_1761_2",
+      "clv_materia": "1715",
+      "grupo": "1761",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "AFRICA Y MEDIO ORIENTE",
+      "profesor": "VELASCO GONZALEZ MIGUEL ANGEL",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1715_1762",
+      "clv_materia": "1715",
+      "grupo": "1762",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "AFRICA Y MEDIO ORIENTE",
+      "profesor": "PEÑA CARMONA RUBEN ALFONSO",
+      "salon": "A414",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1716_1711",
+      "clv_materia": "1716",
+      "grupo": "1711",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "POLITICA EXTER. DE MEXICO CONTIN. AMER.",
+      "profesor": "ORDOÑEZ SALEME LATIFE ELIZABETH",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1716_1712",
+      "clv_materia": "1716",
+      "grupo": "1712",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "POLITICA EXTER. DE MEXICO CONTIN. AMER.",
+      "profesor": "ORDOÑEZ SALEME LATIFE ELIZABETH",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1716_1713",
+      "clv_materia": "1716",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "POLITICA EXTER. DE MEXICO CONTIN. AMER.",
+      "profesor": "VILCHIS RODRIGUEZ MARGARITA HILDA",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1716_1713_2",
+      "clv_materia": "1716",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "POLITICA EXTER. DE MEXICO CONTIN. AMER.",
+      "profesor": "VILCHIS RODRIGUEZ MARGARITA HILDA",
+      "salon": "A116",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1716_1714",
+      "clv_materia": "1716",
+      "grupo": "1714",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "POLITICA EXTER. DE MEXICO CONTIN. AMER.",
+      "profesor": "GARCIA ARANDA PENELOPE",
+      "salon": "A413",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1716_1714_2",
+      "clv_materia": "1716",
+      "grupo": "1714",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "POLITICA EXTER. DE MEXICO CONTIN. AMER.",
+      "profesor": "GARCIA ARANDA PENELOPE",
+      "salon": "A414",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_5_1716_1715",
+      "clv_materia": "1716",
+      "grupo": "1715",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "POLITICA EXTER. DE MEXICO CONTIN. AMER.",
+      "profesor": "DOMINGUEZ GUADARRAMA RICARDO",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1716_1761",
+      "clv_materia": "1716",
+      "grupo": "1761",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "POLITICA EXTER. DE MEXICO CONTIN. AMER.",
+      "profesor": "CHAVARRIA ORTIZ EDGAR",
+      "salon": "A115",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1716_1762",
+      "clv_materia": "1716",
+      "grupo": "1762",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "POLITICA EXTER. DE MEXICO CONTIN. AMER.",
+      "profesor": "OLGUIN MONROY VICTOR FRANCISCO",
+      "salon": "A113",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_5_1717_1711",
+      "clv_materia": "1717",
+      "grupo": "1711",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "SEM. INVEST. RELACIONES INTERNALES.",
+      "profesor": "VILLAVICENCIO LOPEZ RODOLFO ARTURO",
+      "salon": "A116",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_5_1717_1712",
+      "clv_materia": "1717",
+      "grupo": "1712",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "SEM. INVEST. RELACIONES INTERNALES.",
+      "profesor": "VILLAVICENCIO LOPEZ RODOLFO ARTURO",
+      "salon": "A116",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1717_1713",
+      "clv_materia": "1717",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "SEM. INVEST. RELACIONES INTERNALES.",
+      "profesor": "MARTINEZ SERRANO ALEJANDRO",
+      "salon": "A114",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_5_1717_1714",
+      "clv_materia": "1717",
+      "grupo": "1714",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "SEM. INVEST. RELACIONES INTERNALES.",
+      "profesor": "VILCHIS RODRIGUEZ MARGARITA HILDA",
+      "salon": "A111",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_5_1717_1761",
+      "clv_materia": "1717",
+      "grupo": "1761",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "SEM. INVEST. RELACIONES INTERNALES.",
+      "profesor": "DURAN GOMEZ RAFAEL ALBERTO",
+      "salon": "A113",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1717_1762",
+      "clv_materia": "1717",
+      "grupo": "1762",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "SEM. INVEST. RELACIONES INTERNALES.",
+      "profesor": "AGUILAR ANTONIO JUAN MANUEL",
+      "salon": "A116",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_5_1717_1769",
+      "clv_materia": "1717",
+      "grupo": "1769",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "SEM. INVEST. RELACIONES INTERNALES.",
+      "profesor": "HERNANDEZ MACIAS JOSE ANTONIO",
+      "salon": "A11109",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_5_1808_1863",
+      "clv_materia": "1808",
+      "grupo": "1863",
+      "semestre": "35",
+      "carrera": "5",
+      "materia": "SEM. PENSAM. ESTRAT.  ANALIS. COYUN. INT.",
+      "profesor": "PONCE URQUIZA ARTURO",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    }
+  ]
+}

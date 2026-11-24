@@ -1,0 +1,1929 @@
+{
+  "metadata": {
+    "semestre": "35",
+    "etiqueta_semestre": "2027-1",
+    "carrera": "16",
+    "nombre_carrera": "PLANIFICACION PARA EL DESARROLLO AGROPECUARIO",
+    "generado_en": "2026-11-24T03:29:58.700296+00:00",
+    "total_grupos_consultados": 18,
+    "total_grupos_con_datos": 18,
+    "total_grupos_vacios": 0,
+    "total_grupos_con_error": 0,
+    "grupos_fallidos": [],
+    "total_registros": 82,
+    "total_materias_unicas": 42,
+    "duplicados_omitidos": 0,
+    "total_incidencias": 0
+  },
+  "resumen_incidencias": {
+    "total": 0,
+    "por_tipo": {},
+    "muestra": []
+  },
+  "horarios": [
+    {
+      "id": "35_16_0001_1702",
+      "clv_materia": "0001",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ECONOMIA SOCIAL",
+      "profesor": "MARTINEZ DOMINGUEZ BEATRIZ",
+      "salon": "A626",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_16_0001_1752",
+      "clv_materia": "0001",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ECONOMIA SOCIAL",
+      "profesor": "PADILLA NIETO ALEJANDRO",
+      "salon": "A626",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_16_0002_1702",
+      "clv_materia": "0002",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ORGANIZACION SOCIAL Y PRODUCTIVA",
+      "profesor": "GONZALEZ FRANCO CRISTOFFER ANTONIO",
+      "salon": "A626",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_16_0002_1752",
+      "clv_materia": "0002",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ORGANIZACION SOCIAL Y PRODUCTIVA",
+      "profesor": "HERNANDEZ ARANGO MARIBEL",
+      "salon": "A626",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_16_0003_1702",
+      "clv_materia": "0003",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "POLITICAS DEL DESARROLLO RURAL",
+      "profesor": "ESPINOSA BERMEJO JOSE LUIS",
+      "salon": "A626",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_16_0003_1752",
+      "clv_materia": "0003",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "POLITICAS DEL DESARROLLO RURAL",
+      "profesor": "MARTINEZ DOMINGUEZ BEATRIZ",
+      "salon": "A626",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_16_0004_1702",
+      "clv_materia": "0004",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PROYECTOS SOCIALES Y PRODUCTIVOS",
+      "profesor": "ARELLANO LANDAZURI ELIZABETH SIONELA",
+      "salon": "A626",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_16_0004_1752",
+      "clv_materia": "0004",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PROYECTOS SOCIALES Y PRODUCTIVOS",
+      "profesor": "JUAREZ CASTILLO DAVID",
+      "salon": "A626",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:30-20:30",
+          "inicio_min": 990,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_16_0005_1704",
+      "clv_materia": "0005",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ANALISIS FINANCIERO Y PLANEACION",
+      "profesor": "MUÑOZ ESPINOZA ROBERTO",
+      "salon": "A1026",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_16_0005_1754",
+      "clv_materia": "0005",
+      "grupo": "1754",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ANALISIS FINANCIERO Y PLANEACION",
+      "profesor": "SANDOVAL CHAVEZ J GUADALUPE",
+      "salon": "A1026",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_16_0006_1704",
+      "clv_materia": "0006",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "FINANZAS PUBLICAS",
+      "profesor": "ARROYO VARGAS HORTENSIA DE JESUS",
+      "salon": "A1026",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "08:00-12:00",
+          "inicio_min": 480,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_16_0006_1754",
+      "clv_materia": "0006",
+      "grupo": "1754",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "FINANZAS PUBLICAS",
+      "profesor": "SANDOVAL CHAVEZ J GUADALUPE",
+      "salon": "A1026",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_16_0007_1704",
+      "clv_materia": "0007",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "FINANZAS Y EMPRESAS I",
+      "profesor": "OMAÑA SILVESTRE JOSE MIGUEL",
+      "salon": "A1026",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_16_0007_1754",
+      "clv_materia": "0007",
+      "grupo": "1754",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "FINANZAS Y EMPRESAS I",
+      "profesor": "OMAÑA SILVESTRE JOSE MIGUEL",
+      "salon": "A1026",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_16_0008_1704",
+      "clv_materia": "0008",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PLANEACION FINANCIERA",
+      "profesor": "SANDOVAL CHAVEZ J GUADALUPE",
+      "salon": "A1026",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:00-12:00",
+          "inicio_min": 480,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_16_0008_1754",
+      "clv_materia": "0008",
+      "grupo": "1754",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PLANEACION FINANCIERA",
+      "profesor": "PONCE MIRANDA DAVID ARMANDO",
+      "salon": "A1026",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_16_0009_1703",
+      "clv_materia": "0009",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PROCESOS DE TRANSFORMACION AGRICOLA",
+      "profesor": "HURTADO URIBE ANA EVA",
+      "salon": "A1023",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_16_0009_1753",
+      "clv_materia": "0009",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PROCESOS DE TRANSFORMACION AGRICOLA",
+      "profesor": "VARGAS TORRICO MARIA FERNANDA",
+      "salon": "A1023",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_16_0010_1703",
+      "clv_materia": "0010",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SISTEMAS DE PRODUCCION AGRICOLA",
+      "profesor": "CEDILLO PORTUGAL EUGENIO",
+      "salon": "A1023",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_16_0010_1753",
+      "clv_materia": "0010",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SISTEMAS DE PRODUCCION AGRICOLA",
+      "profesor": "HERNANDEZ SOTO JOSE ANTONIO",
+      "salon": "A1023",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_16_0011_1703",
+      "clv_materia": "0011",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SISTEMAS DE PRODUCCION SUSTENTABLE",
+      "profesor": "GARCIA JIMENEZ ALMA LUZ",
+      "salon": "A1023",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_16_0011_1753",
+      "clv_materia": "0011",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SISTEMAS DE PRODUCCION SUSTENTABLE",
+      "profesor": "GARCIA JIMENEZ ALMA LUZ",
+      "salon": "A1023",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_16_0012_1703",
+      "clv_materia": "0012",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SISTEMAS FORESTALES",
+      "profesor": "GARCIA JIMENEZ ALMA LUZ",
+      "salon": "A1023",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_16_0012_1753",
+      "clv_materia": "0012",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SISTEMAS FORESTALES",
+      "profesor": "ACOSTA MIRELES MIGUEL",
+      "salon": "A1023",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_16_1118_1101",
+      "clv_materia": "1118",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ECOLOGIA",
+      "profesor": "GUEVARA OLIVAR BRENDA KARINA",
+      "salon": "A1017",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_16_1118_1151",
+      "clv_materia": "1118",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ECOLOGIA",
+      "profesor": "RIOS GOMEZ RAMIRO",
+      "salon": "A1024",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:30",
+          "inicio_min": 930,
+          "fin_min": 1050
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:30",
+          "inicio_min": 930,
+          "fin_min": 1050
+        }
+      ]
+    },
+    {
+      "id": "35_16_1119_1101",
+      "clv_materia": "1119",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ECONOMIA",
+      "profesor": "MARTINEZ DOMINGUEZ BEATRIZ",
+      "salon": "A1017",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-10:30",
+          "inicio_min": 540,
+          "fin_min": 630
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-10:30",
+          "inicio_min": 540,
+          "fin_min": 630
+        }
+      ]
+    },
+    {
+      "id": "35_16_1119_1151",
+      "clv_materia": "1119",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ECONOMIA",
+      "profesor": "GONZALEZ ANGELES ROBERTO",
+      "salon": "A1024",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-16:30",
+          "inicio_min": 900,
+          "fin_min": 990
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-16:30",
+          "inicio_min": 900,
+          "fin_min": 990
+        }
+      ]
+    },
+    {
+      "id": "35_16_1120_1101",
+      "clv_materia": "1120",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "GEOGRAFIA DE MEXICO",
+      "profesor": "GONZALEZ HERNANDEZ EDUARDO",
+      "salon": "A1017",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:30-14:30",
+          "inicio_min": 630,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_16_1120_1151",
+      "clv_materia": "1120",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "GEOGRAFIA DE MEXICO",
+      "profesor": "OROZCO LOPEZ MARIA ISABEL",
+      "salon": "A1024",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "18:30-20:30",
+          "inicio_min": 1110,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_16_1121_1101",
+      "clv_materia": "1121",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "HISTORIA DE LA AGRICULTURA",
+      "profesor": "PADILLA NIETO ALEJANDRO",
+      "salon": "A1017",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_16_1121_1151",
+      "clv_materia": "1121",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "HISTORIA DE LA AGRICULTURA",
+      "profesor": "MARTINEZ HERNANDEZ LEOVA PAMELA",
+      "salon": "A1024",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:30-18:30",
+          "inicio_min": 990,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_16_1122_1101",
+      "clv_materia": "1122",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "INTRODUCCION A LA INVESTIGACION",
+      "profesor": "FLORES QUEZADA EDUARDO",
+      "salon": "A1017",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-12:30",
+          "inicio_min": 660,
+          "fin_min": 750
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-12:30",
+          "inicio_min": 660,
+          "fin_min": 750
+        }
+      ]
+    },
+    {
+      "id": "35_16_1122_1151",
+      "clv_materia": "1122",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "INTRODUCCION A LA INVESTIGACION",
+      "profesor": "MARTINEZ DOMINGUEZ BEATRIZ",
+      "salon": "A1024",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_16_1123_1101",
+      "clv_materia": "1123",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "MATEMATICAS",
+      "profesor": "JIMENEZ HERNANDEZ MANUEL ALEJANDRO",
+      "salon": "A1017",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_16_1123_1151",
+      "clv_materia": "1123",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "MATEMATICAS",
+      "profesor": "DUARTE MENDOZA CLAUDIA IVONNE",
+      "salon": "A1024",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:30-19:30",
+          "inicio_min": 1050,
+          "fin_min": 1170
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:30-19:30",
+          "inicio_min": 1050,
+          "fin_min": 1170
+        }
+      ]
+    },
+    {
+      "id": "35_16_1124_1101",
+      "clv_materia": "1124",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SECTOR AGROPECUARIO",
+      "profesor": "GONZALEZ ANGELES ROBERTO",
+      "salon": "A1017",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_16_1124_1151",
+      "clv_materia": "1124",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SECTOR AGROPECUARIO",
+      "profesor": "MIRANDA HERNANDEZ MARCELINO",
+      "salon": "A1024",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:30-18:30",
+          "inicio_min": 990,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_16_1219_1252",
+      "clv_materia": "1219",
+      "grupo": "1252",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "HISTORIA ECONOMICA DE MEXICO",
+      "profesor": "TORRES BETANZOS JOSE LUIS",
+      "salon": "A1024",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_16_1221_1251",
+      "clv_materia": "1221",
+      "grupo": "1251",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "METODOS DE INVESTIGACION APLICADOS AL DES. RURAL",
+      "profesor": "ROJAS GARCIA OMAR",
+      "salon": "A1024",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_16_1224_1251",
+      "clv_materia": "1224",
+      "grupo": "1251",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "RECURSOS NATURALES Y SU SUSTENTABILIDAD",
+      "profesor": "PADILLA MARTINEZ CINTYA MONSERRAT",
+      "salon": "A1008",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_16_1225_1251",
+      "clv_materia": "1225",
+      "grupo": "1251",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SOCIOLOGIA",
+      "profesor": "MARTINEZ HERNANDEZ LEOVA PAMELA",
+      "salon": "A1024",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_16_1318_1301",
+      "clv_materia": "1318",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ANALISIS E INTERPRETACION CONTABLE",
+      "profesor": "MUÑOZ ESPINOZA ROBERTO",
+      "salon": "A1024",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_16_1318_1351",
+      "clv_materia": "1318",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ANALISIS E INTERPRETACION CONTABLE",
+      "profesor": "GONZALEZ ANGELES ROBERTO",
+      "salon": "A1008",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:30-18:30",
+          "inicio_min": 990,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_16_1319_1301",
+      "clv_materia": "1319",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ANTROPOLOGIA SOCIAL",
+      "profesor": "MARTINEZ DOMINGUEZ BEATRIZ",
+      "salon": "A1024",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-12:30",
+          "inicio_min": 660,
+          "fin_min": 750
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-12:30",
+          "inicio_min": 660,
+          "fin_min": 750
+        }
+      ]
+    },
+    {
+      "id": "35_16_1319_1351",
+      "clv_materia": "1319",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ANTROPOLOGIA SOCIAL",
+      "profesor": "JUAREZ CASTILLO DAVID",
+      "salon": "A1008",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-16:30",
+          "inicio_min": 900,
+          "fin_min": 990
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-16:30",
+          "inicio_min": 900,
+          "fin_min": 990
+        }
+      ]
+    },
+    {
+      "id": "35_16_1320_1301",
+      "clv_materia": "1320",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "DESARROLLO RURAL EN AMERICA",
+      "profesor": "JUAREZ CASTILLO DAVID",
+      "salon": "A1024",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-10:30",
+          "inicio_min": 540,
+          "fin_min": 630
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-10:30",
+          "inicio_min": 540,
+          "fin_min": 630
+        }
+      ]
+    },
+    {
+      "id": "35_16_1320_1351",
+      "clv_materia": "1320",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "DESARROLLO RURAL EN AMERICA",
+      "profesor": "GONZALEZ CORONA GRISELDA",
+      "salon": "A1008",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_16_1321_1301",
+      "clv_materia": "1321",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ECONOMIA AGRICOLA",
+      "profesor": "GONZALEZ CORONA GRISELDA",
+      "salon": "A1024",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_16_1321_1351",
+      "clv_materia": "1321",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ECONOMIA AGRICOLA",
+      "profesor": "JIMENEZ HERNANDEZ MANUEL ALEJANDRO",
+      "salon": "A1008",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:30",
+          "inicio_min": 1110,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_16_1322_1301",
+      "clv_materia": "1322",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ENFOQUES-METODOL. PARA PLANEAC.",
+      "profesor": "LOERA ESPARZA JOSE ALFREDO",
+      "salon": "A1008",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_16_1322_1351",
+      "clv_materia": "1322",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ENFOQUES-METODOL. PARA PLANEAC.",
+      "profesor": "OROZCO LOPEZ MARIA ISABEL",
+      "salon": "A1008",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:30-18:30",
+          "inicio_min": 990,
+          "fin_min": 1110
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:30-18:30",
+          "inicio_min": 990,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_16_1323_1301",
+      "clv_materia": "1323",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "INSTRUMENTOS DE LA INVESTIGACION",
+      "profesor": "GONZALEZ FRANCO CRISTOFFER ANTONIO",
+      "salon": "A1024",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:30-11:00",
+          "inicio_min": 570,
+          "fin_min": 660
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:30-09:00",
+          "inicio_min": 450,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_16_1323_1351",
+      "clv_materia": "1323",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "INSTRUMENTOS DE LA INVESTIGACION",
+      "profesor": "MIRANDA HERNANDEZ MARCELINO",
+      "salon": "A1008",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-20:00",
+          "inicio_min": 1020,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_16_1324_1301",
+      "clv_materia": "1324",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PERCEPC REMOTA-SISTEMAS INFORM. GEOGR.",
+      "profesor": "GONZALEZ RAMOS ALFREDO",
+      "salon": "A1024",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:30-12:30",
+          "inicio_min": 630,
+          "fin_min": 750
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:30-12:30",
+          "inicio_min": 630,
+          "fin_min": 750
+        }
+      ]
+    },
+    {
+      "id": "35_16_1324_1351",
+      "clv_materia": "1324",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PERCEPC REMOTA-SISTEMAS INFORM. GEOGR.",
+      "profesor": "BERNAL CAMPOS AURELIO AMADO",
+      "salon": "A1008",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_16_1419_1451",
+      "clv_materia": "1419",
+      "grupo": "1451",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "AGROSISTEMAS",
+      "profesor": "GUERRERO GONZALEZ MARIO ALBERTO",
+      "salon": "A1025",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:30-15:00",
+          "inicio_min": 810,
+          "fin_min": 900
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:30-15:00",
+          "inicio_min": 810,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_16_1518_1501",
+      "clv_materia": "1518",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "COMERCIALIZACION AGROPECUARIA",
+      "profesor": "HUERTA ALVAREZ ESTHELA",
+      "salon": "A1025",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_16_1518_1551",
+      "clv_materia": "1518",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "COMERCIALIZACION AGROPECUARIA",
+      "profesor": "PADILLA NIETO ALEJANDRO",
+      "salon": "A1025",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_16_1519_1501",
+      "clv_materia": "1519",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "DERECHO AGRARIO",
+      "profesor": "DEL CASTILLO PEÑA GUILLERMO CARLOS",
+      "salon": "A1025",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_16_1519_1551",
+      "clv_materia": "1519",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "DERECHO AGRARIO",
+      "profesor": "HUERTA ALVAREZ ESTHELA",
+      "salon": "A1025",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_16_1520_1501",
+      "clv_materia": "1520",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "MERCADOTECNIA AGROPECUARIA",
+      "profesor": "DE LA O GALINDO ARIEL",
+      "salon": "A1025",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_16_1520_1551",
+      "clv_materia": "1520",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "MERCADOTECNIA AGROPECUARIA",
+      "profesor": "SEQUERA ARRIAGA JOCELYN",
+      "salon": "A1025",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_16_1521_1501",
+      "clv_materia": "1521",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PLANEACION ESTRATEGICA",
+      "profesor": "CENTENO ARTEAGA JESUS",
+      "salon": "A1025",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_16_1521_1551",
+      "clv_materia": "1521",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PLANEACION ESTRATEGICA",
+      "profesor": "DE LA O GALINDO ARIEL",
+      "salon": "A1025",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_16_1522_1501",
+      "clv_materia": "1522",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PLANEACION REGIONAL Y LOCAL",
+      "profesor": "LOERA ESPARZA JOSE ALFREDO",
+      "salon": "A1008",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_16_1522_1551",
+      "clv_materia": "1522",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PLANEACION REGIONAL Y LOCAL",
+      "profesor": "OROZCO LOPEZ MARIA ISABEL",
+      "salon": "A1025",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_16_1523_1501",
+      "clv_materia": "1523",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PRODUCCION PECUARIA",
+      "profesor": "FLORES MORENO PEDRO",
+      "salon": "A1025",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_16_1523_1551",
+      "clv_materia": "1523",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PRODUCCION PECUARIA",
+      "profesor": "HURTADO URIBE ANA EVA",
+      "salon": "A1025",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_16_1524_1501",
+      "clv_materia": "1524",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PROTOCOLO DE INVESTIGACION",
+      "profesor": "GONZALEZ FRANCO CRISTOFFER ANTONIO",
+      "salon": "A1025",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "08:00-11:00",
+          "inicio_min": 480,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_16_1524_1551",
+      "clv_materia": "1524",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PROTOCOLO DE INVESTIGACION",
+      "profesor": "MIRANDA HERNANDEZ MARCELINO",
+      "salon": "A1025",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_16_1621_1651",
+      "clv_materia": "1621",
+      "grupo": "1651",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "DERECHO MERCANTIL",
+      "profesor": "HERNANDEZ ISLAS CELIA NATHALI",
+      "salon": "A1023",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_16_1718_1701",
+      "clv_materia": "1718",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ACTUALIZACION PROFESIONAL I",
+      "profesor": "FLORES QUEZADA EDUARDO",
+      "salon": "A1026",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_16_1718_1751",
+      "clv_materia": "1718",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "ACTUALIZACION PROFESIONAL I",
+      "profesor": "JUAREZ CASTILLO DAVID",
+      "salon": "A1026",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "14:00-17:00",
+          "inicio_min": 840,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_16_1719_1701",
+      "clv_materia": "1719",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PLANEACION DE AGRONEGOCIOS",
+      "profesor": "SEQUERA ARRIAGA JOCELYN",
+      "salon": "A1026",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_16_1719_1751",
+      "clv_materia": "1719",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "PLANEACION DE AGRONEGOCIOS",
+      "profesor": "PONCE MIRANDA DAVID ARMANDO",
+      "salon": "A1026",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_16_1720_1702",
+      "clv_materia": "1720",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SEM. TITULACION POR PREESP. I",
+      "profesor": "OROZCO LOPEZ MARIA ISABEL",
+      "salon": "A626",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-14:00",
+          "inicio_min": 600,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_16_1720_1703",
+      "clv_materia": "1720",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SEM. TITULACION POR PREESP. I",
+      "profesor": "FLORES QUEZADA EDUARDO",
+      "salon": "A1023",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-14:00",
+          "inicio_min": 600,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_16_1720_1704",
+      "clv_materia": "1720",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SEM. TITULACION POR PREESP. I",
+      "profesor": "SEQUERA ARRIAGA JOCELYN",
+      "salon": "A1026",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-14:00",
+          "inicio_min": 600,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_16_1720_1752",
+      "clv_materia": "1720",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SEM. TITULACION POR PREESP. I",
+      "profesor": "GALVEZ MATIAS ELIUD",
+      "salon": "A626",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_16_1720_1753",
+      "clv_materia": "1720",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SEM. TITULACION POR PREESP. I",
+      "profesor": "HERNANDEZ ARANGO MARIBEL",
+      "salon": "A1023",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_16_1720_1754",
+      "clv_materia": "1720",
+      "grupo": "1754",
+      "semestre": "35",
+      "carrera": "16",
+      "materia": "SEM. TITULACION POR PREESP. I",
+      "profesor": "PONCE MIRANDA DAVID ARMANDO",
+      "salon": "A1026",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "generado_en": "2026-11-24T03:30:19.394661+00:00",
+  "semestre_activo": {
+    "semestre": "35",
+    "etiqueta_semestre": "2027-1"
+  },
+  "total_datasets": 14,
+  "datasets": [
+    {
+      "archivo": "sem_35_carr_2.json",
+      "semestre": "35",
+      "etiqueta_semestre": "2027-1",
+      "carrera": "2",
+      "nombre_carrera": "ARQUITECTURA",
+      "generado_en": "2026-11-24T03:28:05.531023+00:00",
+      "total_registros": 451,
+      "total_materias_unicas": 88,
+      "total_grupos_con_datos": 47
+    },
+    {
+      "archivo": "sem_35_carr_4.json",
+      "semestre": "35",
+      "etiqueta_semestre": "2027-1",
+      "carrera": "4",
+      "nombre_carrera": "COMUNICACION Y PERIODISMO",
+      "generado_en": "2026-11-24T03:28:17.929498+00:00",
+      "total_registros": 288,
+      "total_materias_unicas": 33,
+      "total_grupos_con_datos": 58
+    },
+    {
+      "archivo": "sem_35_carr_7.json",
+      "semestre": "35",
+      "etiqueta_semestre": "2027-1",
+      "carrera": "7",
+      "nombre_carrera": "DERECHO",
+      "generado_en": "2026-11-24T03:28:54.524168+00:00",
+      "total_registros": 680,
+      "total_materias_unicas": 103,
+      "total_grupos_con_datos": 163
+    },
+    {
+      "archivo": "sem_35_carr_3.json",
+      "semestre": "35",
+      "etiqueta_semestre": "2027-1",
+      "carrera": "3",
+      "nombre_carrera": "DISEÑO INDUSTRIAL",
+      "generado_en": "2026-11-24T03:28:59.234072+00:00",
+      "total_registros": 141,
+      "total_materias_unicas": 46,
+      "total_grupos_con_datos": 27
+    },
+    {
+      "archivo": "sem_35_carr_8.json",
+      "semestre": "35",
+      "etiqueta_semestre": "2027-1",
+      "carrera": "8",
+      "nombre_carrera": "ECONOMIA",
+      "generado_en": "2026-11-24T03:29:10.564820+00:00",
+      "total_registros": 283,
+      "total_materias_unicas": 72,
+      "total_grupos_con_datos": 64
+    },
+    {
+      "archivo": "sem_35_carr_10.json",
+      "semestre": "35",
+      "etiqueta_semestre": "2027-1",
+      "carrera": "10",
+      "nombre_carrera": "INGENIERIA CIVIL",
+      "generado_en": "2026-11-24T03:29:21.957914+00:00",
+      "total_registros": 329,
+      "total_materias_unicas": 107,
+      "total_grupos_con_datos": 58
+    },
+    {
+      "archivo": "sem_35_carr_11.json",
+      "semestre": "35",
+      "etiqueta_semestre": "2027-1",
+      "carrera": "11",
+      "nombre_carrera": "INGENIERIA ELECTRICA Y ELECTRONICA",
+      "generado_en": "2026-11-24T03:29:29.072560+00:00",
+      "total_registros": 147,
+      "total_materias_unicas": 67,
+      "total_grupos_con_datos": 34
+    },
+    {
+      "archivo": "sem_35_carr_12.json",
+      "semestre": "35",
+      "etiqueta_semestre": "2027-1",
+      "carrera": "12",
+      "nombre_carrera": "INGENIERIA EN COMPUTACION",
+      "generado_en": "2026-11-24T02:44:22.667446+00:00",
+      "total_registros": 294,
+      "total_materias_unicas": 66,
+      "total_grupos_con_datos": 92
+    },
+    {
+      "archivo": "sem_35_carr_13.json",
+      "semestre": "35",
+      "etiqueta_semestre": "2027-1",
+      "carrera": "13",
+      "nombre_carrera": "INGENIERIA INDUSTRIAL",
+      "generado_en": "2026-11-24T03:29:36.943327+00:00",
+      "total_registros": 131,
+      "total_materias_unicas": 49,
+      "total_grupos_con_datos": 40
+    },
+    {
+      "archivo": "sem_35_carr_14.json",
+      "semestre": "35",
+      "etiqueta_semestre": "2027-1",
+      "carrera": "14",
+      "nombre_carrera": "INGENIERIA MECANICA",
+      "generado_en": "2026-11-24T03:29:45.482457+00:00",
+      "total_registros": 163,
+      "total_materias_unicas": 69,
+      "total_grupos_con_datos": 38
+    },
+    {
+      "archivo": "sem_35_carr_9.json",
+      "semestre": "35",
+      "etiqueta_semestre": "2027-1",
+      "carrera": "9",
+      "nombre_carrera": "PEDAGOGIA",
+      "generado_en": "2026-11-24T03:29:55.582994+00:00",
+      "total_registros": 295,
+      "total_materias_unicas": 43,
+      "total_grupos_con_datos": 52
+    },
+    {
+      "archivo": "sem_35_carr_16.json",
+      "semestre": "35",
+      "etiqueta_semestre": "2027-1",
+      "carrera": "16",
+      "nombre_carrera": "PLANIFICACION PARA EL DESARROLLO AGROPECUARIO",
+      "generado_en": "2026-11-24T03:29:58.700296+00:00",
+      "total_registros": 82,
+      "total_materias_unicas": 42,
+      "total_grupos_con_datos": 18
+    },
+    {
+      "archivo": "sem_35_carr_5.json",
+      "semestre": "35",
+      "etiqueta_semestre": "2027-1",
+      "carrera": "5",
+      "nombre_carrera": "RELACIONES INTERNACIONALES",
+      "generado_en": "2026-11-24T03:30:13.949798+00:00",
+      "total_registros": 272,
+      "total_materias_unicas": 47,
+      "total_grupos_con_datos": 87
+    },
+    {
+      "archivo": "sem_35_carr_6.json",
+      "semestre": "35",
+      "etiqueta_semestre": "2027-1",
+      "carrera": "6",
+      "nombre_carrera": "SOCIOLOGIA",
+      "generado_en": "2026-11-24T03:30:19.220673+00:00",
+      "total_registros": 111,
+      "total_materias_unicas": 35,
+      "total_grupos_con_datos": 30
+    }
+  ]
+}

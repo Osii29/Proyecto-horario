@@ -1,0 +1,7083 @@
+{
+  "metadata": {
+    "semestre": "35",
+    "etiqueta_semestre": "2027-1",
+    "carrera": "8",
+    "nombre_carrera": "ECONOMIA",
+    "generado_en": "2026-11-24T03:29:10.564820+00:00",
+    "total_grupos_consultados": 64,
+    "total_grupos_con_datos": 64,
+    "total_grupos_vacios": 0,
+    "total_grupos_con_error": 0,
+    "grupos_fallidos": [],
+    "total_registros": 283,
+    "total_materias_unicas": 72,
+    "duplicados_omitidos": 0,
+    "total_incidencias": 0
+  },
+  "resumen_incidencias": {
+    "total": 0,
+    "por_tipo": {},
+    "muestra": []
+  },
+  "horarios": [
+    {
+      "id": "35_8_0053_1915",
+      "clv_materia": "0053",
+      "grupo": "1915",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "PLANEACION FINANCIERA.",
+      "profesor": "GONZALEZ VELASCO DANIELA ITZEL",
+      "salon": "A1016",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0057_1812",
+      "clv_materia": "0057",
+      "grupo": "1812",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA URBANA.",
+      "profesor": "GODINEZ PUEBLA CELIA MARGARITA",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-11:30",
+          "inicio_min": 510,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0059_1918",
+      "clv_materia": "0059",
+      "grupo": "1918",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA AGRICOLA.",
+      "profesor": "BONILLA GONZALEZ MARCOS RODOLFO",
+      "salon": "CAAE",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0059_1963",
+      "clv_materia": "0059",
+      "grupo": "1963",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA AGRICOLA.",
+      "profesor": "MARTINEZ CHIRINO JUAN ALFONSO",
+      "salon": "A1021",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-20:00",
+          "inicio_min": 1020,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0060_1917",
+      "clv_materia": "0060",
+      "grupo": "1917",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA INDUSTRIAL",
+      "profesor": "OLIVARES GOMEZ JULIA",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0061_1916",
+      "clv_materia": "0061",
+      "grupo": "1916",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEORIA DE LAS ORGANIZACIONES.",
+      "profesor": "HERNANDEZ MEDINA MARIA ELENA",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0061_1962",
+      "clv_materia": "0061",
+      "grupo": "1962",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEORIA DE LAS ORGANIZACIONES.",
+      "profesor": "GUERRA MORENO JOSE MARTIN",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_8_0064_1911",
+      "clv_materia": "0064",
+      "grupo": "1911",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ADMON. DE RIESGOS FINANCIEROS",
+      "profesor": "PIZARRO MORALES ARMANDO",
+      "salon": "LABCOM02",
+      "cupo": 18,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0064_1961",
+      "clv_materia": "0064",
+      "grupo": "1961",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ADMON. DE RIESGOS FINANCIEROS",
+      "profesor": "PEÑA JIMENEZ JORGE",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-16:30",
+          "inicio_min": 900,
+          "fin_min": 990
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-16:30",
+          "inicio_min": 900,
+          "fin_min": 990
+        }
+      ]
+    },
+    {
+      "id": "35_8_0065_1913",
+      "clv_materia": "0065",
+      "grupo": "1913",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "DESARROLLO REGIONAL.",
+      "profesor": "RAMIREZ ROSAS ANA ROSA",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0065_1963",
+      "clv_materia": "0065",
+      "grupo": "1963",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "DESARROLLO REGIONAL.",
+      "profesor": "BAUTISTA MARCELO WILLIAM",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0066_1861",
+      "clv_materia": "0066",
+      "grupo": "1861",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA DESARROLLO Y MEDIO AMBIENTE.",
+      "profesor": "HERRERA DE LEON ROBERTO",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0068_1914",
+      "clv_materia": "0068",
+      "grupo": "1914",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "EVAL DEL IMPACT DE LOS PROG SOC CONTRA LA POBR",
+      "profesor": "ALCALA SANDOVAL LEINAD JOHAN",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0068_1964",
+      "clv_materia": "0068",
+      "grupo": "1964",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "EVAL DEL IMPACT DE LOS PROG SOC CONTRA LA POBR",
+      "profesor": "MORUA RAMIREZ ERNESTO",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0071_1911",
+      "clv_materia": "0071",
+      "grupo": "1911",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MERCADO DE DINERO",
+      "profesor": "VILLEGAS HERRERA CRISTHIAN",
+      "salon": "A1016",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0071_1915",
+      "clv_materia": "0071",
+      "grupo": "1915",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MERCADO DE DINERO",
+      "profesor": "PEÑA JIMENEZ JORGE",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "08:00-11:00",
+          "inicio_min": 480,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_8_0071_1961",
+      "clv_materia": "0071",
+      "grupo": "1961",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MERCADO DE DINERO",
+      "profesor": "GUZMAN RODRIGUEZ SALOMON",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0072_1911",
+      "clv_materia": "0072",
+      "grupo": "1911",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MERCADO DE DERIVADOS",
+      "profesor": "CRUZ CRUZ ADRIANA MITANI",
+      "salon": "A1016",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0072_1961",
+      "clv_materia": "0072",
+      "grupo": "1961",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MERCADO DE DERIVADOS",
+      "profesor": "GONZALEZ VELASCO DANIELA ITZEL",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0072_1965",
+      "clv_materia": "0072",
+      "grupo": "1965",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MERCADO DE DERIVADOS",
+      "profesor": "VILORIA FERNANDEZ ALFREDO",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:30-18:30",
+          "inicio_min": 930,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0075_1914",
+      "clv_materia": "0075",
+      "grupo": "1914",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "POBREZA RURAL E INDIGENA DE MEXICO",
+      "profesor": "GONZALEZ GUTIERREZ JORGE",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0075_1964",
+      "clv_materia": "0075",
+      "grupo": "1964",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "POBREZA RURAL E INDIGENA DE MEXICO",
+      "profesor": "MORUA RAMIREZ ERNESTO",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-20:00",
+          "inicio_min": 1020,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0077_1912",
+      "clv_materia": "0077",
+      "grupo": "1912",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "REGIONES ECONOMICAS.",
+      "profesor": "HERNANDEZ MEDINA MARIA ELENA",
+      "salon": "A1021",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:30-13:30",
+          "inicio_min": 630,
+          "fin_min": 810
+        }
+      ]
+    },
+    {
+      "id": "35_8_0077_1962",
+      "clv_materia": "0077",
+      "grupo": "1962",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "REGIONES ECONOMICAS.",
+      "profesor": "LARA SANCHEZ MIGUEL ANGEL",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0078_1912",
+      "clv_materia": "0078",
+      "grupo": "1912",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "RELACIONES MEXICO ESTADOS UNIDOS.",
+      "profesor": "GAYTAN VELAZQUEZ ISAMELY YERANIA",
+      "salon": "A1013",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0078_1962",
+      "clv_materia": "0078",
+      "grupo": "1962",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "RELACIONES MEXICO ESTADOS UNIDOS.",
+      "profesor": "GUERRA MORENO JOSE MARTIN",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0081_1916",
+      "clv_materia": "0081",
+      "grupo": "1916",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA Y GENERO",
+      "profesor": "MENDOZA RAMIREZ LUISA QUIAHUITL XOCHITL",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_00851_1915",
+      "clv_materia": "00851",
+      "grupo": "1915",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEMAS SELECTOS (ECONOMIA FINANCIERA)",
+      "profesor": "CRUZ CRUZ ADRIANA MITANI",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_8_00851_1916",
+      "clv_materia": "00851",
+      "grupo": "1916",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEMAS SELECTOS (ECONOMIA FINANCIERA)",
+      "profesor": "VILLEGAS HERRERA CRISTHIAN",
+      "salon": "A1013",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_00852_1918",
+      "clv_materia": "00852",
+      "grupo": "1918",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEMAS SELECTOS (ECONOMIA INTERNACIONAL)",
+      "profesor": "GOMEZ MONTAÑEZ CARMEN JANETH",
+      "salon": "A1021",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_00852_1967",
+      "clv_materia": "00852",
+      "grupo": "1967",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEMAS SELECTOS (ECONOMIA INTERNACIONAL)",
+      "profesor": "DORANTES ZAMORA ANGEL OCTAVIO",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_00853_1913",
+      "clv_materia": "00853",
+      "grupo": "1913",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEMAS SELECTOS (DESARROLLO URBANO REGIONAL)",
+      "profesor": "ROJAS GARCIA OMAR",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_00853_1963",
+      "clv_materia": "00853",
+      "grupo": "1963",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEMAS SELECTOS (DESARROLLO URBANO REGIONAL)",
+      "profesor": "ROJAS GARCIA OMAR",
+      "salon": "A1021",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:30-18:30",
+          "inicio_min": 930,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_00853_1966",
+      "clv_materia": "00853",
+      "grupo": "1966",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEMAS SELECTOS (DESARROLLO URBANO REGIONAL)",
+      "profesor": "RODRIGUEZ LUEVANO DANIEL",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_00854_1914",
+      "clv_materia": "00854",
+      "grupo": "1914",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEMAS SELECTOS (ECONOMIA POBREZA Y DESARROLLO)",
+      "profesor": "BELTRAN FLORES BRANDON SAID",
+      "salon": "A1022",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_00854_1964",
+      "clv_materia": "00854",
+      "grupo": "1964",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEMAS SELECTOS (ECONOMIA POBREZA Y DESARROLLO)",
+      "profesor": "PEREZ RODRIGUEZ EDUARDO JOSUE",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0086_1916",
+      "clv_materia": "0086",
+      "grupo": "1916",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "REPENS. DEMOCR. SIGLO XXI PERSP. DESAF.",
+      "profesor": "ACKERMAN ROSE JOHN MILL",
+      "salon": "SINDEF",
+      "cupo": 20,
+      "tipo_clase": "HIBRIDO",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0101_1111",
+      "clv_materia": "0101",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA DEL PENSAMIENTO ECONOMICO.",
+      "profesor": "MORENO PEREZ ORLANDO ELEAZAR",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0101_1112",
+      "clv_materia": "0101",
+      "grupo": "1112",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA DEL PENSAMIENTO ECONOMICO.",
+      "profesor": "CASTELLANOS SILVA SALVADOR",
+      "salon": "A1013",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0101_1113",
+      "clv_materia": "0101",
+      "grupo": "1113",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA DEL PENSAMIENTO ECONOMICO.",
+      "profesor": "SALAZAR BUENO FELICIANO",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0101_1114",
+      "clv_materia": "0101",
+      "grupo": "1114",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA DEL PENSAMIENTO ECONOMICO.",
+      "profesor": "ARROYO VARGAS HORTENSIA DE JESUS",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0101_1161",
+      "clv_materia": "0101",
+      "grupo": "1161",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA DEL PENSAMIENTO ECONOMICO.",
+      "profesor": "RAMIREZ BRUN JOSE RICARDO",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0101_1162",
+      "clv_materia": "0101",
+      "grupo": "1162",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA DEL PENSAMIENTO ECONOMICO.",
+      "profesor": "RAMIREZ BRUN JOSE RICARDO",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0102_1111",
+      "clv_materia": "0102",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA I.",
+      "profesor": "ARROYO VARGAS HORTENSIA DE JESUS",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0102_1112",
+      "clv_materia": "0102",
+      "grupo": "1112",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA I.",
+      "profesor": "TRUJILLO LOPEZ WILLIAMS",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0102_1113",
+      "clv_materia": "0102",
+      "grupo": "1113",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA I.",
+      "profesor": "RODRIGUEZ LUEVANO DANIEL",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0102_1114",
+      "clv_materia": "0102",
+      "grupo": "1114",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA I.",
+      "profesor": "SALAZAR BUENO FELICIANO",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0102_1161",
+      "clv_materia": "0102",
+      "grupo": "1161",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA I.",
+      "profesor": "LEAL LUNA GUSTAVO ALBERTO",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0102_1162",
+      "clv_materia": "0102",
+      "grupo": "1162",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA I.",
+      "profesor": "PEREZ RODRIGUEZ EDUARDO JOSUE",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0102_1163",
+      "clv_materia": "0102",
+      "grupo": "1163",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA I.",
+      "profesor": "CAMPUZANO LEON HUGO",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0106_1311",
+      "clv_materia": "0106",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "CONTABILIDAD GENERAL.",
+      "profesor": "LINARES ZARCO JAIME",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0106_1312",
+      "clv_materia": "0106",
+      "grupo": "1312",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "CONTABILIDAD GENERAL.",
+      "profesor": "TREJO CASTILLO CLAUDIA ANGELICA",
+      "salon": "A1016",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0106_1313",
+      "clv_materia": "0106",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "CONTABILIDAD GENERAL.",
+      "profesor": "TREJO CASTILLO CLAUDIA ANGELICA",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0106_1314",
+      "clv_materia": "0106",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "CONTABILIDAD GENERAL.",
+      "profesor": "LOPEZ MARTINEZ ARTURO",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0106_1315",
+      "clv_materia": "0106",
+      "grupo": "1315",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "CONTABILIDAD GENERAL.",
+      "profesor": "LOPEZ MARTINEZ ARTURO",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0106_1361",
+      "clv_materia": "0106",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "CONTABILIDAD GENERAL.",
+      "profesor": "LOZANO RUELAS GUADALUPE",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0106_1362",
+      "clv_materia": "0106",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "CONTABILIDAD GENERAL.",
+      "profesor": "LINARES ZARCO JAIME",
+      "salon": "A1013",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0107_1111",
+      "clv_materia": "0107",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ADMINISTRACION GENERAL.",
+      "profesor": "LINARES ZARCO JAIME",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0107_1112",
+      "clv_materia": "0107",
+      "grupo": "1112",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ADMINISTRACION GENERAL.",
+      "profesor": "HERNANDEZ MARTINEZ BRENDA YAEL",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0107_1113",
+      "clv_materia": "0107",
+      "grupo": "1113",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ADMINISTRACION GENERAL.",
+      "profesor": "CORREA LICONA ROSA CAROLINA",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0107_1114",
+      "clv_materia": "0107",
+      "grupo": "1114",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ADMINISTRACION GENERAL.",
+      "profesor": "LINARES ZARCO JAIME",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0107_1115",
+      "clv_materia": "0107",
+      "grupo": "1115",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ADMINISTRACION GENERAL.",
+      "profesor": "MACIEL VAZQUEZ FERNANDO ALFONSO",
+      "salon": "CAAE",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0107_1161",
+      "clv_materia": "0107",
+      "grupo": "1161",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ADMINISTRACION GENERAL.",
+      "profesor": "ALTAMIRANO SANCHEZ YOLANDA ANGELINA",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-20:00",
+          "inicio_min": 1020,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0107_1162",
+      "clv_materia": "0107",
+      "grupo": "1162",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ADMINISTRACION GENERAL.",
+      "profesor": "VALADEZ MONTER JESUS",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0108_1111",
+      "clv_materia": "0108",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA I.",
+      "profesor": "RODRIGUEZ PEREZ YADIRA",
+      "salon": "CCSAL4",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0108_1112",
+      "clv_materia": "0108",
+      "grupo": "1112",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA I.",
+      "profesor": "BELTRAN FLORES BRANDON SAID",
+      "salon": "CCSAL4",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0108_1113",
+      "clv_materia": "0108",
+      "grupo": "1113",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA I.",
+      "profesor": "MENCHACA ROCHA ROSA MARIA",
+      "salon": "CCSAL3",
+      "cupo": 35,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0108_1114",
+      "clv_materia": "0108",
+      "grupo": "1114",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA I.",
+      "profesor": "GARCIA PEREZ EUNICE ANGELICA",
+      "salon": "CCSAL4",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0108_1161",
+      "clv_materia": "0108",
+      "grupo": "1161",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA I.",
+      "profesor": "HERNANDEZ HERNANDEZ ROBERTO",
+      "salon": "CCSAL4",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0108_1162",
+      "clv_materia": "0108",
+      "grupo": "1162",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA I.",
+      "profesor": "BAUTISTA MARCELO WILLIAM",
+      "salon": "CCSAL3",
+      "cupo": 35,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0109_1111",
+      "clv_materia": "0109",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS I.",
+      "profesor": "MENCHACA ROCHA ROSA MARIA",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_8_0109_1112",
+      "clv_materia": "0109",
+      "grupo": "1112",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS I.",
+      "profesor": "GALLEGOS VILLEGAS JOSE FERNANDO",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0109_1113",
+      "clv_materia": "0109",
+      "grupo": "1113",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS I.",
+      "profesor": "LEON TEA MIRIAM SARAI",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0109_1114",
+      "clv_materia": "0109",
+      "grupo": "1114",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS I.",
+      "profesor": "GALLEGOS VILLEGAS JOSE FERNANDO",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0109_1161",
+      "clv_materia": "0109",
+      "grupo": "1161",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS I.",
+      "profesor": "MORALES ISLAS AARON ENRIQUE",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0109_1162",
+      "clv_materia": "0109",
+      "grupo": "1162",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS I.",
+      "profesor": "MARTINEZ AMPUDIA ERICK FRANCISCO",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0109_1163",
+      "clv_materia": "0109",
+      "grupo": "1163",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS I.",
+      "profesor": "GASTALDI ARTEAGA JUAN IGNACIO",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0110_1111",
+      "clv_materia": "0110",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "METODOLOGIA DE LA CIENCIA ECON I.",
+      "profesor": "RAMIREZ ROSAS ANA ROSA",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0110_1112",
+      "clv_materia": "0110",
+      "grupo": "1112",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "METODOLOGIA DE LA CIENCIA ECON I.",
+      "profesor": "BONILLA GONZALEZ MARCOS RODOLFO",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0110_1113",
+      "clv_materia": "0110",
+      "grupo": "1113",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "METODOLOGIA DE LA CIENCIA ECON I.",
+      "profesor": "GARCIA BALDERAS GUADALUPE",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0110_1114",
+      "clv_materia": "0110",
+      "grupo": "1114",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "METODOLOGIA DE LA CIENCIA ECON I.",
+      "profesor": "CAZARES CASTILLO MANUEL",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0110_1161",
+      "clv_materia": "0110",
+      "grupo": "1161",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "METODOLOGIA DE LA CIENCIA ECON I.",
+      "profesor": "CRUZ ARIAS MARTHA MARCELA",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0110_1162",
+      "clv_materia": "0110",
+      "grupo": "1162",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "METODOLOGIA DE LA CIENCIA ECON I.",
+      "profesor": "MENDIOLA ANDRADE VALENTIN",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:30-18:30",
+          "inicio_min": 930,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0210_1261",
+      "clv_materia": "0210",
+      "grupo": "1261",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "DERECHO ECONOMICO.",
+      "profesor": "GODINEZ PUEBLA CELIA MARGARITA",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:30-18:30",
+          "inicio_min": 930,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0210_1262",
+      "clv_materia": "0210",
+      "grupo": "1262",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "DERECHO ECONOMICO.",
+      "profesor": "GONZALEZ GUTIERREZ ALDO",
+      "salon": "CAAE",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_8_0211_1261",
+      "clv_materia": "0211",
+      "grupo": "1261",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA II.",
+      "profesor": "TRUJILLO LOPEZ WILLIAMS",
+      "salon": "CCSAL8",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0212_1211",
+      "clv_materia": "0212",
+      "grupo": "1211",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS II.",
+      "profesor": "GALLEGOS VILLEGAS JOSE FERNANDO",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0212_1261",
+      "clv_materia": "0212",
+      "grupo": "1261",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS II.",
+      "profesor": "SANTIAGO VASQUEZ AUGUSTO",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0241_1711",
+      "clv_materia": "0241",
+      "grupo": "1711",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "GEOGRAFIA ECONOMICA.",
+      "profesor": "DORANTES ZAMORA ANGEL OCTAVIO",
+      "salon": "A1022",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0241_1712",
+      "clv_materia": "0241",
+      "grupo": "1712",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "GEOGRAFIA ECONOMICA.",
+      "profesor": "TREJO CASTILLO CLAUDIA ANGELICA",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0241_1713",
+      "clv_materia": "0241",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "GEOGRAFIA ECONOMICA.",
+      "profesor": "NAVARRETE CORTES  MERCEDES IRAIS",
+      "salon": "A1022",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0241_1714",
+      "clv_materia": "0241",
+      "grupo": "1714",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "GEOGRAFIA ECONOMICA.",
+      "profesor": "DELGADO BRAVO TERESITA DE JESUS",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0241_1715",
+      "clv_materia": "0241",
+      "grupo": "1715",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "GEOGRAFIA ECONOMICA.",
+      "profesor": "DELGADO BRAVO TERESITA DE JESUS",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0241_1716",
+      "clv_materia": "0241",
+      "grupo": "1716",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "GEOGRAFIA ECONOMICA.",
+      "profesor": "GODINEZ PUEBLA CELIA MARGARITA",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-14:30",
+          "inicio_min": 690,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0241_1761",
+      "clv_materia": "0241",
+      "grupo": "1761",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "GEOGRAFIA ECONOMICA.",
+      "profesor": "MARTINEZ CHIRINO JUAN ALFONSO",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-20:00",
+          "inicio_min": 1020,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0241_1762",
+      "clv_materia": "0241",
+      "grupo": "1762",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "GEOGRAFIA ECONOMICA.",
+      "profesor": "DORANTES ZAMORA ANGEL OCTAVIO",
+      "salon": "A1013",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0301_1511",
+      "clv_materia": "0301",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MACROECONOMIA II.",
+      "profesor": "CABALLERO GONZALEZ JOSE JAVIER",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0301_1512",
+      "clv_materia": "0301",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MACROECONOMIA II.",
+      "profesor": "PIZARRO MORALES ARMANDO",
+      "salon": "LABCOM02",
+      "cupo": 18,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0301_1513",
+      "clv_materia": "0301",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MACROECONOMIA II.",
+      "profesor": "GUTIERREZ CASTILLO ALMA ROSA",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0301_1514",
+      "clv_materia": "0301",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MACROECONOMIA II.",
+      "profesor": "GUTIERREZ CASTILLO ALMA ROSA",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0301_1515",
+      "clv_materia": "0301",
+      "grupo": "1515",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MACROECONOMIA II.",
+      "profesor": "CABALLERO GONZALEZ JOSE JAVIER",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0301_1561",
+      "clv_materia": "0301",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MACROECONOMIA II.",
+      "profesor": "CABALLERO GONZALEZ JOSE JAVIER",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_8_0301_1562",
+      "clv_materia": "0301",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MACROECONOMIA II.",
+      "profesor": "CASTILLO RENDON JESUS",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:30-21:30",
+          "inicio_min": 1110,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0304_1311",
+      "clv_materia": "0304",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA III.",
+      "profesor": "SANCHEZ PEREZ ILDEFONSO",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0304_1312",
+      "clv_materia": "0304",
+      "grupo": "1312",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA III.",
+      "profesor": "DELGADO BRAVO TERESITA DE JESUS",
+      "salon": "A1013",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0304_1313",
+      "clv_materia": "0304",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA III.",
+      "profesor": "BELTRAN FLORES BRANDON SAID",
+      "salon": "A1022",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0304_1314",
+      "clv_materia": "0304",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA III.",
+      "profesor": "BRAVO OLIVARES MANUEL ALFREDO",
+      "salon": "A1013",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0304_1315",
+      "clv_materia": "0304",
+      "grupo": "1315",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA III.",
+      "profesor": "BELTRAN FLORES BRANDON SAID",
+      "salon": "A1022",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0304_1361",
+      "clv_materia": "0304",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA III.",
+      "profesor": "BARRETO ANAYA ANGEL IRANHI",
+      "salon": "A1013",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0304_1362",
+      "clv_materia": "0304",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA III.",
+      "profesor": "SALAZAR BUENO FELICIANO",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0304_1363",
+      "clv_materia": "0304",
+      "grupo": "1363",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMICA III.",
+      "profesor": "CAMPUZANO LEON HUGO",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0306_1311",
+      "clv_materia": "0306",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ESTADISTICA I.",
+      "profesor": "CONTRERAS CAMPOS CLAUDIA",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0306_1312",
+      "clv_materia": "0306",
+      "grupo": "1312",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ESTADISTICA I.",
+      "profesor": "LLANOS MARTINEZ JAIME",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0306_1313",
+      "clv_materia": "0306",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ESTADISTICA I.",
+      "profesor": "LEON TEA MIRIAM SARAI",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0306_1314",
+      "clv_materia": "0306",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ESTADISTICA I.",
+      "profesor": "GUZMAN RODRIGUEZ SALOMON",
+      "salon": "A1022",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0306_1315",
+      "clv_materia": "0306",
+      "grupo": "1315",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ESTADISTICA I.",
+      "profesor": "OLIVARES GOMEZ JULIA",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0306_1361",
+      "clv_materia": "0306",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ESTADISTICA I.",
+      "profesor": "QUINTERO ESTRADA OSCAR EDMUNDO",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0306_1362",
+      "clv_materia": "0306",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ESTADISTICA I.",
+      "profesor": "HERNANDEZ HERNANDEZ ROBERTO",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0307_1411",
+      "clv_materia": "0307",
+      "grupo": "1411",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ANALISIS DE EDOS. FINANCIEROS.",
+      "profesor": "LOPEZ MARTINEZ ARTURO",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0308_1311",
+      "clv_materia": "0308",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA III.",
+      "profesor": "DORANTES ZAMORA ANGEL OCTAVIO",
+      "salon": "CCSAL4",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0308_1312",
+      "clv_materia": "0308",
+      "grupo": "1312",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA III.",
+      "profesor": "GARCIA BALDERAS GUADALUPE",
+      "salon": "CCSAL3",
+      "cupo": 35,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0308_1313",
+      "clv_materia": "0308",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA III.",
+      "profesor": "AYALA CALVILLO RODRIGO",
+      "salon": "CCSAL4",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0308_1314",
+      "clv_materia": "0308",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA III.",
+      "profesor": "AYALA CALVILLO RODRIGO",
+      "salon": "CCSAL4",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0308_1315",
+      "clv_materia": "0308",
+      "grupo": "1315",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA III.",
+      "profesor": "GUTIERREZ GONZALEZ OSCAR",
+      "salon": "CCSAL7",
+      "cupo": 37,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "14:30-16:00",
+          "inicio_min": 870,
+          "fin_min": 960
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "14:30-16:00",
+          "inicio_min": 870,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_8_0308_1361",
+      "clv_materia": "0308",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA III.",
+      "profesor": "GUTIERREZ GONZALEZ OSCAR",
+      "salon": "CCSAL4",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:30-18:30",
+          "inicio_min": 930,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0308_1362",
+      "clv_materia": "0308",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA III.",
+      "profesor": "GASTALDI ARTEAGA JUAN IGNACIO",
+      "salon": "CCSAL4",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0308_1363",
+      "clv_materia": "0308",
+      "grupo": "1363",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA III.",
+      "profesor": "AZAMAR ROMERO ALEJANDRO",
+      "salon": "CCSAL6",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0309_1311",
+      "clv_materia": "0309",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS III.",
+      "profesor": "GASTALDI ARTEAGA JUAN IGNACIO",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0309_1312",
+      "clv_materia": "0309",
+      "grupo": "1312",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS III.",
+      "profesor": "VILLEGAS HERRERA CRISTHIAN",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0309_1313",
+      "clv_materia": "0309",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS III.",
+      "profesor": "VILLEGAS HERRERA CRISTHIAN",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0309_1314",
+      "clv_materia": "0309",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS III.",
+      "profesor": "GUTIERREZ GONZALEZ OSCAR",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0309_1315",
+      "clv_materia": "0309",
+      "grupo": "1315",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS III.",
+      "profesor": "CERVANTES MARTINEZ LUZ ELENA",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0309_1361",
+      "clv_materia": "0309",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS III.",
+      "profesor": "GASTALDI ARTEAGA JUAN IGNACIO",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0309_1362",
+      "clv_materia": "0309",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS III.",
+      "profesor": "SANTIAGO VASQUEZ AUGUSTO",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0309_1363",
+      "clv_materia": "0309",
+      "grupo": "1363",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS III.",
+      "profesor": "HERNANDEZ HERNANDEZ ROBERTO",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0322_1111",
+      "clv_materia": "0322",
+      "grupo": "1111",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "INT. A LA ECONOMIA.",
+      "profesor": "CONTRERAS CAMPOS CLAUDIA",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0322_1112",
+      "clv_materia": "0322",
+      "grupo": "1112",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "INT. A LA ECONOMIA.",
+      "profesor": "CERVANTES MARTINEZ LUZ ELENA",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0322_1113",
+      "clv_materia": "0322",
+      "grupo": "1113",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "INT. A LA ECONOMIA.",
+      "profesor": "MACIEL VAZQUEZ FERNANDO ALFONSO",
+      "salon": "A1022",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0322_1114",
+      "clv_materia": "0322",
+      "grupo": "1114",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "INT. A LA ECONOMIA.",
+      "profesor": "GARCIA PEREZ EUNICE ANGELICA",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0322_1115",
+      "clv_materia": "0322",
+      "grupo": "1115",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "INT. A LA ECONOMIA.",
+      "profesor": "BONILLA GONZALEZ MARCOS RODOLFO",
+      "salon": "CAAE",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0322_1116",
+      "clv_materia": "0322",
+      "grupo": "1116",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "INT. A LA ECONOMIA.",
+      "profesor": "MACIEL VAZQUEZ FERNANDO ALFONSO",
+      "salon": "CAAE",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0322_1161",
+      "clv_materia": "0322",
+      "grupo": "1161",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "INT. A LA ECONOMIA.",
+      "profesor": "ALCANTARA URIBE JORGE EDUARDO",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0322_1162",
+      "clv_materia": "0322",
+      "grupo": "1162",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "INT. A LA ECONOMIA.",
+      "profesor": "CERVANTES MARTINEZ LUZ ELENA",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:30-18:00",
+          "inicio_min": 990,
+          "fin_min": 1080
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:30-18:00",
+          "inicio_min": 990,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_8_0361_1261",
+      "clv_materia": "0361",
+      "grupo": "1261",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA I.",
+      "profesor": "ULLOA RAMIREZ JESSICA",
+      "salon": "A1014",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0362_1311",
+      "clv_materia": "0362",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA II.",
+      "profesor": "ALCALA SANDOVAL LEINAD JOHAN",
+      "salon": "A1021",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0362_1312",
+      "clv_materia": "0362",
+      "grupo": "1312",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA II.",
+      "profesor": "PALMA GALVAN FERNANDO",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0362_1313",
+      "clv_materia": "0362",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA II.",
+      "profesor": "PALMA GALVAN FERNANDO",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0362_1314",
+      "clv_materia": "0362",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA II.",
+      "profesor": "CASTELLANOS SILVA SALVADOR",
+      "salon": "A1016",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0362_1315",
+      "clv_materia": "0362",
+      "grupo": "1315",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA II.",
+      "profesor": "RODRIGUEZ LUEVANO DANIEL",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0362_1316",
+      "clv_materia": "0362",
+      "grupo": "1316",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA II.",
+      "profesor": "MENDOZA RAMIREZ LUISA QUIAHUITL XOCHITL",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0362_1361",
+      "clv_materia": "0362",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA II.",
+      "profesor": "DORANTES ZAMORA ANGEL OCTAVIO",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0362_1362",
+      "clv_materia": "0362",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA II.",
+      "profesor": "LEAL LUNA GUSTAVO ALBERTO",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0362_1363",
+      "clv_materia": "0362",
+      "grupo": "1363",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA II.",
+      "profesor": "ULLOA RAMIREZ JESSICA",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0364_1511",
+      "clv_materia": "0364",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA IV.",
+      "profesor": "LEAL LUNA GUSTAVO ALBERTO",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0364_1512",
+      "clv_materia": "0364",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA IV.",
+      "profesor": "GONZALEZ JIMENEZ ALEJANDRO FERNANDO",
+      "salon": "A1013",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0364_1513",
+      "clv_materia": "0364",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA IV.",
+      "profesor": "LEAL LUNA GUSTAVO ALBERTO",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0364_1514",
+      "clv_materia": "0364",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA IV.",
+      "profesor": "CASTELLANOS SILVA SALVADOR",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0364_1515",
+      "clv_materia": "0364",
+      "grupo": "1515",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA IV.",
+      "profesor": "SANCHEZ PEREZ ILDEFONSO",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0364_1516",
+      "clv_materia": "0364",
+      "grupo": "1516",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA IV.",
+      "profesor": "ALCALA SANDOVAL LEINAD JOHAN",
+      "salon": "A12204",
+      "cupo": 35,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0364_1561",
+      "clv_materia": "0364",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA IV.",
+      "profesor": "LARA SANCHEZ MIGUEL ANGEL",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0364_1562",
+      "clv_materia": "0364",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POLITICA IV.",
+      "profesor": "LEAL LUNA GUSTAVO ALBERTO",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0404_1461",
+      "clv_materia": "0404",
+      "grupo": "1461",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "HISTORIA ECONOMIA IV.",
+      "profesor": "BARRETO ANAYA ANGEL IRANHI",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0408_1411",
+      "clv_materia": "0408",
+      "grupo": "1411",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ESTADISTICA II.",
+      "profesor": "QUINTERO ESTRADA OSCAR EDMUNDO",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0409_1461",
+      "clv_materia": "0409",
+      "grupo": "1461",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FINANZAS I.",
+      "profesor": "BELTRAN FLORES BRANDON SAID",
+      "salon": "A1021",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0410_1461",
+      "clv_materia": "0410",
+      "grupo": "1461",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA IV.",
+      "profesor": "AZAMAR ROMERO ALEJANDRO",
+      "salon": "CCSAL4",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0501_1211",
+      "clv_materia": "0501",
+      "grupo": "1211",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MICROECONOMIA I.",
+      "profesor": "AGUILAR MENDEZ JULIO CESAR",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "08:00-11:00",
+          "inicio_min": 480,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_8_0501_1261",
+      "clv_materia": "0501",
+      "grupo": "1261",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MICROECONOMIA I.",
+      "profesor": "ALCANTARA URIBE JORGE EDUARDO",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0503_1812",
+      "clv_materia": "0503",
+      "grupo": "1812",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "SOCIEDAD Y POLITICA CONTEMPORAN I.",
+      "profesor": "ULLOA RAMIREZ JESSICA",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "12:00-13:00",
+          "inicio_min": 720,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-13:00",
+          "inicio_min": 720,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0503_1813",
+      "clv_materia": "0503",
+      "grupo": "1813",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "SOCIEDAD Y POLITICA CONTEMPORAN I.",
+      "profesor": "GONZALEZ MARTINEZ CARLOS ENRIQUE",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:30-14:30",
+          "inicio_min": 810,
+          "fin_min": 870
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:30-14:30",
+          "inicio_min": 810,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0505_1511",
+      "clv_materia": "0505",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMETRIA I.",
+      "profesor": "LLANOS MARTINEZ JAIME",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0505_1512",
+      "clv_materia": "0505",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMETRIA I.",
+      "profesor": "MARTINEZ SALINAS DANIEL",
+      "salon": "CCSAL1",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_8_0505_1513",
+      "clv_materia": "0505",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMETRIA I.",
+      "profesor": "PIZARRO MORALES ARMANDO",
+      "salon": "LABCOM02",
+      "cupo": 18,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0505_1514",
+      "clv_materia": "0505",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMETRIA I.",
+      "profesor": "AYALA CALVILLO RODRIGO",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0505_1561",
+      "clv_materia": "0505",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMETRIA I.",
+      "profesor": "ESPINOSA RODRIGUEZ JAIME",
+      "salon": "CCSAL2",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-20:45",
+          "inicio_min": 1200,
+          "fin_min": 1245
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-20:45",
+          "inicio_min": 1200,
+          "fin_min": 1245
+        }
+      ]
+    },
+    {
+      "id": "35_8_0505_1562",
+      "clv_materia": "0505",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMETRIA I.",
+      "profesor": "LLANOS MARTINEZ JAIME",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0505_1563",
+      "clv_materia": "0505",
+      "grupo": "1563",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMETRIA I.",
+      "profesor": "ZALETAS RIVERA CESAR",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0507_1511",
+      "clv_materia": "0507",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA MEXICANA CONTEMPORANEA I.",
+      "profesor": "DORANTES ZAMORA ANGEL OCTAVIO",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0507_1512",
+      "clv_materia": "0507",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA MEXICANA CONTEMPORANEA I.",
+      "profesor": "YLLAN HERNANDEZ MONSERRAT",
+      "salon": "A1013",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0507_1513",
+      "clv_materia": "0507",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA MEXICANA CONTEMPORANEA I.",
+      "profesor": "BRAVO OLIVARES MANUEL ALFREDO",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0507_1514",
+      "clv_materia": "0507",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA MEXICANA CONTEMPORANEA I.",
+      "profesor": "SOTO MALDONADO JONATHAN",
+      "salon": "A1008",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0507_1561",
+      "clv_materia": "0507",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA MEXICANA CONTEMPORANEA I.",
+      "profesor": "CAMPUZANO LEON HUGO",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0507_1562",
+      "clv_materia": "0507",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA MEXICANA CONTEMPORANEA I.",
+      "profesor": "RAMIREZ BRUN JOSE RICARDO",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0508_1511",
+      "clv_materia": "0508",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FINANZAS II.",
+      "profesor": "BRAVO OLIVARES MANUEL ALFREDO",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0508_1512",
+      "clv_materia": "0508",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FINANZAS II.",
+      "profesor": "ARROYO VARGAS HORTENSIA DE JESUS",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0508_1513",
+      "clv_materia": "0508",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FINANZAS II.",
+      "profesor": "GONZALEZ GUTIERREZ JORGE",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0508_1514",
+      "clv_materia": "0508",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FINANZAS II.",
+      "profesor": "SOTO MALDONADO JONATHAN",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0508_1515",
+      "clv_materia": "0508",
+      "grupo": "1515",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FINANZAS II.",
+      "profesor": "REYES OCADIZ LINA",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0508_1561",
+      "clv_materia": "0508",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FINANZAS II.",
+      "profesor": "MORALES CHAVEZ RAUL IGNACIO",
+      "salon": "A1016",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0508_1562",
+      "clv_materia": "0508",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FINANZAS II.",
+      "profesor": "BRAVO OLIVARES MANUEL ALFREDO",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0509_1511",
+      "clv_materia": "0509",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA V.",
+      "profesor": "GARCIA PEREZ EUNICE ANGELICA",
+      "salon": "CCSAL7",
+      "cupo": 37,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0509_1512",
+      "clv_materia": "0509",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA V.",
+      "profesor": "AYALA CALVILLO RODRIGO",
+      "salon": "CCSAL3",
+      "cupo": 35,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0509_1513",
+      "clv_materia": "0509",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA V.",
+      "profesor": "PIZARRO MORALES ARMANDO",
+      "salon": "LABCOM02",
+      "cupo": 18,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0509_1514",
+      "clv_materia": "0509",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA V.",
+      "profesor": "RODRIGUEZ LUEVANO DANIEL",
+      "salon": "CCSAL6",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_8_0509_1561",
+      "clv_materia": "0509",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA V.",
+      "profesor": "PEREZ CALDERON JESUS",
+      "salon": "CCSAL4",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0509_1562",
+      "clv_materia": "0509",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA V.",
+      "profesor": "PEREZ CALDERON JESUS",
+      "salon": "CCSAL4",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0510_1511",
+      "clv_materia": "0510",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS V.",
+      "profesor": "MORALES ISLAS AARON ENRIQUE",
+      "salon": "A1027",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0510_1512",
+      "clv_materia": "0510",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS V.",
+      "profesor": "GALLEGOS VILLEGAS JOSE FERNANDO",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0510_1513",
+      "clv_materia": "0510",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS V.",
+      "profesor": "QUINTERO ESTRADA OSCAR EDMUNDO",
+      "salon": "A1021",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-11:30",
+          "inicio_min": 510,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0510_1514",
+      "clv_materia": "0510",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS V.",
+      "profesor": "GUZMAN RODRIGUEZ SALOMON",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0510_1561",
+      "clv_materia": "0510",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS V.",
+      "profesor": "AZAMAR ROMERO ALEJANDRO",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0510_1562",
+      "clv_materia": "0510",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS V.",
+      "profesor": "ARAMBURA CONTRERAS PEDRO ALBERTO",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0511_1511",
+      "clv_materia": "0511",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEORIA Y POLITICA MONETARIA.",
+      "profesor": "GONZALEZ GUTIERREZ JORGE",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0511_1512",
+      "clv_materia": "0511",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEORIA Y POLITICA MONETARIA.",
+      "profesor": "YLLAN HERNANDEZ MONSERRAT",
+      "salon": "A1022",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_8_0511_1513",
+      "clv_materia": "0511",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEORIA Y POLITICA MONETARIA.",
+      "profesor": "QUINTERO ESTRADA OSCAR EDMUNDO",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0511_1514",
+      "clv_materia": "0511",
+      "grupo": "1514",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEORIA Y POLITICA MONETARIA.",
+      "profesor": "HERNANDEZ MEDINA MARIA ELENA",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0511_1561",
+      "clv_materia": "0511",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEORIA Y POLITICA MONETARIA.",
+      "profesor": "CRUZ CRUZ ADRIANA MITANI",
+      "salon": "A1016",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0511_1562",
+      "clv_materia": "0511",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEORIA Y POLITICA MONETARIA.",
+      "profesor": "GUERRA MORENO JOSE MARTIN",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0624_1311",
+      "clv_materia": "0624",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MICROECONOMIA II.",
+      "profesor": "CABALLERO GONZALEZ JOSE JAVIER",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0624_1312",
+      "clv_materia": "0624",
+      "grupo": "1312",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MICROECONOMIA II.",
+      "profesor": "CONTRERAS CAMPOS CLAUDIA",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0624_1313",
+      "clv_materia": "0624",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MICROECONOMIA II.",
+      "profesor": "QUINTERO ESTRADA OSCAR EDMUNDO",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0624_1314",
+      "clv_materia": "0624",
+      "grupo": "1314",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MICROECONOMIA II.",
+      "profesor": "GARCIA PEREZ EUNICE ANGELICA",
+      "salon": "A1016",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-11:30",
+          "inicio_min": 510,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0624_1315",
+      "clv_materia": "0624",
+      "grupo": "1315",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MICROECONOMIA II.",
+      "profesor": "HERNANDEZ LOPEZ JAVIER",
+      "salon": "A1016",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0624_1361",
+      "clv_materia": "0624",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MICROECONOMIA II.",
+      "profesor": "GUZMAN RODRIGUEZ SALOMON",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0624_1362",
+      "clv_materia": "0624",
+      "grupo": "1362",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MICROECONOMIA II.",
+      "profesor": "ALCANTARA URIBE JORGE EDUARDO",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0629_1913",
+      "clv_materia": "0629",
+      "grupo": "1913",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "SOCIEDAD Y POLITICA CONTEMPORAN II.",
+      "profesor": "BONILLA GONZALEZ MARCOS RODOLFO",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0629_1917",
+      "clv_materia": "0629",
+      "grupo": "1917",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "SOCIEDAD Y POLITICA CONTEMPORAN II.",
+      "profesor": "SANCHEZ MENDEZ JOSE ANTONIO",
+      "salon": "CAAE",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0630_1661",
+      "clv_materia": "0630",
+      "grupo": "1661",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "COMERCIO INTERNAC Y SUS INSTRUMTS.",
+      "profesor": "GONZALEZ GUTIERREZ JORGE",
+      "salon": "A1022",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0631_1611",
+      "clv_materia": "0631",
+      "grupo": "1611",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "CONTABILIDAD SOCIAL.",
+      "profesor": "LOPEZ MARTINEZ ARTURO",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0632_1611",
+      "clv_materia": "0632",
+      "grupo": "1611",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMETRIA II.",
+      "profesor": "AYALA CALVILLO RODRIGO",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0632_1661",
+      "clv_materia": "0632",
+      "grupo": "1661",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMETRIA II.",
+      "profesor": "ZALETAS RIVERA CESAR",
+      "salon": "CAAE",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0632_1662",
+      "clv_materia": "0632",
+      "grupo": "1662",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMETRIA II.",
+      "profesor": "AYALA DOMINGUEZ BENJAMIN",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0633_1661",
+      "clv_materia": "0633",
+      "grupo": "1661",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA MEXICANA CONTEMPORANEA II.",
+      "profesor": "CAMPUZANO LEON HUGO",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0635_1612",
+      "clv_materia": "0635",
+      "grupo": "1612",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "SISTEMA FINANCIERO MEXICANO.",
+      "profesor": "GONZALEZ GUTIERREZ JORGE",
+      "salon": "A1013",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0701_1711",
+      "clv_materia": "0701",
+      "grupo": "1711",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEORIA DEL DESARROLLO ECONOMICO.",
+      "profesor": "BELTRAN FLORES BRANDON SAID",
+      "salon": "A1013",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0701_1712",
+      "clv_materia": "0701",
+      "grupo": "1712",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEORIA DEL DESARROLLO ECONOMICO.",
+      "profesor": "DELGADO BRAVO TERESITA DE JESUS",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0701_1713",
+      "clv_materia": "0701",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEORIA DEL DESARROLLO ECONOMICO.",
+      "profesor": "PEREZ RODRIGUEZ EDUARDO JOSUE",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:30-15:00",
+          "inicio_min": 810,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:30-15:00",
+          "inicio_min": 810,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_8_0701_1714",
+      "clv_materia": "0701",
+      "grupo": "1714",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEORIA DEL DESARROLLO ECONOMICO.",
+      "profesor": "ALCALA SANDOVAL LEINAD JOHAN",
+      "salon": "A1016",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0701_1761",
+      "clv_materia": "0701",
+      "grupo": "1761",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEORIA DEL DESARROLLO ECONOMICO.",
+      "profesor": "GUTIERREZ GONZALEZ OSCAR",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0701_1762",
+      "clv_materia": "0701",
+      "grupo": "1762",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "TEORIA DEL DESARROLLO ECONOMICO.",
+      "profesor": "CAZARES CASTILLO MANUEL",
+      "salon": "A1013",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0703_1711",
+      "clv_materia": "0703",
+      "grupo": "1711",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS FINANCIERAS.",
+      "profesor": "ALBERTO DELGADO RAUL",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0703_1712",
+      "clv_materia": "0703",
+      "grupo": "1712",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS FINANCIERAS.",
+      "profesor": "MORALES ISLAS AARON ENRIQUE",
+      "salon": "A1004",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0703_1713",
+      "clv_materia": "0703",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS FINANCIERAS.",
+      "profesor": "RODRIGUEZ PEREZ YADIRA",
+      "salon": "A1021",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:30-12:00",
+          "inicio_min": 630,
+          "fin_min": 720
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:30-12:00",
+          "inicio_min": 630,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_8_0703_1714",
+      "clv_materia": "0703",
+      "grupo": "1714",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS FINANCIERAS.",
+      "profesor": "VILLEGAS HERRERA CRISTHIAN",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0703_1761",
+      "clv_materia": "0703",
+      "grupo": "1761",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS FINANCIERAS.",
+      "profesor": "CABALLERO GONZALEZ JOSE JAVIER",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0703_1762",
+      "clv_materia": "0703",
+      "grupo": "1762",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS FINANCIERAS.",
+      "profesor": "CABALLERO GONZALEZ JOSE JAVIER",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0703_1763",
+      "clv_materia": "0703",
+      "grupo": "1763",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "MATEMATICAS FINANCIERAS.",
+      "profesor": "AZAMAR ROMERO ALEJANDRO",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-21:30",
+          "inicio_min": 1200,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_8_0704_1711",
+      "clv_materia": "0704",
+      "grupo": "1711",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FORMULAC Y EVALUAC DE PROYECTOS I.",
+      "profesor": "CRUZ SANTOS DIANA ELIZABETH",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0704_1712",
+      "clv_materia": "0704",
+      "grupo": "1712",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FORMULAC Y EVALUAC DE PROYECTOS I.",
+      "profesor": "CRUZ SANTOS DIANA ELIZABETH",
+      "salon": "A1013",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0704_1713",
+      "clv_materia": "0704",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FORMULAC Y EVALUAC DE PROYECTOS I.",
+      "profesor": "LLANOS ROSAS CARLOS ALONSO",
+      "salon": "A1012",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-11:30",
+          "inicio_min": 510,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0704_1714",
+      "clv_materia": "0704",
+      "grupo": "1714",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FORMULAC Y EVALUAC DE PROYECTOS I.",
+      "profesor": "SANCHEZ PEREZ ILDEFONSO",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0704_1715",
+      "clv_materia": "0704",
+      "grupo": "1715",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FORMULAC Y EVALUAC DE PROYECTOS I.",
+      "profesor": "OLIVARES GOMEZ JULIA",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0704_1761",
+      "clv_materia": "0704",
+      "grupo": "1761",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FORMULAC Y EVALUAC DE PROYECTOS I.",
+      "profesor": "BELTRAN FLORES BRANDON SAID",
+      "salon": "A1021",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0704_1762",
+      "clv_materia": "0704",
+      "grupo": "1762",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FORMULAC Y EVALUAC DE PROYECTOS I.",
+      "profesor": "CRUZ SANTOS DIANA ELIZABETH",
+      "salon": "A1014",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0704_1763",
+      "clv_materia": "0704",
+      "grupo": "1763",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FORMULAC Y EVALUAC DE PROYECTOS I.",
+      "profesor": "MORENO SOTO ROMAN",
+      "salon": "A1002",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_8_0704_1764",
+      "clv_materia": "0704",
+      "grupo": "1764",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "FORMULAC Y EVALUAC DE PROYECTOS I.",
+      "profesor": "GARCIA HERNANDEZ JUAN CARLOS",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-20:00",
+          "inicio_min": 1020,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0706_1711",
+      "clv_materia": "0706",
+      "grupo": "1711",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA VII.",
+      "profesor": "AYALA CALVILLO RODRIGO",
+      "salon": "CCSAL7",
+      "cupo": 37,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0706_1712",
+      "clv_materia": "0706",
+      "grupo": "1712",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA VII.",
+      "profesor": "GARCIA PEREZ EUNICE ANGELICA",
+      "salon": "CCSAL4",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0706_1713",
+      "clv_materia": "0706",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA VII.",
+      "profesor": "GARCIA PEREZ EUNICE ANGELICA",
+      "salon": "CCSAL3",
+      "cupo": 35,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-14:30",
+          "inicio_min": 690,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0706_1714",
+      "clv_materia": "0706",
+      "grupo": "1714",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA VII.",
+      "profesor": "PIZARRO MORALES ARMANDO",
+      "salon": "LABCOM02",
+      "cupo": 18,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_8_0706_1715",
+      "clv_materia": "0706",
+      "grupo": "1715",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA VII.",
+      "profesor": "GARCIA PEREZ EUNICE ANGELICA",
+      "salon": "CCSAL3",
+      "cupo": 35,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "14:30-16:00",
+          "inicio_min": 870,
+          "fin_min": 960
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "14:30-16:00",
+          "inicio_min": 870,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_8_0706_1761",
+      "clv_materia": "0706",
+      "grupo": "1761",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA VII.",
+      "profesor": "HERNANDEZ HERNANDEZ ROBERTO",
+      "salon": "CCSAL4",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_8_0706_1762",
+      "clv_materia": "0706",
+      "grupo": "1762",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA VII.",
+      "profesor": "PEREZ CALDERON JESUS",
+      "salon": "CCSAL3",
+      "cupo": 35,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_8_0707_1711",
+      "clv_materia": "0707",
+      "grupo": "1711",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "POLITICA Y PLANEACION ECONOMICA I.",
+      "profesor": "NAVARRETE CORTES  MERCEDES IRAIS",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_8_0707_1712",
+      "clv_materia": "0707",
+      "grupo": "1712",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "POLITICA Y PLANEACION ECONOMICA I.",
+      "profesor": "HERNANDEZ MEDINA MARIA ELENA",
+      "salon": "A1016",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0707_1713",
+      "clv_materia": "0707",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "POLITICA Y PLANEACION ECONOMICA I.",
+      "profesor": "RODRIGUEZ LUEVANO DANIEL",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0707_1714",
+      "clv_materia": "0707",
+      "grupo": "1714",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "POLITICA Y PLANEACION ECONOMICA I.",
+      "profesor": "GONZALEZ GUTIERREZ JORGE",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0707_1715",
+      "clv_materia": "0707",
+      "grupo": "1715",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "POLITICA Y PLANEACION ECONOMICA I.",
+      "profesor": "NAVARRETE CORTES  MERCEDES IRAIS",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_8_0707_1761",
+      "clv_materia": "0707",
+      "grupo": "1761",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "POLITICA Y PLANEACION ECONOMICA I.",
+      "profesor": "GUERRA MORENO JOSE MARTIN",
+      "salon": "A1001",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0707_1762",
+      "clv_materia": "0707",
+      "grupo": "1762",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "POLITICA Y PLANEACION ECONOMICA I.",
+      "profesor": "GUERRA MORENO JOSE MARTIN",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0808_1861",
+      "clv_materia": "0808",
+      "grupo": "1861",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA FINANCIERA I.",
+      "profesor": "PEÑA JIMENEZ JORGE",
+      "salon": "A1011",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:30-18:30",
+          "inicio_min": 990,
+          "fin_min": 1110
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:30-18:30",
+          "inicio_min": 990,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0904_1912",
+      "clv_materia": "0904",
+      "grupo": "1912",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "SEMINARIO DE TESIS.",
+      "profesor": "MORALES CHAVEZ RAUL IGNACIO",
+      "salon": "A1021",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-10:30",
+          "inicio_min": 540,
+          "fin_min": 630
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-10:30",
+          "inicio_min": 540,
+          "fin_min": 630
+        }
+      ]
+    },
+    {
+      "id": "35_8_0904_1914",
+      "clv_materia": "0904",
+      "grupo": "1914",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "SEMINARIO DE TESIS.",
+      "profesor": "ULLOA RAMIREZ JESSICA",
+      "salon": "A1022",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0905_1911",
+      "clv_materia": "0905",
+      "grupo": "1911",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA IX.",
+      "profesor": "RODRIGUEZ PEREZ YADIRA",
+      "salon": "CCSAL7",
+      "cupo": 37,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_8_0905_1912",
+      "clv_materia": "0905",
+      "grupo": "1912",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA IX.",
+      "profesor": "GASTALDI ARTEAGA JUAN IGNACIO",
+      "salon": "LABCOM05",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0905_1913",
+      "clv_materia": "0905",
+      "grupo": "1913",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA IX.",
+      "profesor": "CASTAÑEDA VILLEGAS HELLEN GEORGINA",
+      "salon": "CCSAL1",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:30-15:00",
+          "inicio_min": 810,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:30-15:00",
+          "inicio_min": 810,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_8_0905_1914",
+      "clv_materia": "0905",
+      "grupo": "1914",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA IX.",
+      "profesor": "MENDOZA RAMIREZ LUISA QUIAHUITL XOCHITL",
+      "salon": "CCSAL5",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-14:30",
+          "inicio_min": 690,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_8_0905_1915",
+      "clv_materia": "0905",
+      "grupo": "1915",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA IX.",
+      "profesor": "RODRIGUEZ PEREZ YADIRA",
+      "salon": "CCSAL1",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_8_0905_1961",
+      "clv_materia": "0905",
+      "grupo": "1961",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA IX.",
+      "profesor": "AZAMAR ROMERO ALEJANDRO",
+      "salon": "CCSAL3",
+      "cupo": 35,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0905_1962",
+      "clv_materia": "0905",
+      "grupo": "1962",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA IX.",
+      "profesor": "GASTALDI ARTEAGA JUAN IGNACIO",
+      "salon": "CCSAL1",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0905_1963",
+      "clv_materia": "0905",
+      "grupo": "1963",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA IX.",
+      "profesor": "CASTAÑEDA VILLEGAS HELLEN GEORGINA",
+      "salon": "CCSAL5",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0905_1964",
+      "clv_materia": "0905",
+      "grupo": "1964",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA IX.",
+      "profesor": "BELTRAN FLORES BRANDON SAID",
+      "salon": "CCSAL3",
+      "cupo": 35,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_8_0905_1965",
+      "clv_materia": "0905",
+      "grupo": "1965",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "LAB. DE ECONOMIA APLICADA IX.",
+      "profesor": "AZAMAR ROMERO ALEJANDRO",
+      "salon": "CCSAL3",
+      "cupo": 35,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_8_0906_1914",
+      "clv_materia": "0906",
+      "grupo": "1914",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POBREZA Y DESARROLLO II",
+      "profesor": "ULLOA RAMIREZ JESSICA",
+      "salon": "A1005",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-12:00",
+          "inicio_min": 600,
+          "fin_min": 720
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-12:00",
+          "inicio_min": 600,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_8_0906_1964",
+      "clv_materia": "0906",
+      "grupo": "1964",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA POBREZA Y DESARROLLO II",
+      "profesor": "PEREZ RODRIGUEZ EDUARDO JOSUE",
+      "salon": "A1022",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_8_0907_1911",
+      "clv_materia": "0907",
+      "grupo": "1911",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA FINANCIERA II.",
+      "profesor": "RODRIGUEZ PEREZ YADIRA",
+      "salon": "A1021",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:30",
+          "inicio_min": 510,
+          "fin_min": 630
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:30",
+          "inicio_min": 510,
+          "fin_min": 630
+        }
+      ]
+    },
+    {
+      "id": "35_8_0907_1915",
+      "clv_materia": "0907",
+      "grupo": "1915",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA FINANCIERA II.",
+      "profesor": "PEÑA JIMENEZ JORGE",
+      "salon": "LABCOM03",
+      "cupo": 35,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_8_0907_1961",
+      "clv_materia": "0907",
+      "grupo": "1961",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA FINANCIERA II.",
+      "profesor": "PEÑA JIMENEZ JORGE",
+      "salon": "A1015",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:30",
+          "inicio_min": 1110,
+          "fin_min": 1230
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:30",
+          "inicio_min": 1110,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_8_0908_1912",
+      "clv_materia": "0908",
+      "grupo": "1912",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA INTERNACIONAL II.",
+      "profesor": "MORALES CHAVEZ RAUL IGNACIO",
+      "salon": "A1021",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_8_0908_1916",
+      "clv_materia": "0908",
+      "grupo": "1916",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA INTERNACIONAL II.",
+      "profesor": "REYES OCADIZ LINA",
+      "salon": "A1014",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_8_0908_1917",
+      "clv_materia": "0908",
+      "grupo": "1917",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA INTERNACIONAL II.",
+      "profesor": "GUTIERREZ GONZALEZ OSCAR",
+      "salon": "A1013",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_8_0908_1962",
+      "clv_materia": "0908",
+      "grupo": "1962",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "ECONOMIA INTERNACIONAL II.",
+      "profesor": "MORALES CHAVEZ RAUL IGNACIO",
+      "salon": "A1016",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_8_0909_1913",
+      "clv_materia": "0909",
+      "grupo": "1913",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "PLANEACION DEL DES. URBANO REGIONAL II.",
+      "profesor": "MORENO PEREZ ORLANDO ELEAZAR",
+      "salon": "A1003",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:30",
+          "inicio_min": 690,
+          "fin_min": 810
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:30",
+          "inicio_min": 690,
+          "fin_min": 810
+        }
+      ]
+    },
+    {
+      "id": "35_8_0909_1963",
+      "clv_materia": "0909",
+      "grupo": "1963",
+      "semestre": "35",
+      "carrera": "8",
+      "materia": "PLANEACION DEL DES. URBANO REGIONAL II.",
+      "profesor": "RODRIGUEZ LUEVANO DANIEL",
+      "salon": "A1021",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    }
+  ]
+}

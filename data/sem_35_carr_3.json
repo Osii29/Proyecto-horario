@@ -1,0 +1,3165 @@
+{
+  "metadata": {
+    "semestre": "35",
+    "etiqueta_semestre": "2027-1",
+    "carrera": "3",
+    "nombre_carrera": "DISEÑO INDUSTRIAL",
+    "generado_en": "2026-11-24T03:28:59.234072+00:00",
+    "total_grupos_consultados": 27,
+    "total_grupos_con_datos": 27,
+    "total_grupos_vacios": 0,
+    "total_grupos_con_error": 0,
+    "grupos_fallidos": [],
+    "total_registros": 141,
+    "total_materias_unicas": 46,
+    "duplicados_omitidos": 0,
+    "total_incidencias": 37
+  },
+  "resumen_incidencias": {
+    "total": 37,
+    "por_tipo": {
+      "registro_duplicado_distinto": 37
+    },
+    "muestra": [
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=0901 grupo=1001",
+        "detalle": "Múltiples registros distintos para 35_3_0901_1001; conservado como 35_3_0901_1001_2 (TALLER DE SEMINARIO DE TITULACION II)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=0901 grupo=1051",
+        "detalle": "Múltiples registros distintos para 35_3_0901_1051; conservado como 35_3_0901_1051_2 (TALLER DE SEMINARIO DE TITULACION II)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=0901 grupo=1052",
+        "detalle": "Múltiples registros distintos para 35_3_0901_1052; conservado como 35_3_0901_1052_2 (TALLER DE SEMINARIO DE TITULACION II)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1130 grupo=1101",
+        "detalle": "Múltiples registros distintos para 35_3_1130_1101; conservado como 35_3_1130_1101_2 (TALLER DE DISEÑO I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1131 grupo=1101",
+        "detalle": "Múltiples registros distintos para 35_3_1131_1101; conservado como 35_3_1131_1101_2 (TALLER DE TRANSFORM.MATERIALES I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1131 grupo=1101",
+        "detalle": "Múltiples registros distintos para 35_3_1131_1101; conservado como 35_3_1131_1101_3 (TALLER DE TRANSFORM.MATERIALES I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1131 grupo=1101",
+        "detalle": "Múltiples registros distintos para 35_3_1131_1101; conservado como 35_3_1131_1101_4 (TALLER DE TRANSFORM.MATERIALES I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1130 grupo=1102",
+        "detalle": "Múltiples registros distintos para 35_3_1130_1102; conservado como 35_3_1130_1102_2 (TALLER DE DISEÑO I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1131 grupo=1102",
+        "detalle": "Múltiples registros distintos para 35_3_1131_1102; conservado como 35_3_1131_1102_2 (TALLER DE TRANSFORM.MATERIALES I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1130 grupo=1151",
+        "detalle": "Múltiples registros distintos para 35_3_1130_1151; conservado como 35_3_1130_1151_2 (TALLER DE DISEÑO I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1131 grupo=1151",
+        "detalle": "Múltiples registros distintos para 35_3_1131_1151; conservado como 35_3_1131_1151_2 (TALLER DE TRANSFORM.MATERIALES I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1130 grupo=1152",
+        "detalle": "Múltiples registros distintos para 35_3_1130_1152; conservado como 35_3_1130_1152_2 (TALLER DE DISEÑO I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1131 grupo=1152",
+        "detalle": "Múltiples registros distintos para 35_3_1131_1152; conservado como 35_3_1131_1152_2 (TALLER DE TRANSFORM.MATERIALES I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1333 grupo=1301",
+        "detalle": "Múltiples registros distintos para 35_3_1333_1301; conservado como 35_3_1333_1301_2 (PARADIGMAS DEL DISEÑO)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1334 grupo=1301",
+        "detalle": "Múltiples registros distintos para 35_3_1334_1301; conservado como 35_3_1334_1301_2 (TALLER DE DISEÑO INDUSTRIAL I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1334 grupo=1302",
+        "detalle": "Múltiples registros distintos para 35_3_1334_1302; conservado como 35_3_1334_1302_2 (TALLER DE DISEÑO INDUSTRIAL I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=0306 grupo=1303",
+        "detalle": "Múltiples registros distintos para 35_3_0306_1303; conservado como 35_3_0306_1303_2 (TALLER DE DISEÑO INDUSTRIAL I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=0306 grupo=1304",
+        "detalle": "Múltiples registros distintos para 35_3_0306_1304; conservado como 35_3_0306_1304_2 (TALLER DE DISEÑO INDUSTRIAL I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1325 grupo=1351",
+        "detalle": "Múltiples registros distintos para 35_3_1325_1351; conservado como 35_3_1325_1351_2 (DIBUJO PARA EL DISEÑO INDUSTRIAL III)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1334 grupo=1351",
+        "detalle": "Múltiples registros distintos para 35_3_1334_1351; conservado como 35_3_1334_1351_2 (TALLER DE DISEÑO INDUSTRIAL I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1334 grupo=1351",
+        "detalle": "Múltiples registros distintos para 35_3_1334_1351; conservado como 35_3_1334_1351_3 (TALLER DE DISEÑO INDUSTRIAL I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=1334 grupo=1351",
+        "detalle": "Múltiples registros distintos para 35_3_1334_1351; conservado como 35_3_1334_1351_4 (TALLER DE DISEÑO INDUSTRIAL I)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=0503 grupo=1501",
+        "detalle": "Múltiples registros distintos para 35_3_0503_1501; conservado como 35_3_0503_1501_2 (MATERIALES Y PROCESOS INDUSTRIALES III)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=0506 grupo=1501",
+        "detalle": "Múltiples registros distintos para 35_3_0506_1501; conservado como 35_3_0506_1501_2 (TALLER DE DISEÑO INDUSTRIAL III)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=3 materia=0503 grupo=1551",
+        "detalle": "Múltiples registros distintos para 35_3_0503_1551; conservado como 35_3_0503_1551_2 (MATERIALES Y PROCESOS INDUSTRIALES III)."
+      }
+    ]
+  },
+  "horarios": [
+    {
+      "id": "35_3_0010_1350",
+      "clv_materia": "0010",
+      "grupo": "1350",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "COMUNICACION GRAFICA DEL PROYECTO",
+      "profesor": "CORONA LOPEZ ILIANA",
+      "salon": "A517",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_3_0011_1350",
+      "clv_materia": "0011",
+      "grupo": "1350",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "FOTOGRAFIA BASICA",
+      "profesor": "MONTES MEDINA ROMAN DE JESUS",
+      "salon": "A518",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_3_0014_1350",
+      "clv_materia": "0014",
+      "grupo": "1350",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "SISTEMAS DE IMPRESION",
+      "profesor": "CORONA LOPEZ ILIANA",
+      "salon": "A511",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_3_0038_1300",
+      "clv_materia": "0038",
+      "grupo": "1300",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "CREATIVIDAD Y EDUCACION",
+      "profesor": "TORRES MENDEZ LORENA ELIZABETH",
+      "salon": "A517",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_3_0039_1300",
+      "clv_materia": "0039",
+      "grupo": "1300",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "EL EJERCICIO DOCENTE Y EL DISEÑO IND",
+      "profesor": "CASTREJON GALICIA RUBEN",
+      "salon": "VIRTUAL",
+      "cupo": 40,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_3_0040_1300",
+      "clv_materia": "0040",
+      "grupo": "1300",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "INVESTIGACION PARA EL DISEÑO",
+      "profesor": "MONTES MEDINA ROMAN DE JESUS",
+      "salon": "VIRTUAL",
+      "cupo": 40,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_3_0301_1303",
+      "clv_materia": "0301",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "ADMINISTRACION Y CONTABILIDAD",
+      "profesor": "HERNANDEZ IBARRA MIREYA",
+      "salon": "A514",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_3_0302_1303",
+      "clv_materia": "0302",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "ELEMENTOS DE MAQUINAS",
+      "profesor": "JUAREZ MERCADO LLOSERLINDA YAQUELIN",
+      "salon": "L31021",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_3_0303_1303",
+      "clv_materia": "0303",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "EL ARTE LA TECNOLOGIA EN EL TIEMPO 1",
+      "profesor": "IBARRA SANDOVAL KAREN",
+      "salon": "A514",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_3_0304_1303",
+      "clv_materia": "0304",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "INTRODUCCION A LA ERGONOMIA",
+      "profesor": "VILLA OMAÑA MARTIN",
+      "salon": "SINDEF",
+      "cupo": 5,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_3_0305_1303",
+      "clv_materia": "0305",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES Y PROCESOS INDUSTRIALES I",
+      "profesor": "RODRIGUEZ ARROYO MIGUEL ANGEL",
+      "salon": "SINDEF",
+      "cupo": 5,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "08:00-12:00",
+          "inicio_min": 480,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_3_0306_1303",
+      "clv_materia": "0306",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL I",
+      "profesor": "MAYA CHAVEZ CARLOS",
+      "salon": "SINDEF",
+      "cupo": 3,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_0306_1303_2",
+      "clv_materia": "0306",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL I",
+      "profesor": "RODRIGUEZ ARROYO MIGUEL ANGEL",
+      "salon": "SINDEF",
+      "cupo": 3,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_0306_1304",
+      "clv_materia": "0306",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL I",
+      "profesor": "COVARRUBIAS CERON JUAN ANTONIO",
+      "salon": "SINDEF",
+      "cupo": 3,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_0306_1304_2",
+      "clv_materia": "0306",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL I",
+      "profesor": "CRUZ DIAZ SAUL URIEL",
+      "salon": "SINDEF",
+      "cupo": 3,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_0501_1501",
+      "clv_materia": "0501",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "ERGONOMIA",
+      "profesor": "VILLA OMAÑA MARTIN",
+      "salon": "A512",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_3_0501_1551",
+      "clv_materia": "0501",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "ERGONOMIA",
+      "profesor": "CHACON RAMOS FELIPE DE JESUS",
+      "salon": "VIRTUAL",
+      "cupo": 40,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_0502_1501",
+      "clv_materia": "0502",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "FUNDAMENTOS DE CAD",
+      "profesor": "ZAMORA FLORES LUIS DANIEL",
+      "salon": "VIRTUAL",
+      "cupo": 40,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "12:00-16:00",
+          "inicio_min": 720,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_3_0502_1502",
+      "clv_materia": "0502",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "FUNDAMENTOS DE CAD",
+      "profesor": "CARRILLO PEREZ MIGUEL ALEJANDRO",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_3_0502_1551",
+      "clv_materia": "0502",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "FUNDAMENTOS DE CAD",
+      "profesor": "SANCHEZ GONZALEZ JESUS ALEJANDRO",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_3_0503_1501",
+      "clv_materia": "0503",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES Y PROCESOS INDUSTRIALES III",
+      "profesor": "DIAZ HERNANDEZ ARTURO",
+      "salon": "A512",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_3_0503_1501_2",
+      "clv_materia": "0503",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES Y PROCESOS INDUSTRIALES III",
+      "profesor": "RODRIGUEZ ARROYO MIGUEL ANGEL",
+      "salon": "A512",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_3_0503_1551",
+      "clv_materia": "0503",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES Y PROCESOS INDUSTRIALES III",
+      "profesor": "CORNEJO CARDENAS FELIPE",
+      "salon": "A512",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_3_0503_1551_2",
+      "clv_materia": "0503",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES Y PROCESOS INDUSTRIALES III",
+      "profesor": "SANCHEZ GONZALEZ JESUS ALEJANDRO",
+      "salon": "A512",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_3_0503_1552",
+      "clv_materia": "0503",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES Y PROCESOS INDUSTRIALES III",
+      "profesor": "CHAVEZ BORJA JESUS IVAN",
+      "salon": "A516",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_3_0503_1552_2",
+      "clv_materia": "0503",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES Y PROCESOS INDUSTRIALES III",
+      "profesor": "SANCHEZ GONZALEZ JESUS ALEJANDRO",
+      "salon": "A516",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_3_0504_1501",
+      "clv_materia": "0504",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MERCADOTECNIA.",
+      "profesor": "MONTES MEDINA ROMAN DE JESUS",
+      "salon": "VIRTUAL",
+      "cupo": 40,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_3_0504_1551",
+      "clv_materia": "0504",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MERCADOTECNIA.",
+      "profesor": "MONTES MEDINA ROMAN DE JESUS",
+      "salon": "VIRTUAL",
+      "cupo": 40,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "14:00-17:00",
+          "inicio_min": 840,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_3_0505_1501",
+      "clv_materia": "0505",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "RESISTENCIA DE MATERIALES II",
+      "profesor": "GARDUÑO BONILLA ISRAEL",
+      "salon": "A512",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_3_0505_1551",
+      "clv_materia": "0505",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "RESISTENCIA DE MATERIALES II",
+      "profesor": "RAMIREZ RAMIREZ SERGIO",
+      "salon": "A1022",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_3_0506_1501",
+      "clv_materia": "0506",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL III",
+      "profesor": "CARRILLO PEREZ MIGUEL ALEJANDRO",
+      "salon": "A512",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:00-14:00",
+          "inicio_min": 480,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_0506_1501_2",
+      "clv_materia": "0506",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL III",
+      "profesor": "OSORNO MARCIAL OMAR ALFREDO",
+      "salon": "A512",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:00-14:00",
+          "inicio_min": 480,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_0506_1502",
+      "clv_materia": "0506",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL III",
+      "profesor": "GUZMAN PANIAGUA LETICIA",
+      "salon": "A514",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:00-14:00",
+          "inicio_min": 480,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_0506_1551",
+      "clv_materia": "0506",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL III",
+      "profesor": "OSORNO MARCIAL OMAR ALFREDO",
+      "salon": "A511",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-21:00",
+          "inicio_min": 960,
+          "fin_min": 1260
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:30-21:30",
+          "inicio_min": 930,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_3_0506_1551_2",
+      "clv_materia": "0506",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL III",
+      "profesor": "VARELA BONILLA MIGUEL ANGEL",
+      "salon": "A511",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-21:00",
+          "inicio_min": 960,
+          "fin_min": 1260
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:30-21:30",
+          "inicio_min": 930,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_3_0506_1552",
+      "clv_materia": "0506",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL III",
+      "profesor": "LINARES CORREA GERARDO ROBERTO",
+      "salon": "L40070",
+      "cupo": 8,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-22:00",
+          "inicio_min": 1020,
+          "fin_min": 1320
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-22:00",
+          "inicio_min": 960,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_3_0507_1501",
+      "clv_materia": "0507",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TEORIA DEL DISEÑO I",
+      "profesor": "BENITEZ LUNA ROSA MARIA",
+      "salon": "A511",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_3_0507_1551",
+      "clv_materia": "0507",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TEORIA DEL DISEÑO I",
+      "profesor": "ROQUE MORENO DANIEL",
+      "salon": "A511",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-20:00",
+          "inicio_min": 1020,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_3_0701_1701",
+      "clv_materia": "0701",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DISEÑO ASISTIDO POR COMPUTADORA 1",
+      "profesor": "QUIROZ GARCIA OCTAVIO AUGUSTO",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_3_0701_1702",
+      "clv_materia": "0701",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DISEÑO ASISTIDO POR COMPUTADORA 1",
+      "profesor": "CERA RAMOS JOSE ANTONIO",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_3_0701_1751",
+      "clv_materia": "0701",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DISEÑO ASISTIDO POR COMPUTADORA 1",
+      "profesor": "ZAMORA FLORES LUIS DANIEL",
+      "salon": "VIRTUAL",
+      "cupo": 40,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_3_0702_1701",
+      "clv_materia": "0702",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES Y PROCESOS INDUSTRIALES V",
+      "profesor": "HERRERA MACIAS PATRICIA",
+      "salon": "A511",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_3_0702_1701_2",
+      "clv_materia": "0702",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES Y PROCESOS INDUSTRIALES V",
+      "profesor": "VILLA OMAÑA MARTIN",
+      "salon": "A511",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_3_0702_1751",
+      "clv_materia": "0702",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES Y PROCESOS INDUSTRIALES V",
+      "profesor": "RIVADENEYRA FIGUEROA NATHALY",
+      "salon": "A511",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_3_0702_1751_2",
+      "clv_materia": "0702",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES Y PROCESOS INDUSTRIALES V",
+      "profesor": "ROQUE MORENO DANIEL",
+      "salon": "A511",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_3_0703_1701",
+      "clv_materia": "0703",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "PLANEACION ESTRATEGICA DEL DISEÑO",
+      "profesor": "VARELA BONILLA MIGUEL ANGEL",
+      "salon": "A518",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:30-09:00",
+          "inicio_min": 450,
+          "fin_min": 540
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:30-09:00",
+          "inicio_min": 450,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_3_0703_1702",
+      "clv_materia": "0703",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "PLANEACION ESTRATEGICA DEL DISEÑO",
+      "profesor": "MAYA CHAVEZ CARLOS",
+      "salon": "A511",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:30-09:00",
+          "inicio_min": 450,
+          "fin_min": 540
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:30-09:00",
+          "inicio_min": 450,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_3_0703_1751",
+      "clv_materia": "0703",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "PLANEACION ESTRATEGICA DEL DISEÑO",
+      "profesor": "VARELA BONILLA MIGUEL ANGEL",
+      "salon": "A518",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_3_0704_1701",
+      "clv_materia": "0704",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL V",
+      "profesor": "GARCIA FIGUEROA JAVIER",
+      "salon": "A511",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-14:30",
+          "inicio_min": 540,
+          "fin_min": 870
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-14:30",
+          "inicio_min": 540,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_3_0704_1701_2",
+      "clv_materia": "0704",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL V",
+      "profesor": "VILLA OMAÑA MARTIN",
+      "salon": "A511",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-14:30",
+          "inicio_min": 540,
+          "fin_min": 870
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-14:30",
+          "inicio_min": 540,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_3_0704_1751",
+      "clv_materia": "0704",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL V",
+      "profesor": "CHAVEZ BORJA JESUS IVAN",
+      "salon": "A512",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-21:30",
+          "inicio_min": 1020,
+          "fin_min": 1290
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:30-22:00",
+          "inicio_min": 930,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_3_0704_1751_2",
+      "clv_materia": "0704",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL V",
+      "profesor": "ZAMORA FLORES LUIS DANIEL",
+      "salon": "A512",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-21:30",
+          "inicio_min": 1020,
+          "fin_min": 1290
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:30-22:00",
+          "inicio_min": 930,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_3_0900_1901",
+      "clv_materia": "0900",
+      "grupo": "1901",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION I",
+      "profesor": "HERRERA MACIAS PATRICIA",
+      "salon": "A514",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_3_0900_1901_2",
+      "clv_materia": "0900",
+      "grupo": "1901",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION I",
+      "profesor": "VILLA OMAÑA MARTIN",
+      "salon": "A514",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_3_0900_1902",
+      "clv_materia": "0900",
+      "grupo": "1902",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION I",
+      "profesor": "LEON BARRERA MA GUADALUPE",
+      "salon": "A518",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:30-12:30",
+          "inicio_min": 570,
+          "fin_min": 750
+        }
+      ]
+    },
+    {
+      "id": "35_3_0900_1902_2",
+      "clv_materia": "0900",
+      "grupo": "1902",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION I",
+      "profesor": "VARELA BONILLA MIGUEL ANGEL",
+      "salon": "A518",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:30-12:30",
+          "inicio_min": 570,
+          "fin_min": 750
+        }
+      ]
+    },
+    {
+      "id": "35_3_0900_1903",
+      "clv_materia": "0900",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION I",
+      "profesor": "ALONSO HERNANDEZ NORMA EDITH",
+      "salon": "A518",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_3_0900_1903_2",
+      "clv_materia": "0900",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION I",
+      "profesor": "OBREGON SANCHEZ RICARDO ALBERTO",
+      "salon": "A518",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_3_0900_1951",
+      "clv_materia": "0900",
+      "grupo": "1951",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION I",
+      "profesor": "CERA RAMOS JOSE ANTONIO",
+      "salon": "A516",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:00-17:00",
+          "inicio_min": 840,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_3_0900_1951_2",
+      "clv_materia": "0900",
+      "grupo": "1951",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION I",
+      "profesor": "DIAZ PEREZ PATRICIA",
+      "salon": "A516",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:00-17:00",
+          "inicio_min": 840,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_3_0900_1952",
+      "clv_materia": "0900",
+      "grupo": "1952",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION I",
+      "profesor": "GARCIA FIGUEROA JAVIER",
+      "salon": "A518",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-20:00",
+          "inicio_min": 1020,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_3_0900_1952_2",
+      "clv_materia": "0900",
+      "grupo": "1952",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION I",
+      "profesor": "ROQUE MORENO DANIEL",
+      "salon": "A518",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-20:00",
+          "inicio_min": 1020,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_3_0901_1001",
+      "clv_materia": "0901",
+      "grupo": "1001",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION II",
+      "profesor": "HERRERA MACIAS PATRICIA",
+      "salon": "A514",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_3_0901_1001_2",
+      "clv_materia": "0901",
+      "grupo": "1001",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION II",
+      "profesor": "VILLA OMAÑA MARTIN",
+      "salon": "A514",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_3_0901_1051",
+      "clv_materia": "0901",
+      "grupo": "1051",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION II",
+      "profesor": "CERA RAMOS JOSE ANTONIO",
+      "salon": "A518",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_3_0901_1051_2",
+      "clv_materia": "0901",
+      "grupo": "1051",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION II",
+      "profesor": "DIAZ PEREZ PATRICIA",
+      "salon": "A518",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_3_0901_1052",
+      "clv_materia": "0901",
+      "grupo": "1052",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION II",
+      "profesor": "GARCIA FIGUEROA JAVIER",
+      "salon": "A514",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_3_0901_1052_2",
+      "clv_materia": "0901",
+      "grupo": "1052",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE SEMINARIO DE TITULACION II",
+      "profesor": "ROQUE MORENO DANIEL",
+      "salon": "A514",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_3_1061_1701",
+      "clv_materia": "1061",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DISEÑO DE MUEBLES",
+      "profesor": "DIAZ HERNANDEZ ARTURO",
+      "salon": "A517",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-14:00",
+          "inicio_min": 600,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_1061_1701_2",
+      "clv_materia": "1061",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DISEÑO DE MUEBLES",
+      "profesor": "OBREGON SANCHEZ RICARDO ALBERTO",
+      "salon": "A517",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-14:00",
+          "inicio_min": 600,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_1061_1751",
+      "clv_materia": "1061",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DISEÑO DE MUEBLES",
+      "profesor": "CORTES PEÑA ERICKA",
+      "salon": "A518",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_3_1064_1951",
+      "clv_materia": "1064",
+      "grupo": "1951",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DISEÑO DE EXHIBICIONES COMERCIALES",
+      "profesor": "COVARRUBIAS CERON JUAN ANTONIO",
+      "salon": "A517",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_3_1065_1901",
+      "clv_materia": "1065",
+      "grupo": "1901",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MUSEOGRAFIA",
+      "profesor": "NAVARRETE AVILA HUGO ALONSO",
+      "salon": "A1016",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_3_1066_1701",
+      "clv_materia": "1066",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "SEMIOTICA",
+      "profesor": "GARCIA MONTESINOS LILIANA",
+      "salon": "A518",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_3_1066_1751",
+      "clv_materia": "1066",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "SEMIOTICA",
+      "profesor": "ESCUTIA SANCHEZ JORGE ALBERTO",
+      "salon": "A518",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_3_1125_1101",
+      "clv_materia": "1125",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "CIENCIAS DE LA VIDA PARA EL DISEÑO",
+      "profesor": "NAVARRETE AVILA HUGO ALONSO",
+      "salon": "A515",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_3_1125_1102",
+      "clv_materia": "1125",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "CIENCIAS DE LA VIDA PARA EL DISEÑO",
+      "profesor": "NAVARRETE AVILA HUGO ALONSO",
+      "salon": "A516",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_3_1125_1151",
+      "clv_materia": "1125",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "CIENCIAS DE LA VIDA PARA EL DISEÑO",
+      "profesor": "GARCIA CARBALLO BEATRIZ PATRICIA",
+      "salon": "A515",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-20:00",
+          "inicio_min": 1020,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_3_1125_1152",
+      "clv_materia": "1125",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "CIENCIAS DE LA VIDA PARA EL DISEÑO",
+      "profesor": "ESCUTIA SANCHEZ JORGE ALBERTO",
+      "salon": "A516",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_3_1126_1101",
+      "clv_materia": "1126",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "COMPUTACION PARA DISEÑO INDUSTRIAL",
+      "profesor": "CARRILLO PEREZ MIGUEL ALEJANDRO",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_3_1126_1102",
+      "clv_materia": "1126",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "COMPUTACION PARA DISEÑO INDUSTRIAL",
+      "profesor": "CERA RAMOS JOSE ANTONIO",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_3_1126_1151",
+      "clv_materia": "1126",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "COMPUTACION PARA DISEÑO INDUSTRIAL",
+      "profesor": "QUIROZ GARCIA OCTAVIO AUGUSTO",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-17:00",
+          "inicio_min": 780,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_3_1126_1152",
+      "clv_materia": "1126",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "COMPUTACION PARA DISEÑO INDUSTRIAL",
+      "profesor": "CERA RAMOS JOSE ANTONIO",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-17:00",
+          "inicio_min": 780,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_3_1127_1101",
+      "clv_materia": "1127",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DIBUJO PARA EL DISEÑO INDUSTRIAL I",
+      "profesor": "GARCIA RAMOS ERICK MAGDIEL",
+      "salon": "A515",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_1127_1102",
+      "clv_materia": "1127",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DIBUJO PARA EL DISEÑO INDUSTRIAL I",
+      "profesor": "LEON BARRERA MA GUADALUPE",
+      "salon": "A516",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_1127_1151",
+      "clv_materia": "1127",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DIBUJO PARA EL DISEÑO INDUSTRIAL I",
+      "profesor": "QUIROZ GARCIA OCTAVIO AUGUSTO",
+      "salon": "A515",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-17:00",
+          "inicio_min": 780,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_3_1127_1152",
+      "clv_materia": "1127",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DIBUJO PARA EL DISEÑO INDUSTRIAL I",
+      "profesor": "OSORNO MARCIAL OMAR ALFREDO",
+      "salon": "A516",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "14:00-18:00",
+          "inicio_min": 840,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_3_1128_1101",
+      "clv_materia": "1128",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "GEOMETRIA PARA EL DISEÑO",
+      "profesor": "CRUZ DIAZ SAUL URIEL",
+      "salon": "A515",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_3_1128_1102",
+      "clv_materia": "1128",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "GEOMETRIA PARA EL DISEÑO",
+      "profesor": "CRUZ DIAZ SAUL URIEL",
+      "salon": "A516",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_3_1128_1151",
+      "clv_materia": "1128",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "GEOMETRIA PARA EL DISEÑO",
+      "profesor": "SANCHEZ GONZALEZ JESUS ALEJANDRO",
+      "salon": "A511",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "12:30-16:30",
+          "inicio_min": 750,
+          "fin_min": 990
+        }
+      ]
+    },
+    {
+      "id": "35_3_1128_1152",
+      "clv_materia": "1128",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "GEOMETRIA PARA EL DISEÑO",
+      "profesor": "SANCHEZ GONZALEZ JESUS ALEJANDRO",
+      "salon": "A515",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:00-16:00",
+          "inicio_min": 720,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_3_1129_1101",
+      "clv_materia": "1129",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "INTRODUCCION AL METODO DE DISEÑO",
+      "profesor": "TORRES MENDEZ LORENA ELIZABETH",
+      "salon": "A515",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_3_1129_1102",
+      "clv_materia": "1129",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "INTRODUCCION AL METODO DE DISEÑO",
+      "profesor": "CASTREJON GALICIA RUBEN",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_3_1129_1151",
+      "clv_materia": "1129",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "INTRODUCCION AL METODO DE DISEÑO",
+      "profesor": "MONTES MEDINA ROMAN DE JESUS",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_3_1129_1152",
+      "clv_materia": "1129",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "INTRODUCCION AL METODO DE DISEÑO",
+      "profesor": "CORONA ARROYO ROSARIO SUSANA",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_3_1130_1101",
+      "clv_materia": "1130",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO I",
+      "profesor": "GARCIA RAMOS ERICK MAGDIEL",
+      "salon": "A515",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-12:00",
+          "inicio_min": 420,
+          "fin_min": 720
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-12:00",
+          "inicio_min": 420,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_3_1130_1101_2",
+      "clv_materia": "1130",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO I",
+      "profesor": "IBARRA SANDOVAL KAREN",
+      "salon": "A515",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-12:00",
+          "inicio_min": 420,
+          "fin_min": 720
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-12:00",
+          "inicio_min": 420,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_3_1130_1102",
+      "clv_materia": "1130",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO I",
+      "profesor": "BENITEZ LUNA ROSA MARIA",
+      "salon": "A516",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-12:00",
+          "inicio_min": 420,
+          "fin_min": 720
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-12:00",
+          "inicio_min": 420,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_3_1130_1102_2",
+      "clv_materia": "1130",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO I",
+      "profesor": "LEON BARRERA MA GUADALUPE",
+      "salon": "A516",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-12:00",
+          "inicio_min": 420,
+          "fin_min": 720
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-12:00",
+          "inicio_min": 420,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_3_1130_1151",
+      "clv_materia": "1130",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO I",
+      "profesor": "BENITEZ LUNA ROSA MARIA",
+      "salon": "A515",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-20:00",
+          "inicio_min": 900,
+          "fin_min": 1200
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-20:00",
+          "inicio_min": 900,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_3_1130_1151_2",
+      "clv_materia": "1130",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO I",
+      "profesor": "VILCHIS MAYA CLAUDIA",
+      "salon": "A515",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-20:00",
+          "inicio_min": 900,
+          "fin_min": 1200
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-20:00",
+          "inicio_min": 900,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_3_1130_1152",
+      "clv_materia": "1130",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO I",
+      "profesor": "CORONA LOPEZ ILIANA",
+      "salon": "A516",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-20:00",
+          "inicio_min": 900,
+          "fin_min": 1200
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-20:00",
+          "inicio_min": 900,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_3_1130_1152_2",
+      "clv_materia": "1130",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO I",
+      "profesor": "VILLALVAZO GONZALEZ LAURA MERCEDES",
+      "salon": "A516",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-20:00",
+          "inicio_min": 900,
+          "fin_min": 1200
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-20:00",
+          "inicio_min": 900,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_3_1131_1101",
+      "clv_materia": "1131",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE TRANSFORM.MATERIALES I",
+      "profesor": "MACIAS CAJERO ABRAHAM",
+      "salon": "A515",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-12:00",
+          "inicio_min": 600,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_3_1131_1101_2",
+      "clv_materia": "1131",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE TRANSFORM.MATERIALES I",
+      "profesor": "MACIAS CAJERO ABRAHAM",
+      "salon": "L40070",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_1131_1101_3",
+      "clv_materia": "1131",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE TRANSFORM.MATERIALES I",
+      "profesor": "ZAMORA FLORES LUIS DANIEL",
+      "salon": "L40070",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_1131_1101_4",
+      "clv_materia": "1131",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE TRANSFORM.MATERIALES I",
+      "profesor": "ZAMORA FLORES LUIS DANIEL",
+      "salon": "A515",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-12:00",
+          "inicio_min": 600,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_3_1131_1102",
+      "clv_materia": "1131",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE TRANSFORM.MATERIALES I",
+      "profesor": "CHAVEZ BORJA JESUS IVAN",
+      "salon": "L40070",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_3_1131_1102_2",
+      "clv_materia": "1131",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE TRANSFORM.MATERIALES I",
+      "profesor": "SOMBRERERO HERNANDEZ JAVIER",
+      "salon": "L40070",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_3_1131_1151",
+      "clv_materia": "1131",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE TRANSFORM.MATERIALES I",
+      "profesor": "CHAVEZ BORJA JESUS IVAN",
+      "salon": "L40070",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:30-20:30",
+          "inicio_min": 990,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_3_1131_1151_2",
+      "clv_materia": "1131",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE TRANSFORM.MATERIALES I",
+      "profesor": "SOMBRERERO HERNANDEZ JAVIER",
+      "salon": "L40070",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:30-20:30",
+          "inicio_min": 990,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_3_1131_1152",
+      "clv_materia": "1131",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE TRANSFORM.MATERIALES I",
+      "profesor": "CORNEJO CARDENAS FELIPE",
+      "salon": "L40070",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_3_1131_1152_2",
+      "clv_materia": "1131",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE TRANSFORM.MATERIALES I",
+      "profesor": "DIAZ HERNANDEZ ARTURO",
+      "salon": "L40070",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_3_1325_1301",
+      "clv_materia": "1325",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DIBUJO PARA EL DISEÑO INDUSTRIAL III",
+      "profesor": "GARCIA RAMOS ERICK MAGDIEL",
+      "salon": "A511",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_3_1325_1302",
+      "clv_materia": "1325",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DIBUJO PARA EL DISEÑO INDUSTRIAL III",
+      "profesor": "LEON BARRERA MA GUADALUPE",
+      "salon": "A512",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_3_1325_1351",
+      "clv_materia": "1325",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DIBUJO PARA EL DISEÑO INDUSTRIAL III",
+      "profesor": "OSORNO MARCIAL OMAR ALFREDO",
+      "salon": "A511",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_3_1325_1351_2",
+      "clv_materia": "1325",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DIBUJO PARA EL DISEÑO INDUSTRIAL III",
+      "profesor": "QUIROZ GARCIA OCTAVIO AUGUSTO",
+      "salon": "A511",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_3_1326_1301",
+      "clv_materia": "1326",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DIBUJO TECNICO DIGITAL",
+      "profesor": "CRUZ DIAZ SAUL URIEL",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_3_1326_1351",
+      "clv_materia": "1326",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DIBUJO TECNICO DIGITAL",
+      "profesor": "ZAMORA FLORES LUIS DANIEL",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_3_1326_1352",
+      "clv_materia": "1326",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "DIBUJO TECNICO DIGITAL",
+      "profesor": "QUIROZ GARCIA OCTAVIO AUGUSTO",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_3_1327_1301",
+      "clv_materia": "1327",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "ERGONOMIA FISICA",
+      "profesor": "VILLA OMAÑA MARTIN",
+      "salon": "A518",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_3_1327_1302",
+      "clv_materia": "1327",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "ERGONOMIA FISICA",
+      "profesor": "GARCÍA MOLINA AYOTZIN TAMARA",
+      "salon": "A517",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_3_1327_1351",
+      "clv_materia": "1327",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "ERGONOMIA FISICA",
+      "profesor": "CORTES RUIZ JUAN CARLOS",
+      "salon": "A518",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-20:00",
+          "inicio_min": 1020,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_3_1328_1351",
+      "clv_materia": "1328",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES-PROCES.EN CERAMICA",
+      "profesor": "DIAZ HERNANDEZ ARTURO",
+      "salon": "A517",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-17:00",
+          "inicio_min": 780,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_3_1329_1301",
+      "clv_materia": "1329",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES-PROCES.EN MADERAS",
+      "profesor": "RODRIGUEZ ARROYO MIGUEL ANGEL",
+      "salon": "A517",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "08:00-12:00",
+          "inicio_min": 480,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_3_1330_1301",
+      "clv_materia": "1330",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES-PROCES.EN METALES",
+      "profesor": "ABAD DEL MONTE ANGEL",
+      "salon": "L40070",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-14:00",
+          "inicio_min": 600,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_1331_1351",
+      "clv_materia": "1331",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MATERIALES-PROCES.EN PLASTICOS",
+      "profesor": "GARCIA CARBALLO BEATRIZ PATRICIA",
+      "salon": "A518",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-17:00",
+          "inicio_min": 780,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_3_1332_1301",
+      "clv_materia": "1332",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MODELOS",
+      "profesor": "OSORNO MARCIAL OMAR ALFREDO",
+      "salon": "A512",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_1332_1351",
+      "clv_materia": "1332",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MODELOS",
+      "profesor": "DIAZ HERNANDEZ ARTURO",
+      "salon": "A512",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_3_1332_1352",
+      "clv_materia": "1332",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "MODELOS",
+      "profesor": "CORNEJO CARDENAS FELIPE",
+      "salon": "A515",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_3_1333_1301",
+      "clv_materia": "1333",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "PARADIGMAS DEL DISEÑO",
+      "profesor": "DIAZ PEREZ PATRICIA",
+      "salon": "A512",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_3_1333_1301_2",
+      "clv_materia": "1333",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "PARADIGMAS DEL DISEÑO",
+      "profesor": "DIAZ PEREZ PATRICIA",
+      "salon": "A518",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_3_1333_1351",
+      "clv_materia": "1333",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "PARADIGMAS DEL DISEÑO",
+      "profesor": "ROQUE MORENO DANIEL",
+      "salon": "A512",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-17:00",
+          "inicio_min": 780,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_3_1334_1301",
+      "clv_materia": "1334",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL I",
+      "profesor": "COVARRUBIAS CERON JUAN ANTONIO",
+      "salon": "A517",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_1334_1301_2",
+      "clv_materia": "1334",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL I",
+      "profesor": "CRUZ DIAZ SAUL URIEL",
+      "salon": "A517",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_1334_1302",
+      "clv_materia": "1334",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL I",
+      "profesor": "MAYA CHAVEZ CARLOS",
+      "salon": "L40070",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_1334_1302_2",
+      "clv_materia": "1334",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL I",
+      "profesor": "RODRIGUEZ ARROYO MIGUEL ANGEL",
+      "salon": "L40070",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-14:00",
+          "inicio_min": 540,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_3_1334_1351",
+      "clv_materia": "1334",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL I",
+      "profesor": "QUIROZ GARCIA OCTAVIO AUGUSTO",
+      "salon": "A512",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-21:00",
+          "inicio_min": 960,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_3_1334_1351_2",
+      "clv_materia": "1334",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL I",
+      "profesor": "QUIROZ GARCIA OCTAVIO AUGUSTO",
+      "salon": "A517",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-21:00",
+          "inicio_min": 960,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_3_1334_1351_3",
+      "clv_materia": "1334",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL I",
+      "profesor": "SANCHEZ GONZALEZ JESUS ALEJANDRO",
+      "salon": "A517",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-21:00",
+          "inicio_min": 960,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_3_1334_1351_4",
+      "clv_materia": "1334",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "3",
+      "materia": "TALLER DE DISEÑO INDUSTRIAL I",
+      "profesor": "SANCHEZ GONZALEZ JESUS ALEJANDRO",
+      "salon": "A512",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-21:00",
+          "inicio_min": 960,
+          "fin_min": 1260
+        }
+      ]
+    }
+  ]
+}

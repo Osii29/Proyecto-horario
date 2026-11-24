@@ -1,0 +1,8059 @@
+{
+  "metadata": {
+    "semestre": "35",
+    "etiqueta_semestre": "2027-1",
+    "carrera": "12",
+    "nombre_carrera": "INGENIERIA EN COMPUTACION",
+    "generado_en": "2026-11-24T02:44:22.667446+00:00",
+    "total_grupos_consultados": 92,
+    "total_grupos_con_datos": 92,
+    "total_grupos_vacios": 0,
+    "total_grupos_con_error": 0,
+    "grupos_fallidos": [],
+    "total_registros": 294,
+    "total_materias_unicas": 66,
+    "duplicados_omitidos": 0,
+    "total_incidencias": 0
+  },
+  "resumen_incidencias": {
+    "total": 0,
+    "por_tipo": {},
+    "muestra": []
+  },
+  "horarios": [
+    {
+      "id": "35_12_0008_1058",
+      "clv_materia": "0008",
+      "grupo": "1058",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ADMINISTRACION SISTEMAS MULTIUSUAR",
+      "profesor": "LOPEZ HERNANDEZ JORGE ARTURO",
+      "salon": "A11202",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_12_0013_1007",
+      "clv_materia": "0013",
+      "grupo": "1007",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE BASES DE DATOS",
+      "profesor": "ORDOÑEZ ROSALES MARTIN",
+      "salon": "ICA1",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_0013_1057",
+      "clv_materia": "0013",
+      "grupo": "1057",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE BASES DE DATOS",
+      "profesor": "GERMAN ROSAS CESAR FRANCISCO",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_0018_1009",
+      "clv_materia": "0018",
+      "grupo": "1009",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SEMINARIO INGENIERIA EN COMPUTACION",
+      "profesor": "PEREZ VALDES JOEL ALFREDO",
+      "salon": "A8119",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_0018_1057",
+      "clv_materia": "0018",
+      "grupo": "1057",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SEMINARIO INGENIERIA EN COMPUTACION",
+      "profesor": "CANO SANTOS BERENICE",
+      "salon": "A8117",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:40-20:00",
+          "inicio_min": 1120,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:40-20:00",
+          "inicio_min": 1120,
+          "fin_min": 1200
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "18:40-20:00",
+          "inicio_min": 1120,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_12_0062_1207",
+      "clv_materia": "0062",
+      "grupo": "1207",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ALGEBRA LINEAL",
+      "profesor": "PEREZ GUZMAN ALEJANDRO",
+      "salon": "A8120",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:15",
+          "inicio_min": 780,
+          "fin_min": 915
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:15",
+          "inicio_min": 780,
+          "fin_min": 915
+        }
+      ]
+    },
+    {
+      "id": "35_12_0062_1208",
+      "clv_materia": "0062",
+      "grupo": "1208",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ALGEBRA LINEAL",
+      "profesor": "FALCON ARELLANO BERENICE ITZEL",
+      "salon": "A8117",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:15",
+          "inicio_min": 780,
+          "fin_min": 915
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:15",
+          "inicio_min": 780,
+          "fin_min": 915
+        }
+      ]
+    },
+    {
+      "id": "35_12_0062_1257",
+      "clv_materia": "0062",
+      "grupo": "1257",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ALGEBRA LINEAL",
+      "profesor": "SOLIS ALCANTAR EVERARDO",
+      "salon": "A8119",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        }
+      ]
+    },
+    {
+      "id": "35_12_0062_1258",
+      "clv_materia": "0062",
+      "grupo": "1258",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ALGEBRA LINEAL",
+      "profesor": "SOLIS ALCANTAR EVERARDO",
+      "salon": "A8118",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_12_0063_1207",
+      "clv_materia": "0063",
+      "grupo": "1207",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "CALCULO VECTORIAL",
+      "profesor": "GONZALEZ HERNANDEZ GERARDO",
+      "salon": "A8117",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_12_0063_1257",
+      "clv_materia": "0063",
+      "grupo": "1257",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "CALCULO VECTORIAL",
+      "profesor": "SANCHEZ MORALES VICTOR MANUEL",
+      "salon": "A8120",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:45-18:00",
+          "inicio_min": 945,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:45-18:00",
+          "inicio_min": 945,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_12_0071_1307",
+      "clv_materia": "0071",
+      "grupo": "1307",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ELECTRICIDAD Y MAGNETISMO (L)",
+      "profesor": "HERNANDEZ LOPEZ SERGIO",
+      "salon": "A213",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_0071_1308",
+      "clv_materia": "0071",
+      "grupo": "1308",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ELECTRICIDAD Y MAGNETISMO (L)",
+      "profesor": "PICCINELLI BOCCHI GABRIELLA",
+      "salon": "A212",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_12_0071_1309",
+      "clv_materia": "0071",
+      "grupo": "1309",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ELECTRICIDAD Y MAGNETISMO (L)",
+      "profesor": "VERDE CRUZ ABEL",
+      "salon": "A211",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_12_0071_1310",
+      "clv_materia": "0071",
+      "grupo": "1310",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ELECTRICIDAD Y MAGNETISMO (L)",
+      "profesor": "SUAREZ HERRERA ALEJANDRO",
+      "salon": "A212",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:45-13:00",
+          "inicio_min": 645,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:45-13:00",
+          "inicio_min": 645,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_0071_1311",
+      "clv_materia": "0071",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ELECTRICIDAD Y MAGNETISMO (L)",
+      "profesor": "SUAREZ HERRERA ALEJANDRO",
+      "salon": "A211",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:15",
+          "inicio_min": 780,
+          "fin_min": 915
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:15",
+          "inicio_min": 780,
+          "fin_min": 915
+        }
+      ]
+    },
+    {
+      "id": "35_12_0071_1357",
+      "clv_materia": "0071",
+      "grupo": "1357",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ELECTRICIDAD Y MAGNETISMO (L)",
+      "profesor": "SEGURA RAUDA MINERVA",
+      "salon": "A211",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        }
+      ]
+    },
+    {
+      "id": "35_12_0071_1358",
+      "clv_materia": "0071",
+      "grupo": "1358",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ELECTRICIDAD Y MAGNETISMO (L)",
+      "profesor": "VERDE CRUZ ABEL",
+      "salon": "A212",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:45-19:45",
+          "inicio_min": 1065,
+          "fin_min": 1185
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:45-19:45",
+          "inicio_min": 1065,
+          "fin_min": 1185
+        }
+      ]
+    },
+    {
+      "id": "35_12_0071_1359",
+      "clv_materia": "0071",
+      "grupo": "1359",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ELECTRICIDAD Y MAGNETISMO (L)",
+      "profesor": "ALVAREZ SORIANO MANUEL ALEJANDRO",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_12_0071_1360",
+      "clv_materia": "0071",
+      "grupo": "1360",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ELECTRICIDAD Y MAGNETISMO (L)",
+      "profesor": "PEREZ GUZMAN ALEJANDRO",
+      "salon": "A505",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        }
+      ]
+    },
+    {
+      "id": "35_12_0167_1008",
+      "clv_materia": "0167",
+      "grupo": "1008",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE COMPUTACION 1",
+      "profesor": "FLORES DIAZ IMELDA DE LA LUZ",
+      "salon": "A205",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_0167_1010",
+      "clv_materia": "0167",
+      "grupo": "1010",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE COMPUTACION 1",
+      "profesor": "ALMANZAR VAZQUEZ MARIA GUADALUPE",
+      "salon": "A8120",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_0167_1057",
+      "clv_materia": "0167",
+      "grupo": "1057",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE COMPUTACION 1",
+      "profesor": "VALENZUELA LOPEZ RODOLFO",
+      "salon": "A504",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        }
+      ]
+    },
+    {
+      "id": "35_12_0170_1010",
+      "clv_materia": "0170",
+      "grupo": "1010",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION DE VIDEOJUEGOS 1",
+      "profesor": "SALGADO RODRIGUEZ JOSE FRANCISCO",
+      "salon": "A204",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        }
+      ]
+    },
+    {
+      "id": "35_12_0171_1007",
+      "clv_materia": "0171",
+      "grupo": "1007",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE COMPUTACION 2",
+      "profesor": "AVILA GARCIA JOSE ANTONIO",
+      "salon": "A11201",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_0174_1009",
+      "clv_materia": "0174",
+      "grupo": "1009",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION DE VIDEOJUEGOS 2",
+      "profesor": "SALGADO RODRIGUEZ JOSE FRANCISCO",
+      "salon": "A204",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_12_0175_1008",
+      "clv_materia": "0175",
+      "grupo": "1008",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE COMPUTACION 3",
+      "profesor": "VILLANUEVA ORTEGA JUAN ANTONIO",
+      "salon": "A8119",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_0175_1061",
+      "clv_materia": "0175",
+      "grupo": "1061",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE COMPUTACION 3",
+      "profesor": "ALMANZAR VAZQUEZ MARIA GUADALUPE",
+      "salon": "A504",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_12_0176_1057",
+      "clv_materia": "0176",
+      "grupo": "1057",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE COMPUTACION 4",
+      "profesor": "ESCONDRILLAS MAYA CARLOS",
+      "salon": "A506",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:30-21:30",
+          "inicio_min": 1170,
+          "fin_min": 1290
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:30-21:30",
+          "inicio_min": 1170,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_12_0177_1005",
+      "clv_materia": "0177",
+      "grupo": "1005",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE PROGRAMACION 1",
+      "profesor": "SANCHEZ HERNANDEZ MIGUEL ANGEL",
+      "salon": "A204",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_0177_1006",
+      "clv_materia": "0177",
+      "grupo": "1006",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE PROGRAMACION 1",
+      "profesor": "MARTINEZ BRAVO VICTOR HUGO",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_12_0190_1307",
+      "clv_materia": "0190",
+      "grupo": "1307",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ESTRUCTURA DE DATOS",
+      "profesor": "SANCHEZ HERNANDEZ MIGUEL ANGEL",
+      "salon": "A213",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_12_0190_1308",
+      "clv_materia": "0190",
+      "grupo": "1308",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ESTRUCTURA DE DATOS",
+      "profesor": "BLANCO BAUTISTA ROBERTO",
+      "salon": "A212",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_12_0190_1309",
+      "clv_materia": "0190",
+      "grupo": "1309",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ESTRUCTURA DE DATOS",
+      "profesor": "PEÑALOZA ROMERO ERNESTO",
+      "salon": "A211",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_12_0190_1310",
+      "clv_materia": "0190",
+      "grupo": "1310",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ESTRUCTURA DE DATOS",
+      "profesor": "BLANCO BAUTISTA ROBERTO",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_12_0190_1357",
+      "clv_materia": "0190",
+      "grupo": "1357",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ESTRUCTURA DE DATOS",
+      "profesor": "HERNANDEZ CABRERA JESUS",
+      "salon": "A213",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_0190_1358",
+      "clv_materia": "0190",
+      "grupo": "1358",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ESTRUCTURA DE DATOS",
+      "profesor": "SANCHEZ SANCHEZ VICTOR MANUEL",
+      "salon": "A504",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:20",
+          "inicio_min": 780,
+          "fin_min": 860
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:20",
+          "inicio_min": 780,
+          "fin_min": 860
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-14:20",
+          "inicio_min": 780,
+          "fin_min": 860
+        }
+      ]
+    },
+    {
+      "id": "35_12_0190_1359",
+      "clv_materia": "0190",
+      "grupo": "1359",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ESTRUCTURA DE DATOS",
+      "profesor": "SANCHEZ SANCHEZ VICTOR MANUEL",
+      "salon": "A506",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:30",
+          "inicio_min": 930,
+          "fin_min": 1050
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:30",
+          "inicio_min": 930,
+          "fin_min": 1050
+        }
+      ]
+    },
+    {
+      "id": "35_12_0190_1360",
+      "clv_materia": "0190",
+      "grupo": "1360",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ESTRUCTURA DE DATOS",
+      "profesor": "CRUZ LUEVANO BLANCA ESTELA",
+      "salon": "A213",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:50-21:50",
+          "inicio_min": 1190,
+          "fin_min": 1310
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:50-21:50",
+          "inicio_min": 1190,
+          "fin_min": 1310
+        }
+      ]
+    },
+    {
+      "id": "35_12_0301_1015",
+      "clv_materia": "0301",
+      "grupo": "1015",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "APRENDIZAJE AUTOMATICO",
+      "profesor": "ESPARZA POSADAS MARCOS FRANCISCO",
+      "salon": "A215",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_0302_1009",
+      "clv_materia": "0302",
+      "grupo": "1009",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "COMPUTO EN LA NUBE",
+      "profesor": "CRUZ ORTIZ MIRIAM",
+      "salon": "A8119",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_0302_1063",
+      "clv_materia": "0302",
+      "grupo": "1063",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "COMPUTO EN LA NUBE",
+      "profesor": "LOPEZ HERNANDEZ JORGE ARTURO",
+      "salon": "A8120",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_0302_1969",
+      "clv_materia": "0302",
+      "grupo": "1969",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "COMPUTO EN LA NUBE",
+      "profesor": "CRUZ ORTIZ MIRIAM",
+      "salon": "A205",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_12_0303_1007",
+      "clv_materia": "0303",
+      "grupo": "1007",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTERNET DE LAS COSAS",
+      "profesor": "LOZANO MENDEZ EFREN",
+      "salon": "A11201",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_0308_1007",
+      "clv_materia": "0308",
+      "grupo": "1007",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE COMPUTACION 6",
+      "profesor": "VEGA MUNGUIA ELIO",
+      "salon": "A11201",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_0308_1009",
+      "clv_materia": "0308",
+      "grupo": "1009",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE COMPUTACION 6",
+      "profesor": "SALGADO RODRIGUEZ JOSE FRANCISCO",
+      "salon": "A11203",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_12_0310_1008",
+      "clv_materia": "0310",
+      "grupo": "1008",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE PROGRAMACION 2",
+      "profesor": "SALDAÑA ALDANA HECTOR",
+      "salon": "CCSAL1",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_0312_1010",
+      "clv_materia": "0312",
+      "grupo": "1010",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE REDES",
+      "profesor": "QUINTERO CERVANTES JOSE MANUEL",
+      "salon": "A8120",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_0312_1058",
+      "clv_materia": "0312",
+      "grupo": "1058",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE REDES",
+      "profesor": "TORRES RODRIGUEZ GERARDO",
+      "salon": "A11201",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-18:20",
+          "inicio_min": 1020,
+          "fin_min": 1100
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-18:20",
+          "inicio_min": 1020,
+          "fin_min": 1100
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-18:20",
+          "inicio_min": 1020,
+          "fin_min": 1100
+        }
+      ]
+    },
+    {
+      "id": "35_12_0312_1061",
+      "clv_materia": "0312",
+      "grupo": "1061",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE REDES",
+      "profesor": "TORRES RODRIGUEZ GERARDO",
+      "salon": "A204",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-21:20",
+          "inicio_min": 1200,
+          "fin_min": 1280
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-21:20",
+          "inicio_min": 1200,
+          "fin_min": 1280
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "20:00-21:20",
+          "inicio_min": 1200,
+          "fin_min": 1280
+        }
+      ]
+    },
+    {
+      "id": "35_12_0313_1057",
+      "clv_materia": "0313",
+      "grupo": "1057",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TEMAS ESPECIALES DE SEGURIDAD INFORM",
+      "profesor": "HERNANDEZ AUDELO LEOBARDO",
+      "salon": "A8118",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_0314_1007",
+      "clv_materia": "0314",
+      "grupo": "1007",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "VINCULACION EMPRESARIAL",
+      "profesor": "PEREZ VALDES JOEL ALFREDO",
+      "salon": "A8118",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_0314_1008",
+      "clv_materia": "0314",
+      "grupo": "1008",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "VINCULACION EMPRESARIAL",
+      "profesor": "VELASCO AGUSTIN AARON",
+      "salon": "A8117",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-17:00",
+          "inicio_min": 780,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_12_0314_1061",
+      "clv_materia": "0314",
+      "grupo": "1061",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "VINCULACION EMPRESARIAL",
+      "profesor": "RIVERO PICAZO MARIELA VIANEY",
+      "salon": "A8118",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_0406_1907",
+      "clv_materia": "0406",
+      "grupo": "1907",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "profesor": "ROMERO UGALDE MARTIN MANUEL",
+      "salon": "A505",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        }
+      ]
+    },
+    {
+      "id": "35_12_0406_1908",
+      "clv_materia": "0406",
+      "grupo": "1908",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "profesor": "OLIVER MORALES CARLOS",
+      "salon": "A507",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_0406_1909",
+      "clv_materia": "0406",
+      "grupo": "1909",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "profesor": "ROMERO UGALDE MARTIN MANUEL",
+      "salon": "A505",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_12_0406_1957",
+      "clv_materia": "0406",
+      "grupo": "1957",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "profesor": "MONTERROSA ESCOBAR AMILCAR AMADO",
+      "salon": "A507",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_0406_1958",
+      "clv_materia": "0406",
+      "grupo": "1958",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "profesor": "JUAREZ ROBLES ELIZABETH",
+      "salon": "A506",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_0406_1959",
+      "clv_materia": "0406",
+      "grupo": "1959",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "profesor": "SANCHEZ SANCHEZ VICTOR MANUEL",
+      "salon": "A507",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:40-16:00",
+          "inicio_min": 880,
+          "fin_min": 960
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "14:40-16:00",
+          "inicio_min": 880,
+          "fin_min": 960
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "14:40-16:00",
+          "inicio_min": 880,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_12_0406_1960",
+      "clv_materia": "0406",
+      "grupo": "1960",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "profesor": "MORALES PALAFOX EDGAR",
+      "salon": "A11201",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_12_0406_1961",
+      "clv_materia": "0406",
+      "grupo": "1961",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "profesor": "ROMERO UGALDE MARTIN MANUEL",
+      "salon": "A8118",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_12_0434_1657",
+      "clv_materia": "0434",
+      "grupo": "1657",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "COMPILADORES",
+      "profesor": "GUTIERREZ OROZCO RICARDO ARTURO",
+      "salon": "A8120",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:30-21:50",
+          "inicio_min": 1230,
+          "fin_min": 1310
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:30-21:50",
+          "inicio_min": 1230,
+          "fin_min": 1310
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "20:30-21:50",
+          "inicio_min": 1230,
+          "fin_min": 1310
+        }
+      ]
+    },
+    {
+      "id": "35_12_0442_1507",
+      "clv_materia": "0442",
+      "grupo": "1507",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LENGUAJES FORMALES-AUTOMATAS",
+      "profesor": "SANCHEZ SANCHEZ VICTOR MANUEL",
+      "salon": "A504",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        }
+      ]
+    },
+    {
+      "id": "35_12_0442_1508",
+      "clv_materia": "0442",
+      "grupo": "1508",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LENGUAJES FORMALES-AUTOMATAS",
+      "profesor": "OLIVER MORALES CARLOS",
+      "salon": "A504",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_12_0442_1509",
+      "clv_materia": "0442",
+      "grupo": "1509",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LENGUAJES FORMALES-AUTOMATAS",
+      "profesor": "SANCHEZ SANCHEZ VICTOR MANUEL",
+      "salon": "A504",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_0442_1510",
+      "clv_materia": "0442",
+      "grupo": "1510",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LENGUAJES FORMALES-AUTOMATAS",
+      "profesor": "OLIVER MORALES CARLOS",
+      "salon": "A211",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_0442_1557",
+      "clv_materia": "0442",
+      "grupo": "1557",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LENGUAJES FORMALES-AUTOMATAS",
+      "profesor": "CAMPOS BRAVO JORGE IVAN",
+      "salon": "A211",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_12_0442_1558",
+      "clv_materia": "0442",
+      "grupo": "1558",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LENGUAJES FORMALES-AUTOMATAS",
+      "profesor": "ORTIZ CORDERO GABRIEL",
+      "salon": "A213",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_12_0442_1559",
+      "clv_materia": "0442",
+      "grupo": "1559",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LENGUAJES FORMALES-AUTOMATAS",
+      "profesor": "ORTIZ CORDERO GABRIEL",
+      "salon": "A505",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_12_0442_1560",
+      "clv_materia": "0442",
+      "grupo": "1560",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LENGUAJES FORMALES-AUTOMATAS",
+      "profesor": "JUAREZ ROBLES ELIZABETH",
+      "salon": "A213",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_12_0480_1307",
+      "clv_materia": "0480",
+      "grupo": "1307",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "METODOS NUMERICOS",
+      "profesor": "PEREZ GUZMAN ALEJANDRO",
+      "salon": "A213",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:45-13:00",
+          "inicio_min": 645,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:45-13:00",
+          "inicio_min": 645,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_0480_1308",
+      "clv_materia": "0480",
+      "grupo": "1308",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "METODOS NUMERICOS",
+      "profesor": "MARTINEZ ROMERO JONATHAN",
+      "salon": "A212",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_0480_1309",
+      "clv_materia": "0480",
+      "grupo": "1309",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "METODOS NUMERICOS",
+      "profesor": "BLANCO BAUTISTA ROBERTO",
+      "salon": "A211",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_0480_1310",
+      "clv_materia": "0480",
+      "grupo": "1310",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "METODOS NUMERICOS",
+      "profesor": "VIEYRA REBOYO LUIS ARMANDO",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_12_0480_1357",
+      "clv_materia": "0480",
+      "grupo": "1357",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "METODOS NUMERICOS",
+      "profesor": "MORALES GONZALEZ JORGE CARLOS",
+      "salon": "A8120",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_0480_1358",
+      "clv_materia": "0480",
+      "grupo": "1358",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "METODOS NUMERICOS",
+      "profesor": "RODRIGUEZ ARGUMEDO URIEL",
+      "salon": "A212",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:45-17:45",
+          "inicio_min": 945,
+          "fin_min": 1065
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:45-17:45",
+          "inicio_min": 945,
+          "fin_min": 1065
+        }
+      ]
+    },
+    {
+      "id": "35_12_0480_1359",
+      "clv_materia": "0480",
+      "grupo": "1359",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "METODOS NUMERICOS",
+      "profesor": "GONZALEZ BETANCOURT RAFAEL",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:30-22:00",
+          "inicio_min": 1230,
+          "fin_min": 1320
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:30-22:00",
+          "inicio_min": 1230,
+          "fin_min": 1320
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "20:30-22:00",
+          "inicio_min": 1230,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_12_0480_1360",
+      "clv_materia": "0480",
+      "grupo": "1360",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "METODOS NUMERICOS",
+      "profesor": "SANTIAGO MIJANGOS ROSALBA",
+      "salon": "A505",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_12_0712_1407",
+      "clv_materia": "0712",
+      "grupo": "1407",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "profesor": "HERNANDEZ LOPEZ SERGIO",
+      "salon": "A8121",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_12_0712_1408",
+      "clv_materia": "0712",
+      "grupo": "1408",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "profesor": "TORRES TORRES FAUSTO",
+      "salon": "A8120",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:15",
+          "inicio_min": 780,
+          "fin_min": 915
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:15",
+          "inicio_min": 780,
+          "fin_min": 915
+        }
+      ]
+    },
+    {
+      "id": "35_12_0789_1707",
+      "clv_materia": "0789",
+      "grupo": "1707",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SISTEMAS DE INFORMACION",
+      "profesor": "CANDELARIO ALAVEZ JORGE LUIS",
+      "salon": "A507",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_0789_1708",
+      "clv_materia": "0789",
+      "grupo": "1708",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SISTEMAS DE INFORMACION",
+      "profesor": "MENDOZA GONZALEZ OMAR",
+      "salon": "A507",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_12_0789_1709",
+      "clv_materia": "0789",
+      "grupo": "1709",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SISTEMAS DE INFORMACION",
+      "profesor": "GUTIERREZ OROZCO RICARDO ARTURO",
+      "salon": "A507",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_0789_1710",
+      "clv_materia": "0789",
+      "grupo": "1710",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SISTEMAS DE INFORMACION",
+      "profesor": "GUTIERREZ OROZCO RICARDO ARTURO",
+      "salon": "A215",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_12_0789_1711",
+      "clv_materia": "0789",
+      "grupo": "1711",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SISTEMAS DE INFORMACION",
+      "profesor": "VERDUZCO RODRIGUEZ MARIANA",
+      "salon": "A507",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        }
+      ]
+    },
+    {
+      "id": "35_12_0789_1757",
+      "clv_materia": "0789",
+      "grupo": "1757",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SISTEMAS DE INFORMACION",
+      "profesor": "CANDELARIO ALAVEZ JORGE LUIS",
+      "salon": "A504",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_0789_1758",
+      "clv_materia": "0789",
+      "grupo": "1758",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SISTEMAS DE INFORMACION",
+      "profesor": "CRUZ LUEVANO BLANCA ESTELA",
+      "salon": "A211",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        }
+      ]
+    },
+    {
+      "id": "35_12_0789_1759",
+      "clv_materia": "0789",
+      "grupo": "1759",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SISTEMAS DE INFORMACION",
+      "profesor": "VELASCO AGUSTIN AARON",
+      "salon": "A215",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_12_0789_1760",
+      "clv_materia": "0789",
+      "grupo": "1760",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SISTEMAS DE INFORMACION",
+      "profesor": "GUTIERREZ OROZCO RICARDO ARTURO",
+      "salon": "A215",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_12_0840_1607",
+      "clv_materia": "0840",
+      "grupo": "1607",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SISTEMAS OPERATIVOS",
+      "profesor": "GONZALEZ HERNANDEZ MARIA GABRIELA",
+      "salon": "A11202",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_0840_1608",
+      "clv_materia": "0840",
+      "grupo": "1608",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SISTEMAS OPERATIVOS",
+      "profesor": "VAZQUEZ MORALES RODOLFO",
+      "salon": "A11203",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_0840_1657",
+      "clv_materia": "0840",
+      "grupo": "1657",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SISTEMAS OPERATIVOS",
+      "profesor": "AYALA PEÑA ESTEBAN",
+      "salon": "A8120",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_12_0840_1658",
+      "clv_materia": "0840",
+      "grupo": "1658",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SISTEMAS OPERATIVOS",
+      "profesor": "GONZALEZ HERNANDEZ MARIA GABRIELA",
+      "salon": "A8121",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_12_1003_1007",
+      "clv_materia": "1003",
+      "grupo": "1007",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROYECTO ESCUELA-INDUSTRIA",
+      "profesor": "FLORES DIAZ IMELDA DE LA LUZ",
+      "salon": "A205",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_12_1003_1008",
+      "clv_materia": "1003",
+      "grupo": "1008",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROYECTO ESCUELA-INDUSTRIA",
+      "profesor": "FLORES DIAZ IMELDA DE LA LUZ",
+      "salon": "A205",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        }
+      ]
+    },
+    {
+      "id": "35_12_1003_1009",
+      "clv_materia": "1003",
+      "grupo": "1009",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROYECTO ESCUELA-INDUSTRIA",
+      "profesor": "MONDRAGON ESCOBAR ALFREDO",
+      "salon": "A506",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        }
+      ]
+    },
+    {
+      "id": "35_12_1003_1010",
+      "clv_materia": "1003",
+      "grupo": "1010",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROYECTO ESCUELA-INDUSTRIA",
+      "profesor": "HERNANDEZ AGUILAR CESAR ALBERTO",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1003_1057",
+      "clv_materia": "1003",
+      "grupo": "1057",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROYECTO ESCUELA-INDUSTRIA",
+      "profesor": "COLUNGA VAZQUEZ MATILDE",
+      "salon": "A8119",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_12_1003_1060",
+      "clv_materia": "1003",
+      "grupo": "1060",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROYECTO ESCUELA-INDUSTRIA",
+      "profesor": "COVARRUBIAS RODRIGUEZ FERNANDO ROBERTO",
+      "salon": "VIRTUAL",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:00-10:00",
+          "inicio_min": 480,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:00-10:00",
+          "inicio_min": 480,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_12_1003_1061",
+      "clv_materia": "1003",
+      "grupo": "1061",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROYECTO ESCUELA-INDUSTRIA",
+      "profesor": "CRUZ ROSALES ERNESTO",
+      "salon": "A507",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_12_1108_1107",
+      "clv_materia": "1108",
+      "grupo": "1107",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "GEOMETRIA ANALITICA",
+      "profesor": "MARTINEZ ROMERO JONATHAN",
+      "salon": "A214",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_12_1108_1108",
+      "clv_materia": "1108",
+      "grupo": "1108",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "GEOMETRIA ANALITICA",
+      "profesor": "VIEYRA REBOYO LUIS ARMANDO",
+      "salon": "A215",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_12_1108_1109",
+      "clv_materia": "1108",
+      "grupo": "1109",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "GEOMETRIA ANALITICA",
+      "profesor": "PATIÑO RODRIGUEZ RAMON",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1108_1157",
+      "clv_materia": "1108",
+      "grupo": "1157",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "GEOMETRIA ANALITICA",
+      "profesor": "SOLIS ALCANTAR EVERARDO",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_1108_1158",
+      "clv_materia": "1108",
+      "grupo": "1158",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "GEOMETRIA ANALITICA",
+      "profesor": "RODRIGUEZ GARCIA ARTURO",
+      "salon": "A215",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        }
+      ]
+    },
+    {
+      "id": "35_12_1108_1159",
+      "clv_materia": "1108",
+      "grupo": "1159",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "GEOMETRIA ANALITICA",
+      "profesor": "GONZALEZ BETANCOURT RAFAEL",
+      "salon": "A214",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_12_1109_1107",
+      "clv_materia": "1109",
+      "grupo": "1107",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "CALCULO DIFERENCIAL E INTEGRAL",
+      "profesor": "VERDE CRUZ ABEL",
+      "salon": "A214",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1109_1108",
+      "clv_materia": "1109",
+      "grupo": "1108",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "CALCULO DIFERENCIAL E INTEGRAL",
+      "profesor": "GONZALEZ HERNANDEZ GERARDO",
+      "salon": "A215",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_12_1109_1109",
+      "clv_materia": "1109",
+      "grupo": "1109",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "CALCULO DIFERENCIAL E INTEGRAL",
+      "profesor": "SANTIAGO MIJANGOS ROSALBA",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1109_1157",
+      "clv_materia": "1109",
+      "grupo": "1157",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "CALCULO DIFERENCIAL E INTEGRAL",
+      "profesor": "GONZALEZ BETANCOURT RAFAEL",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:15",
+          "inicio_min": 1080,
+          "fin_min": 1215
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:15",
+          "inicio_min": 1080,
+          "fin_min": 1215
+        }
+      ]
+    },
+    {
+      "id": "35_12_1109_1158",
+      "clv_materia": "1109",
+      "grupo": "1158",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "CALCULO DIFERENCIAL E INTEGRAL",
+      "profesor": "HERNANDEZ GALICIA SALOMON",
+      "salon": "A215",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:30-19:45",
+          "inicio_min": 1050,
+          "fin_min": 1185
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:30-19:45",
+          "inicio_min": 1050,
+          "fin_min": 1185
+        }
+      ]
+    },
+    {
+      "id": "35_12_1109_1159",
+      "clv_materia": "1109",
+      "grupo": "1159",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "CALCULO DIFERENCIAL E INTEGRAL",
+      "profesor": "RODRIGUEZ GARCIA ARTURO",
+      "salon": "A214",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:15",
+          "inicio_min": 900,
+          "fin_min": 1035
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:15",
+          "inicio_min": 900,
+          "fin_min": 1035
+        }
+      ]
+    },
+    {
+      "id": "35_12_1110_1107",
+      "clv_materia": "1110",
+      "grupo": "1107",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ALGEBRA",
+      "profesor": "HERNANDEZ LOPEZ SERGIO",
+      "salon": "A214",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_12_1110_1108",
+      "clv_materia": "1110",
+      "grupo": "1108",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ALGEBRA",
+      "profesor": "ORTIZ CORDERO GABRIEL",
+      "salon": "A215",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1110_1109",
+      "clv_materia": "1110",
+      "grupo": "1109",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ALGEBRA",
+      "profesor": "VIEYRA REBOYO LUIS ARMANDO",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_12_1110_1157",
+      "clv_materia": "1110",
+      "grupo": "1157",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ALGEBRA",
+      "profesor": "ORTIZ CORDERO GABRIEL",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_1110_1158",
+      "clv_materia": "1110",
+      "grupo": "1158",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ALGEBRA",
+      "profesor": "MARTINEZ MARTINEZ PEDRO URIEL",
+      "salon": "A215",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_1110_1159",
+      "clv_materia": "1110",
+      "grupo": "1159",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ALGEBRA",
+      "profesor": "ORTIZ CORDERO GABRIEL",
+      "salon": "A214",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_1111_1107",
+      "clv_materia": "1111",
+      "grupo": "1107",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "COMPUTADORAS Y PROGRAMACION",
+      "profesor": "PEÑALOZA ROMERO ERNESTO",
+      "salon": "A214",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_1111_1108",
+      "clv_materia": "1111",
+      "grupo": "1108",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "COMPUTADORAS Y PROGRAMACION",
+      "profesor": "GASTALDI PEREZ JUAN",
+      "salon": "LABCOMP6",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:15",
+          "inicio_min": 420,
+          "fin_min": 555
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:15",
+          "inicio_min": 420,
+          "fin_min": 555
+        }
+      ]
+    },
+    {
+      "id": "35_12_1111_1109",
+      "clv_materia": "1111",
+      "grupo": "1109",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "COMPUTADORAS Y PROGRAMACION",
+      "profesor": "HERNANDEZ CABRERA JESUS",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:45-11:00",
+          "inicio_min": 525,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:45-11:00",
+          "inicio_min": 525,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1111_1157",
+      "clv_materia": "1111",
+      "grupo": "1157",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "COMPUTADORAS Y PROGRAMACION",
+      "profesor": "GARCIA CASTREJON ROBERTO AGUSTIN",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:45-18:00",
+          "inicio_min": 945,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:45-18:00",
+          "inicio_min": 945,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_12_1111_1158",
+      "clv_materia": "1111",
+      "grupo": "1158",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "COMPUTADORAS Y PROGRAMACION",
+      "profesor": "CANDELARIO ALAVEZ JORGE LUIS",
+      "salon": "A215",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:15-17:30",
+          "inicio_min": 915,
+          "fin_min": 1050
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:15-17:30",
+          "inicio_min": 915,
+          "fin_min": 1050
+        }
+      ]
+    },
+    {
+      "id": "35_12_1111_1159",
+      "clv_materia": "1111",
+      "grupo": "1159",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "COMPUTADORAS Y PROGRAMACION",
+      "profesor": "RAMOS MARQUEZ JUAN CARLOS",
+      "salon": "A214",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:15-19:30",
+          "inicio_min": 1035,
+          "fin_min": 1170
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:15-19:30",
+          "inicio_min": 1035,
+          "fin_min": 1170
+        }
+      ]
+    },
+    {
+      "id": "35_12_1112_1107",
+      "clv_materia": "1112",
+      "grupo": "1107",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTROD. A LA INGENIER. COMPUTACION",
+      "profesor": "PEREZ PAZ EDUARDO",
+      "salon": "A214",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_12_1112_1108",
+      "clv_materia": "1112",
+      "grupo": "1108",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTROD. A LA INGENIER. COMPUTACION",
+      "profesor": "CANDELARIO ALAVEZ JORGE LUIS",
+      "salon": "A215",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1112_1109",
+      "clv_materia": "1112",
+      "grupo": "1109",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTROD. A LA INGENIER. COMPUTACION",
+      "profesor": "ARELLANO OROZCO JUAN MANUEL",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_12_1112_1157",
+      "clv_materia": "1112",
+      "grupo": "1157",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTROD. A LA INGENIER. COMPUTACION",
+      "profesor": "PELCASTRE RAMIREZ GLORIA SAMANTHA",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        }
+      ]
+    },
+    {
+      "id": "35_12_1112_1158",
+      "clv_materia": "1112",
+      "grupo": "1158",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTROD. A LA INGENIER. COMPUTACION",
+      "profesor": "GRADA HUERTA IVAN",
+      "salon": "A215",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_12_1112_1159",
+      "clv_materia": "1112",
+      "grupo": "1159",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INTROD. A LA INGENIER. COMPUTACION",
+      "profesor": "PELCASTRE RAMIREZ GLORIA SAMANTHA",
+      "salon": "A214",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_1203_1207",
+      "clv_materia": "1203",
+      "grupo": "1207",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION ORIENTADA A OBJETOS",
+      "profesor": "CANDELARIO ALAVEZ JORGE LUIS",
+      "salon": "A8121",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:45-11:00",
+          "inicio_min": 525,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:45-11:00",
+          "inicio_min": 525,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1203_1208",
+      "clv_materia": "1203",
+      "grupo": "1208",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION ORIENTADA A OBJETOS",
+      "profesor": "VELASCO AGUSTIN AARON",
+      "salon": "A8119",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-12:00",
+          "inicio_min": 600,
+          "fin_min": 720
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-12:00",
+          "inicio_min": 600,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_12_1203_1257",
+      "clv_materia": "1203",
+      "grupo": "1257",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION ORIENTADA A OBJETOS",
+      "profesor": "CRUZ LUEVANO BLANCA ESTELA",
+      "salon": "A8119",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:45-19:45",
+          "inicio_min": 1065,
+          "fin_min": 1185
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:45-19:45",
+          "inicio_min": 1065,
+          "fin_min": 1185
+        }
+      ]
+    },
+    {
+      "id": "35_12_1209_1207",
+      "clv_materia": "1209",
+      "grupo": "1207",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "COMUNICACION",
+      "profesor": "OLIN GARCIA RICARDO",
+      "salon": "A8117",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_12_1209_1257",
+      "clv_materia": "1209",
+      "grupo": "1257",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "COMUNICACION",
+      "profesor": "ISLAS HERNANDEZ CLARA YAHAIRA",
+      "salon": "A8120",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_12_1209_1258",
+      "clv_materia": "1209",
+      "grupo": "1258",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "COMUNICACION",
+      "profesor": "ALMANZAR VAZQUEZ MARIA GUADALUPE",
+      "salon": "A8117",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_12_1210_1207",
+      "clv_materia": "1210",
+      "grupo": "1207",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 1",
+      "profesor": "FERIA VICTORIA MARIA ANGELICA",
+      "salon": "A8120",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_1210_1208",
+      "clv_materia": "1210",
+      "grupo": "1208",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 1",
+      "profesor": "ROMERO ANDALON JESUS ANGEL",
+      "salon": "A507",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_1210_1257",
+      "clv_materia": "1210",
+      "grupo": "1257",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 1",
+      "profesor": "COLUNGA VAZQUEZ MATILDE",
+      "salon": "A8119",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        }
+      ]
+    },
+    {
+      "id": "35_12_1210_1258",
+      "clv_materia": "1210",
+      "grupo": "1258",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 1",
+      "profesor": "ROMERO ANDALON JESUS ANGEL",
+      "salon": "A205",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_12_1211_1207",
+      "clv_materia": "1211",
+      "grupo": "1207",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TALLER DE CREATIVIDAD E INNOVACION",
+      "profesor": "PEREZ VALDES JOEL ALFREDO",
+      "salon": "A8121",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_12_1211_1258",
+      "clv_materia": "1211",
+      "grupo": "1258",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TALLER DE CREATIVIDAD E INNOVACION",
+      "profesor": "ABURTO CAMACHO BLANCA PAMELA",
+      "salon": "A8120",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1211_1259",
+      "clv_materia": "1211",
+      "grupo": "1259",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "TALLER DE CREATIVIDAD E INNOVACION",
+      "profesor": "PELCASTRE RAMIREZ GLORIA SAMANTHA",
+      "salon": "SINDEF",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_12_1303_1307",
+      "clv_materia": "1303",
+      "grupo": "1307",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "profesor": "BLANCO BAUTISTA ROBERTO",
+      "salon": "A213",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_12_1303_1308",
+      "clv_materia": "1303",
+      "grupo": "1308",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "profesor": "GONZALEZ HERNANDEZ GERARDO",
+      "salon": "A212",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_12_1303_1309",
+      "clv_materia": "1303",
+      "grupo": "1309",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "profesor": "MARTINEZ ROMERO JONATHAN",
+      "salon": "A211",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_12_1303_1310",
+      "clv_materia": "1303",
+      "grupo": "1310",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "profesor": "VERDE CRUZ ABEL",
+      "salon": "A212",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:15",
+          "inicio_min": 780,
+          "fin_min": 915
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:15",
+          "inicio_min": 780,
+          "fin_min": 915
+        }
+      ]
+    },
+    {
+      "id": "35_12_1303_1357",
+      "clv_materia": "1303",
+      "grupo": "1357",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "profesor": "JUAREZ PALMA JOSE GIL",
+      "salon": "A213",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:15-17:30",
+          "inicio_min": 915,
+          "fin_min": 1050
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:15-17:30",
+          "inicio_min": 915,
+          "fin_min": 1050
+        }
+      ]
+    },
+    {
+      "id": "35_12_1303_1358",
+      "clv_materia": "1303",
+      "grupo": "1358",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "profesor": "GONZALEZ BETANCOURT RAFAEL",
+      "salon": "A215",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_1303_1359",
+      "clv_materia": "1303",
+      "grupo": "1359",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "profesor": "RODRIGUEZ GARCIA ARTURO",
+      "salon": "A506",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "12:45-15:00",
+          "inicio_min": 765,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "12:45-15:00",
+          "inicio_min": 765,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_1303_1360",
+      "clv_materia": "1303",
+      "grupo": "1360",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "profesor": "JUAREZ PALMA JOSE GIL",
+      "salon": "A213",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:30-19:45",
+          "inicio_min": 1050,
+          "fin_min": 1185
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:30-19:45",
+          "inicio_min": 1050,
+          "fin_min": 1185
+        }
+      ]
+    },
+    {
+      "id": "35_12_1311_1307",
+      "clv_materia": "1311",
+      "grupo": "1307",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 2",
+      "profesor": "GARCIA VILLANUEVA MA. DEL PILAR",
+      "salon": "A213",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1311_1308",
+      "clv_materia": "1311",
+      "grupo": "1308",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 2",
+      "profesor": "MONDRAGON ESCOBAR ALFREDO",
+      "salon": "A212",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        }
+      ]
+    },
+    {
+      "id": "35_12_1311_1309",
+      "clv_materia": "1311",
+      "grupo": "1309",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 2",
+      "profesor": "GARCIA VILLANUEVA MA. DEL PILAR",
+      "salon": "A213",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1311_1310",
+      "clv_materia": "1311",
+      "grupo": "1310",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 2",
+      "profesor": "MONDRAGON ESCOBAR ALFREDO",
+      "salon": "A504",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_12_1311_1311",
+      "clv_materia": "1311",
+      "grupo": "1311",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 2",
+      "profesor": "GARCIA VILLANUEVA MA. DEL PILAR",
+      "salon": "A8118",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-12:00",
+          "inicio_min": 600,
+          "fin_min": 720
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-12:00",
+          "inicio_min": 600,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_12_1311_1357",
+      "clv_materia": "1311",
+      "grupo": "1357",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 2",
+      "profesor": "GUTIERREZ CASTILLO ALMA ROSA",
+      "salon": "A211",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_1311_1358",
+      "clv_materia": "1311",
+      "grupo": "1358",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 2",
+      "profesor": "COLUNGA VAZQUEZ MATILDE",
+      "salon": "A214",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-17:20",
+          "inicio_min": 960,
+          "fin_min": 1040
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-17:20",
+          "inicio_min": 960,
+          "fin_min": 1040
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-17:20",
+          "inicio_min": 960,
+          "fin_min": 1040
+        }
+      ]
+    },
+    {
+      "id": "35_12_1311_1359",
+      "clv_materia": "1311",
+      "grupo": "1359",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 2",
+      "profesor": "REYES TECONTERO NORMA",
+      "salon": "A213",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_1311_1360",
+      "clv_materia": "1311",
+      "grupo": "1360",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 2",
+      "profesor": "COLUNGA VAZQUEZ MATILDE",
+      "salon": "A505",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:30-18:50",
+          "inicio_min": 1050,
+          "fin_min": 1130
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:30-18:50",
+          "inicio_min": 1050,
+          "fin_min": 1130
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:30-18:50",
+          "inicio_min": 1050,
+          "fin_min": 1130
+        }
+      ]
+    },
+    {
+      "id": "35_12_1417_1407",
+      "clv_materia": "1417",
+      "grupo": "1407",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "BASES DE DATOS 1",
+      "profesor": "ORDOÑEZ ROSALES MARTIN",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1417_1408",
+      "clv_materia": "1417",
+      "grupo": "1408",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "BASES DE DATOS 1",
+      "profesor": "ORDOÑEZ ROSALES MARTIN",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_1417_1457",
+      "clv_materia": "1417",
+      "grupo": "1457",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "BASES DE DATOS 1",
+      "profesor": "SOBERANES JAIME ROBERTO MISAEL",
+      "salon": "A8119",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_12_1418_1407",
+      "clv_materia": "1418",
+      "grupo": "1407",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 3",
+      "profesor": "GARCIA VILLANUEVA MA. DEL PILAR",
+      "salon": "A11202",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:00-10:00",
+          "inicio_min": 480,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:00-10:00",
+          "inicio_min": 480,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_12_1418_1408",
+      "clv_materia": "1418",
+      "grupo": "1408",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 3",
+      "profesor": "GUTIERREZ CASTILLO ALMA ROSA",
+      "salon": "A8118",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        }
+      ]
+    },
+    {
+      "id": "35_12_1418_1457",
+      "clv_materia": "1418",
+      "grupo": "1457",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "EMPRENDIMIENTO 3",
+      "profesor": "CERVANTES PATIÑO MOISES",
+      "salon": "A8119",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:30-21:50",
+          "inicio_min": 1230,
+          "fin_min": 1310
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:30-21:50",
+          "inicio_min": 1230,
+          "fin_min": 1310
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "20:30-21:50",
+          "inicio_min": 1230,
+          "fin_min": 1310
+        }
+      ]
+    },
+    {
+      "id": "35_12_1419_1407",
+      "clv_materia": "1419",
+      "grupo": "1407",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MATEMATICAS DISCRETAS",
+      "profesor": "ORTIZ CORDERO GABRIEL",
+      "salon": "A8117",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1419_1457",
+      "clv_materia": "1419",
+      "grupo": "1457",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MATEMATICAS DISCRETAS",
+      "profesor": "RODRIGUEZ GARCIA ARTURO",
+      "salon": "A505",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:30-16:00",
+          "inicio_min": 870,
+          "fin_min": 960
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "14:30-16:00",
+          "inicio_min": 870,
+          "fin_min": 960
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "14:30-16:00",
+          "inicio_min": 870,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_12_1500_1507",
+      "clv_materia": "1500",
+      "grupo": "1507",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO Y ANALISIS DE ALGORITMOS",
+      "profesor": "PEREZ MEDEL MARCELO",
+      "salon": "A505",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1500_1508",
+      "clv_materia": "1500",
+      "grupo": "1508",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO Y ANALISIS DE ALGORITMOS",
+      "profesor": "SANCHEZ HERNANDEZ MIGUEL ANGEL",
+      "salon": "A214",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1500_1509",
+      "clv_materia": "1500",
+      "grupo": "1509",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO Y ANALISIS DE ALGORITMOS",
+      "profesor": "OLIVER MORALES CARLOS",
+      "salon": "A504",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_12_1500_1510",
+      "clv_materia": "1500",
+      "grupo": "1510",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO Y ANALISIS DE ALGORITMOS",
+      "profesor": "SANCHEZ SANCHEZ VICTOR MANUEL",
+      "salon": "A211",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1500_1511",
+      "clv_materia": "1500",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO Y ANALISIS DE ALGORITMOS",
+      "profesor": "PEREZ SANCHEZ HIRAM EMMANUEL",
+      "salon": "A8119",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_12_1500_1557",
+      "clv_materia": "1500",
+      "grupo": "1557",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO Y ANALISIS DE ALGORITMOS",
+      "profesor": "QUIROZ ALMARAZ SERGIO",
+      "salon": "A11203",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_1500_1558",
+      "clv_materia": "1500",
+      "grupo": "1558",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO Y ANALISIS DE ALGORITMOS",
+      "profesor": "HERNANDEZ CABRERA JESUS",
+      "salon": "A504",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:15",
+          "inicio_min": 900,
+          "fin_min": 1035
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:15",
+          "inicio_min": 900,
+          "fin_min": 1035
+        }
+      ]
+    },
+    {
+      "id": "35_12_1500_1559",
+      "clv_materia": "1500",
+      "grupo": "1559",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO Y ANALISIS DE ALGORITMOS",
+      "profesor": "CAMACHO ALVAREZ JUAN CARLOS",
+      "salon": "A505",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_1500_1560",
+      "clv_materia": "1500",
+      "grupo": "1560",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO Y ANALISIS DE ALGORITMOS",
+      "profesor": "QUIROZ ALMARAZ SERGIO",
+      "salon": "A11203",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:15",
+          "inicio_min": 1140,
+          "fin_min": 1275
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:15",
+          "inicio_min": 1140,
+          "fin_min": 1275
+        }
+      ]
+    },
+    {
+      "id": "35_12_1500_1561",
+      "clv_materia": "1500",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO Y ANALISIS DE ALGORITMOS",
+      "profesor": "SANCHEZ HERNANDEZ MIGUEL ANGEL",
+      "salon": "A8119",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_12_1503_1507",
+      "clv_materia": "1503",
+      "grupo": "1507",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "profesor": "VIDAL CASTRO RICARDO ADOLFO",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1503_1508",
+      "clv_materia": "1503",
+      "grupo": "1508",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "profesor": "MONDRAGON ESCOBAR ALFREDO",
+      "salon": "A506",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:20",
+          "inicio_min": 780,
+          "fin_min": 860
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:20",
+          "inicio_min": 780,
+          "fin_min": 860
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-14:20",
+          "inicio_min": 780,
+          "fin_min": 860
+        }
+      ]
+    },
+    {
+      "id": "35_12_1503_1509",
+      "clv_materia": "1503",
+      "grupo": "1509",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "profesor": "ROMERO ANDALON JESUS ANGEL",
+      "salon": "A504",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_1503_1510",
+      "clv_materia": "1503",
+      "grupo": "1510",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "profesor": "GONZALEZ AYALA LUIS ENRIQUE",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_1503_1511",
+      "clv_materia": "1503",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "profesor": "MONDRAGON ESCOBAR ALFREDO",
+      "salon": "A11201",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_12_1503_1557",
+      "clv_materia": "1503",
+      "grupo": "1557",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "profesor": "REYES CRUZ ANA CLAUDIA",
+      "salon": "A11204",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_1503_1558",
+      "clv_materia": "1503",
+      "grupo": "1558",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "profesor": "ROMERO ANDALON JESUS ANGEL",
+      "salon": "A205",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_12_1503_1559",
+      "clv_materia": "1503",
+      "grupo": "1559",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "profesor": "ALBA VILLA BELEN ANAID",
+      "salon": "A505",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_12_1503_1560",
+      "clv_materia": "1503",
+      "grupo": "1560",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "profesor": "ALBA VILLA BELEN ANAID",
+      "salon": "A11202",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_1503_1561",
+      "clv_materia": "1503",
+      "grupo": "1561",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "profesor": "GUERRERO SANTAMARIA EFREN",
+      "salon": "A507",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_12_1503_1563",
+      "clv_materia": "1503",
+      "grupo": "1563",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "profesor": "PARRALES CASTAÑEDA CARLOS ALBERTO",
+      "salon": "A8121",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:30-16:30",
+          "inicio_min": 870,
+          "fin_min": 990
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "14:30-16:30",
+          "inicio_min": 870,
+          "fin_min": 990
+        }
+      ]
+    },
+    {
+      "id": "35_12_1504_1507",
+      "clv_materia": "1504",
+      "grupo": "1507",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 1",
+      "profesor": "CANDELARIO ALAVEZ JORGE LUIS",
+      "salon": "ICA1",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_12_1504_1508",
+      "clv_materia": "1504",
+      "grupo": "1508",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 1",
+      "profesor": "ORTIZ JIMENEZ MARIA ELENA",
+      "salon": "CCSAL8",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1504_1509",
+      "clv_materia": "1504",
+      "grupo": "1509",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 1",
+      "profesor": "ORTIZ JIMENEZ MARIA ELENA",
+      "salon": "A203",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1504_1510",
+      "clv_materia": "1504",
+      "grupo": "1510",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 1",
+      "profesor": "VELASCO AGUSTIN AARON",
+      "salon": "CCSAL2",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_12_1504_1511",
+      "clv_materia": "1504",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 1",
+      "profesor": "VELASCO AGUSTIN AARON",
+      "salon": "ICA1",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1504_1557",
+      "clv_materia": "1504",
+      "grupo": "1557",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 1",
+      "profesor": "CAMACHO ALVAREZ JUAN CARLOS",
+      "salon": "A204",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_12_1504_1558",
+      "clv_materia": "1504",
+      "grupo": "1558",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 1",
+      "profesor": "CAMACHO ALVAREZ JUAN CARLOS",
+      "salon": "A204",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-18:30",
+          "inicio_min": 1020,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_12_1504_1559",
+      "clv_materia": "1504",
+      "grupo": "1559",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 1",
+      "profesor": "PEREZ PAZ EDUARDO",
+      "salon": "A203",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-16:30",
+          "inicio_min": 900,
+          "fin_min": 990
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-16:30",
+          "inicio_min": 900,
+          "fin_min": 990
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-16:30",
+          "inicio_min": 900,
+          "fin_min": 990
+        }
+      ]
+    },
+    {
+      "id": "35_12_1504_1560",
+      "clv_materia": "1504",
+      "grupo": "1560",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 1",
+      "profesor": "CAMACHO ALVAREZ JUAN CARLOS",
+      "salon": "A204",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:30-16:00",
+          "inicio_min": 870,
+          "fin_min": 960
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "14:30-16:00",
+          "inicio_min": 870,
+          "fin_min": 960
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "14:30-16:00",
+          "inicio_min": 870,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_12_1521_1507",
+      "clv_materia": "1521",
+      "grupo": "1507",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO LOGICO (L)",
+      "profesor": "RAMIREZ CRUZ JOSE LUIS",
+      "salon": "A505",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_1521_1508",
+      "clv_materia": "1521",
+      "grupo": "1508",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO LOGICO (L)",
+      "profesor": "BERNAL DIAZ ARCELIA",
+      "salon": "A504",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1521_1509",
+      "clv_materia": "1521",
+      "grupo": "1509",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO LOGICO (L)",
+      "profesor": "BERNAL DIAZ ARCELIA",
+      "salon": "A506",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_12_1521_1510",
+      "clv_materia": "1521",
+      "grupo": "1510",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO LOGICO (L)",
+      "profesor": "GONZALEZ MAXINEZ DAVID JAIME",
+      "salon": "A211",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1521_1557",
+      "clv_materia": "1521",
+      "grupo": "1557",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO LOGICO (L)",
+      "profesor": "PATIÑO RODRIGUEZ RAMON",
+      "salon": "A8121",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        }
+      ]
+    },
+    {
+      "id": "35_12_1521_1558",
+      "clv_materia": "1521",
+      "grupo": "1558",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO LOGICO (L)",
+      "profesor": "ARELLANO RIVERA ESTEBAN",
+      "salon": "A11202",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_12_1521_1559",
+      "clv_materia": "1521",
+      "grupo": "1559",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO LOGICO (L)",
+      "profesor": "PARRALES CASTAÑEDA CARLOS ALBERTO",
+      "salon": "A8121",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:30-18:30",
+          "inicio_min": 990,
+          "fin_min": 1110
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:30-18:30",
+          "inicio_min": 990,
+          "fin_min": 1110
+        }
+      ]
+    },
+    {
+      "id": "35_12_1521_1560",
+      "clv_materia": "1521",
+      "grupo": "1560",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO LOGICO (L)",
+      "profesor": "LOZANO MENDEZ EFREN",
+      "salon": "A212",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_1521_1562",
+      "clv_materia": "1521",
+      "grupo": "1562",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO LOGICO (L)",
+      "profesor": "LOPEZ CARRETO JUAN MANUEL",
+      "salon": "A8117",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-21:20",
+          "inicio_min": 1200,
+          "fin_min": 1280
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-21:20",
+          "inicio_min": 1200,
+          "fin_min": 1280
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "20:00-21:20",
+          "inicio_min": 1200,
+          "fin_min": 1280
+        }
+      ]
+    },
+    {
+      "id": "35_12_1522_1407",
+      "clv_materia": "1522",
+      "grupo": "1407",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISPOSITIVOS ELECTRONICOS (L)",
+      "profesor": "ORTEGA NAVA CARLOS FERNANDO",
+      "salon": "A8121",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_12_1522_1457",
+      "clv_materia": "1522",
+      "grupo": "1457",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISPOSITIVOS ELECTRONICOS (L)",
+      "profesor": "LOPEZ CARRETO JUAN MANUEL",
+      "salon": "A8120",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:40-20:00",
+          "inicio_min": 1120,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:40-20:00",
+          "inicio_min": 1120,
+          "fin_min": 1200
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "18:40-20:00",
+          "inicio_min": 1120,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_12_1604_1607",
+      "clv_materia": "1604",
+      "grupo": "1607",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO DE SISTEMAS DIGITALES (L)",
+      "profesor": "GONZALEZ MAXINEZ DAVID JAIME",
+      "salon": "A8121",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-12:20",
+          "inicio_min": 660,
+          "fin_min": 740
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-12:20",
+          "inicio_min": 660,
+          "fin_min": 740
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-12:20",
+          "inicio_min": 660,
+          "fin_min": 740
+        }
+      ]
+    },
+    {
+      "id": "35_12_1604_1608",
+      "clv_materia": "1604",
+      "grupo": "1608",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO DE SISTEMAS DIGITALES (L)",
+      "profesor": "HERNANDEZ HERNANDEZ MARTIN",
+      "salon": "A11204",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1604_1657",
+      "clv_materia": "1604",
+      "grupo": "1657",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "DISEÑO DE SISTEMAS DIGITALES (L)",
+      "profesor": "LOZANO MENDEZ EFREN",
+      "salon": "A11203",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_12_1605_1607",
+      "clv_materia": "1605",
+      "grupo": "1607",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "profesor": "GONZALEZ HERNANDEZ MARIA GABRIELA",
+      "salon": "A11202",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1605_1611",
+      "clv_materia": "1605",
+      "grupo": "1611",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "profesor": "VELASCO AGUSTIN AARON",
+      "salon": "A8117",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_1605_1657",
+      "clv_materia": "1605",
+      "grupo": "1657",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "profesor": "CRUZ LUEVANO BLANCA ESTELA",
+      "salon": "A8119",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:40-19:00",
+          "inicio_min": 1060,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:40-19:00",
+          "inicio_min": 1060,
+          "fin_min": 1140
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:40-19:00",
+          "inicio_min": 1060,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_1605_1658",
+      "clv_materia": "1605",
+      "grupo": "1658",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "profesor": "GONZALEZ HERNANDEZ MARIA GABRIELA",
+      "salon": "A8121",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_12_1627_1007",
+      "clv_materia": "1627",
+      "grupo": "1007",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INSTRUMENTACION Y CONTROL",
+      "profesor": "ZUÑIGA VILLEGAS BENITO",
+      "salon": "A8117",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:15",
+          "inicio_min": 540,
+          "fin_min": 675
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:15",
+          "inicio_min": 540,
+          "fin_min": 675
+        }
+      ]
+    },
+    {
+      "id": "35_12_1627_1062",
+      "clv_materia": "1627",
+      "grupo": "1062",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "INSTRUMENTACION Y CONTROL",
+      "profesor": "GARCIA GUZMAN ENRIQUE",
+      "salon": "A8117",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_12_1705_1907",
+      "clv_materia": "1705",
+      "grupo": "1907",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SEGURIDAD INFORMATICA",
+      "profesor": "VAZQUEZ MORALES RODOLFO",
+      "salon": "A203",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_12_1705_1908",
+      "clv_materia": "1705",
+      "grupo": "1908",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SEGURIDAD INFORMATICA",
+      "profesor": "NERIA OROZCO ERIK DE JESUS",
+      "salon": "A8118",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_1705_1909",
+      "clv_materia": "1705",
+      "grupo": "1909",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SEGURIDAD INFORMATICA",
+      "profesor": "HERNANDEZ AUDELO LEOBARDO",
+      "salon": "A8118",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1705_1910",
+      "clv_materia": "1705",
+      "grupo": "1910",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SEGURIDAD INFORMATICA",
+      "profesor": "VERDUZCO RODRIGUEZ MARIANA",
+      "salon": "A8119",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1705_1911",
+      "clv_materia": "1705",
+      "grupo": "1911",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SEGURIDAD INFORMATICA",
+      "profesor": "PALMA LOPEZ DANIEL FERNANDO",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1705_1957",
+      "clv_materia": "1705",
+      "grupo": "1957",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SEGURIDAD INFORMATICA",
+      "profesor": "NAVARRO DIAZ RAMON",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1705_1958",
+      "clv_materia": "1705",
+      "grupo": "1958",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SEGURIDAD INFORMATICA",
+      "profesor": "AGUILAR HERNANDEZ JOSE FRANCISCO",
+      "salon": "A506",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_12_1705_1959",
+      "clv_materia": "1705",
+      "grupo": "1959",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SEGURIDAD INFORMATICA",
+      "profesor": "PALMA LOPEZ DANIEL FERNANDO",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_1705_1960",
+      "clv_materia": "1705",
+      "grupo": "1960",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SEGURIDAD INFORMATICA",
+      "profesor": "SOBERANES JAIME ROBERTO MISAEL",
+      "salon": "A507",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_12_1718_1707",
+      "clv_materia": "1718",
+      "grupo": "1707",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 2",
+      "profesor": "VERDUZCO RODRIGUEZ MARIANA",
+      "salon": "CCSAL1",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:00",
+          "inicio_min": 600,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1718_1708",
+      "clv_materia": "1718",
+      "grupo": "1708",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 2",
+      "profesor": "SANCHEZ HERNANDEZ MIGUEL ANGEL",
+      "salon": "A204",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1718_1709",
+      "clv_materia": "1718",
+      "grupo": "1709",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 2",
+      "profesor": "VERDUZCO RODRIGUEZ MARIANA",
+      "salon": "ICA1",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:40-14:00",
+          "inicio_min": 760,
+          "fin_min": 840
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "12:40-14:00",
+          "inicio_min": 760,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "12:40-14:00",
+          "inicio_min": 760,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_12_1718_1710",
+      "clv_materia": "1718",
+      "grupo": "1710",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 2",
+      "profesor": "VELASCO AGUSTIN AARON",
+      "salon": "CCSAL1",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1718_1757",
+      "clv_materia": "1718",
+      "grupo": "1757",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 2",
+      "profesor": "HERNANDEZ CABRERA JESUS",
+      "salon": "A203",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_12_1718_1758",
+      "clv_materia": "1718",
+      "grupo": "1758",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 2",
+      "profesor": "VELASCO AGUSTIN AARON",
+      "salon": "A203",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_1718_1759",
+      "clv_materia": "1718",
+      "grupo": "1759",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 2",
+      "profesor": "SANCHEZ HERNANDEZ MIGUEL ANGEL",
+      "salon": "A204",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1718_1760",
+      "clv_materia": "1718",
+      "grupo": "1760",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION WEB 2",
+      "profesor": "RAMOS MARQUEZ JUAN CARLOS",
+      "salon": "A203",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_12_1719_1707",
+      "clv_materia": "1719",
+      "grupo": "1707",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "REDES DE COMPUTADORAS 1 (L)",
+      "profesor": "GALICIA RANGEL GILDA",
+      "salon": "A212",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_1719_1708",
+      "clv_materia": "1719",
+      "grupo": "1708",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "REDES DE COMPUTADORAS 1 (L)",
+      "profesor": "GARCIA MONROY JOSE ANTONIO",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1719_1709",
+      "clv_materia": "1719",
+      "grupo": "1709",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "REDES DE COMPUTADORAS 1 (L)",
+      "profesor": "QUINTERO CERVANTES JOSE MANUEL",
+      "salon": "A506",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1719_1710",
+      "clv_materia": "1719",
+      "grupo": "1710",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "REDES DE COMPUTADORAS 1 (L)",
+      "profesor": "QUINTERO CERVANTES JOSE MANUEL",
+      "salon": "A8117",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_1719_1711",
+      "clv_materia": "1719",
+      "grupo": "1711",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "REDES DE COMPUTADORAS 1 (L)",
+      "profesor": "PEREZ MUÑOZ ANTONIO GERARDO",
+      "salon": "A505",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_12_1719_1757",
+      "clv_materia": "1719",
+      "grupo": "1757",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "REDES DE COMPUTADORAS 1 (L)",
+      "profesor": "GARCIA GUZMAN ENRIQUE",
+      "salon": "A507",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_12_1719_1758",
+      "clv_materia": "1719",
+      "grupo": "1758",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "REDES DE COMPUTADORAS 1 (L)",
+      "profesor": "ANAYA MANILA DZOARA IVETTE",
+      "salon": "A211",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:30-21:50",
+          "inicio_min": 1230,
+          "fin_min": 1310
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:30-21:50",
+          "inicio_min": 1230,
+          "fin_min": 1310
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "20:30-21:50",
+          "inicio_min": 1230,
+          "fin_min": 1310
+        }
+      ]
+    },
+    {
+      "id": "35_12_1719_1759",
+      "clv_materia": "1719",
+      "grupo": "1759",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "REDES DE COMPUTADORAS 1 (L)",
+      "profesor": "TORRES RODRIGUEZ GERARDO",
+      "salon": "A211",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_1719_1760",
+      "clv_materia": "1719",
+      "grupo": "1760",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "REDES DE COMPUTADORAS 1 (L)",
+      "profesor": "GARCIA GUZMAN ENRIQUE",
+      "salon": "A216",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_1800_1707",
+      "clv_materia": "1800",
+      "grupo": "1707",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MICROPROCESADOR.Y MICROCONTROLAD.(L)",
+      "profesor": "BERNAL DIAZ ARCELIA",
+      "salon": "A506",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_12_1800_1708",
+      "clv_materia": "1800",
+      "grupo": "1708",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MICROPROCESADOR.Y MICROCONTROLAD.(L)",
+      "profesor": "GONZALEZ MAXINEZ DAVID JAIME",
+      "salon": "A506",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_12_1800_1709",
+      "clv_materia": "1800",
+      "grupo": "1709",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MICROPROCESADOR.Y MICROCONTROLAD.(L)",
+      "profesor": "CANDELARIO ALAVEZ JORGE LUIS",
+      "salon": "A506",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_12_1800_1710",
+      "clv_materia": "1800",
+      "grupo": "1710",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MICROPROCESADOR.Y MICROCONTROLAD.(L)",
+      "profesor": "CANDELARIO ALAVEZ JORGE LUIS",
+      "salon": "A505",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        }
+      ]
+    },
+    {
+      "id": "35_12_1800_1757",
+      "clv_materia": "1800",
+      "grupo": "1757",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MICROPROCESADOR.Y MICROCONTROLAD.(L)",
+      "profesor": "HERNANDEZ CONTRERAS JUAN MANUEL",
+      "salon": "A507",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_12_1800_1758",
+      "clv_materia": "1800",
+      "grupo": "1758",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MICROPROCESADOR.Y MICROCONTROLAD.(L)",
+      "profesor": "LOZANO MENDEZ EFREN",
+      "salon": "A506",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_12_1800_1759",
+      "clv_materia": "1800",
+      "grupo": "1759",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MICROPROCESADOR.Y MICROCONTROLAD.(L)",
+      "profesor": "GONZALEZ MAXINEZ DAVID JAIME",
+      "salon": "A505",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_1800_1760",
+      "clv_materia": "1800",
+      "grupo": "1760",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MICROPROCESADOR.Y MICROCONTROLAD.(L)",
+      "profesor": "MARTINEZ ROMERO JONATHAN",
+      "salon": "A507",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:20",
+          "inicio_min": 780,
+          "fin_min": 860
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:20",
+          "inicio_min": 780,
+          "fin_min": 860
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-14:20",
+          "inicio_min": 780,
+          "fin_min": 860
+        }
+      ]
+    },
+    {
+      "id": "35_12_1800_1761",
+      "clv_materia": "1800",
+      "grupo": "1761",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MICROPROCESADOR.Y MICROCONTROLAD.(L)",
+      "profesor": "LOZANO MENDEZ EFREN",
+      "salon": "A213",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_1810_1807",
+      "clv_materia": "1810",
+      "grupo": "1807",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "BASES DE DATOS 2",
+      "profesor": "GERMAN ROSAS CESAR FRANCISCO",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1810_1808",
+      "clv_materia": "1810",
+      "grupo": "1808",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "BASES DE DATOS 2",
+      "profesor": "MENDOZA GONZALEZ OMAR",
+      "salon": "CCSAL5",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_1810_1857",
+      "clv_materia": "1810",
+      "grupo": "1857",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "BASES DE DATOS 2",
+      "profesor": "SOBERANES JAIME ROBERTO MISAEL",
+      "salon": "A203",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_12_1812_1807",
+      "clv_materia": "1812",
+      "grupo": "1807",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION MOVIL 1",
+      "profesor": "CAMACHO ALVAREZ JUAN CARLOS",
+      "salon": "CCSAL5",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1812_1858",
+      "clv_materia": "1812",
+      "grupo": "1858",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROGRAMACION MOVIL 1",
+      "profesor": "GUTIERREZ LOPEZ FELIPE DE JESUS",
+      "salon": "SINDEF",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "17:30-22:00",
+          "inicio_min": 1050,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_12_1813_1807",
+      "clv_materia": "1813",
+      "grupo": "1807",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "REDES DE COMPUTADORAS 2",
+      "profesor": "GARCIA GUZMAN ENRIQUE",
+      "salon": "A8121",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1813_1808",
+      "clv_materia": "1813",
+      "grupo": "1808",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "REDES DE COMPUTADORAS 2",
+      "profesor": "GARCIA MONROY JOSE ANTONIO",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_1813_1857",
+      "clv_materia": "1813",
+      "grupo": "1857",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "REDES DE COMPUTADORAS 2",
+      "profesor": "TORRES RODRIGUEZ GERARDO",
+      "salon": "A204",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_12_1908_1907",
+      "clv_materia": "1908",
+      "grupo": "1907",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MINERIA DE DATOS",
+      "profesor": "SANCHEZ HERNANDEZ MIGUEL ANGEL",
+      "salon": "A204",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_12_1908_1908",
+      "clv_materia": "1908",
+      "grupo": "1908",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MINERIA DE DATOS",
+      "profesor": "MENDOZA GONZALEZ OMAR",
+      "salon": "A203",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1908_1909",
+      "clv_materia": "1908",
+      "grupo": "1909",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MINERIA DE DATOS",
+      "profesor": "MENDOZA GONZALEZ OMAR",
+      "salon": "A203",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:40-13:00",
+          "inicio_min": 700,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:40-13:00",
+          "inicio_min": 700,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:40-13:00",
+          "inicio_min": 700,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_1908_1910",
+      "clv_materia": "1908",
+      "grupo": "1910",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MINERIA DE DATOS",
+      "profesor": "CANTO GALLO RAFAEL",
+      "salon": "A203",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_12_1908_1957",
+      "clv_materia": "1908",
+      "grupo": "1957",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MINERIA DE DATOS",
+      "profesor": "CANTO GALLO RAFAEL",
+      "salon": "CCSAL1",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        }
+      ]
+    },
+    {
+      "id": "35_12_1908_1958",
+      "clv_materia": "1908",
+      "grupo": "1958",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MINERIA DE DATOS",
+      "profesor": "CANTO GALLO RAFAEL",
+      "salon": "CCSAL6",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_12_1908_1959",
+      "clv_materia": "1908",
+      "grupo": "1959",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MINERIA DE DATOS",
+      "profesor": "GOYTIA HERRERA MARCO INTI",
+      "salon": "A203",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_12_1908_1960",
+      "clv_materia": "1908",
+      "grupo": "1960",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "MINERIA DE DATOS",
+      "profesor": "JUAREZ ROBLES ELIZABETH",
+      "salon": "A212",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_12_1910_1007",
+      "clv_materia": "1910",
+      "grupo": "1007",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "GRAFICACION POR COMPUTADORA",
+      "profesor": "GONZALEZ AYALA LUIS ENRIQUE",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1910_1010",
+      "clv_materia": "1910",
+      "grupo": "1010",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "GRAFICACION POR COMPUTADORA",
+      "profesor": "SALGADO RODRIGUEZ JOSE FRANCISCO",
+      "salon": "A204",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:20-09:40",
+          "inicio_min": 500,
+          "fin_min": 580
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:20-09:40",
+          "inicio_min": 500,
+          "fin_min": 580
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:20-09:40",
+          "inicio_min": 500,
+          "fin_min": 580
+        }
+      ]
+    },
+    {
+      "id": "35_12_1910_1059",
+      "clv_materia": "1910",
+      "grupo": "1059",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "GRAFICACION POR COMPUTADORA",
+      "profesor": "HERNANDEZ CERVANTES LILIANA",
+      "salon": "A11204",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_12_1916_1057",
+      "clv_materia": "1916",
+      "grupo": "1057",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "PROCESAMIENTO DIGIT.IMAGENES",
+      "profesor": "GONZALEZ PONCE ALEJANDRO RENE",
+      "salon": "A11201",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_12_1917_1807",
+      "clv_materia": "1917",
+      "grupo": "1807",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "HABILIDADES DIRECTIVAS",
+      "profesor": "GARIBAY PEDRAZA ALMA LILIA",
+      "salon": "A8121",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_12_1917_1808",
+      "clv_materia": "1917",
+      "grupo": "1808",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "HABILIDADES DIRECTIVAS",
+      "profesor": "FERIA VICTORIA MARIA ANGELICA",
+      "salon": "A11201",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_12_1917_1857",
+      "clv_materia": "1917",
+      "grupo": "1857",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "HABILIDADES DIRECTIVAS",
+      "profesor": "UGALDE LOPEZ JUDITH",
+      "salon": "A11203",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_12_1917_1858",
+      "clv_materia": "1917",
+      "grupo": "1858",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "HABILIDADES DIRECTIVAS",
+      "profesor": "GUERRERO SANTAMARIA EFREN",
+      "salon": "A205",
+      "cupo": 55,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_12_1917_1859",
+      "clv_materia": "1917",
+      "grupo": "1859",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "HABILIDADES DIRECTIVAS",
+      "profesor": "REYES TECONTERO NORMA",
+      "salon": "A11204",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_12_2128_1009",
+      "clv_materia": "2128",
+      "grupo": "1009",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ROBOTICA",
+      "profesor": "GONZALEZ MAXINEZ DAVID JAIME",
+      "salon": "A8118",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_12_2128_1010",
+      "clv_materia": "2128",
+      "grupo": "1010",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ROBOTICA",
+      "profesor": "OCAMPO ALVAREZ ARTURO",
+      "salon": "A8117",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_12_2128_1011",
+      "clv_materia": "2128",
+      "grupo": "1011",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "ROBOTICA",
+      "profesor": "CASTRO DIAZ JOSE DANIEL",
+      "salon": "A11201",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_2138_1058",
+      "clv_materia": "2138",
+      "grupo": "1058",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "SISTEMAS EXPERTOS",
+      "profesor": "ROMERO UGALDE MARTIN MANUEL",
+      "salon": "A8121",
+      "cupo": 26,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:40-14:00",
+          "inicio_min": 760,
+          "fin_min": 840
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "12:40-14:00",
+          "inicio_min": 760,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "12:40-14:00",
+          "inicio_min": 760,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_12_8702_8701",
+      "clv_materia": "8702",
+      "grupo": "8701",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LAB REDES DE COMPUTADORAS I",
+      "profesor": "DAVILA PEREZ RENE ADRIAN",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_12_8702_8702",
+      "clv_materia": "8702",
+      "grupo": "8702",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LAB REDES DE COMPUTADORAS I",
+      "profesor": "DAVILA PEREZ RENE ADRIAN",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_12_8702_8703",
+      "clv_materia": "8702",
+      "grupo": "8703",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LAB REDES DE COMPUTADORAS I",
+      "profesor": "DAVILA PEREZ RENE ADRIAN",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_12_8702_8704",
+      "clv_materia": "8702",
+      "grupo": "8704",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LAB REDES DE COMPUTADORAS I",
+      "profesor": "DAVILA PEREZ RENE ADRIAN",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "SA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_12_8702_8705",
+      "clv_materia": "8702",
+      "grupo": "8705",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LAB REDES DE COMPUTADORAS I",
+      "profesor": "QUINTERO CERVANTES JOSE MANUEL",
+      "salon": "ICA1",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_12_8702_8706",
+      "clv_materia": "8702",
+      "grupo": "8706",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LAB REDES DE COMPUTADORAS I",
+      "profesor": "QUINTERO CERVANTES JOSE MANUEL",
+      "salon": "ICA1",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_12_8702_8707",
+      "clv_materia": "8702",
+      "grupo": "8707",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LAB REDES DE COMPUTADORAS I",
+      "profesor": "TORRES RODRIGUEZ GERARDO",
+      "salon": "ICA1",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_12_8702_8708",
+      "clv_materia": "8702",
+      "grupo": "8708",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LAB REDES DE COMPUTADORAS I",
+      "profesor": "TORRES RODRIGUEZ GERARDO",
+      "salon": "ICA1",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_12_8702_8709",
+      "clv_materia": "8702",
+      "grupo": "8709",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LAB REDES DE COMPUTADORAS I",
+      "profesor": "TORRES RODRIGUEZ GERARDO",
+      "salon": "ICA1",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:30-20:00",
+          "inicio_min": 1110,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_12_8702_8710",
+      "clv_materia": "8702",
+      "grupo": "8710",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LAB REDES DE COMPUTADORAS I",
+      "profesor": "CHIAPA MONROY CUAUHTEMOC",
+      "salon": "ICA1",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_12_8702_8711",
+      "clv_materia": "8702",
+      "grupo": "8711",
+      "semestre": "35",
+      "carrera": "12",
+      "materia": "LAB REDES DE COMPUTADORAS I",
+      "profesor": "CHIAPA MONROY CUAUHTEMOC",
+      "salon": "ICA1",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        }
+      ]
+    }
+  ]
+}

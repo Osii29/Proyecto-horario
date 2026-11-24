@@ -1,0 +1,4635 @@
+{
+  "metadata": {
+    "semestre": "35",
+    "etiqueta_semestre": "2027-1",
+    "carrera": "14",
+    "nombre_carrera": "INGENIERIA MECANICA",
+    "generado_en": "2026-11-24T03:29:45.482457+00:00",
+    "total_grupos_consultados": 38,
+    "total_grupos_con_datos": 38,
+    "total_grupos_vacios": 0,
+    "total_grupos_con_error": 0,
+    "grupos_fallidos": [],
+    "total_registros": 163,
+    "total_materias_unicas": 69,
+    "duplicados_omitidos": 0,
+    "total_incidencias": 0
+  },
+  "resumen_incidencias": {
+    "total": 0,
+    "por_tipo": {},
+    "muestra": []
+  },
+  "horarios": [
+    {
+      "id": "35_14_0062_1203",
+      "clv_materia": "0062",
+      "grupo": "1203",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ALGEBRA LINEAL",
+      "profesor": "GUTIERREZ FLORES FIDEL",
+      "salon": "A223",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_14_0063_1203",
+      "clv_materia": "0063",
+      "grupo": "1203",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "CALCULO VECTORIAL",
+      "profesor": "OSORIO RAMIREZ HECTOR",
+      "salon": "A315",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:30-15:45",
+          "inicio_min": 810,
+          "fin_min": 945
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:30-15:45",
+          "inicio_min": 810,
+          "fin_min": 945
+        }
+      ]
+    },
+    {
+      "id": "35_14_0092_1803",
+      "clv_materia": "0092",
+      "grupo": "1803",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ADMINISTRACION DEL MANTENIMIENTO",
+      "profesor": "ZUÑIGA GONZALEZ MARIA GUADALUPE",
+      "salon": "A324",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:30-15:30",
+          "inicio_min": 810,
+          "fin_min": 930
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:30-15:30",
+          "inicio_min": 810,
+          "fin_min": 930
+        }
+      ]
+    },
+    {
+      "id": "35_14_0093_1903",
+      "clv_materia": "0093",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "CALIDAD",
+      "profesor": "CRUZ ORTIZ MIRIAM",
+      "salon": "A222",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_14_0093_1953",
+      "clv_materia": "0093",
+      "grupo": "1953",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "CALIDAD",
+      "profesor": "JUAREZ MERCADO LLOSERLINDA YAQUELIN",
+      "salon": "A301",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:30",
+          "inicio_min": 930,
+          "fin_min": 1050
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:30",
+          "inicio_min": 930,
+          "fin_min": 1050
+        }
+      ]
+    },
+    {
+      "id": "35_14_0094_1903",
+      "clv_materia": "0094",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DESARROLLO COMPETENCIAS LABORALES",
+      "profesor": "SAMPEDRO PINTO ALEXIS",
+      "salon": "A8111",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_14_0103_1903",
+      "clv_materia": "0103",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "SISTEMAS DE MEJORAMIENTO AMBIENTAL",
+      "profesor": "CORONA ARROYO ROSARIO SUSANA",
+      "salon": "A11107",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_14_0104_1903",
+      "clv_materia": "0104",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TEM.SELECT.DE ANALIS.EXPER.ESFUERZ.",
+      "profesor": "REYES SOLIS ALBERTO",
+      "salon": "L1010",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_14_0105_1803",
+      "clv_materia": "0105",
+      "grupo": "1803",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TEMAS SELECTOS DE BIOMECANICA",
+      "profesor": "CHACON RAMOS FELIPE DE JESUS",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_14_0106_1803",
+      "clv_materia": "0106",
+      "grupo": "1803",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TEM.SELECT.DE DISEÑO MECANICO",
+      "profesor": "GONZALEZ SOSA JESUS VICENTE",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-12:20",
+          "inicio_min": 660,
+          "fin_min": 740
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-12:20",
+          "inicio_min": 660,
+          "fin_min": 740
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-12:20",
+          "inicio_min": 660,
+          "fin_min": 740
+        }
+      ]
+    },
+    {
+      "id": "35_14_0107_1853",
+      "clv_materia": "0107",
+      "grupo": "1853",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TEM.SELECT.DE MANUFACTURA",
+      "profesor": "CHICO VENANCIO JESUS ANTONIO",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_14_0110_1903",
+      "clv_materia": "0110",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TEM.SELECT.DE MECATRONICA",
+      "profesor": "MANCILLA ALONSO HUMBERTO",
+      "salon": "A11107",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:40-14:00",
+          "inicio_min": 760,
+          "fin_min": 840
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "12:40-14:00",
+          "inicio_min": 760,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "12:40-14:00",
+          "inicio_min": 760,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_14_0110_1913",
+      "clv_materia": "0110",
+      "grupo": "1913",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TEM.SELECT.DE MECATRONICA",
+      "profesor": "ESPARZA POSADAS MARCOS FRANCISCO",
+      "salon": "A221",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_14_0111_1903",
+      "clv_materia": "0111",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TEM.SELECT.DE TERMOENERGIA",
+      "profesor": "RAMIREZ URZUA ANDRES",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_14_0111_1913",
+      "clv_materia": "0111",
+      "grupo": "1913",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TEM.SELECT.DE TERMOENERGIA",
+      "profesor": "VAZQUEZ CERVANTES JORGE",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:30-15:30",
+          "inicio_min": 810,
+          "fin_min": 930
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:30-15:30",
+          "inicio_min": 810,
+          "fin_min": 930
+        }
+      ]
+    },
+    {
+      "id": "35_14_0111_1923",
+      "clv_materia": "0111",
+      "grupo": "1923",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TEM.SELECT.DE TERMOENERGIA",
+      "profesor": "FRANCO MARTINEZ DAVID",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_14_0113_1903",
+      "clv_materia": "0113",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DISEÑO DE EXPERIMENTOS",
+      "profesor": "GONZALEZ SOSA JESUS VICENTE",
+      "salon": "A8111",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:30",
+          "inicio_min": 690,
+          "fin_min": 810
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:30",
+          "inicio_min": 690,
+          "fin_min": 810
+        }
+      ]
+    },
+    {
+      "id": "35_14_0116_1903",
+      "clv_materia": "0116",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DISEÑO MECATRONICO (L+)",
+      "profesor": "MARTINEZ CASTILLO GERARDO",
+      "salon": "A301",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_14_0117_1903",
+      "clv_materia": "0117",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "FORMAC-ORIENT.LABORAL PERSPEC.GENERO",
+      "profesor": "DE LA CRUZ OSORIO ARACELI",
+      "salon": "A301",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_14_0118_1903",
+      "clv_materia": "0118",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "PLANEACION-CONTROL PRODUCC. (L+)",
+      "profesor": "RIVERO PICAZO MARIELA VIANEY",
+      "salon": "ICA1",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_14_0118_1953",
+      "clv_materia": "0118",
+      "grupo": "1953",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "PLANEACION-CONTROL PRODUCC. (L+)",
+      "profesor": "ALDAZ BENITEZ ALFREDO",
+      "salon": "A222",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:30-18:50",
+          "inicio_min": 1050,
+          "fin_min": 1130
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:30-18:50",
+          "inicio_min": 1050,
+          "fin_min": 1130
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:30-18:50",
+          "inicio_min": 1050,
+          "fin_min": 1130
+        }
+      ]
+    },
+    {
+      "id": "35_14_0120_1953",
+      "clv_materia": "0120",
+      "grupo": "1953",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TEMAS SELEC.DISEÑO AUTOMOTRIZ",
+      "profesor": "ESPINOSA NIEVES MARCO ANTONIO",
+      "salon": "A222",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_14_0480_1453",
+      "clv_materia": "0480",
+      "grupo": "1453",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "METODOS NUMERICOS",
+      "profesor": "RAMIREZ CRUZ JOSE LUIS",
+      "salon": "SINDEF",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:15",
+          "inicio_min": 1140,
+          "fin_min": 1275
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:15",
+          "inicio_min": 1140,
+          "fin_min": 1275
+        }
+      ]
+    },
+    {
+      "id": "35_14_1108_1103",
+      "clv_materia": "1108",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "GEOMETRIA ANALITICA",
+      "profesor": "PAREDES ROMERO ADRIAN",
+      "salon": "A226",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:15",
+          "inicio_min": 420,
+          "fin_min": 555
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:15",
+          "inicio_min": 420,
+          "fin_min": 555
+        }
+      ]
+    },
+    {
+      "id": "35_14_1108_1113",
+      "clv_materia": "1108",
+      "grupo": "1113",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "GEOMETRIA ANALITICA",
+      "profesor": "RAMIREZ LAZOS ESTEBAN",
+      "salon": "A225",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:45",
+          "inicio_min": 690,
+          "fin_min": 825
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:45",
+          "inicio_min": 690,
+          "fin_min": 825
+        }
+      ]
+    },
+    {
+      "id": "35_14_1108_1153",
+      "clv_materia": "1108",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "GEOMETRIA ANALITICA",
+      "profesor": "RAMIREZ VILLA CARLOS EDWIN",
+      "salon": "A225",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        }
+      ]
+    },
+    {
+      "id": "35_14_1108_1163",
+      "clv_materia": "1108",
+      "grupo": "1163",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "GEOMETRIA ANALITICA",
+      "profesor": "RAMIREZ VILLA CARLOS EDWIN",
+      "salon": "A226",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:30-15:45",
+          "inicio_min": 810,
+          "fin_min": 945
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:30-15:45",
+          "inicio_min": 810,
+          "fin_min": 945
+        }
+      ]
+    },
+    {
+      "id": "35_14_1109_1103",
+      "clv_materia": "1109",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "CALCULO DIFERENCIAL E INTEGRAL",
+      "profesor": "RAMIREZ LAZOS ESTEBAN",
+      "salon": "A226",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:15-11:30",
+          "inicio_min": 555,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:15-11:30",
+          "inicio_min": 555,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_14_1109_1113",
+      "clv_materia": "1109",
+      "grupo": "1113",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "CALCULO DIFERENCIAL E INTEGRAL",
+      "profesor": "GARCIA CASTILLO FERNANDO NESTOR",
+      "salon": "A225",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_14_1109_1123",
+      "clv_materia": "1109",
+      "grupo": "1123",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "CALCULO DIFERENCIAL E INTEGRAL",
+      "profesor": "CORTES CRUZ FRANCISCO JAVIER",
+      "salon": "A226",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_14_1109_1153",
+      "clv_materia": "1109",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "CALCULO DIFERENCIAL E INTEGRAL",
+      "profesor": "ROJAS COCA HERMOGENES GUSTAVO",
+      "salon": "A225",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:30-19:00",
+          "inicio_min": 1050,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_14_1109_1163",
+      "clv_materia": "1109",
+      "grupo": "1163",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "CALCULO DIFERENCIAL E INTEGRAL",
+      "profesor": "RAMIREZ LAZOS ESTEBAN",
+      "salon": "A226",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:45-18:00",
+          "inicio_min": 945,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:45-18:00",
+          "inicio_min": 945,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_14_1110_1103",
+      "clv_materia": "1110",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ALGEBRA",
+      "profesor": "CARRERA CRUZ JULIO",
+      "salon": "A226",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_14_1110_1113",
+      "clv_materia": "1110",
+      "grupo": "1113",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ALGEBRA",
+      "profesor": "CARRERA CRUZ JULIO",
+      "salon": "A225",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_14_1110_1153",
+      "clv_materia": "1110",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ALGEBRA",
+      "profesor": "CARRERA CRUZ JULIO",
+      "salon": "A225",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:15",
+          "inicio_min": 960,
+          "fin_min": 1095
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:15",
+          "inicio_min": 960,
+          "fin_min": 1095
+        }
+      ]
+    },
+    {
+      "id": "35_14_1110_1163",
+      "clv_materia": "1110",
+      "grupo": "1163",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ALGEBRA",
+      "profesor": "CARRERA CRUZ JULIO",
+      "salon": "A226",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:30-18:00",
+          "inicio_min": 990,
+          "fin_min": 1080
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:30-18:00",
+          "inicio_min": 990,
+          "fin_min": 1080
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:30-18:00",
+          "inicio_min": 990,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_14_1119_1103",
+      "clv_materia": "1119",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DIBUJO MECANICO (L)",
+      "profesor": "DEL RAZO GARCIA EDUARDO",
+      "salon": "SINDEF",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_14_1119_1113",
+      "clv_materia": "1119",
+      "grupo": "1113",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DIBUJO MECANICO (L)",
+      "profesor": "DEL RAZO GARCIA EDUARDO",
+      "salon": "CCSAL9",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:30",
+          "inicio_min": 600,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_14_1119_1153",
+      "clv_materia": "1119",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DIBUJO MECANICO (L)",
+      "profesor": "GAMEZ ROJAS MARLEN",
+      "salon": "L31020",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-20:30",
+          "inicio_min": 1140,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_14_1119_1163",
+      "clv_materia": "1119",
+      "grupo": "1163",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DIBUJO MECANICO (L)",
+      "profesor": "CARRERA CRUZ JULIO",
+      "salon": "CCSAL8",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_14_1125_1103",
+      "clv_materia": "1125",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "FISICA EXPERIMENTAL (L)",
+      "profesor": "MARIN EMILIO MARIA DE LOURDES",
+      "salon": "A226",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-13:10",
+          "inicio_min": 690,
+          "fin_min": 790
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-13:10",
+          "inicio_min": 690,
+          "fin_min": 790
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-13:10",
+          "inicio_min": 690,
+          "fin_min": 790
+        }
+      ]
+    },
+    {
+      "id": "35_14_1125_1113",
+      "clv_materia": "1125",
+      "grupo": "1113",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "FISICA EXPERIMENTAL (L)",
+      "profesor": "CARRERA CRUZ JULIO",
+      "salon": "A225",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:30",
+          "inicio_min": 540,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:30",
+          "inicio_min": 540,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_14_1125_1153",
+      "clv_materia": "1125",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "FISICA EXPERIMENTAL (L)",
+      "profesor": "GAZANINI NERIA GUILLERMO ALEXIS",
+      "salon": "A225",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:15-20:45",
+          "inicio_min": 1095,
+          "fin_min": 1245
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:15-20:45",
+          "inicio_min": 1095,
+          "fin_min": 1245
+        }
+      ]
+    },
+    {
+      "id": "35_14_1125_1163",
+      "clv_materia": "1125",
+      "grupo": "1163",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "FISICA EXPERIMENTAL (L)",
+      "profesor": "JIMENEZ ROBLES MARIO NORBERTO",
+      "salon": "A226",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:50-16:30",
+          "inicio_min": 890,
+          "fin_min": 990
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "14:50-16:30",
+          "inicio_min": 890,
+          "fin_min": 990
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "14:50-16:30",
+          "inicio_min": 890,
+          "fin_min": 990
+        }
+      ]
+    },
+    {
+      "id": "35_14_1126_1103",
+      "clv_materia": "1126",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "INTRODUCC. A LA INGENIERIA MECANICA",
+      "profesor": "LEON GOMEZ MARIA INES",
+      "salon": "A226",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:30",
+          "inicio_min": 690,
+          "fin_min": 810
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:30",
+          "inicio_min": 690,
+          "fin_min": 810
+        }
+      ]
+    },
+    {
+      "id": "35_14_1126_1113",
+      "clv_materia": "1126",
+      "grupo": "1113",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "INTRODUCC. A LA INGENIERIA MECANICA",
+      "profesor": "CORONA ARROYO ROSARIO SUSANA",
+      "salon": "A225",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_14_1126_1153",
+      "clv_materia": "1126",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "INTRODUCC. A LA INGENIERIA MECANICA",
+      "profesor": "ESCALONA GOMEZ ESTELA",
+      "salon": "A225",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_14_1126_1163",
+      "clv_materia": "1126",
+      "grupo": "1163",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "INTRODUCC. A LA INGENIERIA MECANICA",
+      "profesor": "PLASCENCIA CHAVEZ PATRICIA",
+      "salon": "A226",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_14_1212_1203",
+      "clv_materia": "1212",
+      "grupo": "1203",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "FUNDAMENTOS DE MECANICA (L+)",
+      "profesor": "MARIN EMILIO MARIA DE LOURDES",
+      "salon": "A222",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_14_1212_1253",
+      "clv_materia": "1212",
+      "grupo": "1253",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "FUNDAMENTOS DE MECANICA (L+)",
+      "profesor": "CRUZ ARRIETA RAUL",
+      "salon": "A11108",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:15-19:15",
+          "inicio_min": 1035,
+          "fin_min": 1155
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:15-19:15",
+          "inicio_min": 1035,
+          "fin_min": 1155
+        }
+      ]
+    },
+    {
+      "id": "35_14_1303_1303",
+      "clv_materia": "1303",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "profesor": "TORRES CEDILLO SERGIO GUILLERMO",
+      "salon": "A224",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:45",
+          "inicio_min": 690,
+          "fin_min": 825
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:45",
+          "inicio_min": 690,
+          "fin_min": 825
+        }
+      ]
+    },
+    {
+      "id": "35_14_1303_1313",
+      "clv_materia": "1303",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "profesor": "DE MATIAS AGUILAR FRANCISCO",
+      "salon": "A223",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "12:45-15:00",
+          "inicio_min": 765,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "12:45-15:00",
+          "inicio_min": 765,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_14_1303_1353",
+      "clv_materia": "1303",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "profesor": "ROJAS COCA HERMOGENES GUSTAVO",
+      "salon": "A224",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-17:30",
+          "inicio_min": 960,
+          "fin_min": 1050
+        }
+      ]
+    },
+    {
+      "id": "35_14_1303_1363",
+      "clv_materia": "1303",
+      "grupo": "1363",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "profesor": "RIVERA CORTES SMYRNA VANESSA",
+      "salon": "A223",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:40-19:10",
+          "inicio_min": 1060,
+          "fin_min": 1150
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:40-19:10",
+          "inicio_min": 1060,
+          "fin_min": 1150
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:40-19:10",
+          "inicio_min": 1060,
+          "fin_min": 1150
+        }
+      ]
+    },
+    {
+      "id": "35_14_1303_1373",
+      "clv_materia": "1303",
+      "grupo": "1373",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "profesor": "OSORIO RAMIREZ HECTOR",
+      "salon": "L1106",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:15-13:30",
+          "inicio_min": 675,
+          "fin_min": 810
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:15-13:30",
+          "inicio_min": 675,
+          "fin_min": 810
+        }
+      ]
+    },
+    {
+      "id": "35_14_1312_1303",
+      "clv_materia": "1312",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "COMUNICACION",
+      "profesor": "LEON GOMEZ MARIA INES",
+      "salon": "A224",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_14_1312_1313",
+      "clv_materia": "1312",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "COMUNICACION",
+      "profesor": "LEON GOMEZ MARIA INES",
+      "salon": "A223",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_14_1312_1323",
+      "clv_materia": "1312",
+      "grupo": "1323",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "COMUNICACION",
+      "profesor": "PLASCENCIA CHAVEZ PATRICIA",
+      "salon": "L31021",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_14_1312_1353",
+      "clv_materia": "1312",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "COMUNICACION",
+      "profesor": "ZUÑIGA GONZALEZ MARIA GUADALUPE",
+      "salon": "A224",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:30-19:30",
+          "inicio_min": 1050,
+          "fin_min": 1170
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:30-19:30",
+          "inicio_min": 1050,
+          "fin_min": 1170
+        }
+      ]
+    },
+    {
+      "id": "35_14_1312_1363",
+      "clv_materia": "1312",
+      "grupo": "1363",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "COMUNICACION",
+      "profesor": "DURAN SANCHEZ ROCIO NAYELI",
+      "salon": "A223",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:15-21:15",
+          "inicio_min": 1155,
+          "fin_min": 1275
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:15-21:15",
+          "inicio_min": 1155,
+          "fin_min": 1275
+        }
+      ]
+    },
+    {
+      "id": "35_14_1313_1303",
+      "clv_materia": "1313",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ELECTRICIDAD Y MAGNETISMO (L+)",
+      "profesor": "GONZALEZ SOSA JESUS VICENTE",
+      "salon": "A224",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:15",
+          "inicio_min": 420,
+          "fin_min": 555
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:15",
+          "inicio_min": 420,
+          "fin_min": 555
+        }
+      ]
+    },
+    {
+      "id": "35_14_1313_1313",
+      "clv_materia": "1313",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ELECTRICIDAD Y MAGNETISMO (L+)",
+      "profesor": "MUNGUIA MOLINA JUAN",
+      "salon": "A223",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:30",
+          "inicio_min": 420,
+          "fin_min": 510
+        }
+      ]
+    },
+    {
+      "id": "35_14_1313_1333",
+      "clv_materia": "1313",
+      "grupo": "1333",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ELECTRICIDAD Y MAGNETISMO (L+)",
+      "profesor": "MARTINEZ CRUZ JULIO CESAR",
+      "salon": "A11108",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:15",
+          "inicio_min": 420,
+          "fin_min": 555
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:15",
+          "inicio_min": 420,
+          "fin_min": 555
+        }
+      ]
+    },
+    {
+      "id": "35_14_1313_1353",
+      "clv_materia": "1313",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ELECTRICIDAD Y MAGNETISMO (L+)",
+      "profesor": "GUTIERREZ FLORES FIDEL",
+      "salon": "A221",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_14_1313_1363",
+      "clv_materia": "1313",
+      "grupo": "1363",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ELECTRICIDAD Y MAGNETISMO (L+)",
+      "profesor": "GUTIERREZ FLORES FIDEL",
+      "salon": "A223",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:30-16:00",
+          "inicio_min": 870,
+          "fin_min": 960
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "14:30-16:00",
+          "inicio_min": 870,
+          "fin_min": 960
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "14:30-16:00",
+          "inicio_min": 870,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_14_1314_1303",
+      "clv_materia": "1314",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "LAB. CIENCIA-TECN. MATERIALES (L)",
+      "profesor": "MORALES AYALA MARIA ALEJANDRA",
+      "salon": "A224",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_14_1314_1313",
+      "clv_materia": "1314",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "LAB. CIENCIA-TECN. MATERIALES (L)",
+      "profesor": "MORALES AYALA MARIA ALEJANDRA",
+      "salon": "A223",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:30",
+          "inicio_min": 510,
+          "fin_min": 630
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:30",
+          "inicio_min": 510,
+          "fin_min": 630
+        }
+      ]
+    },
+    {
+      "id": "35_14_1314_1353",
+      "clv_materia": "1314",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "LAB. CIENCIA-TECN. MATERIALES (L)",
+      "profesor": "JIMENEZ ROBLES MARIO NORBERTO",
+      "salon": "A224",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:15-19:15",
+          "inicio_min": 1035,
+          "fin_min": 1155
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:15-19:15",
+          "inicio_min": 1035,
+          "fin_min": 1155
+        }
+      ]
+    },
+    {
+      "id": "35_14_1314_1363",
+      "clv_materia": "1314",
+      "grupo": "1363",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "LAB. CIENCIA-TECN. MATERIALES (L)",
+      "profesor": "OROCIO CAMPOS SUSANA LIZBETH",
+      "salon": "A223",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_14_1315_1303",
+      "clv_materia": "1315",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TERMODINAMICA (L+)",
+      "profesor": "ESQUIVEL SANCHEZ EVERARDO",
+      "salon": "A224",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:15-11:30",
+          "inicio_min": 555,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:15-11:30",
+          "inicio_min": 555,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_14_1315_1313",
+      "clv_materia": "1315",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TERMODINAMICA (L+)",
+      "profesor": "VAZQUEZ CERVANTES JORGE",
+      "salon": "A223",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:30-12:45",
+          "inicio_min": 630,
+          "fin_min": 765
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:30-12:45",
+          "inicio_min": 630,
+          "fin_min": 765
+        }
+      ]
+    },
+    {
+      "id": "35_14_1315_1353",
+      "clv_materia": "1315",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TERMODINAMICA (L+)",
+      "profesor": "CRUZ ARRIETA RAUL",
+      "salon": "A224",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:15",
+          "inicio_min": 900,
+          "fin_min": 1035
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:15",
+          "inicio_min": 900,
+          "fin_min": 1035
+        }
+      ]
+    },
+    {
+      "id": "35_14_1315_1363",
+      "clv_materia": "1315",
+      "grupo": "1363",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TERMODINAMICA (L+)",
+      "profesor": "ELIZALDE AGUILAR MARIA DE LOURDES",
+      "salon": "A223",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:15",
+          "inicio_min": 1020,
+          "fin_min": 1155
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:15",
+          "inicio_min": 1020,
+          "fin_min": 1155
+        }
+      ]
+    },
+    {
+      "id": "35_14_1329_1303",
+      "clv_materia": "1329",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "CINEMATICA Y DINAMICA (L+)",
+      "profesor": "MARIN EMILIO MARIA DE LOURDES",
+      "salon": "A224",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_14_1329_1313",
+      "clv_materia": "1329",
+      "grupo": "1313",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "CINEMATICA Y DINAMICA (L+)",
+      "profesor": "MARIN EMILIO MARIA DE LOURDES",
+      "salon": "A223",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_14_1329_1353",
+      "clv_materia": "1329",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "CINEMATICA Y DINAMICA (L+)",
+      "profesor": "DE MATIAS AGUILAR FRANCISCO",
+      "salon": "A224",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:30-15:50",
+          "inicio_min": 870,
+          "fin_min": 950
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "14:30-15:50",
+          "inicio_min": 870,
+          "fin_min": 950
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "14:30-15:50",
+          "inicio_min": 870,
+          "fin_min": 950
+        }
+      ]
+    },
+    {
+      "id": "35_14_1329_1363",
+      "clv_materia": "1329",
+      "grupo": "1363",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "CINEMATICA Y DINAMICA (L+)",
+      "profesor": "CARDENAS PEREZ EDGAR ALFREDO",
+      "salon": "A223",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:10-20:30",
+          "inicio_min": 1150,
+          "fin_min": 1230
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:10-20:30",
+          "inicio_min": 1150,
+          "fin_min": 1230
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:10-20:30",
+          "inicio_min": 1150,
+          "fin_min": 1230
+        }
+      ]
+    },
+    {
+      "id": "35_14_1329_1373",
+      "clv_materia": "1329",
+      "grupo": "1373",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "CINEMATICA Y DINAMICA (L+)",
+      "profesor": "PEREZ CORONA JOSE MANUEL",
+      "salon": "SINDEF",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:30-18:50",
+          "inicio_min": 1050,
+          "fin_min": 1130
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:30-18:50",
+          "inicio_min": 1050,
+          "fin_min": 1130
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:30-18:50",
+          "inicio_min": 1050,
+          "fin_min": 1130
+        }
+      ]
+    },
+    {
+      "id": "35_14_1430_1503",
+      "clv_materia": "1430",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "MODELADO DE SISTEMAS FISICOS",
+      "profesor": "GARCIA CASTILLO FERNANDO NESTOR",
+      "salon": "A222",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:50-14:10",
+          "inicio_min": 770,
+          "fin_min": 850
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "12:50-14:10",
+          "inicio_min": 770,
+          "fin_min": 850
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "12:50-14:10",
+          "inicio_min": 770,
+          "fin_min": 850
+        }
+      ]
+    },
+    {
+      "id": "35_14_1430_1513",
+      "clv_materia": "1430",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "MODELADO DE SISTEMAS FISICOS",
+      "profesor": "RAMIREZ LAZOS ESTEBAN",
+      "salon": "A221",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        }
+      ]
+    },
+    {
+      "id": "35_14_1430_1523",
+      "clv_materia": "1430",
+      "grupo": "1523",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "MODELADO DE SISTEMAS FISICOS",
+      "profesor": "MANCILLA ALONSO HUMBERTO",
+      "salon": "A301",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:30-15:30",
+          "inicio_min": 810,
+          "fin_min": 930
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:30-15:30",
+          "inicio_min": 810,
+          "fin_min": 930
+        }
+      ]
+    },
+    {
+      "id": "35_14_1430_1553",
+      "clv_materia": "1430",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "MODELADO DE SISTEMAS FISICOS",
+      "profesor": "SANCHEZ MORALES VICTOR MANUEL",
+      "salon": "A301",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:40-17:00",
+          "inicio_min": 940,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:40-17:00",
+          "inicio_min": 940,
+          "fin_min": 1020
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "15:40-17:00",
+          "inicio_min": 940,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_14_1431_1413",
+      "clv_materia": "1431",
+      "grupo": "1413",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "FUNDAMENTOS DE MECANICA DE SOLIDOS",
+      "profesor": "FRANCO VERA ROBERTO",
+      "salon": "A11204",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        }
+      ]
+    },
+    {
+      "id": "35_14_1431_1453",
+      "clv_materia": "1431",
+      "grupo": "1453",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "FUNDAMENTOS DE MECANICA DE SOLIDOS",
+      "profesor": "SOUZA JIMENEZ JOSE ANTONIO",
+      "salon": "A8111",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_14_1434_1403",
+      "clv_materia": "1434",
+      "grupo": "1403",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ETICA PROFES.DE LA ING. MECANICA",
+      "profesor": "LOPEZ CONTRERAS BLANCA MIGDALIA",
+      "salon": "A225",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_14_1435_1403",
+      "clv_materia": "1435",
+      "grupo": "1403",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "INTROD.ESTUDIO DE LOS MECANISMOS (L)",
+      "profesor": "MARIN EMILIO MARIA DE LOURDES",
+      "salon": "A226",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:10-14:30",
+          "inicio_min": 790,
+          "fin_min": 870
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:10-14:30",
+          "inicio_min": 790,
+          "fin_min": 870
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:10-14:30",
+          "inicio_min": 790,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_14_1435_1453",
+      "clv_materia": "1435",
+      "grupo": "1453",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "INTROD.ESTUDIO DE LOS MECANISMOS (L)",
+      "profesor": "FRANCO VERA ROBERTO",
+      "salon": "A11108",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        }
+      ]
+    },
+    {
+      "id": "35_14_1510_1503",
+      "clv_materia": "1510",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ANALISIS DE CIRCUITOS (L+)",
+      "profesor": "REYES ESCALERA OSCAR",
+      "salon": "A222",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:40-10:00",
+          "inicio_min": 520,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_14_1510_1513",
+      "clv_materia": "1510",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ANALISIS DE CIRCUITOS (L+)",
+      "profesor": "MORALES CID PAOLA",
+      "salon": "A221",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_14_1510_1523",
+      "clv_materia": "1510",
+      "grupo": "1523",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ANALISIS DE CIRCUITOS (L+)",
+      "profesor": "HERNANDEZ CONTRERAS JUAN MANUEL",
+      "salon": "A301",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_14_1510_1553",
+      "clv_materia": "1510",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ANALISIS DE CIRCUITOS (L+)",
+      "profesor": "GONZALEZ BETANCOURT NORA ABIGAIL",
+      "salon": "A301",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:30-19:30",
+          "inicio_min": 1050,
+          "fin_min": 1170
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:30-19:30",
+          "inicio_min": 1050,
+          "fin_min": 1170
+        }
+      ]
+    },
+    {
+      "id": "35_14_1519_1503",
+      "clv_materia": "1519",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ANALISIS DINAMICO DE MAQUINARIA (L)",
+      "profesor": "DE MATIAS AGUILAR FRANCISCO",
+      "salon": "A222",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        }
+      ]
+    },
+    {
+      "id": "35_14_1519_1513",
+      "clv_materia": "1519",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ANALISIS DINAMICO DE MAQUINARIA (L)",
+      "profesor": "REYES SOLIS ALBERTO",
+      "salon": "A221",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:30-10:30",
+          "inicio_min": 510,
+          "fin_min": 630
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:30-10:30",
+          "inicio_min": 510,
+          "fin_min": 630
+        }
+      ]
+    },
+    {
+      "id": "35_14_1519_1523",
+      "clv_materia": "1519",
+      "grupo": "1523",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ANALISIS DINAMICO DE MAQUINARIA (L)",
+      "profesor": "MARIN EMILIO MARIA DE LOURDES",
+      "salon": "A301",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:30",
+          "inicio_min": 690,
+          "fin_min": 810
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:30",
+          "inicio_min": 690,
+          "fin_min": 810
+        }
+      ]
+    },
+    {
+      "id": "35_14_1519_1553",
+      "clv_materia": "1519",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ANALISIS DINAMICO DE MAQUINARIA (L)",
+      "profesor": "DE MATIAS AGUILAR FRANCISCO",
+      "salon": "A301",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:30-21:30",
+          "inicio_min": 1170,
+          "fin_min": 1290
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:30-21:30",
+          "inicio_min": 1170,
+          "fin_min": 1290
+        }
+      ]
+    },
+    {
+      "id": "35_14_1519_1563",
+      "clv_materia": "1519",
+      "grupo": "1563",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ANALISIS DINAMICO DE MAQUINARIA (L)",
+      "profesor": "RIVERA CORTES SMYRNA VANESSA",
+      "salon": "A222",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:10-21:10",
+          "inicio_min": 1150,
+          "fin_min": 1270
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:10-21:10",
+          "inicio_min": 1150,
+          "fin_min": 1270
+        }
+      ]
+    },
+    {
+      "id": "35_14_1529_1503",
+      "clv_materia": "1529",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "MECANICA DE FLUIDOS (L+)",
+      "profesor": "CORTES PEREZ JACINTO",
+      "salon": "A222",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_14_1529_1513",
+      "clv_materia": "1529",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "MECANICA DE FLUIDOS (L+)",
+      "profesor": "PROFESOR POR ASIGNAR A A",
+      "salon": "A221",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:40-14:00",
+          "inicio_min": 760,
+          "fin_min": 840
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "12:40-14:00",
+          "inicio_min": 760,
+          "fin_min": 840
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "12:40-14:00",
+          "inicio_min": 760,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_14_1529_1523",
+      "clv_materia": "1529",
+      "grupo": "1523",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "MECANICA DE FLUIDOS (L+)",
+      "profesor": "CORTES PEREZ JACINTO",
+      "salon": "A301",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_14_1529_1553",
+      "clv_materia": "1529",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "MECANICA DE FLUIDOS (L+)",
+      "profesor": "OROCIO CAMPOS SUSANA LIZBETH",
+      "salon": "A301",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:20-19:40",
+          "inicio_min": 1100,
+          "fin_min": 1180
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:20-19:40",
+          "inicio_min": 1100,
+          "fin_min": 1180
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "18:20-19:40",
+          "inicio_min": 1100,
+          "fin_min": 1180
+        }
+      ]
+    },
+    {
+      "id": "35_14_1529_1563",
+      "clv_materia": "1529",
+      "grupo": "1563",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "MECANICA DE FLUIDOS (L+)",
+      "profesor": "CHICO VENANCIO JESUS ANTONIO",
+      "salon": "A11107",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_14_1531_1803",
+      "clv_materia": "1531",
+      "grupo": "1803",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ANALISIS MATEMAT. PROCESOS.MANUFACT",
+      "profesor": "SOUZA JIMENEZ JOSE ANTONIO",
+      "salon": "A8111",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        }
+      ]
+    },
+    {
+      "id": "35_14_1535_1503",
+      "clv_materia": "1535",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TRANSFERENCIA DE CALOR (L+)",
+      "profesor": "RODRIGUEZ LORENZANA ALEJANDRO",
+      "salon": "A222",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_14_1535_1513",
+      "clv_materia": "1535",
+      "grupo": "1513",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TRANSFERENCIA DE CALOR (L+)",
+      "profesor": "LARA GUZMAN LAURA CAROLINA",
+      "salon": "A221",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:30-12:30",
+          "inicio_min": 630,
+          "fin_min": 750
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "10:30-12:30",
+          "inicio_min": 630,
+          "fin_min": 750
+        }
+      ]
+    },
+    {
+      "id": "35_14_1535_1523",
+      "clv_materia": "1535",
+      "grupo": "1523",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TRANSFERENCIA DE CALOR (L+)",
+      "profesor": "RODRIGUEZ LORENZANA ALEJANDRO",
+      "salon": "A301",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_14_1535_1553",
+      "clv_materia": "1535",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TRANSFERENCIA DE CALOR (L+)",
+      "profesor": "RODRIGUEZ LORENZANA ALEJANDRO",
+      "salon": "A301",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-18:20",
+          "inicio_min": 1020,
+          "fin_min": 1100
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-18:20",
+          "inicio_min": 1020,
+          "fin_min": 1100
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-18:20",
+          "inicio_min": 1020,
+          "fin_min": 1100
+        }
+      ]
+    },
+    {
+      "id": "35_14_1607_1603",
+      "clv_materia": "1607",
+      "grupo": "1603",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "MAQUINAS ELECTRICAS (L+)",
+      "profesor": "ESTRADA GARCIA JOSE LUIS",
+      "salon": "A11107",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_14_1609_1603",
+      "clv_materia": "1609",
+      "grupo": "1603",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "MAQUINAS HIDRAULICAS (L+)",
+      "profesor": "SANTANA COLIN JOSE MARIANO",
+      "salon": "L32010",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_14_1609_1653",
+      "clv_materia": "1609",
+      "grupo": "1653",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "MAQUINAS HIDRAULICAS (L+)",
+      "profesor": "CRUZ ARRIETA RAUL",
+      "salon": "A11107",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_14_1617_1603",
+      "clv_materia": "1617",
+      "grupo": "1603",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "PROCESO CONFORMADO MATERIALES (L+)",
+      "profesor": "REYES SOLIS ALBERTO",
+      "salon": "A11502",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "12:00-14:00",
+          "inicio_min": 720,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_14_1619_1603",
+      "clv_materia": "1619",
+      "grupo": "1603",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DISEÑO DE ELEMENTOS DE MAQUINAS",
+      "profesor": "GONZALEZ DURAN CARLOS MIGUEL",
+      "salon": "A11107",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        }
+      ]
+    },
+    {
+      "id": "35_14_1619_1613",
+      "clv_materia": "1619",
+      "grupo": "1613",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DISEÑO DE ELEMENTOS DE MAQUINAS",
+      "profesor": "GONZALEZ DURAN CARLOS MIGUEL",
+      "salon": "A11107",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_14_1627_1703",
+      "clv_materia": "1627",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "INSTRUMENTACION Y CONTROL",
+      "profesor": "MUNGUIA MOLINA JUAN",
+      "salon": "A225",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_14_1627_1713",
+      "clv_materia": "1627",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "INSTRUMENTACION Y CONTROL",
+      "profesor": "MARTINEZ CASTILLO GERARDO",
+      "salon": "A223",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        }
+      ]
+    },
+    {
+      "id": "35_14_1627_1753",
+      "clv_materia": "1627",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "INSTRUMENTACION Y CONTROL",
+      "profesor": "MANCILLA ALONSO HUMBERTO",
+      "salon": "A221",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_14_1740_1853",
+      "clv_materia": "1740",
+      "grupo": "1853",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "METODOLOGIA DE LA INVESTIGACION",
+      "profesor": "GARCIA ESPINOSA JOSE LUIS",
+      "salon": "A11107",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_14_1754_1803",
+      "clv_materia": "1754",
+      "grupo": "1803",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "VIBRACIONES MECANICAS",
+      "profesor": "GONZALEZ DURAN CARLOS MIGUEL",
+      "salon": "L32022",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:00-10:00",
+          "inicio_min": 480,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:00-10:00",
+          "inicio_min": 480,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_14_1754_1853",
+      "clv_materia": "1754",
+      "grupo": "1853",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "VIBRACIONES MECANICAS",
+      "profesor": "CERVANTES PATIÑO MOISES",
+      "salon": "A222",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-17:20",
+          "inicio_min": 960,
+          "fin_min": 1040
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-17:20",
+          "inicio_min": 960,
+          "fin_min": 1040
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-17:20",
+          "inicio_min": 960,
+          "fin_min": 1040
+        }
+      ]
+    },
+    {
+      "id": "35_14_1755_1853",
+      "clv_materia": "1755",
+      "grupo": "1853",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "INGENIERIA DE PROCESOS INDUSTRIALES",
+      "profesor": "CHICO VENANCIO JESUS ANTONIO",
+      "salon": "A11107",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_14_1757_1903",
+      "clv_materia": "1757",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "PLANTAS TERMOELECTRICAS",
+      "profesor": "RAMIREZ URZUA ANDRES",
+      "salon": "A8111",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_14_1763_1703",
+      "clv_materia": "1763",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DISEÑO POR COMPUTADORA (L)",
+      "profesor": "MARIN EMILIO MARIA DE LOURDES",
+      "salon": "CCSAL8",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:40-16:00",
+          "inicio_min": 880,
+          "fin_min": 960
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "14:40-16:00",
+          "inicio_min": 880,
+          "fin_min": 960
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "14:40-16:00",
+          "inicio_min": 880,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_14_1763_1713",
+      "clv_materia": "1763",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DISEÑO POR COMPUTADORA (L)",
+      "profesor": "CRUZ DEVIANA MARIO RICARDO",
+      "salon": "CCSAL8",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:30-15:30",
+          "inicio_min": 810,
+          "fin_min": 930
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:30-15:30",
+          "inicio_min": 810,
+          "fin_min": 930
+        }
+      ]
+    },
+    {
+      "id": "35_14_1763_1723",
+      "clv_materia": "1763",
+      "grupo": "1723",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DISEÑO POR COMPUTADORA (L)",
+      "profesor": "VILLEGAS JIMENEZ ERNESTO ALONSO",
+      "salon": "L31020",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_14_1763_1753",
+      "clv_materia": "1763",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DISEÑO POR COMPUTADORA (L)",
+      "profesor": "MARIN EMILIO MARIA DE LOURDES",
+      "salon": "CCSAL8",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_14_1763_1763",
+      "clv_materia": "1763",
+      "grupo": "1763",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DISEÑO POR COMPUTADORA (L)",
+      "profesor": "SANCHEZ RAZO ANGEL A.",
+      "salon": "L31020",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_14_1764_1703",
+      "clv_materia": "1764",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "EMPRENDIMIENTO E INNOVACION",
+      "profesor": "RESENDIZ RODEA CARLOS",
+      "salon": "A224",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-12:50",
+          "inicio_min": 690,
+          "fin_min": 770
+        }
+      ]
+    },
+    {
+      "id": "35_14_1764_1713",
+      "clv_materia": "1764",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "EMPRENDIMIENTO E INNOVACION",
+      "profesor": "CRUZ ORTIZ MIRIAM",
+      "salon": "A301",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:30-11:30",
+          "inicio_min": 570,
+          "fin_min": 690
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:30-11:30",
+          "inicio_min": 570,
+          "fin_min": 690
+        }
+      ]
+    },
+    {
+      "id": "35_14_1764_1753",
+      "clv_materia": "1764",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "EMPRENDIMIENTO E INNOVACION",
+      "profesor": "CRUZ ORTIZ MIRIAM",
+      "salon": "A322",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_14_1765_1703",
+      "clv_materia": "1765",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "INGENIERIA ECONOMICA",
+      "profesor": "PIMENTEL PIEDRABUENA CHRISTIAN",
+      "salon": "A222",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_14_1765_1713",
+      "clv_materia": "1765",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "INGENIERIA ECONOMICA",
+      "profesor": "GARCIA RODRIGUEZ JULIO",
+      "salon": "A224",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-14:30",
+          "inicio_min": 780,
+          "fin_min": 870
+        }
+      ]
+    },
+    {
+      "id": "35_14_1765_1753",
+      "clv_materia": "1765",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "INGENIERIA ECONOMICA",
+      "profesor": "RUIZ CEREZO GUSTAVO CUAUHTEMOC",
+      "salon": "A221",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-19:30",
+          "inicio_min": 1080,
+          "fin_min": 1170
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-19:30",
+          "inicio_min": 1080,
+          "fin_min": 1170
+        }
+      ]
+    },
+    {
+      "id": "35_14_1766_1703",
+      "clv_materia": "1766",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "LABORATORIO DE MAQUINAS TERMICAS (L)",
+      "profesor": "LARA GUZMAN LAURA CAROLINA",
+      "salon": "A222",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "14:30-16:30",
+          "inicio_min": 870,
+          "fin_min": 990
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "14:30-16:30",
+          "inicio_min": 870,
+          "fin_min": 990
+        }
+      ]
+    },
+    {
+      "id": "35_14_1766_1713",
+      "clv_materia": "1766",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "LABORATORIO DE MAQUINAS TERMICAS (L)",
+      "profesor": "ESQUIVEL SANCHEZ EVERARDO",
+      "salon": "A303",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:30",
+          "inicio_min": 690,
+          "fin_min": 810
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:30",
+          "inicio_min": 690,
+          "fin_min": 810
+        }
+      ]
+    },
+    {
+      "id": "35_14_1766_1753",
+      "clv_materia": "1766",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "LABORATORIO DE MAQUINAS TERMICAS (L)",
+      "profesor": "ALVAREZ VERA JACOBO",
+      "salon": "A221",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_14_1766_1763",
+      "clv_materia": "1766",
+      "grupo": "1763",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "LABORATORIO DE MAQUINAS TERMICAS (L)",
+      "profesor": "ALVAREZ VERA JACOBO",
+      "salon": "A222",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_14_1767_1703",
+      "clv_materia": "1767",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "PROCESO DE CORTE DE MATERIALES (L+)",
+      "profesor": "CEDILLO MENDEZ RAYMUNDO",
+      "salon": "A225",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-14:20",
+          "inicio_min": 780,
+          "fin_min": 860
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-14:20",
+          "inicio_min": 780,
+          "fin_min": 860
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-14:20",
+          "inicio_min": 780,
+          "fin_min": 860
+        }
+      ]
+    },
+    {
+      "id": "35_14_1767_1713",
+      "clv_materia": "1767",
+      "grupo": "1713",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "PROCESO DE CORTE DE MATERIALES (L+)",
+      "profesor": "CEDILLO MENDEZ RAYMUNDO",
+      "salon": "A222",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-11:20",
+          "inicio_min": 600,
+          "fin_min": 680
+        }
+      ]
+    },
+    {
+      "id": "35_14_1767_1753",
+      "clv_materia": "1767",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "PROCESO DE CORTE DE MATERIALES (L+)",
+      "profesor": "SANCHEZ RAZO ANGEL A.",
+      "salon": "A221",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_14_1767_1763",
+      "clv_materia": "1767",
+      "grupo": "1763",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "PROCESO DE CORTE DE MATERIALES (L+)",
+      "profesor": "ALDAZ BENITEZ ALFREDO",
+      "salon": "A8111",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_14_1831_1803",
+      "clv_materia": "1831",
+      "grupo": "1803",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DISEÑO MECANICO (L)",
+      "profesor": "MARIN EMILIO MARIA DE LOURDES",
+      "salon": "A11108",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:15-11:15",
+          "inicio_min": 555,
+          "fin_min": 675
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:15-11:15",
+          "inicio_min": 555,
+          "fin_min": 675
+        }
+      ]
+    },
+    {
+      "id": "35_14_1831_1853",
+      "clv_materia": "1831",
+      "grupo": "1853",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DISEÑO MECANICO (L)",
+      "profesor": "ROJAS COCA HERMOGENES GUSTAVO",
+      "salon": "A222",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:40-16:00",
+          "inicio_min": 880,
+          "fin_min": 960
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "14:40-16:00",
+          "inicio_min": 880,
+          "fin_min": 960
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "14:40-16:00",
+          "inicio_min": 880,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_14_1835_1803",
+      "clv_materia": "1835",
+      "grupo": "1803",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DISEÑO HERRAMENTAL (L+)",
+      "profesor": "GONZALEZ SOSA JESUS VICENTE",
+      "salon": "SINDEF",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:20-13:40",
+          "inicio_min": 740,
+          "fin_min": 820
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "12:20-13:40",
+          "inicio_min": 740,
+          "fin_min": 820
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "12:20-13:40",
+          "inicio_min": 740,
+          "fin_min": 820
+        }
+      ]
+    },
+    {
+      "id": "35_14_1835_1853",
+      "clv_materia": "1835",
+      "grupo": "1853",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DISEÑO HERRAMENTAL (L+)",
+      "profesor": "ESPINOSA NIEVES MARCO ANTONIO",
+      "salon": "A11104",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_14_1835_1863",
+      "clv_materia": "1835",
+      "grupo": "1863",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "DISEÑO HERRAMENTAL (L+)",
+      "profesor": "CERVANTES PATIÑO MOISES",
+      "salon": "A225",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-20:20",
+          "inicio_min": 1140,
+          "fin_min": 1220
+        }
+      ]
+    },
+    {
+      "id": "35_14_1837_1803",
+      "clv_materia": "1837",
+      "grupo": "1803",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TRIBOLOGIA (L)",
+      "profesor": "OROCIO CAMPOS SUSANA LIZBETH",
+      "salon": "VIRTUAL",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_14_1837_1813",
+      "clv_materia": "1837",
+      "grupo": "1813",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TRIBOLOGIA (L)",
+      "profesor": "GONZALEZ SOSA JESUS VICENTE",
+      "salon": "A8112",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-12:20",
+          "inicio_min": 660,
+          "fin_min": 740
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-12:20",
+          "inicio_min": 660,
+          "fin_min": 740
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-12:20",
+          "inicio_min": 660,
+          "fin_min": 740
+        }
+      ]
+    },
+    {
+      "id": "35_14_1838_1863",
+      "clv_materia": "1838",
+      "grupo": "1863",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "REINGENIERIA MANUFACT. MECANICA (L)",
+      "profesor": "LOZANO CARRANZA SERGIO ANGEL",
+      "salon": "A11107",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_14_1839_1953",
+      "clv_materia": "1839",
+      "grupo": "1953",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "SISTEMAS MANUFACT.FLEXIBLE (L+)",
+      "profesor": "ALDAZ BENITEZ ALFREDO",
+      "salon": "A8111",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_14_1840_1803",
+      "clv_materia": "1840",
+      "grupo": "1803",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "AUTOMATIZACION DE PROCESOS (L)",
+      "profesor": "MANCILLA ALONSO HUMBERTO",
+      "salon": "A11107",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:20-12:40",
+          "inicio_min": 680,
+          "fin_min": 760
+        }
+      ]
+    },
+    {
+      "id": "35_14_1841_1903",
+      "clv_materia": "1841",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "BIONICA",
+      "profesor": "CASTRO DIAZ JOSE DANIEL",
+      "salon": "A11108",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_14_1841_1913",
+      "clv_materia": "1841",
+      "grupo": "1913",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "BIONICA",
+      "profesor": "ESPARZA POSADAS MARCOS FRANCISCO",
+      "salon": "SINDEF",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-08:20",
+          "inicio_min": 420,
+          "fin_min": 500
+        }
+      ]
+    },
+    {
+      "id": "35_14_1842_1903",
+      "clv_materia": "1842",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "ELECTRONICA APLICADA (L+)",
+      "profesor": "ROMERO BADILLO NORMA ANGELICA",
+      "salon": "A301",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:30-15:30",
+          "inicio_min": 690,
+          "fin_min": 930
+        }
+      ]
+    },
+    {
+      "id": "35_14_1843_1803",
+      "clv_materia": "1843",
+      "grupo": "1803",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "INSTALACIONES ELECTROMECANICAS",
+      "profesor": "VILLANUEVA ORTEGA JUAN ANTONIO",
+      "salon": "A314",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_14_1844_1803",
+      "clv_materia": "1844",
+      "grupo": "1803",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "AIRE ACONDICIONADO Y REFRIGER. (L+)",
+      "profesor": "ESQUIVEL SANCHEZ EVERARDO",
+      "salon": "A301",
+      "cupo": 15,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_14_1844_1813",
+      "clv_materia": "1844",
+      "grupo": "1813",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "AIRE ACONDICIONADO Y REFRIGER. (L+)",
+      "profesor": "RAMIREZ URZUA ANDRES",
+      "salon": "A8111",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "08:30-09:50",
+          "inicio_min": 510,
+          "fin_min": 590
+        }
+      ]
+    },
+    {
+      "id": "35_14_1845_1903",
+      "clv_materia": "1845",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "SISTEMAS DE AHORRO DE ENERGIA (L)",
+      "profesor": "FRANCO MARTINEZ DAVID",
+      "salon": "A8112",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_14_1846_1903",
+      "clv_materia": "1846",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "TURBINAS TERMICAS",
+      "profesor": "VAZQUEZ CERVANTES JORGE",
+      "salon": "A8111",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:30-15:30",
+          "inicio_min": 810,
+          "fin_min": 930
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:30-15:30",
+          "inicio_min": 810,
+          "fin_min": 930
+        }
+      ]
+    },
+    {
+      "id": "35_14_1848_1803",
+      "clv_materia": "1848",
+      "grupo": "1803",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "FUNDAMENTOS DE ERGONOMIA (L)",
+      "profesor": "CHACON RAMOS FELIPE DE JESUS",
+      "salon": "A11107",
+      "cupo": 30,
+      "tipo_clase": "SEMIPRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_14_1849_1803",
+      "clv_materia": "1849",
+      "grupo": "1803",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "BIOMECANICA (L+)",
+      "profesor": "GONZALEZ HERNANDEZ GERARDO",
+      "salon": "A11107",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-17:20",
+          "inicio_min": 960,
+          "fin_min": 1040
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-17:20",
+          "inicio_min": 960,
+          "fin_min": 1040
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-17:20",
+          "inicio_min": 960,
+          "fin_min": 1040
+        }
+      ]
+    },
+    {
+      "id": "35_14_1909_1903",
+      "clv_materia": "1909",
+      "grupo": "1903",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "PROYECTO DE INGENIERIA",
+      "profesor": "MORALES AYALA MARIA ALEJANDRA",
+      "salon": "A226",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "08:30-10:00",
+          "inicio_min": 510,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_14_1909_1913",
+      "clv_materia": "1909",
+      "grupo": "1913",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "PROYECTO DE INGENIERIA",
+      "profesor": "GONZALEZ SOSA JESUS VICENTE",
+      "salon": "A8111",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:30-11:00",
+          "inicio_min": 570,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:30-11:00",
+          "inicio_min": 570,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_14_1909_1923",
+      "clv_materia": "1909",
+      "grupo": "1923",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "PROYECTO DE INGENIERIA",
+      "profesor": "ESCALONA GOMEZ ESTELA",
+      "salon": "A11108",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:30-13:00",
+          "inicio_min": 690,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_14_1909_1953",
+      "clv_materia": "1909",
+      "grupo": "1953",
+      "semestre": "35",
+      "carrera": "14",
+      "materia": "PROYECTO DE INGENIERIA",
+      "profesor": "CRUZ DEVIANA MARIO RICARDO",
+      "salon": "A221",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:30-17:00",
+          "inicio_min": 930,
+          "fin_min": 1020
+        }
+      ]
+    }
+  ]
+}

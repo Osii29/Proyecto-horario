@@ -1,0 +1,5973 @@
+{
+  "metadata": {
+    "semestre": "35",
+    "etiqueta_semestre": "2027-1",
+    "carrera": "9",
+    "nombre_carrera": "PEDAGOGIA",
+    "generado_en": "2026-11-24T03:29:55.582994+00:00",
+    "total_grupos_consultados": 52,
+    "total_grupos_con_datos": 52,
+    "total_grupos_vacios": 0,
+    "total_grupos_con_error": 0,
+    "grupos_fallidos": [],
+    "total_registros": 295,
+    "total_materias_unicas": 43,
+    "duplicados_omitidos": 0,
+    "total_incidencias": 0
+  },
+  "resumen_incidencias": {
+    "total": 0,
+    "por_tipo": {},
+    "muestra": []
+  },
+  "horarios": [
+    {
+      "id": "35_9_0002_1501",
+      "clv_materia": "0002",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE DIDACTICAS ESPECIALES",
+      "profesor": "HERNANDEZ TEXOCOTITLA GRACIELA",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0002_1503",
+      "clv_materia": "0002",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE DIDACTICAS ESPECIALES",
+      "profesor": "AMADOR HERNANDEZ SILVIA",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0002_1551",
+      "clv_materia": "0002",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE DIDACTICAS ESPECIALES",
+      "profesor": "GOMEZ RAMIREZ DANIEL",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0002_1552",
+      "clv_materia": "0002",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE DIDACTICAS ESPECIALES",
+      "profesor": "ALMANZAR VAZQUEZ MARIA GUADALUPE",
+      "salon": "A618",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0003_1301",
+      "clv_materia": "0003",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE EDUCACION AMBIENTAL",
+      "profesor": "DE LA TRINIDAD MORA SARA LILIA",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0003_1302",
+      "clv_materia": "0003",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE EDUCACION AMBIENTAL",
+      "profesor": "AGUILAR SANTANA FELIPE",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0003_1303",
+      "clv_materia": "0003",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE EDUCACION AMBIENTAL",
+      "profesor": "RAMIREZ GARCIA NORMA PATRICIA",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0003_1304",
+      "clv_materia": "0003",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE EDUCACION AMBIENTAL",
+      "profesor": "AGUILAR SANTANA FELIPE",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0003_1351",
+      "clv_materia": "0003",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE EDUCACION AMBIENTAL",
+      "profesor": "DE LA TRINIDAD MORA SARA LILIA",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0003_1353",
+      "clv_materia": "0003",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE EDUCACION AMBIENTAL",
+      "profesor": "ZAMBRANO SANCHEZ MINERVA",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0005_1301",
+      "clv_materia": "0005",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE HISTORIA DE LA PEDAGOGIA Y EDUCACION EN AMERICA LATINA",
+      "profesor": "QUIROZ SANCHEZ RODOLFO",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0005_1302",
+      "clv_materia": "0005",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE HISTORIA DE LA PEDAGOGIA Y EDUCACION EN AMERICA LATINA",
+      "profesor": "RAMIREZ CRUZ JOSE ALEJANDRO",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0005_1351",
+      "clv_materia": "0005",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE HISTORIA DE LA PEDAGOGIA Y EDUCACION EN AMERICA LATINA",
+      "profesor": "PUEBLA ESPINOSA GRICELDA",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0005_1352",
+      "clv_materia": "0005",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE HISTORIA DE LA PEDAGOGIA Y EDUCACION EN AMERICA LATINA",
+      "profesor": "VILLEDA ESPITIA MARIA DEL CARMEN",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0006_1501",
+      "clv_materia": "0006",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE TEMAS SELECTOS DE HISTORIA DE LA EDUCACION",
+      "profesor": "COLIN PADILLA DAVID",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0006_1502",
+      "clv_materia": "0006",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE TEMAS SELECTOS DE HISTORIA DE LA EDUCACION",
+      "profesor": "HERNANDEZ REYES CARLOS",
+      "salon": "A618",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0006_1503",
+      "clv_materia": "0006",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE TEMAS SELECTOS DE HISTORIA DE LA EDUCACION",
+      "profesor": "HERNANDEZ REYES CARLOS",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0006_1551",
+      "clv_materia": "0006",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE TEMAS SELECTOS DE HISTORIA DE LA EDUCACION",
+      "profesor": "SANCHEZ VARGAS FLORENCIA LETICIA",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0006_1553",
+      "clv_materia": "0006",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE TEMAS SELECTOS DE HISTORIA DE LA EDUCACION",
+      "profesor": "BAEZA PEÑA MARTHA",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0015_1502",
+      "clv_materia": "0015",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "CULTURA Y PEDAGOGIA",
+      "profesor": "ESCUTIA HERNANDEZ ELIZABETH",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0015_1503",
+      "clv_materia": "0015",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "CULTURA Y PEDAGOGIA",
+      "profesor": "SALDAÑA PEREZ ERIKA",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0015_1504",
+      "clv_materia": "0015",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "CULTURA Y PEDAGOGIA",
+      "profesor": "MENDIOLA ANDRADE ERIBERTA",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0015_1505",
+      "clv_materia": "0015",
+      "grupo": "1505",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "CULTURA Y PEDAGOGIA",
+      "profesor": "FUENTES MARIN ZADOC",
+      "salon": "A605",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0015_1552",
+      "clv_materia": "0015",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "CULTURA Y PEDAGOGIA",
+      "profesor": "CASTREJON GALICIA RUBEN",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_9_0015_1553",
+      "clv_materia": "0015",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "CULTURA Y PEDAGOGIA",
+      "profesor": "TORRES RIVERA YADIRA ELIZABETH",
+      "salon": "A605",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0015_1554",
+      "clv_materia": "0015",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "CULTURA Y PEDAGOGIA",
+      "profesor": "FUENTES MARIN ZADOC",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0017_1301",
+      "clv_materia": "0017",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE GENERO Y EDUCACION",
+      "profesor": "ROMERO RAMIREZ ALMA VIRIDIANA",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0017_1302",
+      "clv_materia": "0017",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE GENERO Y EDUCACION",
+      "profesor": "ROMERO RAMIREZ ALMA VIRIDIANA",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_0017_1303",
+      "clv_materia": "0017",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE GENERO Y EDUCACION",
+      "profesor": "ZAMBRANO SANCHEZ MINERVA",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0017_1304",
+      "clv_materia": "0017",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE GENERO Y EDUCACION",
+      "profesor": "GARCIA VELAZQUEZ KAREN",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0017_1305",
+      "clv_materia": "0017",
+      "grupo": "1305",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE GENERO Y EDUCACION",
+      "profesor": "SERRATO MINJAREZ XOCHITL ELVIRA",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_0017_1351",
+      "clv_materia": "0017",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE GENERO Y EDUCACION",
+      "profesor": "ZUÑIGA PALENCIA ELVIA ROSA",
+      "salon": "A618",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0017_1352",
+      "clv_materia": "0017",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE GENERO Y EDUCACION",
+      "profesor": "GARCIA VELAZQUEZ KAREN",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0017_1353",
+      "clv_materia": "0017",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE GENERO Y EDUCACION",
+      "profesor": "ZUÑIGA PALENCIA ELVIA ROSA",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0018_1501",
+      "clv_materia": "0018",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION SEXUAL",
+      "profesor": "ESTRADA MONTOYA NIEVES",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0018_1502",
+      "clv_materia": "0018",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION SEXUAL",
+      "profesor": "SERRATO MINJAREZ XOCHITL ELVIRA",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0018_1503",
+      "clv_materia": "0018",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION SEXUAL",
+      "profesor": "ZAMBRANO SANCHEZ MINERVA",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0018_1504",
+      "clv_materia": "0018",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION SEXUAL",
+      "profesor": "GARCIA VELAZQUEZ KAREN",
+      "salon": "A604",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_0018_1551",
+      "clv_materia": "0018",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION SEXUAL",
+      "profesor": "ROMERO RAMIREZ ALMA VIRIDIANA",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0018_1552",
+      "clv_materia": "0018",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION SEXUAL",
+      "profesor": "ZUÑIGA PALENCIA ELVIA ROSA",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0018_1553",
+      "clv_materia": "0018",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION SEXUAL",
+      "profesor": "ROMERO RAMIREZ ALMA VIRIDIANA",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0018_1554",
+      "clv_materia": "0018",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION SEXUAL",
+      "profesor": "GARCIA VELAZQUEZ KAREN",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0019_1301",
+      "clv_materia": "0019",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE PSICOANALISIS Y EDUCACION",
+      "profesor": "MORALES BARRERA MONICA",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0019_1302",
+      "clv_materia": "0019",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE PSICOANALISIS Y EDUCACION",
+      "profesor": "LOZANO GONZALEZ ALEJANDRA DANIELA",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0019_1303",
+      "clv_materia": "0019",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE PSICOANALISIS Y EDUCACION",
+      "profesor": "CORONA FUENTES RAUL OSWALDO",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0019_1351",
+      "clv_materia": "0019",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE PSICOANALISIS Y EDUCACION",
+      "profesor": "MORALES BARRERA MONICA",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0019_1352",
+      "clv_materia": "0019",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE PSICOANALISIS Y EDUCACION",
+      "profesor": "MONTIEL MORALES NAYELLI",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "17:00-20:00",
+          "inicio_min": 1020,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_9_0019_1353",
+      "clv_materia": "0019",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE PSICOANALISIS Y EDUCACION",
+      "profesor": "MEJORADA RODRIGUEZ KARINA BELEN",
+      "salon": "A605",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0019_1354",
+      "clv_materia": "0019",
+      "grupo": "1354",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE PSICOANALISIS Y EDUCACION",
+      "profesor": "SOLIS SOTO VERONICA",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0021_1301",
+      "clv_materia": "0021",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "HERMENEUTICA PEDAGOGICA",
+      "profesor": "HERNANDEZ REYES CARLOS",
+      "salon": "A618",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0021_1302",
+      "clv_materia": "0021",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "HERMENEUTICA PEDAGOGICA",
+      "profesor": "HERNANDEZ REYES CARLOS",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0021_1351",
+      "clv_materia": "0021",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "HERMENEUTICA PEDAGOGICA",
+      "profesor": "MENESES DIAZ GERARDO",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_9_0021_1352",
+      "clv_materia": "0021",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "HERMENEUTICA PEDAGOGICA",
+      "profesor": "TORRES RIVERA YADIRA ELIZABETH",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0023_1501",
+      "clv_materia": "0023",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INFORMATICA PEDAGOGICA",
+      "profesor": "ROJAS LOPEZ JULIO CESAR",
+      "salon": "LABCOM04",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0023_1502",
+      "clv_materia": "0023",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INFORMATICA PEDAGOGICA",
+      "profesor": "DE LA TRINIDAD MORA SARA LILIA",
+      "salon": "CCSAL2",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0023_1503",
+      "clv_materia": "0023",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INFORMATICA PEDAGOGICA",
+      "profesor": "RAMIREZ CRUZ JOSE ALEJANDRO",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0023_1551",
+      "clv_materia": "0023",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INFORMATICA PEDAGOGICA",
+      "profesor": "LOPEZ RAMIREZ DAMARIS",
+      "salon": "CCSAL1",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0023_1552",
+      "clv_materia": "0023",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INFORMATICA PEDAGOGICA",
+      "profesor": "AGUILAR HERRERA CARLOS ANTONIO",
+      "salon": "CCSAL6",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0023_1553",
+      "clv_materia": "0023",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INFORMATICA PEDAGOGICA",
+      "profesor": "GASTALDI PEREZ JUAN",
+      "salon": "CCSAL7",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_9_0025_1701",
+      "clv_materia": "0025",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE COMUNICACION EDUCATIVA",
+      "profesor": "BORGES ARRIETA ALEJANDRO",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0025_1702",
+      "clv_materia": "0025",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE COMUNICACION EDUCATIVA",
+      "profesor": "RAMIREZ CRUZ JOSE ALEJANDRO",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0025_1703",
+      "clv_materia": "0025",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE COMUNICACION EDUCATIVA",
+      "profesor": "CORTEZ VELAZQUEZ CARLOS ULISES",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0025_1704",
+      "clv_materia": "0025",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE COMUNICACION EDUCATIVA",
+      "profesor": "RAMIREZ TORRES LUIS MIGUEL",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_0025_1705",
+      "clv_materia": "0025",
+      "grupo": "1705",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE COMUNICACION EDUCATIVA",
+      "profesor": "ROJAS LOPEZ JULIO CESAR",
+      "salon": "A605",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_9_0025_1751",
+      "clv_materia": "0025",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE COMUNICACION EDUCATIVA",
+      "profesor": "CORTEZ VELAZQUEZ CARLOS ULISES",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0025_1752",
+      "clv_materia": "0025",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE COMUNICACION EDUCATIVA",
+      "profesor": "DE LA TRINIDAD MORA SARA LILIA",
+      "salon": "A605",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0028_1701",
+      "clv_materia": "0028",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE ANTROPOLOGIA HERMENEUTICA",
+      "profesor": "ARIAS GONZALEZ NORMA JOSEFINA",
+      "salon": "A618",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0028_1702",
+      "clv_materia": "0028",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE ANTROPOLOGIA HERMENEUTICA",
+      "profesor": "BERMUDEZ JIMENEZ JOEL",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0028_1703",
+      "clv_materia": "0028",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE ANTROPOLOGIA HERMENEUTICA",
+      "profesor": "HERNANDEZ REYES CARLOS",
+      "salon": "A618",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0028_1751",
+      "clv_materia": "0028",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE ANTROPOLOGIA HERMENEUTICA",
+      "profesor": "SILVA SANCHEZ MANUEL",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_9_0028_1752",
+      "clv_materia": "0028",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE ANTROPOLOGIA HERMENEUTICA",
+      "profesor": "SILVA SANCHEZ MANUEL",
+      "salon": "A603",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_9_0028_1753",
+      "clv_materia": "0028",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE ANTROPOLOGIA HERMENEUTICA",
+      "profesor": "DE LA TRINIDAD MORA SARA LILIA",
+      "salon": "A618",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0031_1701",
+      "clv_materia": "0031",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE EDUCACION INDIGENA",
+      "profesor": "SALDAÑA PEREZ ERIKA",
+      "salon": "A618",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0031_1702",
+      "clv_materia": "0031",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE EDUCACION INDIGENA",
+      "profesor": "CARRILLO AVELAR ANTONIO",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0031_1704",
+      "clv_materia": "0031",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE EDUCACION INDIGENA",
+      "profesor": "BONILLA GONZALEZ MARCOS RODOLFO",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0031_1705",
+      "clv_materia": "0031",
+      "grupo": "1705",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE EDUCACION INDIGENA",
+      "profesor": "AGUILAR BOBADILLA MARIANA DEL ROCIO",
+      "salon": "A604",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0031_1751",
+      "clv_materia": "0031",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE EDUCACION INDIGENA",
+      "profesor": "AGUILAR BOBADILLA MARIANA DEL ROCIO",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0031_1752",
+      "clv_materia": "0031",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE EDUCACION INDIGENA",
+      "profesor": "RUBIO JIMENEZ MONICA LETICIA",
+      "salon": "A617",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0031_1753",
+      "clv_materia": "0031",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE EDUCACION INDIGENA",
+      "profesor": "RAMIREZ ZURITA CRISPIN",
+      "salon": "A603",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_9_0031_1754",
+      "clv_materia": "0031",
+      "grupo": "1754",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE EDUCACION INDIGENA",
+      "profesor": "RAMIREZ ZURITA CRISPIN",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_9_0031_1755",
+      "clv_materia": "0031",
+      "grupo": "1755",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "SEMINARIO DE EDUCACION INDIGENA",
+      "profesor": "BAEZA PEÑA MARTHA",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0033_1701",
+      "clv_materia": "0033",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION ESPECIAL",
+      "profesor": "SOLIS SOTO VERONICA",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0033_1702",
+      "clv_materia": "0033",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION ESPECIAL",
+      "profesor": "CRUZ VELASCO JUAN ALEJANDRO",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0033_1703",
+      "clv_materia": "0033",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION ESPECIAL",
+      "profesor": "CRUZ VELASCO JUAN ALEJANDRO",
+      "salon": "A606",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0033_1704",
+      "clv_materia": "0033",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION ESPECIAL",
+      "profesor": "SOLIS SOTO VERONICA",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0033_1705",
+      "clv_materia": "0033",
+      "grupo": "1705",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION ESPECIAL",
+      "profesor": "LOZANO GONZALEZ ALEJANDRA DANIELA",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0033_1751",
+      "clv_materia": "0033",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION ESPECIAL",
+      "profesor": "LOZANO GONZALEZ ALEJANDRA DANIELA",
+      "salon": "A606",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0033_1752",
+      "clv_materia": "0033",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION ESPECIAL",
+      "profesor": "LOZANO GONZALEZ ALEJANDRA DANIELA",
+      "salon": "A603",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0033_1753",
+      "clv_materia": "0033",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION ESPECIAL",
+      "profesor": "OCAMPO HERNANDEZ VERONICA",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_9_0033_1754",
+      "clv_materia": "0033",
+      "grupo": "1754",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "LABORATORIO DE EDUCACION ESPECIAL",
+      "profesor": "OCAMPO HERNANDEZ VERONICA",
+      "salon": "A603",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_9_0036_1701",
+      "clv_materia": "0036",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INVESTIGACION EN EL AULA",
+      "profesor": "ESCAMILLA SALAZAR JESUS",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0036_1702",
+      "clv_materia": "0036",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INVESTIGACION EN EL AULA",
+      "profesor": "BERNAL FRANCO ENRIQUE",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_0036_1751",
+      "clv_materia": "0036",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INVESTIGACION EN EL AULA",
+      "profesor": "HERMIDA MIRALRIO FLOR ANGELICA",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "14:00-17:00",
+          "inicio_min": 840,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_9_0036_1752",
+      "clv_materia": "0036",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INVESTIGACION EN EL AULA",
+      "profesor": "ZUÑIGA PALENCIA ELVIA ROSA",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0110_1105",
+      "clv_materia": "0110",
+      "grupo": "1105",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ANTROPOLOGIA PEDAGOGICA",
+      "profesor": "GASPAR SALINAS BEATRIZ ANTONIA",
+      "salon": "SINDEF",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_9_0110_1154",
+      "clv_materia": "0110",
+      "grupo": "1154",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ANTROPOLOGIA PEDAGOGICA",
+      "profesor": "CHAGOYA MONROY CESAR ALEJANDRO",
+      "salon": "SINDEF",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0111_1105",
+      "clv_materia": "0111",
+      "grupo": "1105",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "DIDACTICA GENERAL I",
+      "profesor": "CASTRO PRADO BRAYAN FERNANDO",
+      "salon": "SINDEF",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_9_0111_1154",
+      "clv_materia": "0111",
+      "grupo": "1154",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "DIDACTICA GENERAL I",
+      "profesor": "ESCUTIA HERNANDEZ ELIZABETH",
+      "salon": "SINDEF",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0112_1105",
+      "clv_materia": "0112",
+      "grupo": "1105",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "INVESTIGACION PEDAGOGICA",
+      "profesor": "LOPEZ RAMIREZ DAMARIS",
+      "salon": "SINDEF",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-17:00",
+          "inicio_min": 780,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_9_0112_1154",
+      "clv_materia": "0112",
+      "grupo": "1154",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "INVESTIGACION PEDAGOGICA",
+      "profesor": "TELLEZ FUENTES ANGELICA NALLELY",
+      "salon": "SINDEF",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0113_1105",
+      "clv_materia": "0113",
+      "grupo": "1105",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIA PEDAGOGICA I.",
+      "profesor": "CASTRO PRADO BRAYAN FERNANDO",
+      "salon": "SINDEF",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_9_0113_1154",
+      "clv_materia": "0113",
+      "grupo": "1154",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIA PEDAGOGICA I.",
+      "profesor": "LOPEZ RAMIREZ DAMARIS",
+      "salon": "SINDEF",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0114_1105",
+      "clv_materia": "0114",
+      "grupo": "1105",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIA SOCIOLOGICAS Y EDUCACION",
+      "profesor": "ESCARTIN VAZQUEZ DULCE ANGELICA",
+      "salon": "SINDEF",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0114_1154",
+      "clv_materia": "0114",
+      "grupo": "1154",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIA SOCIOLOGICAS Y EDUCACION",
+      "profesor": "LOPEZ RIVERA GERARDO",
+      "salon": "SINDEF",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0115_1105",
+      "clv_materia": "0115",
+      "grupo": "1105",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIAS PSICOLOGICAS Y EDUCACION",
+      "profesor": "HERNANDEZ LOZADA SANDRA",
+      "salon": "SINDEF",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0115_1151",
+      "clv_materia": "0115",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIAS PSICOLOGICAS Y EDUCACION",
+      "profesor": "GRIMALDO POSADAS MARCO",
+      "salon": "A604",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0115_1154",
+      "clv_materia": "0115",
+      "grupo": "1154",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIAS PSICOLOGICAS Y EDUCACION",
+      "profesor": "ROSAS MEZA RAQUEL",
+      "salon": "SINDEF",
+      "cupo": 10,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0310_1301",
+      "clv_materia": "0310",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ENFOQUES SOCIOEDUCATIVOS EN AMERICA LATINA",
+      "profesor": "JIMENEZ LUNA BRIAN MICHEL",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_0310_1304",
+      "clv_materia": "0310",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ENFOQUES SOCIOEDUCATIVOS EN AMERICA LATINA",
+      "profesor": "SALDAÑA PEREZ ERIKA",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0310_1305",
+      "clv_materia": "0310",
+      "grupo": "1305",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ENFOQUES SOCIOEDUCATIVOS EN AMERICA LATINA",
+      "profesor": "MENDOZA CARO EUGENIO",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0310_1351",
+      "clv_materia": "0310",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ENFOQUES SOCIOEDUCATIVOS EN AMERICA LATINA",
+      "profesor": "BAEZA PEÑA MARTHA",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0310_1352",
+      "clv_materia": "0310",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ENFOQUES SOCIOEDUCATIVOS EN AMERICA LATINA",
+      "profesor": "CISNEROS CONTRERAS RODOLFO ISAAC",
+      "salon": "A604",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0310_1353",
+      "clv_materia": "0310",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ENFOQUES SOCIOEDUCATIVOS EN AMERICA LATINA",
+      "profesor": "GARCIA FREYRE GREGORIO",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0310_1354",
+      "clv_materia": "0310",
+      "grupo": "1354",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ENFOQUES SOCIOEDUCATIVOS EN AMERICA LATINA",
+      "profesor": "BAEZA PEÑA MARTHA",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0311_1301",
+      "clv_materia": "0311",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "FORMACION Y PRACTICA PEDAGOGICA",
+      "profesor": "BERMUDEZ JIMENEZ JOEL",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0311_1302",
+      "clv_materia": "0311",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "FORMACION Y PRACTICA PEDAGOGICA",
+      "profesor": "ROBLES PALOMARES LIZBETH ARIANNE",
+      "salon": "A618",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0311_1303",
+      "clv_materia": "0311",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "FORMACION Y PRACTICA PEDAGOGICA",
+      "profesor": "ROMERO HERNANDEZ JOSE LUIS",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_9_0311_1304",
+      "clv_materia": "0311",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "FORMACION Y PRACTICA PEDAGOGICA",
+      "profesor": "HERNANDEZ TEXOCOTITLA GRACIELA",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_9_0311_1305",
+      "clv_materia": "0311",
+      "grupo": "1305",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "FORMACION Y PRACTICA PEDAGOGICA",
+      "profesor": "MERCADO MARTINEZ VERONICA",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0311_1306",
+      "clv_materia": "0311",
+      "grupo": "1306",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "FORMACION Y PRACTICA PEDAGOGICA",
+      "profesor": "MARTINEZ OLIVERA AGUSTIN HOMERO",
+      "salon": "A604",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_9_0311_1351",
+      "clv_materia": "0311",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "FORMACION Y PRACTICA PEDAGOGICA",
+      "profesor": "MARTINEZ OLIVERA AGUSTIN HOMERO",
+      "salon": "A603",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0311_1352",
+      "clv_materia": "0311",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "FORMACION Y PRACTICA PEDAGOGICA",
+      "profesor": "MARTINEZ OLIVERA AGUSTIN HOMERO",
+      "salon": "A603",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0311_1353",
+      "clv_materia": "0311",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "FORMACION Y PRACTICA PEDAGOGICA",
+      "profesor": "VALLEJO GRANDE ERICK CAFEEL",
+      "salon": "A618",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0311_1354",
+      "clv_materia": "0311",
+      "grupo": "1354",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "FORMACION Y PRACTICA PEDAGOGICA",
+      "profesor": "ROMERO HERNANDEZ JOSE LUIS",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0312_1301",
+      "clv_materia": "0312",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "HISTORIA DE LA EDUCACION EN MEXICO",
+      "profesor": "RODRIGUEZ  ALBERTO",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0312_1302",
+      "clv_materia": "0312",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "HISTORIA DE LA EDUCACION EN MEXICO",
+      "profesor": "PUEBLA ESPINOSA GRICELDA",
+      "salon": "A606",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0312_1303",
+      "clv_materia": "0312",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "HISTORIA DE LA EDUCACION EN MEXICO",
+      "profesor": "RODRIGUEZ  ALBERTO",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0312_1304",
+      "clv_materia": "0312",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "HISTORIA DE LA EDUCACION EN MEXICO",
+      "profesor": "RODRIGUEZ  ALBERTO",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0312_1351",
+      "clv_materia": "0312",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "HISTORIA DE LA EDUCACION EN MEXICO",
+      "profesor": "COLIN PADILLA DAVID",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0312_1352",
+      "clv_materia": "0312",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "HISTORIA DE LA EDUCACION EN MEXICO",
+      "profesor": "LUJANO RAMIREZ HUGO DANIEL",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0312_1353",
+      "clv_materia": "0312",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "HISTORIA DE LA EDUCACION EN MEXICO",
+      "profesor": "PUEBLA ESPINOSA GRICELDA",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0312_1354",
+      "clv_materia": "0312",
+      "grupo": "1354",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "HISTORIA DE LA EDUCACION EN MEXICO",
+      "profesor": "HERNANDEZ REYES CARLOS",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0313_1301",
+      "clv_materia": "0313",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "PLANEACION Y ORGANIZACION EDUCATIVA",
+      "profesor": "DAVILA CUELLAR LAURA ELOINA",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_9_0313_1302",
+      "clv_materia": "0313",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "PLANEACION Y ORGANIZACION EDUCATIVA",
+      "profesor": "MERCADO MARTINEZ VERONICA",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-14:00",
+          "inicio_min": 600,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_9_0313_1303",
+      "clv_materia": "0313",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "PLANEACION Y ORGANIZACION EDUCATIVA",
+      "profesor": "ROBLES PALOMARES LIZBETH ARIANNE",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0313_1304",
+      "clv_materia": "0313",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "PLANEACION Y ORGANIZACION EDUCATIVA",
+      "profesor": "ZENDEJAS TREJO PATRICIA",
+      "salon": "A603",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0313_1305",
+      "clv_materia": "0313",
+      "grupo": "1305",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "PLANEACION Y ORGANIZACION EDUCATIVA",
+      "profesor": "CASTRO PRADO BRAYAN FERNANDO",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_9_0313_1351",
+      "clv_materia": "0313",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "PLANEACION Y ORGANIZACION EDUCATIVA",
+      "profesor": "ESCARTIN VAZQUEZ DULCE ANGELICA",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0313_1352",
+      "clv_materia": "0313",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "PLANEACION Y ORGANIZACION EDUCATIVA",
+      "profesor": "LEAL MARTINEZ PATRICIA",
+      "salon": "A604",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0313_1353",
+      "clv_materia": "0313",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "PLANEACION Y ORGANIZACION EDUCATIVA",
+      "profesor": "COLIN PADILLA DAVID",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0313_1354",
+      "clv_materia": "0313",
+      "grupo": "1354",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "PLANEACION Y ORGANIZACION EDUCATIVA",
+      "profesor": "BERMUDEZ JIMENEZ JOEL",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0313_1355",
+      "clv_materia": "0313",
+      "grupo": "1355",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "PLANEACION Y ORGANIZACION EDUCATIVA",
+      "profesor": "HERNANDEZ LOZADA SANDRA",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-17:00",
+          "inicio_min": 780,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_9_0313_1356",
+      "clv_materia": "0313",
+      "grupo": "1356",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "PLANEACION Y ORGANIZACION EDUCATIVA",
+      "profesor": "RODRIGUEZ CASTILLO MARIO",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0314_1301",
+      "clv_materia": "0314",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIAS DEL APRENDIZAJE",
+      "profesor": "VALLEJO GRANDE ERICK CAFEEL",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0314_1302",
+      "clv_materia": "0314",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIAS DEL APRENDIZAJE",
+      "profesor": "MEJORADA MOTA MARIA HILDA",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0314_1303",
+      "clv_materia": "0314",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIAS DEL APRENDIZAJE",
+      "profesor": "SORIANO RAMIREZ ROSA MARIA",
+      "salon": "A605",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0314_1304",
+      "clv_materia": "0314",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIAS DEL APRENDIZAJE",
+      "profesor": "CRUZ VELASCO JUAN ALEJANDRO",
+      "salon": "A606",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0314_1305",
+      "clv_materia": "0314",
+      "grupo": "1305",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIAS DEL APRENDIZAJE",
+      "profesor": "GASPAR SALINAS BEATRIZ ANTONIA",
+      "salon": "A603",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_9_0314_1351",
+      "clv_materia": "0314",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIAS DEL APRENDIZAJE",
+      "profesor": "BARRON TIRADO MARIA TERESA",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0314_1352",
+      "clv_materia": "0314",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIAS DEL APRENDIZAJE",
+      "profesor": "LOPEZ RAMIREZ DAMARIS",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0314_1353",
+      "clv_materia": "0314",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIAS DEL APRENDIZAJE",
+      "profesor": "YBARRA GARDUÑO BEATRIZ ANGELICA",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0314_1354",
+      "clv_materia": "0314",
+      "grupo": "1354",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIAS DEL APRENDIZAJE",
+      "profesor": "ESCUTIA HERNANDEZ ELIZABETH",
+      "salon": "A618",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0314_1355",
+      "clv_materia": "0314",
+      "grupo": "1355",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORIAS DEL APRENDIZAJE",
+      "profesor": "GRIMALDO POSADAS MARCO",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0412_1501",
+      "clv_materia": "0412",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORGANISMOS INTERNACIONALES Y POLITICAS EDUCATIVAS EN AMERICA LATINA",
+      "profesor": "QUIROZ SANCHEZ RODOLFO",
+      "salon": "A604",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0412_1502",
+      "clv_materia": "0412",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORGANISMOS INTERNACIONALES Y POLITICAS EDUCATIVAS EN AMERICA LATINA",
+      "profesor": "QUIROZ SANCHEZ RODOLFO",
+      "salon": "A606",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0412_1503",
+      "clv_materia": "0412",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORGANISMOS INTERNACIONALES Y POLITICAS EDUCATIVAS EN AMERICA LATINA",
+      "profesor": "RAMIREZ TORRES LUIS MIGUEL",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0412_1504",
+      "clv_materia": "0412",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORGANISMOS INTERNACIONALES Y POLITICAS EDUCATIVAS EN AMERICA LATINA",
+      "profesor": "MENDOZA CARO EUGENIO",
+      "salon": "A606",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0412_1505",
+      "clv_materia": "0412",
+      "grupo": "1505",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORGANISMOS INTERNACIONALES Y POLITICAS EDUCATIVAS EN AMERICA LATINA",
+      "profesor": "HERNANDEZ VENTURA JOEL",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0412_1551",
+      "clv_materia": "0412",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORGANISMOS INTERNACIONALES Y POLITICAS EDUCATIVAS EN AMERICA LATINA",
+      "profesor": "MARTINEZ PONCE ANA MARIA",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0412_1552",
+      "clv_materia": "0412",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORGANISMOS INTERNACIONALES Y POLITICAS EDUCATIVAS EN AMERICA LATINA",
+      "profesor": "HERNANDEZ VENTURA JOEL",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0412_1553",
+      "clv_materia": "0412",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORGANISMOS INTERNACIONALES Y POLITICAS EDUCATIVAS EN AMERICA LATINA",
+      "profesor": "SORIANO RAMIREZ ROSA MARIA",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "14:00-17:00",
+          "inicio_min": 840,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_9_0510_1501",
+      "clv_materia": "0510",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EVALUACION CURRICULAR",
+      "profesor": "AMADOR HERNANDEZ SILVIA",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0510_1502",
+      "clv_materia": "0510",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EVALUACION CURRICULAR",
+      "profesor": "SANCHEZ GUTIERREZ ROLANDO",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0510_1503",
+      "clv_materia": "0510",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EVALUACION CURRICULAR",
+      "profesor": "TORRES MENDEZ LORENA ELIZABETH",
+      "salon": "A603",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0510_1504",
+      "clv_materia": "0510",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EVALUACION CURRICULAR",
+      "profesor": "SANCHEZ GUTIERREZ ROLANDO",
+      "salon": "A602",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0510_1505",
+      "clv_materia": "0510",
+      "grupo": "1505",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EVALUACION CURRICULAR",
+      "profesor": "DEL RIO DEL VALLE MIGUEL ANGEL",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0510_1506",
+      "clv_materia": "0510",
+      "grupo": "1506",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EVALUACION CURRICULAR",
+      "profesor": "SANCHEZ GUTIERREZ ROLANDO",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0510_1551",
+      "clv_materia": "0510",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EVALUACION CURRICULAR",
+      "profesor": "ALMANZAR VAZQUEZ MARIA GUADALUPE",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0510_1552",
+      "clv_materia": "0510",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EVALUACION CURRICULAR",
+      "profesor": "TELLEZ FUENTES ANGELICA NALLELY",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0510_1553",
+      "clv_materia": "0510",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EVALUACION CURRICULAR",
+      "profesor": "DEL RIO DEL VALLE MIGUEL ANGEL",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0510_1554",
+      "clv_materia": "0510",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EVALUACION CURRICULAR",
+      "profesor": "ROMERO MEJIA ADOLFO",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0510_1555",
+      "clv_materia": "0510",
+      "grupo": "1555",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EVALUACION CURRICULAR",
+      "profesor": "DEL RIO DEL VALLE MIGUEL ANGEL",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0510_1556",
+      "clv_materia": "0510",
+      "grupo": "1556",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EVALUACION CURRICULAR",
+      "profesor": "TELLEZ FUENTES ANGELICA NALLELY",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0511_1501",
+      "clv_materia": "0511",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ETICA Y PRACTICA PROFESIONAL DEL PEDAGOGO",
+      "profesor": "BORGES ARRIETA ALEJANDRO",
+      "salon": "A603",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_9_0511_1502",
+      "clv_materia": "0511",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ETICA Y PRACTICA PROFESIONAL DEL PEDAGOGO",
+      "profesor": "AGUILAR SANTANA FELIPE",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-12:00",
+          "inicio_min": 600,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_0511_1503",
+      "clv_materia": "0511",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ETICA Y PRACTICA PROFESIONAL DEL PEDAGOGO",
+      "profesor": "ROMERO HERNANDEZ JOSE LUIS",
+      "salon": "A605",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_9_0511_1504",
+      "clv_materia": "0511",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ETICA Y PRACTICA PROFESIONAL DEL PEDAGOGO",
+      "profesor": "SILVA SANCHEZ MANUEL",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_9_0511_1505",
+      "clv_materia": "0511",
+      "grupo": "1505",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ETICA Y PRACTICA PROFESIONAL DEL PEDAGOGO",
+      "profesor": "CISNEROS CONTRERAS RODOLFO ISAAC",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0511_1551",
+      "clv_materia": "0511",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ETICA Y PRACTICA PROFESIONAL DEL PEDAGOGO",
+      "profesor": "SILVA SANCHEZ MANUEL",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_9_0511_1552",
+      "clv_materia": "0511",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ETICA Y PRACTICA PROFESIONAL DEL PEDAGOGO",
+      "profesor": "AGUILAR SANTANA FELIPE",
+      "salon": "A618",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0511_1553",
+      "clv_materia": "0511",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ETICA Y PRACTICA PROFESIONAL DEL PEDAGOGO",
+      "profesor": "SILVA SANCHEZ MANUEL",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0511_1554",
+      "clv_materia": "0511",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ETICA Y PRACTICA PROFESIONAL DEL PEDAGOGO",
+      "profesor": "ROMERO HERNANDEZ JOSE LUIS",
+      "salon": "A618",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0513_1502",
+      "clv_materia": "0513",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ENFOQUES METODOLOGICOS CUANTITATIVOS",
+      "profesor": "BORGES ARRIETA ALEJANDRO",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0513_1503",
+      "clv_materia": "0513",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ENFOQUES METODOLOGICOS CUANTITATIVOS",
+      "profesor": "MERCADO MARTINEZ VERONICA",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0513_1504",
+      "clv_materia": "0513",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ENFOQUES METODOLOGICOS CUANTITATIVOS",
+      "profesor": "GARCIA PEÑA MARIA DE LOURDES",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0513_1505",
+      "clv_materia": "0513",
+      "grupo": "1505",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ENFOQUES METODOLOGICOS CUANTITATIVOS",
+      "profesor": "VERGARA DURAN ADELA AYATXIHUATL",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_0513_1551",
+      "clv_materia": "0513",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ENFOQUES METODOLOGICOS CUANTITATIVOS",
+      "profesor": "VALLEJO GRANDE ERICK CAFEEL",
+      "salon": "A603",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0513_1552",
+      "clv_materia": "0513",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ENFOQUES METODOLOGICOS CUANTITATIVOS",
+      "profesor": "JIMENEZ BECERRA MARIA ESTHER",
+      "salon": "A603",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0513_1554",
+      "clv_materia": "0513",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ENFOQUES METODOLOGICOS CUANTITATIVOS",
+      "profesor": "HERMIDA MIRALRIO FLOR ANGELICA",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0514_1501",
+      "clv_materia": "0514",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORIENTACION EDUCATIVA",
+      "profesor": "ROBLES PALOMARES LIZBETH ARIANNE",
+      "salon": "A605",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_0514_1502",
+      "clv_materia": "0514",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORIENTACION EDUCATIVA",
+      "profesor": "GRIMALDO POSADAS MARCO",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0514_1503",
+      "clv_materia": "0514",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORIENTACION EDUCATIVA",
+      "profesor": "ROSAS MEZA RAQUEL",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0514_1504",
+      "clv_materia": "0514",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORIENTACION EDUCATIVA",
+      "profesor": "ESTRADA MONTOYA NIEVES",
+      "salon": "A604",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0514_1505",
+      "clv_materia": "0514",
+      "grupo": "1505",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORIENTACION EDUCATIVA",
+      "profesor": "ROSAS MEZA RAQUEL",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0514_1551",
+      "clv_materia": "0514",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORIENTACION EDUCATIVA",
+      "profesor": "CASTREJON GALICIA RUBEN",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_9_0514_1552",
+      "clv_materia": "0514",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORIENTACION EDUCATIVA",
+      "profesor": "GRIMALDO POSADAS MARCO",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0514_1553",
+      "clv_materia": "0514",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORIENTACION EDUCATIVA",
+      "profesor": "ROBLES PALOMARES LIZBETH ARIANNE",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0514_1554",
+      "clv_materia": "0514",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORIENTACION EDUCATIVA",
+      "profesor": "GRIMALDO POSADAS MARCO",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0514_1555",
+      "clv_materia": "0514",
+      "grupo": "1555",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ORIENTACION EDUCATIVA",
+      "profesor": "CASTREJON GALICIA RUBEN",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_9_0515_1501",
+      "clv_materia": "0515",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION I",
+      "profesor": "DEL RIO DEL VALLE MIGUEL ANGEL",
+      "salon": "A618",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_9_0515_1503",
+      "clv_materia": "0515",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION I",
+      "profesor": "LOPEZ GUERRERO MARIA DEL ROSARIO",
+      "salon": "A618",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_9_0515_1504",
+      "clv_materia": "0515",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION I",
+      "profesor": "ARGOTT CISNEROS LUCERO",
+      "salon": "A612",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0515_1505",
+      "clv_materia": "0515",
+      "grupo": "1505",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION I",
+      "profesor": "HERNANDEZ VENTURA JOEL",
+      "salon": "A605",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0515_1506",
+      "clv_materia": "0515",
+      "grupo": "1506",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION I",
+      "profesor": "RODRIGUEZ  ALBERTO",
+      "salon": "A612",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "08:00-10:00",
+          "inicio_min": 480,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0515_1507",
+      "clv_materia": "0515",
+      "grupo": "1507",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION I",
+      "profesor": "DEL RIO DEL VALLE MIGUEL ANGEL",
+      "salon": "A618",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0515_1508",
+      "clv_materia": "0515",
+      "grupo": "1508",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION I",
+      "profesor": "JIMENEZ ZALDIVAR MARIA ELENA",
+      "salon": "A606",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0515_1509",
+      "clv_materia": "0515",
+      "grupo": "1509",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION I",
+      "profesor": "CISNEROS CONTRERAS RODOLFO ISAAC",
+      "salon": "A617",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-12:00",
+          "inicio_min": 600,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_0515_1551",
+      "clv_materia": "0515",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION I",
+      "profesor": "RIVERA CRISTOBAL AIDA",
+      "salon": "A612",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0515_1552",
+      "clv_materia": "0515",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION I",
+      "profesor": "BARRON TIRADO MARIA TERESA",
+      "salon": "A612",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_9_0515_1554",
+      "clv_materia": "0515",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION I",
+      "profesor": "MENESES DIAZ GERARDO",
+      "salon": "A611",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0515_1555",
+      "clv_materia": "0515",
+      "grupo": "1555",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION I",
+      "profesor": "ESCAMILLA SALAZAR JESUS",
+      "salon": "A612",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0515_1556",
+      "clv_materia": "0515",
+      "grupo": "1556",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION I",
+      "profesor": "GARCIA PEÑA MARIA DE LOURDES",
+      "salon": "A616",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0515_1557",
+      "clv_materia": "0515",
+      "grupo": "1557",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION I",
+      "profesor": "CISNEROS CONTRERAS RODOLFO ISAAC",
+      "salon": "A613",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0710_1701",
+      "clv_materia": "0710",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE ELABORACION Y EVALUACIÓN DE PROGRAMAS EDUCATIVOS",
+      "profesor": "DAVILA CUELLAR LAURA ELOINA",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0710_1702",
+      "clv_materia": "0710",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE ELABORACION Y EVALUACIÓN DE PROGRAMAS EDUCATIVOS",
+      "profesor": "DAVILA CUELLAR LAURA ELOINA",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_9_0710_1703",
+      "clv_materia": "0710",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE ELABORACION Y EVALUACIÓN DE PROGRAMAS EDUCATIVOS",
+      "profesor": "MONTERO FLORES ALBERTO",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0710_1704",
+      "clv_materia": "0710",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE ELABORACION Y EVALUACIÓN DE PROGRAMAS EDUCATIVOS",
+      "profesor": "AMADOR HERNANDEZ SILVIA",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0710_1705",
+      "clv_materia": "0710",
+      "grupo": "1705",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE ELABORACION Y EVALUACIÓN DE PROGRAMAS EDUCATIVOS",
+      "profesor": "TORRES MENDEZ LORENA ELIZABETH",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0710_1706",
+      "clv_materia": "0710",
+      "grupo": "1706",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE ELABORACION Y EVALUACIÓN DE PROGRAMAS EDUCATIVOS",
+      "profesor": "DAVILA CUELLAR LAURA ELOINA",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0710_1751",
+      "clv_materia": "0710",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE ELABORACION Y EVALUACIÓN DE PROGRAMAS EDUCATIVOS",
+      "profesor": "LOPEZ RIVERA GERARDO",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0710_1752",
+      "clv_materia": "0710",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE ELABORACION Y EVALUACIÓN DE PROGRAMAS EDUCATIVOS",
+      "profesor": "AMADOR HERNANDEZ SILVIA",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0710_1753",
+      "clv_materia": "0710",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE ELABORACION Y EVALUACIÓN DE PROGRAMAS EDUCATIVOS",
+      "profesor": "GASPAR SALINAS BEATRIZ ANTONIA",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0710_1755",
+      "clv_materia": "0710",
+      "grupo": "1755",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE ELABORACION Y EVALUACIÓN DE PROGRAMAS EDUCATIVOS",
+      "profesor": "JIMENEZ BECERRA MARIA ESTHER",
+      "salon": "A613",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0710_1756",
+      "clv_materia": "0710",
+      "grupo": "1756",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE ELABORACION Y EVALUACIÓN DE PROGRAMAS EDUCATIVOS",
+      "profesor": "VILLEDA ESPITIA MARIA DEL CARMEN",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0711_1701",
+      "clv_materia": "0711",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE CAPACITACION LABORAL",
+      "profesor": "MARTINEZ OLIVERA AGUSTIN HOMERO",
+      "salon": "A602",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0711_1702",
+      "clv_materia": "0711",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE CAPACITACION LABORAL",
+      "profesor": "RAMIREZ GARCIA NORMA PATRICIA",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0711_1703",
+      "clv_materia": "0711",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE CAPACITACION LABORAL",
+      "profesor": "MARTINEZ OLIVERA AGUSTIN HOMERO",
+      "salon": "A603",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0711_1704",
+      "clv_materia": "0711",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE CAPACITACION LABORAL",
+      "profesor": "HERNANDEZ LOZADA SANDRA",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0711_1705",
+      "clv_materia": "0711",
+      "grupo": "1705",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE CAPACITACION LABORAL",
+      "profesor": "SERRANO TAVERA FRANCISCA",
+      "salon": "A612",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0711_1751",
+      "clv_materia": "0711",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE CAPACITACION LABORAL",
+      "profesor": "ESCUTIA HERNANDEZ ELIZABETH",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_9_0711_1752",
+      "clv_materia": "0711",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE CAPACITACION LABORAL",
+      "profesor": "YBARRA GARDUÑO BEATRIZ ANGELICA",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_0711_1753",
+      "clv_materia": "0711",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE CAPACITACION LABORAL",
+      "profesor": "LEAL MARTINEZ PATRICIA",
+      "salon": "A616",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0711_1754",
+      "clv_materia": "0711",
+      "grupo": "1754",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE CAPACITACION LABORAL",
+      "profesor": "SANCHEZ HINOJOSA JAVIER",
+      "salon": "A605",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_9_0711_1755",
+      "clv_materia": "0711",
+      "grupo": "1755",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE CAPACITACION LABORAL",
+      "profesor": "HERNANDEZ LOZADA SANDRA",
+      "salon": "A617",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0712_1701",
+      "clv_materia": "0712",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INVESTIGACION PEDAGOGICA Y EDUCATIVA",
+      "profesor": "TELLEZ FUENTES ANGELICA NALLELY",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_9_0712_1703",
+      "clv_materia": "0712",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INVESTIGACION PEDAGOGICA Y EDUCATIVA",
+      "profesor": "VERGARA DURAN ADELA AYATXIHUATL",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_0712_1704",
+      "clv_materia": "0712",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INVESTIGACION PEDAGOGICA Y EDUCATIVA",
+      "profesor": "VERGARA DURAN ADELA AYATXIHUATL",
+      "salon": "A611",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_0712_1705",
+      "clv_materia": "0712",
+      "grupo": "1705",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INVESTIGACION PEDAGOGICA Y EDUCATIVA",
+      "profesor": "BERNAL FRANCO ENRIQUE",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_0712_1751",
+      "clv_materia": "0712",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INVESTIGACION PEDAGOGICA Y EDUCATIVA",
+      "profesor": "GOMEZ RAMIREZ DANIEL",
+      "salon": "A615",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0712_1752",
+      "clv_materia": "0712",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INVESTIGACION PEDAGOGICA Y EDUCATIVA",
+      "profesor": "JIMENEZ BECERRA MARIA ESTHER",
+      "salon": "A606",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0712_1754",
+      "clv_materia": "0712",
+      "grupo": "1754",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE INVESTIGACION PEDAGOGICA Y EDUCATIVA",
+      "profesor": "ZENDEJAS TREJO PATRICIA",
+      "salon": "A603",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_0713_1702",
+      "clv_materia": "0713",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION III",
+      "profesor": "HERNANDEZ BALTAZAR MARIA EUGENIA",
+      "salon": "A604",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_9_0713_1703",
+      "clv_materia": "0713",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION III",
+      "profesor": "ARGOTT CISNEROS LUCERO",
+      "salon": "A611",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_0713_1704",
+      "clv_materia": "0713",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION III",
+      "profesor": "BERNAL FRANCO ENRIQUE",
+      "salon": "A612",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_9_0713_1705",
+      "clv_materia": "0713",
+      "grupo": "1705",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION III",
+      "profesor": "MORALES BARRERA MONICA",
+      "salon": "A617",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-12:00",
+          "inicio_min": 600,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_0713_1706",
+      "clv_materia": "0713",
+      "grupo": "1706",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION III",
+      "profesor": "LOPEZ GUERRERO MARIA DEL ROSARIO",
+      "salon": "A611",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_9_0713_1709",
+      "clv_materia": "0713",
+      "grupo": "1709",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION III",
+      "profesor": "SALDAÑA PEREZ ERIKA",
+      "salon": "A617",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_9_0713_1752",
+      "clv_materia": "0713",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION III",
+      "profesor": "LOPEZ RAMIREZ DAMARIS",
+      "salon": "A618",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_9_0713_1753",
+      "clv_materia": "0713",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION III",
+      "profesor": "DEL RIO DEL VALLE MIGUEL ANGEL",
+      "salon": "A618",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_9_0713_1754",
+      "clv_materia": "0713",
+      "grupo": "1754",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION III",
+      "profesor": "ARGOTT CISNEROS LUCERO",
+      "salon": "A611",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0713_1755",
+      "clv_materia": "0713",
+      "grupo": "1755",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION III",
+      "profesor": "GASPAR SALINAS BEATRIZ ANTONIA",
+      "salon": "A617",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_9_0713_1756",
+      "clv_materia": "0713",
+      "grupo": "1756",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION III",
+      "profesor": "TELLEZ FUENTES ANGELICA NALLELY",
+      "salon": "A614",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_0713_1758",
+      "clv_materia": "0713",
+      "grupo": "1758",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TALLER DE APOYO A LA TITULACION III",
+      "profesor": "RIVERA CRISTOBAL AIDA",
+      "salon": "A612",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_9_1103_1759",
+      "clv_materia": "1103",
+      "grupo": "1759",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "REPENS. DEMOCR. SIGLO XXI PERSP. DESAF. SOC. GL.",
+      "profesor": "ACKERMAN ROSE JOHN MILL",
+      "salon": "SINDEF",
+      "cupo": 20,
+      "tipo_clase": "HIBRIDO",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_9_2100_1101",
+      "clv_materia": "2100",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ANTROPOLOGÍA PEDAGÓGICA",
+      "profesor": "PUEBLA ESPINOSA GRICELDA",
+      "salon": "A603",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_2100_1102",
+      "clv_materia": "2100",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ANTROPOLOGÍA PEDAGÓGICA",
+      "profesor": "PUEBLA ESPINOSA GRICELDA",
+      "salon": "A604",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_2100_1103",
+      "clv_materia": "2100",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ANTROPOLOGÍA PEDAGÓGICA",
+      "profesor": "GONZALEZ TORRES ELIZABETH",
+      "salon": "A605",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_2100_1104",
+      "clv_materia": "2100",
+      "grupo": "1104",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ANTROPOLOGÍA PEDAGÓGICA",
+      "profesor": "GASPAR SALINAS BEATRIZ ANTONIA",
+      "salon": "A606",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_9_2100_1151",
+      "clv_materia": "2100",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ANTROPOLOGÍA PEDAGÓGICA",
+      "profesor": "CHAGOYA MONROY CESAR ALEJANDRO",
+      "salon": "A604",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_2100_1152",
+      "clv_materia": "2100",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ANTROPOLOGÍA PEDAGÓGICA",
+      "profesor": "BONILLA GONZALEZ MARCOS RODOLFO",
+      "salon": "A605",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_2100_1153",
+      "clv_materia": "2100",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "ANTROPOLOGÍA PEDAGÓGICA",
+      "profesor": "PUEBLA ESPINOSA GRICELDA",
+      "salon": "A606",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_2101_1101",
+      "clv_materia": "2101",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "DIDÁCTICA GENERAL I",
+      "profesor": "CASTRO PRADO BRAYAN FERNANDO",
+      "salon": "A603",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_9_2101_1102",
+      "clv_materia": "2101",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "DIDÁCTICA GENERAL I",
+      "profesor": "TORRES MENDEZ LORENA ELIZABETH",
+      "salon": "A604",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "10:00-14:00",
+          "inicio_min": 600,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_9_2101_1103",
+      "clv_materia": "2101",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "DIDÁCTICA GENERAL I",
+      "profesor": "GASPAR SALINAS BEATRIZ ANTONIA",
+      "salon": "A605",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_9_2101_1104",
+      "clv_materia": "2101",
+      "grupo": "1104",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "DIDÁCTICA GENERAL I",
+      "profesor": "GARCIA PEÑA MARIA DE LOURDES",
+      "salon": "A606",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "08:00-12:00",
+          "inicio_min": 480,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_9_2101_1151",
+      "clv_materia": "2101",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "DIDÁCTICA GENERAL I",
+      "profesor": "ESCUTIA HERNANDEZ ELIZABETH",
+      "salon": "A604",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_2101_1152",
+      "clv_materia": "2101",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "DIDÁCTICA GENERAL I",
+      "profesor": "ALMANZAR VAZQUEZ MARIA GUADALUPE",
+      "salon": "A605",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_2101_1153",
+      "clv_materia": "2101",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "DIDÁCTICA GENERAL I",
+      "profesor": "RIVERA CRISTOBAL AIDA",
+      "salon": "A606",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_9_2102_1101",
+      "clv_materia": "2102",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EPISTEMOLOGÍA Y PEDAGOGÍA",
+      "profesor": "ESCAMILLA SALAZAR JESUS",
+      "salon": "A603",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_2102_1102",
+      "clv_materia": "2102",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EPISTEMOLOGÍA Y PEDAGOGÍA",
+      "profesor": "VALLEJO GRANDE ERICK CAFEEL",
+      "salon": "A604",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_2102_1103",
+      "clv_materia": "2102",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EPISTEMOLOGÍA Y PEDAGOGÍA",
+      "profesor": "ARIAS GONZALEZ NORMA JOSEFINA",
+      "salon": "A605",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_9_2102_1104",
+      "clv_materia": "2102",
+      "grupo": "1104",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EPISTEMOLOGÍA Y PEDAGOGÍA",
+      "profesor": "ESCAMILLA SALAZAR JESUS",
+      "salon": "A606",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_2102_1151",
+      "clv_materia": "2102",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EPISTEMOLOGÍA Y PEDAGOGÍA",
+      "profesor": "TELLEZ FUENTES ANGELICA NALLELY",
+      "salon": "A604",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_2102_1152",
+      "clv_materia": "2102",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EPISTEMOLOGÍA Y PEDAGOGÍA",
+      "profesor": "GASPAR SALINAS BEATRIZ ANTONIA",
+      "salon": "A605",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_2102_1153",
+      "clv_materia": "2102",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "EPISTEMOLOGÍA Y PEDAGOGÍA",
+      "profesor": "MENESES DIAZ GERARDO",
+      "salon": "A606",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_9_2103_1101",
+      "clv_materia": "2103",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍA PEDAGÓGICA I",
+      "profesor": "DE LA TRINIDAD MORA SARA LILIA",
+      "salon": "A603",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_9_2103_1102",
+      "clv_materia": "2103",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍA PEDAGÓGICA I",
+      "profesor": "BERMUDEZ JIMENEZ JOEL",
+      "salon": "A604",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_9_2103_1103",
+      "clv_materia": "2103",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍA PEDAGÓGICA I",
+      "profesor": "RIVERA CRISTOBAL AIDA",
+      "salon": "A605",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_9_2103_1104",
+      "clv_materia": "2103",
+      "grupo": "1104",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍA PEDAGÓGICA I",
+      "profesor": "CASTRO PRADO BRAYAN FERNANDO",
+      "salon": "A606",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_9_2103_1151",
+      "clv_materia": "2103",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍA PEDAGÓGICA I",
+      "profesor": "GARCIA PEÑA MARIA DE LOURDES",
+      "salon": "A604",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_2103_1152",
+      "clv_materia": "2103",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍA PEDAGÓGICA I",
+      "profesor": "MENESES DIAZ GERARDO",
+      "salon": "A605",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_9_2103_1153",
+      "clv_materia": "2103",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍA PEDAGÓGICA I",
+      "profesor": "LOPEZ RAMIREZ DAMARIS",
+      "salon": "A606",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_9_2104_1101",
+      "clv_materia": "2104",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍAS PSICOLÓGICAS Y EDUCACIÓN",
+      "profesor": "ARANO LAZO ADRIAN EDUARDO",
+      "salon": "A603",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_2104_1102",
+      "clv_materia": "2104",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍAS PSICOLÓGICAS Y EDUCACIÓN",
+      "profesor": "MONTERO FLORES ALBERTO",
+      "salon": "A604",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_9_2104_1103",
+      "clv_materia": "2104",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍAS PSICOLÓGICAS Y EDUCACIÓN",
+      "profesor": "SORIANO RAMIREZ ROSA MARIA",
+      "salon": "A605",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_9_2104_1104",
+      "clv_materia": "2104",
+      "grupo": "1104",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍAS PSICOLÓGICAS Y EDUCACIÓN",
+      "profesor": "HERNANDEZ LOZADA SANDRA",
+      "salon": "A606",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_2104_1152",
+      "clv_materia": "2104",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍAS PSICOLÓGICAS Y EDUCACIÓN",
+      "profesor": "SOLIS SOTO VERONICA",
+      "salon": "A605",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_2104_1153",
+      "clv_materia": "2104",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍAS PSICOLÓGICAS Y EDUCACIÓN",
+      "profesor": "ROSAS MEZA RAQUEL",
+      "salon": "A606",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_2105_1101",
+      "clv_materia": "2105",
+      "grupo": "1101",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍA SOCIAL CLÁSICA Y EDUCACIÓN",
+      "profesor": "ESCARTIN VAZQUEZ DULCE ANGELICA",
+      "salon": "A603",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_2105_1102",
+      "clv_materia": "2105",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍA SOCIAL CLÁSICA Y EDUCACIÓN",
+      "profesor": "AMADOR HERNANDEZ SILVIA",
+      "salon": "A604",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_2105_1103",
+      "clv_materia": "2105",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍA SOCIAL CLÁSICA Y EDUCACIÓN",
+      "profesor": "ROSAS MEZA RAQUEL",
+      "salon": "A605",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_9_2105_1104",
+      "clv_materia": "2105",
+      "grupo": "1104",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍA SOCIAL CLÁSICA Y EDUCACIÓN",
+      "profesor": "IGLESIAS LARA COYOLXAUHQUI MAURITANIA",
+      "salon": "A606",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "10:00-13:00",
+          "inicio_min": 600,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_9_2105_1151",
+      "clv_materia": "2105",
+      "grupo": "1151",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍA SOCIAL CLÁSICA Y EDUCACIÓN",
+      "profesor": "LOPEZ RIVERA GERARDO",
+      "salon": "A604",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_9_2105_1152",
+      "clv_materia": "2105",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍA SOCIAL CLÁSICA Y EDUCACIÓN",
+      "profesor": "HERNANDEZ VENTURA JOEL",
+      "salon": "A605",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "14:00-17:00",
+          "inicio_min": 840,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_9_2105_1153",
+      "clv_materia": "2105",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "9",
+      "materia": "TEORÍA SOCIAL CLÁSICA Y EDUCACIÓN",
+      "profesor": "MARTINEZ PONCE ANA MARIA",
+      "salon": "A606",
+      "cupo": 50,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2769 @@
+{
+  "metadata": {
+    "semestre": "35",
+    "etiqueta_semestre": "2027-1",
+    "carrera": "6",
+    "nombre_carrera": "SOCIOLOGIA",
+    "generado_en": "2026-11-24T03:30:19.220673+00:00",
+    "total_grupos_consultados": 30,
+    "total_grupos_con_datos": 30,
+    "total_grupos_vacios": 0,
+    "total_grupos_con_error": 0,
+    "grupos_fallidos": [],
+    "total_registros": 111,
+    "total_materias_unicas": 35,
+    "duplicados_omitidos": 0,
+    "total_incidencias": 1
+  },
+  "resumen_incidencias": {
+    "total": 1,
+    "por_tipo": {
+      "registro_duplicado_distinto": 1
+    },
+    "muestra": [
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=6 materia=1340 grupo=1373",
+        "detalle": "Múltiples registros distintos para 35_6_1340_1373; conservado como 35_6_1340_1373_2 (ECONOMIA Y ESTADO EN AMERICA LATINA)."
+      }
+    ]
+  },
+  "horarios": [
+    {
+      "id": "35_6_1126_1104",
+      "clv_materia": "1126",
+      "grupo": "1104",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ECONOMIA POLITICA CONFORMACION EDO.",
+      "profesor": "FLORES ARELLANO JULIAN",
+      "salon": "A121",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_6_1126_1108",
+      "clv_materia": "1126",
+      "grupo": "1108",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ECONOMIA POLITICA CONFORMACION EDO.",
+      "profesor": "CARDENAS ACOSTA GEORGINA",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1126_1154",
+      "clv_materia": "1126",
+      "grupo": "1154",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ECONOMIA POLITICA CONFORMACION EDO.",
+      "profesor": "LINARES ZARCO JAIME",
+      "salon": "A121",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1126_1158",
+      "clv_materia": "1126",
+      "grupo": "1158",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ECONOMIA POLITICA CONFORMACION EDO.",
+      "profesor": "FLORES AGUILAR TERESA GUADALUPE",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_6_1127_1104",
+      "clv_materia": "1127",
+      "grupo": "1104",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "EPISTEMOLOGIA DE LAS CIENCIAS SOCS.",
+      "profesor": "JUAREZ RODRIGUEZ GOOVINDA PENELOPE",
+      "salon": "A121",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1127_1108",
+      "clv_materia": "1127",
+      "grupo": "1108",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "EPISTEMOLOGIA DE LAS CIENCIAS SOCS.",
+      "profesor": "CRUZ CAMARGO FRANCISCA",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1127_1154",
+      "clv_materia": "1127",
+      "grupo": "1154",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "EPISTEMOLOGIA DE LAS CIENCIAS SOCS.",
+      "profesor": "JUAREZ MELGOZA JONATHAN",
+      "salon": "A121",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_6_1127_1158",
+      "clv_materia": "1127",
+      "grupo": "1158",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "EPISTEMOLOGIA DE LAS CIENCIAS SOCS.",
+      "profesor": "RIVERA PEDROZA MIGUEL ALEJANDRO",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_6_1128_1104",
+      "clv_materia": "1128",
+      "grupo": "1104",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "FORMACION CIUDADANA",
+      "profesor": "PAVON HERNANDEZ DEMIAN ERNESTO",
+      "salon": "SROJO",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_6_1128_1108",
+      "clv_materia": "1128",
+      "grupo": "1108",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "FORMACION CIUDADANA",
+      "profesor": "ROJAS RODRÍGUEZ MAYRA",
+      "salon": "SROJO",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1128_1154",
+      "clv_materia": "1128",
+      "grupo": "1154",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "FORMACION CIUDADANA",
+      "profesor": "MARTINEZ RAYAS JORGE ANTONIO",
+      "salon": "SROJO",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_6_1128_1158",
+      "clv_materia": "1128",
+      "grupo": "1158",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "FORMACION CIUDADANA",
+      "profesor": "BONILLA ALLENDE JORGE FERNANDO",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_6_1129_1104",
+      "clv_materia": "1129",
+      "grupo": "1104",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "PENSAMIENTO SOCIAL I",
+      "profesor": "LARA VAZQUEZ ISRAEL FERNANDO",
+      "salon": "A121",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1129_1108",
+      "clv_materia": "1129",
+      "grupo": "1108",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "PENSAMIENTO SOCIAL I",
+      "profesor": "SANCHEZ KURI ALICIA LAYLA",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_6_1129_1154",
+      "clv_materia": "1129",
+      "grupo": "1154",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "PENSAMIENTO SOCIAL I",
+      "profesor": "CHAVEZ GARFIAS MARIA ISABEL",
+      "salon": "A121",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_6_1129_1158",
+      "clv_materia": "1129",
+      "grupo": "1158",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "PENSAMIENTO SOCIAL I",
+      "profesor": "HINOJOSA MENDEZ MERCEDES ALICIA",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_6_1130_1104",
+      "clv_materia": "1130",
+      "grupo": "1104",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SOCIEDAD, ECONOM.-POLITICA EN MEXICO",
+      "profesor": "RAMIREZ MERCADO MANUEL",
+      "salon": "A121",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1130_1108",
+      "clv_materia": "1130",
+      "grupo": "1108",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SOCIEDAD, ECONOM.-POLITICA EN MEXICO",
+      "profesor": "TOBIAS ALONSO GILBERTO",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_6_1130_1154",
+      "clv_materia": "1130",
+      "grupo": "1154",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SOCIEDAD, ECONOM.-POLITICA EN MEXICO",
+      "profesor": "HINOJOSA GARCIA DANIEL",
+      "salon": "A121",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1130_1158",
+      "clv_materia": "1130",
+      "grupo": "1158",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SOCIEDAD, ECONOM.-POLITICA EN MEXICO",
+      "profesor": "CORDERO PINEDA LUZ DEL CARMEN",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_6_1131_1104",
+      "clv_materia": "1131",
+      "grupo": "1104",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TALLER DE REDACC.ELABOR.DE TEXTOS",
+      "profesor": "MORENO CASTRO LIBRADA",
+      "salon": "A121",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1131_1108",
+      "clv_materia": "1131",
+      "grupo": "1108",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TALLER DE REDACC.ELABOR.DE TEXTOS",
+      "profesor": "MORENO CASTRO LIBRADA",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1131_1154",
+      "clv_materia": "1131",
+      "grupo": "1154",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TALLER DE REDACC.ELABOR.DE TEXTOS",
+      "profesor": "MATEO CRUZ EDUARDO",
+      "salon": "A121",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_6_1131_1158",
+      "clv_materia": "1131",
+      "grupo": "1158",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TALLER DE REDACC.ELABOR.DE TEXTOS",
+      "profesor": "GONZALEZ ENRIQUEZ BERTHA",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_6_1210_2276",
+      "clv_materia": "1210",
+      "grupo": "2276",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ESTRUCTURA SOC. ECO. POL. DE MEXICO II.",
+      "profesor": "HERNANDEZ HERNANDEZ JESUS",
+      "salon": "A129",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1306_1361",
+      "clv_materia": "1306",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TEORIA SOCIAL I.",
+      "profesor": "GARCIA CORONADO MARIA FERNANDA",
+      "salon": "A128",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_6_1307_1361",
+      "clv_materia": "1307",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "METODOLOGIA I.",
+      "profesor": "SANCHEZ KURI ALICIA LAYLA",
+      "salon": "A121",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1308_1361",
+      "clv_materia": "1308",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "INDUSTR. Y DESARR. DEL MEXICO ACTUAL.",
+      "profesor": "LINARES ZARCO JAIME",
+      "salon": "A129",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_6_1310_1361",
+      "clv_materia": "1310",
+      "grupo": "1361",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ESTAD. APLICADA A LAS CIENCIAS SOCIALES II.",
+      "profesor": "MORALES DIAZ COVARRUBIAS RENE RODRIGO",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_6_1339_1321",
+      "clv_materia": "1339",
+      "grupo": "1321",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "DERECHOS HUMANOS E INTERSECCIONALID.",
+      "profesor": "ROJAS RODRÍGUEZ MAYRA",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:00-11:00",
+          "inicio_min": 480,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1339_1322",
+      "clv_materia": "1339",
+      "grupo": "1322",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "DERECHOS HUMANOS E INTERSECCIONALID.",
+      "profesor": "GALINDO VILCHIS LUZ MARIA",
+      "salon": "A125",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_6_1339_1371",
+      "clv_materia": "1339",
+      "grupo": "1371",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "DERECHOS HUMANOS E INTERSECCIONALID.",
+      "profesor": "BORJA SANTANA ÓSCAR",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-17:00",
+          "inicio_min": 960,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_6_1339_1372",
+      "clv_materia": "1339",
+      "grupo": "1372",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "DERECHOS HUMANOS E INTERSECCIONALID.",
+      "profesor": "SANCHEZ GARDUÑO DAVID ARTURO",
+      "salon": "A125",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1340_1321",
+      "clv_materia": "1340",
+      "grupo": "1321",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ECONOMIA Y ESTADO EN AMERICA LATINA",
+      "profesor": "LAZARIN GUILLEN JAVIER",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1340_1322",
+      "clv_materia": "1340",
+      "grupo": "1322",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ECONOMIA Y ESTADO EN AMERICA LATINA",
+      "profesor": "BADILLO PEREZ KARLA GEORGINA",
+      "salon": "A125",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1340_1371",
+      "clv_materia": "1340",
+      "grupo": "1371",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ECONOMIA Y ESTADO EN AMERICA LATINA",
+      "profesor": "MARTINEZ NOLASCO MARCELINO",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_6_1340_1372",
+      "clv_materia": "1340",
+      "grupo": "1372",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ECONOMIA Y ESTADO EN AMERICA LATINA",
+      "profesor": "MENDOZA VAZQUEZ ISAAC GERARDO",
+      "salon": "A125",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1340_1373",
+      "clv_materia": "1340",
+      "grupo": "1373",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ECONOMIA Y ESTADO EN AMERICA LATINA",
+      "profesor": "MORALES DIAZ COVARRUBIAS RENE RODRIGO",
+      "salon": "A125",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_6_1340_1373_2",
+      "clv_materia": "1340",
+      "grupo": "1373",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ECONOMIA Y ESTADO EN AMERICA LATINA",
+      "profesor": "MORALES DIAZ COVARRUBIAS RENE RODRIGO",
+      "salon": "A121",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_6_1341_1321",
+      "clv_materia": "1341",
+      "grupo": "1321",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ESTADIST. APLIC.CIENCIAS SOCIALES II",
+      "profesor": "MORALES DIAZ COVARRUBIAS RENE RODRIGO",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1341_1322",
+      "clv_materia": "1341",
+      "grupo": "1322",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ESTADIST. APLIC.CIENCIAS SOCIALES II",
+      "profesor": "MORENO CASTRO LIBRADA",
+      "salon": "A125",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1341_1371",
+      "clv_materia": "1341",
+      "grupo": "1371",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ESTADIST. APLIC.CIENCIAS SOCIALES II",
+      "profesor": "TORRES REYES MANUEL",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_6_1341_1372",
+      "clv_materia": "1341",
+      "grupo": "1372",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "ESTADIST. APLIC.CIENCIAS SOCIALES II",
+      "profesor": "LEDESMA GARCIA ANGELICA BERENICE",
+      "salon": "A125",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-19:00",
+          "inicio_min": 900,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1342_1321",
+      "clv_materia": "1342",
+      "grupo": "1321",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SISTEMA POLITICO MEXICANO",
+      "profesor": "RAMIREZ MERCADO MANUEL",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1342_1322",
+      "clv_materia": "1342",
+      "grupo": "1322",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SISTEMA POLITICO MEXICANO",
+      "profesor": "GALVAN GARCIA MARIA GUADALUPE",
+      "salon": "A125",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_6_1342_1371",
+      "clv_materia": "1342",
+      "grupo": "1371",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SISTEMA POLITICO MEXICANO",
+      "profesor": "NORBERTO SANCHEZ MICHAEL JESUS",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1342_1372",
+      "clv_materia": "1342",
+      "grupo": "1372",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SISTEMA POLITICO MEXICANO",
+      "profesor": "ESTRADA GARCIA ROCIO",
+      "salon": "A125",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_6_1343_1320",
+      "clv_materia": "1343",
+      "grupo": "1320",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TEORIA SOCIAL I",
+      "profesor": "BEDOLLA CANCINO FRANCISCO",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_6_1343_1321",
+      "clv_materia": "1343",
+      "grupo": "1321",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TEORIA SOCIAL I",
+      "profesor": "MARTINEZ PONCE ANA MARIA",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1343_1322",
+      "clv_materia": "1343",
+      "grupo": "1322",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TEORIA SOCIAL I",
+      "profesor": "CAMACHO RAMOS MARIA CRISTINA",
+      "salon": "A125",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_6_1343_1371",
+      "clv_materia": "1343",
+      "grupo": "1371",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TEORIA SOCIAL I",
+      "profesor": "CAMACHO RAMOS MARIA CRISTINA",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1343_1372",
+      "clv_materia": "1343",
+      "grupo": "1372",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TEORIA SOCIAL I",
+      "profesor": "RODRIGUEZ BOTELLO MELANIE CAMILA",
+      "salon": "A125",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_6_1344_1321",
+      "clv_materia": "1344",
+      "grupo": "1321",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TECNICAS INVESTIGACION CUANTITATIVA",
+      "profesor": "MELGAREJO AGUILAR MARIA DEL ROSARIO",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1344_1322",
+      "clv_materia": "1344",
+      "grupo": "1322",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TECNICAS INVESTIGACION CUANTITATIVA",
+      "profesor": "MENDOZA RAMIREZ LUISA QUIAHUITL XOCHITL",
+      "salon": "A125",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1344_1371",
+      "clv_materia": "1344",
+      "grupo": "1371",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TECNICAS INVESTIGACION CUANTITATIVA",
+      "profesor": "LAZARIN GUILLEN JAVIER",
+      "salon": "A124",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_6_1344_1372",
+      "clv_materia": "1344",
+      "grupo": "1372",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TECNICAS INVESTIGACION CUANTITATIVA",
+      "profesor": "REYES HERNANDEZ ULISES ADRIAN",
+      "salon": "A125",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_6_1409_2423",
+      "clv_materia": "1409",
+      "grupo": "2423",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "POLITICA Y GOBIERNO.",
+      "profesor": "MENDOZA LOZANO MIGUEL",
+      "salon": "A126",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_6_1506_1521",
+      "clv_materia": "1506",
+      "grupo": "1521",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TEORIA SOCIAL III.",
+      "profesor": "DE LA TORRE VAZQUEZ MIRIAM EDITH",
+      "salon": "A126",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_6_1506_1522",
+      "clv_materia": "1506",
+      "grupo": "1522",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TEORIA SOCIAL III.",
+      "profesor": "MARTINEZ PONCE ANA MARIA",
+      "salon": "A127",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_6_1506_1571",
+      "clv_materia": "1506",
+      "grupo": "1571",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TEORIA SOCIAL III.",
+      "profesor": "FLORES MARTINEZ RAUL",
+      "salon": "A126",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_6_1506_1572",
+      "clv_materia": "1506",
+      "grupo": "1572",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TEORIA SOCIAL III.",
+      "profesor": "AGUIRRE GARCIA YOLANDA",
+      "salon": "A127",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1506_1573",
+      "clv_materia": "1506",
+      "grupo": "1573",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "TEORIA SOCIAL III.",
+      "profesor": "LARA VAZQUEZ ISRAEL FERNANDO",
+      "salon": "A126",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_6_1507_1521",
+      "clv_materia": "1507",
+      "grupo": "1521",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "METODOLOGIA III.",
+      "profesor": "PORTILLO PIOCO EDUARDO",
+      "salon": "A126",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1507_1522",
+      "clv_materia": "1507",
+      "grupo": "1522",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "METODOLOGIA III.",
+      "profesor": "MELGAREJO AGUILAR MARIA DEL ROSARIO",
+      "salon": "A127",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1507_1571",
+      "clv_materia": "1507",
+      "grupo": "1571",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "METODOLOGIA III.",
+      "profesor": "CHAVEZ GARFIAS MARIA ISABEL",
+      "salon": "A126",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1507_1572",
+      "clv_materia": "1507",
+      "grupo": "1572",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "METODOLOGIA III.",
+      "profesor": "PORTILLO PIOCO EDUARDO",
+      "salon": "A127",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_6_1508_1521",
+      "clv_materia": "1508",
+      "grupo": "1521",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SOCIEDAD Y CULTURA.",
+      "profesor": "BELLO DOMINGUEZ JUAN",
+      "salon": "A126",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1508_1522",
+      "clv_materia": "1508",
+      "grupo": "1522",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SOCIEDAD Y CULTURA.",
+      "profesor": "PORTILLO PIOCO EDUARDO",
+      "salon": "A127",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1508_1571",
+      "clv_materia": "1508",
+      "grupo": "1571",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SOCIEDAD Y CULTURA.",
+      "profesor": "MENDOZA VAZQUEZ ISAAC GERARDO",
+      "salon": "A126",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_6_1508_1572",
+      "clv_materia": "1508",
+      "grupo": "1572",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SOCIEDAD Y CULTURA.",
+      "profesor": "PAVON HERNANDEZ DEMIAN ERNESTO",
+      "salon": "A127",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_6_1509_1521",
+      "clv_materia": "1509",
+      "grupo": "1521",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "PARTIDOS POL. Y MOV. SOCIALES.",
+      "profesor": "CORDERO PINEDA LUZ DEL CARMEN",
+      "salon": "A126",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1509_1522",
+      "clv_materia": "1509",
+      "grupo": "1522",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "PARTIDOS POL. Y MOV. SOCIALES.",
+      "profesor": "CARDENAS ACOSTA GEORGINA",
+      "salon": "A127",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1509_1571",
+      "clv_materia": "1509",
+      "grupo": "1571",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "PARTIDOS POL. Y MOV. SOCIALES.",
+      "profesor": "RAMIREZ ALONSO NORBERTO JUAN",
+      "salon": "A126",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_6_1509_1572",
+      "clv_materia": "1509",
+      "grupo": "1572",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "PARTIDOS POL. Y MOV. SOCIALES.",
+      "profesor": "CHAVEZ GARFIAS MARIA ISABEL",
+      "salon": "A127",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_6_1538_1521",
+      "clv_materia": "1538",
+      "grupo": "1521",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "INFORMATICA II.",
+      "profesor": "VAZQUEZ MORALES RODOLFO",
+      "salon": "LABCOM01",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1538_1522",
+      "clv_materia": "1538",
+      "grupo": "1522",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "INFORMATICA II.",
+      "profesor": "LUNA IZQUIERDO MIGUEL ANGEL",
+      "salon": "CCSAL2",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1538_1571",
+      "clv_materia": "1538",
+      "grupo": "1571",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "INFORMATICA II.",
+      "profesor": "LUNA IZQUIERDO MIGUEL ANGEL",
+      "salon": "CCSAL8",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-20:00",
+          "inicio_min": 1020,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1538_1572",
+      "clv_materia": "1538",
+      "grupo": "1572",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "INFORMATICA II.",
+      "profesor": "GUADARRAMA GALVAN CESAR",
+      "salon": "CCSAL5",
+      "cupo": 25,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "17:00-20:00",
+          "inicio_min": 1020,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1736_1721",
+      "clv_materia": "1736",
+      "grupo": "1721",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE INVESTIGACION II.",
+      "profesor": "GONZALEZ ENRIQUEZ BERTHA",
+      "salon": "A129",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-10:00",
+          "inicio_min": 420,
+          "fin_min": 600
+        }
+      ]
+    },
+    {
+      "id": "35_6_1736_1722",
+      "clv_materia": "1736",
+      "grupo": "1722",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE INVESTIGACION II.",
+      "profesor": "CARDENAS ACOSTA GEORGINA",
+      "salon": "A128",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "08:00-11:00",
+          "inicio_min": 480,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "08:00-11:00",
+          "inicio_min": 480,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1736_1723",
+      "clv_materia": "1736",
+      "grupo": "1723",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE INVESTIGACION II.",
+      "profesor": "MELENDEZ ELIZALDE TANIA LIZBETH",
+      "salon": "BB1402",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-12:00",
+          "inicio_min": 540,
+          "fin_min": 720
+        }
+      ]
+    },
+    {
+      "id": "35_6_1736_1751",
+      "clv_materia": "1736",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE INVESTIGACION II.",
+      "profesor": "MENDOZA VAZQUEZ ISAAC GERARDO",
+      "salon": "A126",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_6_1736_1771",
+      "clv_materia": "1736",
+      "grupo": "1771",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE INVESTIGACION II.",
+      "profesor": "LOPEZ PEREZ IGNACIO ISAIAS",
+      "salon": "A128",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1736_1772",
+      "clv_materia": "1736",
+      "grupo": "1772",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE INVESTIGACION II.",
+      "profesor": "MELGAREJO AGUILAR MARIA DEL ROSARIO",
+      "salon": "A129",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-19:00",
+          "inicio_min": 960,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1736_1773",
+      "clv_materia": "1736",
+      "grupo": "1773",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE INVESTIGACION II.",
+      "profesor": "PEREZ GUTIERREZ TERESA DE JESUS",
+      "salon": "BB1402",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_6_1737_1721",
+      "clv_materia": "1737",
+      "grupo": "1721",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE ANALISIS SOCIAL II.",
+      "profesor": "MARTINEZ PONCE ANA MARIA",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_6_1737_1722",
+      "clv_materia": "1737",
+      "grupo": "1722",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE ANALISIS SOCIAL II.",
+      "profesor": "GALINDO VILCHIS LUZ MARIA",
+      "salon": "A128",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-14:00",
+          "inicio_min": 660,
+          "fin_min": 840
+        }
+      ]
+    },
+    {
+      "id": "35_6_1737_1723",
+      "clv_materia": "1737",
+      "grupo": "1723",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE ANALISIS SOCIAL II.",
+      "profesor": "CHAVEZ GARFIAS MARIA ISABEL",
+      "salon": "A127",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_6_1737_1751",
+      "clv_materia": "1737",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE ANALISIS SOCIAL II.",
+      "profesor": "LARA VAZQUEZ ISRAEL FERNANDO",
+      "salon": "BB1402",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-18:00",
+          "inicio_min": 900,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_6_1737_1771",
+      "clv_materia": "1737",
+      "grupo": "1771",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE ANALISIS SOCIAL II.",
+      "profesor": "MELGAREJO AGUILAR MARIA DEL ROSARIO",
+      "salon": "A121",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-16:00",
+          "inicio_min": 780,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_6_1737_1772",
+      "clv_materia": "1737",
+      "grupo": "1772",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE ANALISIS SOCIAL II.",
+      "profesor": "LOPEZ PEREZ IGNACIO ISAIAS",
+      "salon": "A129",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "19:00-22:00",
+          "inicio_min": 1140,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_6_1737_1773",
+      "clv_materia": "1737",
+      "grupo": "1773",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE ANALISIS SOCIAL II.",
+      "profesor": "FLORES CASTILLO NANCY LYSVET",
+      "salon": "BB1402",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-21:00",
+          "inicio_min": 1080,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_6_1738_1726",
+      "clv_materia": "1738",
+      "grupo": "1726",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. ORGAN DEL TRABAJO Y TECNOLOGIA I.",
+      "profesor": "FLORES ARELLANO JULIAN",
+      "salon": "A121",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_6_1738_1776",
+      "clv_materia": "1738",
+      "grupo": "1776",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. ORGAN DEL TRABAJO Y TECNOLOGIA I.",
+      "profesor": "FLORES MARTINEZ RAUL",
+      "salon": "A128",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1739_1726",
+      "clv_materia": "1739",
+      "grupo": "1726",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. ECO. AGRICOLA Y POL. CAMPESINAS.",
+      "profesor": "MORENO CASTRO LIBRADA",
+      "salon": "A128",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_6_1739_1776",
+      "clv_materia": "1739",
+      "grupo": "1776",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. ECO. AGRICOLA Y POL. CAMPESINAS.",
+      "profesor": "MARTINEZ NOLASCO MARCELINO",
+      "salon": "A129",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "17:00-19:00",
+          "inicio_min": 1020,
+          "fin_min": 1140
+        }
+      ]
+    },
+    {
+      "id": "35_6_1740_1726",
+      "clv_materia": "1740",
+      "grupo": "1726",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE POLITICA SOCIAL I.",
+      "profesor": "CABALLERO ALVAREZ RAFAEL",
+      "salon": "A129",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_6_1740_1776",
+      "clv_materia": "1740",
+      "grupo": "1776",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE POLITICA SOCIAL I.",
+      "profesor": "MENDOZA LOZANO MIGUEL",
+      "salon": "A128",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_6_1740_1777",
+      "clv_materia": "1740",
+      "grupo": "1777",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE POLITICA SOCIAL I.",
+      "profesor": "HERNANDEZ HERNANDEZ JESUS",
+      "salon": "A126",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_6_1741_1726",
+      "clv_materia": "1741",
+      "grupo": "1726",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE MOV. SOCIALES EN MEXICO I.",
+      "profesor": "CAMACHO RAMOS MARIA CRISTINA",
+      "salon": "A128",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1741_1776",
+      "clv_materia": "1741",
+      "grupo": "1776",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE MOV. SOCIALES EN MEXICO I.",
+      "profesor": "LOPEZ PEREZ IGNACIO ISAIAS",
+      "salon": "A128",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_6_1742_1726",
+      "clv_materia": "1742",
+      "grupo": "1726",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE ACTORES SOCIALES II.",
+      "profesor": "CRUZ CAMARGO FRANCISCA",
+      "salon": "A129",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1742_1776",
+      "clv_materia": "1742",
+      "grupo": "1776",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE ACTORES SOCIALES II.",
+      "profesor": "FUENTES AMAYA SILVIA",
+      "salon": "A122",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_6_1743_1726",
+      "clv_materia": "1743",
+      "grupo": "1726",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE CULTURA Y REPRES SOCIALES II.",
+      "profesor": "PEREZ RUIZ ABEL",
+      "salon": "A127",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1743_1776",
+      "clv_materia": "1743",
+      "grupo": "1776",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE CULTURA Y REPRES SOCIALES II.",
+      "profesor": "HINOJOSA MENDEZ MERCEDES ALICIA",
+      "salon": "A126",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_6_1744_1726",
+      "clv_materia": "1744",
+      "grupo": "1726",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. INSTIT. Y PARTICIPACION POLITICA.",
+      "profesor": "LARA VAZQUEZ ISRAEL FERNANDO",
+      "salon": "A129",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1744_1776",
+      "clv_materia": "1744",
+      "grupo": "1776",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. INSTIT. Y PARTICIPACION POLITICA.",
+      "profesor": "FLORES ARELLANO JULIAN",
+      "salon": "A128",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_6_1745_1726",
+      "clv_materia": "1745",
+      "grupo": "1726",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE PROCESOS ELECTORALES I.",
+      "profesor": "RAMIREZ MERCADO MANUEL",
+      "salon": "A127",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_6_1745_1776",
+      "clv_materia": "1745",
+      "grupo": "1776",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE PROCESOS ELECTORALES I.",
+      "profesor": "AGUIRRE GARCIA YOLANDA",
+      "salon": "A129",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "19:00-21:00",
+          "inicio_min": 1140,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_6_1834_2829",
+      "clv_materia": "1834",
+      "grupo": "2829",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. DE INVESTIGACION III.",
+      "profesor": "MELENDEZ ELIZALDE TANIA LIZBETH",
+      "salon": "BB1402",
+      "cupo": 20,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "12:00-15:00",
+          "inicio_min": 720,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_6_1836_2876",
+      "clv_materia": "1836",
+      "grupo": "2876",
+      "semestre": "35",
+      "carrera": "6",
+      "materia": "SEM. ORGAN DEL TRABAJO Y TECNOLOGIA II.",
+      "profesor": "HERNANDEZ HERNANDEZ JESUS",
+      "salon": "A129",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-17:00",
+          "inicio_min": 780,
+          "fin_min": 1020
+        }
+      ]
+    }
+  ]
+}

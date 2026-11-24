@@ -1,0 +1,6567 @@
+{
+  "metadata": {
+    "semestre": "35",
+    "etiqueta_semestre": "2027-1",
+    "carrera": "4",
+    "nombre_carrera": "COMUNICACION Y PERIODISMO",
+    "generado_en": "2026-11-24T03:28:17.929498+00:00",
+    "total_grupos_consultados": 58,
+    "total_grupos_con_datos": 58,
+    "total_grupos_vacios": 0,
+    "total_grupos_con_error": 0,
+    "grupos_fallidos": [],
+    "total_registros": 288,
+    "total_materias_unicas": 33,
+    "duplicados_omitidos": 0,
+    "total_incidencias": 46
+  },
+  "resumen_incidencias": {
+    "total": 46,
+    "por_tipo": {
+      "registro_duplicado_distinto": 46
+    },
+    "muestra": [
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=0080 grupo=1103",
+        "detalle": "Múltiples registros distintos para 35_4_0080_1103; conservado como 35_4_0080_1103_2 (CIENCIA POLITICA)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1132 grupo=1103",
+        "detalle": "Múltiples registros distintos para 35_4_1132_1103; conservado como 35_4_1132_1103_2 (EPISTEM. DE LA CIENCIA DE LA COMUNIC.)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1120 grupo=1106",
+        "detalle": "Múltiples registros distintos para 35_4_1120_1106; conservado como 35_4_1120_1106_2 (TECNS. INVEST. DOCUMENTAL Y DE CAMPO)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=0080 grupo=1110",
+        "detalle": "Múltiples registros distintos para 35_4_0080_1110; conservado como 35_4_0080_1110_2 (CIENCIA POLITICA)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1133 grupo=1110",
+        "detalle": "Múltiples registros distintos para 35_4_1133_1110; conservado como 35_4_1133_1110_2 (REDACCION CON PERSPECTIVA DE GENERO)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1118 grupo=1112",
+        "detalle": "Múltiples registros distintos para 35_4_1118_1112; conservado como 35_4_1118_1112_2 (INTRODUCCION A LA ECONOMIA)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1118 grupo=1152",
+        "detalle": "Múltiples registros distintos para 35_4_1118_1152; conservado como 35_4_1118_1152_2 (INTRODUCCION A LA ECONOMIA)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=0080 grupo=1153",
+        "detalle": "Múltiples registros distintos para 35_4_0080_1153; conservado como 35_4_0080_1153_2 (CIENCIA POLITICA)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1319 grupo=1303",
+        "detalle": "Múltiples registros distintos para 35_4_1319_1303; conservado como 35_4_1319_1303_2 (FOTOGRAFIA BASICA)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1334 grupo=1303",
+        "detalle": "Múltiples registros distintos para 35_4_1334_1303; conservado como 35_4_1334_1303_2 (DESARR. MEDIOS DE COMUNIC. EN MEXICO)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1335 grupo=1303",
+        "detalle": "Múltiples registros distintos para 35_4_1335_1303; conservado como 35_4_1335_1303_2 (ENTREVISTA)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1427 grupo=1303",
+        "detalle": "Múltiples registros distintos para 35_4_1427_1303; conservado como 35_4_1427_1303_2 (TEORIA-MED.COMUNICACION II)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1334 grupo=1304",
+        "detalle": "Múltiples registros distintos para 35_4_1334_1304; conservado como 35_4_1334_1304_2 (DESARR. MEDIOS DE COMUNIC. EN MEXICO)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1335 grupo=1304",
+        "detalle": "Múltiples registros distintos para 35_4_1335_1304; conservado como 35_4_1335_1304_2 (ENTREVISTA)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1338 grupo=1304",
+        "detalle": "Múltiples registros distintos para 35_4_1338_1304; conservado como 35_4_1338_1304_2 (METODOS DE INVESTIG. COMUNICAC. II)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1336 grupo=1310",
+        "detalle": "Múltiples registros distintos para 35_4_1336_1310; conservado como 35_4_1336_1310_2 (ESTADIST. APLICADA A LA COMUNICAC.)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1338 grupo=1310",
+        "detalle": "Múltiples registros distintos para 35_4_1338_1310; conservado como 35_4_1338_1310_2 (METODOS DE INVESTIG. COMUNICAC. II)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1336 grupo=1353",
+        "detalle": "Múltiples registros distintos para 35_4_1336_1353; conservado como 35_4_1336_1353_2 (ESTADIST. APLICADA A LA COMUNICAC.)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1427 grupo=1353",
+        "detalle": "Múltiples registros distintos para 35_4_1427_1353; conservado como 35_4_1427_1353_2 (TEORIA-MED.COMUNICACION II)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1536 grupo=1501",
+        "detalle": "Múltiples registros distintos para 35_4_1536_1501; conservado como 35_4_1536_1501_2 (GUIONISMO EN RADIO Y TELEVISION.)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1534 grupo=1502",
+        "detalle": "Múltiples registros distintos para 35_4_1534_1502; conservado como 35_4_1534_1502_2 (EDICION DE DIARIOS Y REVISTAS)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1535 grupo=1502",
+        "detalle": "Múltiples registros distintos para 35_4_1535_1502; conservado como 35_4_1535_1502_2 (GENEROS DE OPINION.)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1535 grupo=1503",
+        "detalle": "Múltiples registros distintos para 35_4_1535_1503; conservado como 35_4_1535_1503_2 (GENEROS DE OPINION.)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1536 grupo=1504",
+        "detalle": "Múltiples registros distintos para 35_4_1536_1504; conservado como 35_4_1536_1504_2 (GUIONISMO EN RADIO Y TELEVISION.)."
+      },
+      {
+        "tipo": "registro_duplicado_distinto",
+        "contexto": "sem=35 carr=4 materia=1537 grupo=1504",
+        "detalle": "Múltiples registros distintos para 35_4_1537_1504; conservado como 35_4_1537_1504_2 (OPINION PUBLICA.)."
+      }
+    ]
+  },
+  "horarios": [
+    {
+      "id": "35_4_0080_1102",
+      "clv_materia": "0080",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "LOPEZ PRADO GUADALUPE",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_0080_1103",
+      "clv_materia": "0080",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "LOPEZ PRADO GUADALUPE",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_0080_1103_2",
+      "clv_materia": "0080",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "LOPEZ PRADO GUADALUPE",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_0080_1106",
+      "clv_materia": "0080",
+      "grupo": "1106",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "CRUZ CAMARGO FRANCISCA",
+      "salon": "A423",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_0080_1107",
+      "clv_materia": "0080",
+      "grupo": "1107",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "LOPEZ PRADO GUADALUPE",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_0080_1110",
+      "clv_materia": "0080",
+      "grupo": "1110",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "ZAMBRANO HERNANDEZ GABRIELA",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_4_0080_1110_2",
+      "clv_materia": "0080",
+      "grupo": "1110",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "ZAMBRANO HERNANDEZ GABRIELA",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_4_0080_1112",
+      "clv_materia": "0080",
+      "grupo": "1112",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "CRUZ CAMARGO FRANCISCA",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_0080_1152",
+      "clv_materia": "0080",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "ALDANA GONZALEZ CLAUDIA MATILDE",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_0080_1153",
+      "clv_materia": "0080",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "ZAMBRANO HERNANDEZ GABRIELA",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_0080_1153_2",
+      "clv_materia": "0080",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "ZAMBRANO HERNANDEZ GABRIELA",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_0080_1156",
+      "clv_materia": "0080",
+      "grupo": "1156",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "ALDANA GONZALEZ CLAUDIA MATILDE",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_0080_1157",
+      "clv_materia": "0080",
+      "grupo": "1157",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "CIENCIA POLITICA",
+      "profesor": "CAMARGO MEJORADA GERARDO JUAN",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1045_2805",
+      "clv_materia": "1045",
+      "grupo": "2805",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "REL.HUMANS.PARA DESARR.PROFES.COM",
+      "profesor": "SANCHEZ GUDIÑO HUGO LUIS",
+      "salon": "A1017",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1118_1102",
+      "clv_materia": "1118",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "INTRODUCCION A LA ECONOMIA",
+      "profesor": "MARTINEZ LOPEZ ALBERTO",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1118_1103",
+      "clv_materia": "1118",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "INTRODUCCION A LA ECONOMIA",
+      "profesor": "RAMIREZ TORRES LUIS MIGUEL",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1118_1106",
+      "clv_materia": "1118",
+      "grupo": "1106",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "INTRODUCCION A LA ECONOMIA",
+      "profesor": "GARCIA HERNANDEZ FERNANDO",
+      "salon": "A423",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1118_1107",
+      "clv_materia": "1118",
+      "grupo": "1107",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "INTRODUCCION A LA ECONOMIA",
+      "profesor": "MARTINEZ DOMINGUEZ BEATRIZ",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1118_1110",
+      "clv_materia": "1118",
+      "grupo": "1110",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "INTRODUCCION A LA ECONOMIA",
+      "profesor": "RAMIREZ TORRES LUIS MIGUEL",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1118_1112",
+      "clv_materia": "1118",
+      "grupo": "1112",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "INTRODUCCION A LA ECONOMIA",
+      "profesor": "FONG VARELA ALVARO",
+      "salon": "A1017",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1118_1112_2",
+      "clv_materia": "1118",
+      "grupo": "1112",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "INTRODUCCION A LA ECONOMIA",
+      "profesor": "FONG VARELA ALVARO",
+      "salon": "A622",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1118_1152",
+      "clv_materia": "1118",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "INTRODUCCION A LA ECONOMIA",
+      "profesor": "ACOSTA VALVERDE MIGUEL",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1118_1152_2",
+      "clv_materia": "1118",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "INTRODUCCION A LA ECONOMIA",
+      "profesor": "ACOSTA VALVERDE MIGUEL",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1118_1153",
+      "clv_materia": "1118",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "INTRODUCCION A LA ECONOMIA",
+      "profesor": "ACOSTA VALVERDE MIGUEL",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1118_1156",
+      "clv_materia": "1118",
+      "grupo": "1156",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "INTRODUCCION A LA ECONOMIA",
+      "profesor": "CAMACHO RAMOS MARIA CRISTINA",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1118_1157",
+      "clv_materia": "1118",
+      "grupo": "1157",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "INTRODUCCION A LA ECONOMIA",
+      "profesor": "VARGAS MOLINA CRISTINA",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1119_1102",
+      "clv_materia": "1119",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SOCIEDAD Y POLIT. MEXICO ACTUAL I",
+      "profesor": "RIVAS ONTIVEROS JOSE RENE",
+      "salon": "A1008",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1119_1103",
+      "clv_materia": "1119",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SOCIEDAD Y POLIT. MEXICO ACTUAL I",
+      "profesor": "GONZALEZ ZAMBRANO ANA LAURA",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1119_1106",
+      "clv_materia": "1119",
+      "grupo": "1106",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SOCIEDAD Y POLIT. MEXICO ACTUAL I",
+      "profesor": "RIVAS ONTIVEROS JOSE RENE",
+      "salon": "A1007",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1119_1107",
+      "clv_materia": "1119",
+      "grupo": "1107",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SOCIEDAD Y POLIT. MEXICO ACTUAL I",
+      "profesor": "CASTILLO ARTEAGA ERIKA CONSTANZA",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1119_1110",
+      "clv_materia": "1119",
+      "grupo": "1110",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SOCIEDAD Y POLIT. MEXICO ACTUAL I",
+      "profesor": "RIOS MARTINEZ MONICA GEORGINA",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1119_1112",
+      "clv_materia": "1119",
+      "grupo": "1112",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SOCIEDAD Y POLIT. MEXICO ACTUAL I",
+      "profesor": "MARTINEZ GUERRERO MARIA TERESA",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "15:00-17:00",
+          "inicio_min": 900,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_4_1119_1152",
+      "clv_materia": "1119",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SOCIEDAD Y POLIT. MEXICO ACTUAL I",
+      "profesor": "OLAY FLORES GABRIELA",
+      "salon": "A423",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1119_1153",
+      "clv_materia": "1119",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SOCIEDAD Y POLIT. MEXICO ACTUAL I",
+      "profesor": "OLAY FLORES GABRIELA",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1119_1156",
+      "clv_materia": "1119",
+      "grupo": "1156",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SOCIEDAD Y POLIT. MEXICO ACTUAL I",
+      "profesor": "CHAVEZ LOMELI ELBA TERESA",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1119_1157",
+      "clv_materia": "1119",
+      "grupo": "1157",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SOCIEDAD Y POLIT. MEXICO ACTUAL I",
+      "profesor": "RODRIGUEZ GARCIA ALCIS",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1120_1102",
+      "clv_materia": "1120",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TECNS. INVEST. DOCUMENTAL Y DE CAMPO",
+      "profesor": "PEREZ GUZMAN YAZMIN",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1120_1103",
+      "clv_materia": "1120",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TECNS. INVEST. DOCUMENTAL Y DE CAMPO",
+      "profesor": "RIOS MARTINEZ MONICA GEORGINA",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1120_1106",
+      "clv_materia": "1120",
+      "grupo": "1106",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TECNS. INVEST. DOCUMENTAL Y DE CAMPO",
+      "profesor": "RIVERA NAVARRETE SILVIA VERONICA",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1120_1106_2",
+      "clv_materia": "1120",
+      "grupo": "1106",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TECNS. INVEST. DOCUMENTAL Y DE CAMPO",
+      "profesor": "RIVERA NAVARRETE SILVIA VERONICA",
+      "salon": "A423",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1120_1107",
+      "clv_materia": "1120",
+      "grupo": "1107",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TECNS. INVEST. DOCUMENTAL Y DE CAMPO",
+      "profesor": "RICO PIZANO MATILDE",
+      "salon": "A627",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1120_1110",
+      "clv_materia": "1120",
+      "grupo": "1110",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TECNS. INVEST. DOCUMENTAL Y DE CAMPO",
+      "profesor": "ESTRADA GARCIA MARIA CONCEPCION",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1120_1112",
+      "clv_materia": "1120",
+      "grupo": "1112",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TECNS. INVEST. DOCUMENTAL Y DE CAMPO",
+      "profesor": "ESCUTIA ALATORRE EVA",
+      "salon": "A621",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1120_1152",
+      "clv_materia": "1120",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TECNS. INVEST. DOCUMENTAL Y DE CAMPO",
+      "profesor": "FAVELA ZAVALA CARLOS EDUARDO",
+      "salon": "A621",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1120_1153",
+      "clv_materia": "1120",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TECNS. INVEST. DOCUMENTAL Y DE CAMPO",
+      "profesor": "JARAMILLO RIOS SALUD SOCORRO",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1120_1156",
+      "clv_materia": "1120",
+      "grupo": "1156",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TECNS. INVEST. DOCUMENTAL Y DE CAMPO",
+      "profesor": "MARTINEZ NOLASCO MARCELINO",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1120_1157",
+      "clv_materia": "1120",
+      "grupo": "1157",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TECNS. INVEST. DOCUMENTAL Y DE CAMPO",
+      "profesor": "MARTINEZ NOLASCO MARCELINO",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1132_1102",
+      "clv_materia": "1132",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EPISTEM. DE LA CIENCIA DE LA COMUNIC.",
+      "profesor": "HUERTA MORENO TEOFILO",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1132_1103",
+      "clv_materia": "1132",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EPISTEM. DE LA CIENCIA DE LA COMUNIC.",
+      "profesor": "VAZQUEZ SOCHIGUA PALOMA",
+      "salon": "A622",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1132_1103_2",
+      "clv_materia": "1132",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EPISTEM. DE LA CIENCIA DE LA COMUNIC.",
+      "profesor": "VAZQUEZ SOCHIGUA PALOMA",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1132_1106",
+      "clv_materia": "1132",
+      "grupo": "1106",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EPISTEM. DE LA CIENCIA DE LA COMUNIC.",
+      "profesor": "RODRIGUEZ INDA RICARDO",
+      "salon": "A423",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1132_1107",
+      "clv_materia": "1132",
+      "grupo": "1107",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EPISTEM. DE LA CIENCIA DE LA COMUNIC.",
+      "profesor": "HUERTA MORENO TEOFILO",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1132_1110",
+      "clv_materia": "1132",
+      "grupo": "1110",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EPISTEM. DE LA CIENCIA DE LA COMUNIC.",
+      "profesor": "ZAVALETA LANDA JOSE ANTONIO",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1132_1112",
+      "clv_materia": "1132",
+      "grupo": "1112",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EPISTEM. DE LA CIENCIA DE LA COMUNIC.",
+      "profesor": "ORTIZ GASCA JOSE ANGEL",
+      "salon": "A622",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1132_1152",
+      "clv_materia": "1132",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EPISTEM. DE LA CIENCIA DE LA COMUNIC.",
+      "profesor": "RODRIGUEZ GARCIA ALCIS",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1132_1153",
+      "clv_materia": "1132",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EPISTEM. DE LA CIENCIA DE LA COMUNIC.",
+      "profesor": "RODRIGUEZ GARCIA ALCIS",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1132_1156",
+      "clv_materia": "1132",
+      "grupo": "1156",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EPISTEM. DE LA CIENCIA DE LA COMUNIC.",
+      "profesor": "TORRES ORTIZ SUSANA",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1132_1157",
+      "clv_materia": "1132",
+      "grupo": "1157",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EPISTEM. DE LA CIENCIA DE LA COMUNIC.",
+      "profesor": "MONROY SANTOS MARIO",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1133_1102",
+      "clv_materia": "1133",
+      "grupo": "1102",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "REDACCION CON PERSPECTIVA DE GENERO",
+      "profesor": "PLASCENCIA CHAVEZ PATRICIA",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1133_1103",
+      "clv_materia": "1133",
+      "grupo": "1103",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "REDACCION CON PERSPECTIVA DE GENERO",
+      "profesor": "LEAL HERNANDEZ MARIA DEL CARMEN",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1133_1106",
+      "clv_materia": "1133",
+      "grupo": "1106",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "REDACCION CON PERSPECTIVA DE GENERO",
+      "profesor": "RODRIGUEZ GARCIA SANDY",
+      "salon": "A423",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1133_1107",
+      "clv_materia": "1133",
+      "grupo": "1107",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "REDACCION CON PERSPECTIVA DE GENERO",
+      "profesor": "RODRIGUEZ ESCOBAR CELIA CANDIDA",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1133_1110",
+      "clv_materia": "1133",
+      "grupo": "1110",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "REDACCION CON PERSPECTIVA DE GENERO",
+      "profesor": "ARGUETA HERNANDEZ MARTHA LOURDES",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1133_1110_2",
+      "clv_materia": "1133",
+      "grupo": "1110",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "REDACCION CON PERSPECTIVA DE GENERO",
+      "profesor": "ARGUETA HERNANDEZ MARTHA LOURDES",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1133_1112",
+      "clv_materia": "1133",
+      "grupo": "1112",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "REDACCION CON PERSPECTIVA DE GENERO",
+      "profesor": "LOPEZ MATIAS FELICIANA ANGELICA",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1133_1152",
+      "clv_materia": "1133",
+      "grupo": "1152",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "REDACCION CON PERSPECTIVA DE GENERO",
+      "profesor": "JARAMILLO RIOS SALUD SOCORRO",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1133_1153",
+      "clv_materia": "1133",
+      "grupo": "1153",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "REDACCION CON PERSPECTIVA DE GENERO",
+      "profesor": "GARCIA BENITEZ CARLOS",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1133_1156",
+      "clv_materia": "1133",
+      "grupo": "1156",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "REDACCION CON PERSPECTIVA DE GENERO",
+      "profesor": "RODRIGUEZ GARCIA ALCIS",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1133_1157",
+      "clv_materia": "1133",
+      "grupo": "1157",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "REDACCION CON PERSPECTIVA DE GENERO",
+      "profesor": "MUÑOZ RAMOS TANIA GABRIELA",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1215_1210",
+      "clv_materia": "1215",
+      "grupo": "1210",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "NOTA INFORMAT. Y CRONICA NOTICIOSA",
+      "profesor": "LEAL HERNANDEZ MARIA DEL CARMEN",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1319_1301",
+      "clv_materia": "1319",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "FOTOGRAFIA BASICA",
+      "profesor": "VARGAS MOLINA CRISTINA",
+      "salon": "TA2102",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1319_1302",
+      "clv_materia": "1319",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "FOTOGRAFIA BASICA",
+      "profesor": "ORTIZ MONTIEL SERGIO JULIO",
+      "salon": "TA2102",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1319_1303",
+      "clv_materia": "1319",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "FOTOGRAFIA BASICA",
+      "profesor": "RUIZ BARRIOS ANDREA",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1319_1303_2",
+      "clv_materia": "1319",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "FOTOGRAFIA BASICA",
+      "profesor": "RUIZ BARRIOS ANDREA",
+      "salon": "A1017",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1319_1304",
+      "clv_materia": "1319",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "FOTOGRAFIA BASICA",
+      "profesor": "RIOS MONTERRUBIO CYNTHIA ROSALIA",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1319_1310",
+      "clv_materia": "1319",
+      "grupo": "1310",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "FOTOGRAFIA BASICA",
+      "profesor": "VARGAS MOLINA CRISTINA",
+      "salon": "TA2102",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1319_1351",
+      "clv_materia": "1319",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "FOTOGRAFIA BASICA",
+      "profesor": "VELASCO FAJARDO LEONARDO",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1319_1352",
+      "clv_materia": "1319",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "FOTOGRAFIA BASICA",
+      "profesor": "DOMINGUEZ CORONA SALVADOR",
+      "salon": "TA2102",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1319_1353",
+      "clv_materia": "1319",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "FOTOGRAFIA BASICA",
+      "profesor": "FIERRO AYALA ADRIAN",
+      "salon": "TA2102",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1319_1354",
+      "clv_materia": "1319",
+      "grupo": "1354",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "FOTOGRAFIA BASICA",
+      "profesor": "ORTIZ MONTIEL SERGIO JULIO",
+      "salon": "TA2102",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1334_1301",
+      "clv_materia": "1334",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "DESARR. MEDIOS DE COMUNIC. EN MEXICO",
+      "profesor": "MACIEL HIGUERA ENRIQUE",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1334_1302",
+      "clv_materia": "1334",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "DESARR. MEDIOS DE COMUNIC. EN MEXICO",
+      "profesor": "HERNANDEZ REYES MARIA ADELA",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1334_1303",
+      "clv_materia": "1334",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "DESARR. MEDIOS DE COMUNIC. EN MEXICO",
+      "profesor": "GARCIA HERNANDEZ FERNANDO",
+      "salon": "A627",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1334_1303_2",
+      "clv_materia": "1334",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "DESARR. MEDIOS DE COMUNIC. EN MEXICO",
+      "profesor": "GARCIA HERNANDEZ FERNANDO",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1334_1304",
+      "clv_materia": "1334",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "DESARR. MEDIOS DE COMUNIC. EN MEXICO",
+      "profesor": "ARGUETA HERNANDEZ MARTHA LOURDES",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1334_1304_2",
+      "clv_materia": "1334",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "DESARR. MEDIOS DE COMUNIC. EN MEXICO",
+      "profesor": "ARGUETA HERNANDEZ MARTHA LOURDES",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1334_1310",
+      "clv_materia": "1334",
+      "grupo": "1310",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "DESARR. MEDIOS DE COMUNIC. EN MEXICO",
+      "profesor": "SANCHEZ GUDIÑO HUGO LUIS",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1334_1351",
+      "clv_materia": "1334",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "DESARR. MEDIOS DE COMUNIC. EN MEXICO",
+      "profesor": "DE LA GUERRA MARTINEZ MARIA DEL SOCORRO",
+      "salon": "A622",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1334_1352",
+      "clv_materia": "1334",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "DESARR. MEDIOS DE COMUNIC. EN MEXICO",
+      "profesor": "SANCHEZ GUDIÑO HUGO LUIS",
+      "salon": "A1017",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1334_1353",
+      "clv_materia": "1334",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "DESARR. MEDIOS DE COMUNIC. EN MEXICO",
+      "profesor": "GOMEZ MONTESINOS ANDREA",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1334_1354",
+      "clv_materia": "1334",
+      "grupo": "1354",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "DESARR. MEDIOS DE COMUNIC. EN MEXICO",
+      "profesor": "MEDINA HERNANDEZ MARIA CECILIA",
+      "salon": "A622",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1335_1301",
+      "clv_materia": "1335",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ENTREVISTA",
+      "profesor": "MONDRAGON AGUILAR SUSANA JEANINE",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1335_1302",
+      "clv_materia": "1335",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ENTREVISTA",
+      "profesor": "CERA DIAZ EDGAR EFRAIN",
+      "salon": "A628",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1335_1303",
+      "clv_materia": "1335",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ENTREVISTA",
+      "profesor": "GARCIA BADILLO JESUS GUADALUPE",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1335_1303_2",
+      "clv_materia": "1335",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ENTREVISTA",
+      "profesor": "GARCIA BADILLO JESUS GUADALUPE",
+      "salon": "A627",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1335_1304",
+      "clv_materia": "1335",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ENTREVISTA",
+      "profesor": "CERA DIAZ EDGAR EFRAIN",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1335_1304_2",
+      "clv_materia": "1335",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ENTREVISTA",
+      "profesor": "CERA DIAZ EDGAR EFRAIN",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1335_1310",
+      "clv_materia": "1335",
+      "grupo": "1310",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ENTREVISTA",
+      "profesor": "LEAL HERNANDEZ MARIA DEL CARMEN",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1335_1351",
+      "clv_materia": "1335",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ENTREVISTA",
+      "profesor": "MARTINEZ LOPEZ MARIA CONCEPCION",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1335_1352",
+      "clv_materia": "1335",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ENTREVISTA",
+      "profesor": "PERALTA GARRIDO KARINA",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1335_1353",
+      "clv_materia": "1335",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ENTREVISTA",
+      "profesor": "BALLEZA BELTRAN EDITH",
+      "salon": "A622",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1335_1354",
+      "clv_materia": "1335",
+      "grupo": "1354",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ENTREVISTA",
+      "profesor": "AGUILAR BECERRIL JOSE",
+      "salon": "A627",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1336_1301",
+      "clv_materia": "1336",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ESTADIST. APLICADA A LA COMUNICAC.",
+      "profesor": "SALDAÑA JOSE MELISSA",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1336_1302",
+      "clv_materia": "1336",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ESTADIST. APLICADA A LA COMUNICAC.",
+      "profesor": "FERIA VICTORIA MARIA ANGELICA",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1336_1303",
+      "clv_materia": "1336",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ESTADIST. APLICADA A LA COMUNICAC.",
+      "profesor": "FONG VARELA ALVARO",
+      "salon": "A622",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1336_1304",
+      "clv_materia": "1336",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ESTADIST. APLICADA A LA COMUNICAC.",
+      "profesor": "GUADARRAMA GALVAN CESAR",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1336_1310",
+      "clv_materia": "1336",
+      "grupo": "1310",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ESTADIST. APLICADA A LA COMUNICAC.",
+      "profesor": "ZAVALETA LANDA JOSE ANTONIO",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1336_1310_2",
+      "clv_materia": "1336",
+      "grupo": "1310",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ESTADIST. APLICADA A LA COMUNICAC.",
+      "profesor": "ZAVALETA LANDA JOSE ANTONIO",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1336_1351",
+      "clv_materia": "1336",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ESTADIST. APLICADA A LA COMUNICAC.",
+      "profesor": "ZAVALETA LANDA JOSE ANTONIO",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1336_1352",
+      "clv_materia": "1336",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ESTADIST. APLICADA A LA COMUNICAC.",
+      "profesor": "DOMINGUEZ PINEDA CARLOS",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1336_1353",
+      "clv_materia": "1336",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ESTADIST. APLICADA A LA COMUNICAC.",
+      "profesor": "ROMERO PALOMINO WENDY ARACELI",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1336_1353_2",
+      "clv_materia": "1336",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ESTADIST. APLICADA A LA COMUNICAC.",
+      "profesor": "ROMERO PALOMINO WENDY ARACELI",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1336_1354",
+      "clv_materia": "1336",
+      "grupo": "1354",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "ESTADIST. APLICADA A LA COMUNICAC.",
+      "profesor": "BRIONES VARGAS LUIS IGNACIO",
+      "salon": "A423",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1338_1301",
+      "clv_materia": "1338",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "METODOS DE INVESTIG. COMUNICAC. II",
+      "profesor": "GUTIERREZ PEREZ ROBERTO",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1338_1302",
+      "clv_materia": "1338",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "METODOS DE INVESTIG. COMUNICAC. II",
+      "profesor": "RUSTRIAN RAMIREZ LAURA",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1338_1303",
+      "clv_materia": "1338",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "METODOS DE INVESTIG. COMUNICAC. II",
+      "profesor": "SOTO DE JESUS JORGE",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1338_1304",
+      "clv_materia": "1338",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "METODOS DE INVESTIG. COMUNICAC. II",
+      "profesor": "SOTO DE JESUS JORGE",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1338_1304_2",
+      "clv_materia": "1338",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "METODOS DE INVESTIG. COMUNICAC. II",
+      "profesor": "SOTO DE JESUS JORGE",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1338_1310",
+      "clv_materia": "1338",
+      "grupo": "1310",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "METODOS DE INVESTIG. COMUNICAC. II",
+      "profesor": "PEREZ GUZMAN YAZMIN",
+      "salon": "A627",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1338_1310_2",
+      "clv_materia": "1338",
+      "grupo": "1310",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "METODOS DE INVESTIG. COMUNICAC. II",
+      "profesor": "PEREZ GUZMAN YAZMIN",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1338_1351",
+      "clv_materia": "1338",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "METODOS DE INVESTIG. COMUNICAC. II",
+      "profesor": "COELLO MANUELL JAIME ALBERTO",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1338_1352",
+      "clv_materia": "1338",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "METODOS DE INVESTIG. COMUNICAC. II",
+      "profesor": "JUAREZ MELGOZA JONATHAN",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1338_1353",
+      "clv_materia": "1338",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "METODOS DE INVESTIG. COMUNICAC. II",
+      "profesor": "COELLO MANUELL JAIME ALBERTO",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1338_1354",
+      "clv_materia": "1338",
+      "grupo": "1354",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "METODOS DE INVESTIG. COMUNICAC. II",
+      "profesor": "LEAL HERNANDEZ MARIA DEL CARMEN",
+      "salon": "A423",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1427_1301",
+      "clv_materia": "1427",
+      "grupo": "1301",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TEORIA-MED.COMUNICACION II",
+      "profesor": "CASTILLO ARTEAGA ERIKA CONSTANZA",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1427_1302",
+      "clv_materia": "1427",
+      "grupo": "1302",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TEORIA-MED.COMUNICACION II",
+      "profesor": "MONROY SANTOS MARIO",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1427_1303",
+      "clv_materia": "1427",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TEORIA-MED.COMUNICACION II",
+      "profesor": "HERNANDEZ REYES MARIA ADELA",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1427_1303_2",
+      "clv_materia": "1427",
+      "grupo": "1303",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TEORIA-MED.COMUNICACION II",
+      "profesor": "HERNANDEZ REYES MARIA ADELA",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1427_1304",
+      "clv_materia": "1427",
+      "grupo": "1304",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TEORIA-MED.COMUNICACION II",
+      "profesor": "JUAREZ MELGOZA JONATHAN",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1427_1310",
+      "clv_materia": "1427",
+      "grupo": "1310",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TEORIA-MED.COMUNICACION II",
+      "profesor": "RUIZ BARRIOS ANDREA",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1427_1312",
+      "clv_materia": "1427",
+      "grupo": "1312",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TEORIA-MED.COMUNICACION II",
+      "profesor": "ACOSTA VALVERDE MIGUEL",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1427_1351",
+      "clv_materia": "1427",
+      "grupo": "1351",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TEORIA-MED.COMUNICACION II",
+      "profesor": "ESTRADA RAMOS ALICIA SUSANA",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1427_1352",
+      "clv_materia": "1427",
+      "grupo": "1352",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TEORIA-MED.COMUNICACION II",
+      "profesor": "ORTIZ GASCA JOSE ANGEL",
+      "salon": "A621",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1427_1353",
+      "clv_materia": "1427",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TEORIA-MED.COMUNICACION II",
+      "profesor": "MONROY SANTOS MARIO",
+      "salon": "A622",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1427_1353_2",
+      "clv_materia": "1427",
+      "grupo": "1353",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TEORIA-MED.COMUNICACION II",
+      "profesor": "MONROY SANTOS MARIO",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1427_1354",
+      "clv_materia": "1427",
+      "grupo": "1354",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "TEORIA-MED.COMUNICACION II",
+      "profesor": "MONROY SANTOS MARIO",
+      "salon": "A423",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1434_1401",
+      "clv_materia": "1434",
+      "grupo": "1401",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "REPORTAJE.",
+      "profesor": "ESPINOZA BELTRAN ALEJANDRA",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "12:00-16:00",
+          "inicio_min": 720,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_4_1526_1501",
+      "clv_materia": "1526",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PSICOLOGIA DE LA COMUNICACION.",
+      "profesor": "RUSTRIAN RAMIREZ LAURA",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1526_1502",
+      "clv_materia": "1526",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PSICOLOGIA DE LA COMUNICACION.",
+      "profesor": "RUSTRIAN RAMIREZ LAURA",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1526_1503",
+      "clv_materia": "1526",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PSICOLOGIA DE LA COMUNICACION.",
+      "profesor": "LEON IBARRA EDUARDO ANTONIO",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1526_1504",
+      "clv_materia": "1526",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PSICOLOGIA DE LA COMUNICACION.",
+      "profesor": "CEDILLO ROJAS MARIA GUADALUPE",
+      "salon": "A621",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1526_1510",
+      "clv_materia": "1526",
+      "grupo": "1510",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PSICOLOGIA DE LA COMUNICACION.",
+      "profesor": "RODRIGUEZ INDA RICARDO",
+      "salon": "A621",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1526_1551",
+      "clv_materia": "1526",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PSICOLOGIA DE LA COMUNICACION.",
+      "profesor": "ARELLANO ALONSO JUAN",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1526_1552",
+      "clv_materia": "1526",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PSICOLOGIA DE LA COMUNICACION.",
+      "profesor": "CEDILLO ROJAS MARIA GUADALUPE",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1526_1552_2",
+      "clv_materia": "1526",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PSICOLOGIA DE LA COMUNICACION.",
+      "profesor": "CEDILLO ROJAS MARIA GUADALUPE",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1526_1553",
+      "clv_materia": "1526",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PSICOLOGIA DE LA COMUNICACION.",
+      "profesor": "ZAMBRANO HERNANDEZ GABRIELA",
+      "salon": "A623",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1526_1554",
+      "clv_materia": "1526",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PSICOLOGIA DE LA COMUNICACION.",
+      "profesor": "CEDILLO ROJAS MARIA GUADALUPE",
+      "salon": "A423",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1533_1501",
+      "clv_materia": "1533",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMPUTAC.APLIC.MEDIOS IMPRES.ELECT",
+      "profesor": "NICANOR LEON JAVIER",
+      "salon": "LABCOM03",
+      "cupo": 35,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1533_1502",
+      "clv_materia": "1533",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMPUTAC.APLIC.MEDIOS IMPRES.ELECT",
+      "profesor": "PEREZ GARCIA VIRIDIANA ALEJANDRA",
+      "salon": "LABCOM03",
+      "cupo": 35,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1533_1503",
+      "clv_materia": "1533",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMPUTAC.APLIC.MEDIOS IMPRES.ELECT",
+      "profesor": "DOMINGUEZ PINEDA CARLOS",
+      "salon": "LABCOM01",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1533_1504",
+      "clv_materia": "1533",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMPUTAC.APLIC.MEDIOS IMPRES.ELECT",
+      "profesor": "PEREZ DIAZ LUCIA",
+      "salon": "LABCOM01",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1533_1510",
+      "clv_materia": "1533",
+      "grupo": "1510",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMPUTAC.APLIC.MEDIOS IMPRES.ELECT",
+      "profesor": "PEREZ GARCIA VIRIDIANA ALEJANDRA",
+      "salon": "LABCOM05",
+      "cupo": 45,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1533_1551",
+      "clv_materia": "1533",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMPUTAC.APLIC.MEDIOS IMPRES.ELECT",
+      "profesor": "DOMINGUEZ PINEDA CARLOS",
+      "salon": "LABCOMP6",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1533_1552",
+      "clv_materia": "1533",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMPUTAC.APLIC.MEDIOS IMPRES.ELECT",
+      "profesor": "BRIONES VARGAS LUIS IGNACIO",
+      "salon": "LABCOMP6",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1533_1553",
+      "clv_materia": "1533",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMPUTAC.APLIC.MEDIOS IMPRES.ELECT",
+      "profesor": "BRIONES VARGAS LUIS IGNACIO",
+      "salon": "LABCOMP6",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1533_1554",
+      "clv_materia": "1533",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMPUTAC.APLIC.MEDIOS IMPRES.ELECT",
+      "profesor": "WILSON OROPEZA DANIEL EDUARDO",
+      "salon": "LABCOM04",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1534_1501",
+      "clv_materia": "1534",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EDICION DE DIARIOS Y REVISTAS",
+      "profesor": "GARCIA BENITEZ CARLOS",
+      "salon": "A627",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1534_1502",
+      "clv_materia": "1534",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EDICION DE DIARIOS Y REVISTAS",
+      "profesor": "RIVERA NAVARRETE SILVIA VERONICA",
+      "salon": "A622",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1534_1502_2",
+      "clv_materia": "1534",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EDICION DE DIARIOS Y REVISTAS",
+      "profesor": "RIVERA NAVARRETE SILVIA VERONICA",
+      "salon": "A624",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1534_1503",
+      "clv_materia": "1534",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EDICION DE DIARIOS Y REVISTAS",
+      "profesor": "RODRIGUEZ ESCOBAR CELIA CANDIDA",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1534_1504",
+      "clv_materia": "1534",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EDICION DE DIARIOS Y REVISTAS",
+      "profesor": "GARCIA BADILLO JESUS GUADALUPE",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1534_1510",
+      "clv_materia": "1534",
+      "grupo": "1510",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EDICION DE DIARIOS Y REVISTAS",
+      "profesor": "GARCIA SANTIAGO VICTOR MANUEL",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1534_1551",
+      "clv_materia": "1534",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EDICION DE DIARIOS Y REVISTAS",
+      "profesor": "MARTINEZ LOPEZ MARIA CONCEPCION",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1534_1552",
+      "clv_materia": "1534",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EDICION DE DIARIOS Y REVISTAS",
+      "profesor": "GARCIA BENITEZ CARLOS",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1534_1553",
+      "clv_materia": "1534",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EDICION DE DIARIOS Y REVISTAS",
+      "profesor": "GARCIA BADILLO JESUS GUADALUPE",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1534_1553_2",
+      "clv_materia": "1534",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EDICION DE DIARIOS Y REVISTAS",
+      "profesor": "GARCIA BADILLO JESUS GUADALUPE",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1534_1554",
+      "clv_materia": "1534",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EDICION DE DIARIOS Y REVISTAS",
+      "profesor": "SALDAÑA JOSE MELISSA",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1534_1554_2",
+      "clv_materia": "1534",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EDICION DE DIARIOS Y REVISTAS",
+      "profesor": "SALDAÑA JOSE MELISSA",
+      "salon": "A621",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1535_1501",
+      "clv_materia": "1535",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GENEROS DE OPINION.",
+      "profesor": "MENDOZA PEREZ ISRAEL",
+      "salon": "A627",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1535_1502",
+      "clv_materia": "1535",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GENEROS DE OPINION.",
+      "profesor": "MONDRAGON AGUILAR SUSANA JEANINE",
+      "salon": "A622",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1535_1502_2",
+      "clv_materia": "1535",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GENEROS DE OPINION.",
+      "profesor": "MONDRAGON AGUILAR SUSANA JEANINE",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1535_1503",
+      "clv_materia": "1535",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GENEROS DE OPINION.",
+      "profesor": "RODRIGUEZ GARCIA SANDY",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1535_1503_2",
+      "clv_materia": "1535",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GENEROS DE OPINION.",
+      "profesor": "RODRIGUEZ GARCIA SANDY",
+      "salon": "A621",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1535_1504",
+      "clv_materia": "1535",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GENEROS DE OPINION.",
+      "profesor": "QUINTERO SANCHEZ ISRAEL JORGE",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1535_1510",
+      "clv_materia": "1535",
+      "grupo": "1510",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GENEROS DE OPINION.",
+      "profesor": "ARGUETA HERNANDEZ MARTHA LOURDES",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1535_1511",
+      "clv_materia": "1535",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GENEROS DE OPINION.",
+      "profesor": "RIVERA NAVARRETE SILVIA VERONICA",
+      "salon": "A423",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1535_1512",
+      "clv_materia": "1535",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GENEROS DE OPINION.",
+      "profesor": "MENDOZA PEREZ ISRAEL",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1535_1512_2",
+      "clv_materia": "1535",
+      "grupo": "1512",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GENEROS DE OPINION.",
+      "profesor": "MENDOZA PEREZ ISRAEL",
+      "salon": "A621",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1535_1551",
+      "clv_materia": "1535",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GENEROS DE OPINION.",
+      "profesor": "GARCIA SANTIAGO VICTOR MANUEL",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1535_1552",
+      "clv_materia": "1535",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GENEROS DE OPINION.",
+      "profesor": "LOPEZ AGUIRRE JOSE LUIS",
+      "salon": "A621",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1535_1553",
+      "clv_materia": "1535",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GENEROS DE OPINION.",
+      "profesor": "FERNANDEZ ROMERO CLAUDIA",
+      "salon": "TA1201",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1535_1554",
+      "clv_materia": "1535",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GENEROS DE OPINION.",
+      "profesor": "DE LA GUERRA MARTINEZ MARIA DEL SOCORRO",
+      "salon": "A628",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1536_1501",
+      "clv_materia": "1536",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GUIONISMO EN RADIO Y TELEVISION.",
+      "profesor": "RICO PIZANO MATILDE",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1536_1501_2",
+      "clv_materia": "1536",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GUIONISMO EN RADIO Y TELEVISION.",
+      "profesor": "RICO PIZANO MATILDE",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1536_1502",
+      "clv_materia": "1536",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GUIONISMO EN RADIO Y TELEVISION.",
+      "profesor": "GARCIA VAZQUEZ FERNANDO",
+      "salon": "A622",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1536_1503",
+      "clv_materia": "1536",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GUIONISMO EN RADIO Y TELEVISION.",
+      "profesor": "CHAVEZ LOMELI ELBA TERESA",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1536_1504",
+      "clv_materia": "1536",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GUIONISMO EN RADIO Y TELEVISION.",
+      "profesor": "ORTIZ GASCA JOSE ANGEL",
+      "salon": "A627",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1536_1504_2",
+      "clv_materia": "1536",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GUIONISMO EN RADIO Y TELEVISION.",
+      "profesor": "ORTIZ GASCA JOSE ANGEL",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1536_1505",
+      "clv_materia": "1536",
+      "grupo": "1505",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GUIONISMO EN RADIO Y TELEVISION.",
+      "profesor": "ACOSTA HERNANDEZ DULCE MARIA",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1536_1510",
+      "clv_materia": "1536",
+      "grupo": "1510",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GUIONISMO EN RADIO Y TELEVISION.",
+      "profesor": "ROSAS MARES ANTONIO",
+      "salon": "A621",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1536_1551",
+      "clv_materia": "1536",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GUIONISMO EN RADIO Y TELEVISION.",
+      "profesor": "ZAVALETA LANDA JOSE ANTONIO",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1536_1551_2",
+      "clv_materia": "1536",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GUIONISMO EN RADIO Y TELEVISION.",
+      "profesor": "ZAVALETA LANDA JOSE ANTONIO",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1536_1552",
+      "clv_materia": "1536",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GUIONISMO EN RADIO Y TELEVISION.",
+      "profesor": "RIVERA PEDROZA MIGUEL ALEJANDRO",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1536_1553",
+      "clv_materia": "1536",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GUIONISMO EN RADIO Y TELEVISION.",
+      "profesor": "BORJA YAÑEZ ALINA",
+      "salon": "A622",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1536_1554",
+      "clv_materia": "1536",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "GUIONISMO EN RADIO Y TELEVISION.",
+      "profesor": "PEÑA OBANDO JONATAN OCTAVIO",
+      "salon": "A627",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1537_1501",
+      "clv_materia": "1537",
+      "grupo": "1501",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "OPINION PUBLICA.",
+      "profesor": "NUÑEZ RICO VERONICA",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1537_1502",
+      "clv_materia": "1537",
+      "grupo": "1502",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "OPINION PUBLICA.",
+      "profesor": "CEDILLO ROJAS MARIA GUADALUPE",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1537_1503",
+      "clv_materia": "1537",
+      "grupo": "1503",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "OPINION PUBLICA.",
+      "profesor": "ARGUETA HERNANDEZ MARTHA LOURDES",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1537_1504",
+      "clv_materia": "1537",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "OPINION PUBLICA.",
+      "profesor": "RUSTRIAN RAMIREZ LAURA",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1537_1504_2",
+      "clv_materia": "1537",
+      "grupo": "1504",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "OPINION PUBLICA.",
+      "profesor": "RUSTRIAN RAMIREZ LAURA",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1537_1510",
+      "clv_materia": "1537",
+      "grupo": "1510",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "OPINION PUBLICA.",
+      "profesor": "RAMIREZ TORRES LUIS MIGUEL",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1537_1510_2",
+      "clv_materia": "1537",
+      "grupo": "1510",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "OPINION PUBLICA.",
+      "profesor": "RAMIREZ TORRES LUIS MIGUEL",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_4_1537_1511",
+      "clv_materia": "1537",
+      "grupo": "1511",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "OPINION PUBLICA.",
+      "profesor": "GONZALEZ ZAMBRANO ANA LAURA",
+      "salon": "A423",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "14:00-16:00",
+          "inicio_min": 840,
+          "fin_min": 960
+        }
+      ]
+    },
+    {
+      "id": "35_4_1537_1551",
+      "clv_materia": "1537",
+      "grupo": "1551",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "OPINION PUBLICA.",
+      "profesor": "ROSALES LEON NORMA",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1537_1552",
+      "clv_materia": "1537",
+      "grupo": "1552",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "OPINION PUBLICA.",
+      "profesor": "ZAMBRANO HERNANDEZ GABRIELA",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1537_1553",
+      "clv_materia": "1537",
+      "grupo": "1553",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "OPINION PUBLICA.",
+      "profesor": "ESTRADA RAMOS ALICIA SUSANA",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1537_1554",
+      "clv_materia": "1537",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "OPINION PUBLICA.",
+      "profesor": "ARELLANO ALONSO JUAN",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1537_1554_2",
+      "clv_materia": "1537",
+      "grupo": "1554",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "OPINION PUBLICA.",
+      "profesor": "ARELLANO ALONSO JUAN",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1610_1604",
+      "clv_materia": "1610",
+      "grupo": "1604",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EDICION DE LIBROS",
+      "profesor": "MARTINEZ LOPEZ MARIA CONCEPCION",
+      "salon": "A627",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1610_1604_2",
+      "clv_materia": "1610",
+      "grupo": "1604",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "EDICION DE LIBROS",
+      "profesor": "MARTINEZ LOPEZ MARIA CONCEPCION",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1617_2603",
+      "clv_materia": "1617",
+      "grupo": "2603",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PROPAGANDA",
+      "profesor": "VILLANUEVA PACHECO ANA GUADALUPE",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-17:00",
+          "inicio_min": 780,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_4_1620_1601",
+      "clv_materia": "1620",
+      "grupo": "1601",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE TELEVISION I",
+      "profesor": "SERRANO TAVERA FRANCISCA",
+      "salon": "TA1302",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1620_1601_2",
+      "clv_materia": "1620",
+      "grupo": "1601",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE TELEVISION I",
+      "profesor": "SERRANO TAVERA FRANCISCA",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1705_1701",
+      "clv_materia": "1705",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMUNICACION SOCIAL Y RELACIONES PUBLICAS",
+      "profesor": "LUNA MUÑOZ RAUL VICENTE",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1705_1701_2",
+      "clv_materia": "1705",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMUNICACION SOCIAL Y RELACIONES PUBLICAS",
+      "profesor": "LUNA MUÑOZ RAUL VICENTE",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1705_1702",
+      "clv_materia": "1705",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMUNICACION SOCIAL Y RELACIONES PUBLICAS",
+      "profesor": "CHAVEZ LOMELI ELBA TERESA",
+      "salon": "A423",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1705_1703",
+      "clv_materia": "1705",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMUNICACION SOCIAL Y RELACIONES PUBLICAS",
+      "profesor": "TORAL GARCIA LEONARDO FRANCISCO",
+      "salon": "A628",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1705_1703_2",
+      "clv_materia": "1705",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMUNICACION SOCIAL Y RELACIONES PUBLICAS",
+      "profesor": "TORAL GARCIA LEONARDO FRANCISCO",
+      "salon": "A621",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1705_1704",
+      "clv_materia": "1705",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMUNICACION SOCIAL Y RELACIONES PUBLICAS",
+      "profesor": "ORTIZ GASCA JOSE ANGEL",
+      "salon": "A624",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1705_1705",
+      "clv_materia": "1705",
+      "grupo": "1705",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMUNICACION SOCIAL Y RELACIONES PUBLICAS",
+      "profesor": "RUIZ BARRIOS KARLA FERNANDA",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1705_1706",
+      "clv_materia": "1705",
+      "grupo": "1706",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMUNICACION SOCIAL Y RELACIONES PUBLICAS",
+      "profesor": "HERNANDEZ CRUZ RODOLFO",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1705_1706_2",
+      "clv_materia": "1705",
+      "grupo": "1706",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMUNICACION SOCIAL Y RELACIONES PUBLICAS",
+      "profesor": "HERNANDEZ CRUZ RODOLFO",
+      "salon": "A624",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1705_1751",
+      "clv_materia": "1705",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMUNICACION SOCIAL Y RELACIONES PUBLICAS",
+      "profesor": "RAMIREZ SAINZ MARIA LUISA DE JESUS",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1705_1752",
+      "clv_materia": "1705",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMUNICACION SOCIAL Y RELACIONES PUBLICAS",
+      "profesor": "AGUILAR BECERRIL JOSE",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1705_1753",
+      "clv_materia": "1705",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "COMUNICACION SOCIAL Y RELACIONES PUBLICAS",
+      "profesor": "GARCIA HERNANDEZ FERNANDO",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1706_1701",
+      "clv_materia": "1706",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PUBLICIDAD",
+      "profesor": "NUÑEZ RICO VERONICA",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1706_1702",
+      "clv_materia": "1706",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PUBLICIDAD",
+      "profesor": "RODRIGUEZ INDA RICARDO",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1706_1703",
+      "clv_materia": "1706",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PUBLICIDAD",
+      "profesor": "VAZQUEZ ROMERO RUBEN DARIO",
+      "salon": "A621",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1706_1704",
+      "clv_materia": "1706",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PUBLICIDAD",
+      "profesor": "NUÑEZ RICO VERONICA",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1706_1710",
+      "clv_materia": "1706",
+      "grupo": "1710",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PUBLICIDAD",
+      "profesor": "RODRIGUEZ INDA RICARDO",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1706_1751",
+      "clv_materia": "1706",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PUBLICIDAD",
+      "profesor": "ORTIZ MONTIEL SERGIO JULIO",
+      "salon": "A623",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1706_1752",
+      "clv_materia": "1706",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PUBLICIDAD",
+      "profesor": "QUINTERO SANCHEZ ISRAEL JORGE",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "14:00-18:00",
+          "inicio_min": 840,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1706_1753",
+      "clv_materia": "1706",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PUBLICIDAD",
+      "profesor": "ROMERO PALOMINO WENDY ARACELI",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1706_1753_2",
+      "clv_materia": "1706",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "PUBLICIDAD",
+      "profesor": "ROMERO PALOMINO WENDY ARACELI",
+      "salon": "A424",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1701",
+      "clv_materia": "1707",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "QUEMAIN SAENZ MIGUEL ANGEL",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1701_2",
+      "clv_materia": "1707",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "QUEMAIN SAENZ MIGUEL ANGEL",
+      "salon": "TA1201",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1702",
+      "clv_materia": "1707",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "BARRAGAN SOLIS ARACELI NOEMI",
+      "salon": "A623",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1703",
+      "clv_materia": "1707",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "ARZATE HUITRON MARIA ESTHER",
+      "salon": "TA1201",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1704",
+      "clv_materia": "1707",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "RODRIGUEZ GARCIA SANDY",
+      "salon": "A624",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1707",
+      "clv_materia": "1707",
+      "grupo": "1707",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "ESTRADA GARCIA MARIA CONCEPCION",
+      "salon": "A421",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1708",
+      "clv_materia": "1707",
+      "grupo": "1708",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "MONDRAGON AGUILAR SUSANA JEANINE",
+      "salon": "A621",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1708_2",
+      "clv_materia": "1707",
+      "grupo": "1708",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "MONDRAGON AGUILAR SUSANA JEANINE",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "13:00-15:00",
+          "inicio_min": 780,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1709",
+      "clv_materia": "1707",
+      "grupo": "1709",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "BARRAGAN SOLIS ARACELI NOEMI",
+      "salon": "A1007",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1710",
+      "clv_materia": "1707",
+      "grupo": "1710",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "ESCUTIA ALATORRE EVA",
+      "salon": "A623",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1712",
+      "clv_materia": "1707",
+      "grupo": "1712",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "SERRANO TAVERA FRANCISCA",
+      "salon": "A623",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1751",
+      "clv_materia": "1707",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "BARRAGAN SOLIS ARACELI NOEMI",
+      "salon": "TA1201",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "13:00-17:00",
+          "inicio_min": 780,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1752",
+      "clv_materia": "1707",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "ROSALES LEON NORMA",
+      "salon": "A623",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1753",
+      "clv_materia": "1707",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "ESTRADA GARCIA MARIA CONCEPCION",
+      "salon": "A624",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1756",
+      "clv_materia": "1707",
+      "grupo": "1756",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "ESTRADA GARCIA MARIA CONCEPCION",
+      "salon": "A621",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1758",
+      "clv_materia": "1707",
+      "grupo": "1758",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "RODRIGUEZ ESCOBAR CELIA CANDIDA",
+      "salon": "A426",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "17:00-21:00",
+          "inicio_min": 1020,
+          "fin_min": 1260
+        }
+      ]
+    },
+    {
+      "id": "35_4_1707_1759",
+      "clv_materia": "1707",
+      "grupo": "1759",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION I",
+      "profesor": "MONDRAGON AGUILAR SUSANA JEANINE",
+      "salon": "A621",
+      "cupo": 0,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1733_1701",
+      "clv_materia": "1733",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE TELEVISION II",
+      "profesor": "SERRANO TAVERA FRANCISCA",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1733_1701_2",
+      "clv_materia": "1733",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE TELEVISION II",
+      "profesor": "SERRANO TAVERA FRANCISCA",
+      "salon": "TA1302",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1733_1703",
+      "clv_materia": "1733",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE TELEVISION II",
+      "profesor": "PEÑA OBANDO JONATAN OCTAVIO",
+      "salon": "TA1302",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1733_1703_2",
+      "clv_materia": "1733",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE TELEVISION II",
+      "profesor": "PEÑA OBANDO JONATAN OCTAVIO",
+      "salon": "A130",
+      "cupo": 70,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1733_1704",
+      "clv_materia": "1733",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE TELEVISION II",
+      "profesor": "SERRANO TAVERA FRANCISCA",
+      "salon": "A623",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1733_1704_2",
+      "clv_materia": "1733",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE TELEVISION II",
+      "profesor": "SERRANO TAVERA FRANCISCA",
+      "salon": "TA1302",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1733_1751",
+      "clv_materia": "1733",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE TELEVISION II",
+      "profesor": "MATEO CRUZ EDUARDO",
+      "salon": "TA1302",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1733_1751_2",
+      "clv_materia": "1733",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE TELEVISION II",
+      "profesor": "MATEO CRUZ EDUARDO",
+      "salon": "A624",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1733_1752",
+      "clv_materia": "1733",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE TELEVISION II",
+      "profesor": "GARCIA AGUIRRE FERNANDO",
+      "salon": "TA1302",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1733_1752_2",
+      "clv_materia": "1733",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE TELEVISION II",
+      "profesor": "GARCIA AGUIRRE FERNANDO",
+      "salon": "A622",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-18:00",
+          "inicio_min": 960,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1733_1753",
+      "clv_materia": "1733",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE TELEVISION II",
+      "profesor": "RAMOS SANTIAGO FRANCISCO JAVIER",
+      "salon": "TA1302",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "20:00-22:00",
+          "inicio_min": 1200,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1733_1753_2",
+      "clv_materia": "1733",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE TELEVISION II",
+      "profesor": "RAMOS SANTIAGO FRANCISCO JAVIER",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-20:00",
+          "inicio_min": 1080,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1734_1701",
+      "clv_materia": "1734",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE RADIO II",
+      "profesor": "LOPEZ MATIAS FELICIANA ANGELICA",
+      "salon": "TA1101",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1734_1702",
+      "clv_materia": "1734",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE RADIO II",
+      "profesor": "LOPEZ MATIAS FELICIANA ANGELICA",
+      "salon": "TA1101",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1734_1703",
+      "clv_materia": "1734",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE RADIO II",
+      "profesor": "ESCUTIA ALATORRE EVA",
+      "salon": "TA1101",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1734_1704",
+      "clv_materia": "1734",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE RADIO II",
+      "profesor": "RICO PIZANO MATILDE",
+      "salon": "TA1101",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1734_1751",
+      "clv_materia": "1734",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE RADIO II",
+      "profesor": "LOPEZ MATIAS FELICIANA ANGELICA",
+      "salon": "TA1101",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1734_1752",
+      "clv_materia": "1734",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE RADIO II",
+      "profesor": "CANO SAUZA ERNESTO",
+      "salon": "TA1101",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1734_1753",
+      "clv_materia": "1734",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE RADIO II",
+      "profesor": "ESCUTIA ALATORRE EVA",
+      "salon": "TA1101",
+      "cupo": 40,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1735_1701",
+      "clv_materia": "1735",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE PRENSA II",
+      "profesor": "CASTILLO ARTEAGA ERIKA CONSTANZA",
+      "salon": "TA1201",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1735_1702",
+      "clv_materia": "1735",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE PRENSA II",
+      "profesor": "ARZATE HUITRON MARIA ESTHER",
+      "salon": "TA1201",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1735_1703",
+      "clv_materia": "1735",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE PRENSA II",
+      "profesor": "LIÑAN AVILA EDGAR ERNESTO",
+      "salon": "TA1201",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1735_1704",
+      "clv_materia": "1735",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE PRENSA II",
+      "profesor": "RIVERA NAVARRETE SILVIA VERONICA",
+      "salon": "TA1201",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "07:00-11:00",
+          "inicio_min": 420,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1735_1751",
+      "clv_materia": "1735",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE PRENSA II",
+      "profesor": "LIÑAN AVILA EDGAR ERNESTO",
+      "salon": "TA1201",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "16:00-20:00",
+          "inicio_min": 960,
+          "fin_min": 1200
+        }
+      ]
+    },
+    {
+      "id": "35_4_1735_1752",
+      "clv_materia": "1735",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE PRENSA II",
+      "profesor": "GARCIA BADILLO JESUS GUADALUPE",
+      "salon": "TA1201",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1735_1753",
+      "clv_materia": "1735",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEMINARIO TALLER DE PRENSA II",
+      "profesor": "GOMEZ MONTESINOS ANDREA",
+      "salon": "TA1201",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1805_1803",
+      "clv_materia": "1805",
+      "grupo": "1803",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION II",
+      "profesor": "ESCUTIA ALATORRE EVA",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "14:00-18:00",
+          "inicio_min": 840,
+          "fin_min": 1080
+        }
+      ]
+    },
+    {
+      "id": "35_4_1805_2801",
+      "clv_materia": "1805",
+      "grupo": "2801",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. INVEST. EN APOYO A LA TITULACION II",
+      "profesor": "BARRAGAN SOLIS ARACELI NOEMI",
+      "salon": "TA1201",
+      "cupo": 30,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1826_2801",
+      "clv_materia": "1826",
+      "grupo": "2801",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "APRECIACION CINEMATOGRAFICA.",
+      "profesor": "VILLANUEVA PACHECO ANA GUADALUPE",
+      "salon": "A422",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "13:00-17:00",
+          "inicio_min": 780,
+          "fin_min": 1020
+        }
+      ]
+    },
+    {
+      "id": "35_4_1827_1701",
+      "clv_materia": "1827",
+      "grupo": "1701",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. DE COMUNICACION Y LITERATURA CONTEMPORANEA",
+      "profesor": "VILLANUEVA PACHECO ANA GUADALUPE",
+      "salon": "A423",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-11:00",
+          "inicio_min": 540,
+          "fin_min": 660
+        }
+      ]
+    },
+    {
+      "id": "35_4_1827_1702",
+      "clv_materia": "1827",
+      "grupo": "1702",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. DE COMUNICACION Y LITERATURA CONTEMPORANEA",
+      "profesor": "LARA GRANADOS EDGAR GABRIEL",
+      "salon": "A416",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "VI",
+          "hora_texto": "11:00-15:00",
+          "inicio_min": 660,
+          "fin_min": 900
+        }
+      ]
+    },
+    {
+      "id": "35_4_1827_1703",
+      "clv_materia": "1827",
+      "grupo": "1703",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. DE COMUNICACION Y LITERATURA CONTEMPORANEA",
+      "profesor": "RODRIGUEZ ESCOBAR CELIA CANDIDA",
+      "salon": "A425",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "LU",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        },
+        {
+          "dia": "MI",
+          "hora_texto": "11:00-13:00",
+          "inicio_min": 660,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1827_1704",
+      "clv_materia": "1827",
+      "grupo": "1704",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. DE COMUNICACION Y LITERATURA CONTEMPORANEA",
+      "profesor": "VAZQUEZ ROMERO RUBEN DARIO",
+      "salon": "A415",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        },
+        {
+          "dia": "VI",
+          "hora_texto": "07:00-09:00",
+          "inicio_min": 420,
+          "fin_min": 540
+        }
+      ]
+    },
+    {
+      "id": "35_4_1827_1711",
+      "clv_materia": "1827",
+      "grupo": "1711",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. DE COMUNICACION Y LITERATURA CONTEMPORANEA",
+      "profesor": "RUSTRIAN RAMIREZ LAURA",
+      "salon": "VIRTUAL",
+      "cupo": 60,
+      "tipo_clase": "A DISTANCIA",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "09:00-13:00",
+          "inicio_min": 540,
+          "fin_min": 780
+        }
+      ]
+    },
+    {
+      "id": "35_4_1827_1751",
+      "clv_materia": "1827",
+      "grupo": "1751",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. DE COMUNICACION Y LITERATURA CONTEMPORANEA",
+      "profesor": "AGUILAR BECERRIL JOSE",
+      "salon": "A627",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MA",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1827_1752",
+      "clv_materia": "1827",
+      "grupo": "1752",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. DE COMUNICACION Y LITERATURA CONTEMPORANEA",
+      "profesor": "RIVERA PEDROZA MIGUEL ALEJANDRO",
+      "salon": "A627",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "JU",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    },
+    {
+      "id": "35_4_1827_1753",
+      "clv_materia": "1827",
+      "grupo": "1753",
+      "semestre": "35",
+      "carrera": "4",
+      "materia": "SEM. DE COMUNICACION Y LITERATURA CONTEMPORANEA",
+      "profesor": "QUEMAIN SAENZ MIGUEL ANGEL",
+      "salon": "A627",
+      "cupo": 60,
+      "tipo_clase": "PRESENCIAL",
+      "bloques": [
+        {
+          "dia": "MI",
+          "hora_texto": "18:00-22:00",
+          "inicio_min": 1080,
+          "fin_min": 1320
+        }
+      ]
+    }
+  ]
+}
