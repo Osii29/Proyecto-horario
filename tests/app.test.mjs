@@ -8,6 +8,7 @@ import {
   agruparPorGrupo,
   agruparPorMateria,
   cargarDataset,
+  cargarIndiceDatasets,
   consolidarRegistrosPorGrupoMateria,
   crearControladorHorarios,
   filtrarHorarios,
@@ -15,8 +16,8 @@ import {
   normalizarTexto,
   obtenerCatalogosDeFiltros,
   obtenerSemestreDeGrupo,
-} from "../src/app.js";
-import { calcularCarrilesSolapados, escapeHtml } from "../src/render.js";
+} from "../app.js";
+import { calcularCarrilesSolapados, escapeHtml } from "../render.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, "..");
@@ -344,4 +345,32 @@ test("consolidarRegistrosPorGrupoMateria fusiona salones por día y unifica codo
 
   assert.equal(consolidados[1].profesor, "PROF A / PROF B");
   assert.equal(consolidados[1].bloques.length, 1);
+});
+
+test("cargarIndiceDatasets prioriza ./data/index.json desde la raíz y retorna baseUrl ./data", async () => {
+  const solicitadas = [];
+  const fetchMock = async (ruta) => {
+    solicitadas.push(ruta);
+    return {
+      ok: true,
+      json: async () => ({
+        semestre_activo: { semestre: "35", etiqueta_semestre: "2027-1" },
+        datasets: [
+          {
+            archivo: "sem_35_carr_12.json",
+            semestre: "35",
+            etiqueta_semestre: "2027-1",
+            carrera: "12",
+            nombre_carrera: "INGENIERIA EN COMPUTACION",
+          },
+        ],
+      }),
+    };
+  };
+
+  const indice = await cargarIndiceDatasets(undefined, fetchMock);
+  assert.deepEqual(solicitadas, ["./data/index.json"]);
+  assert.equal(indice.baseUrl, "./data");
+  assert.equal(indice.semestreActivo.semestre, "35");
+  assert.equal(indice.datasets.length, 1);
 });

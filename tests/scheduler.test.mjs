@@ -16,7 +16,7 @@ import {
   hayColisionBloques,
   horaAMinutos,
   minutosAHora,
-} from "../src/scheduler.js";
+} from "../scheduler.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, "..");

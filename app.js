@@ -924,7 +924,7 @@ export function crearControladorHorarios(configInicial = {}) {
  * Carga el catálogo `data/index.json` intentando rutas relativas estándar.
  */
 export async function cargarIndiceDatasets(
-  rutas = ["../data/index.json", "./data/index.json"],
+  rutas = ["./data/index.json", "../data/index.json"],
   fetchImpl = globalThis.fetch
 ) {
   if (typeof fetchImpl !== "function") {
@@ -949,7 +949,7 @@ export async function cargarIndiceDatasets(
   }
 
   return {
-    baseUrl: "../data",
+    baseUrl: "./data",
     semestreActivo: {
       semestre: "35",
       etiqueta_semestre: "2027-1",
@@ -1026,7 +1026,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
   let limiteVisibleRecs = 6;
   let bloqueInspectorId = "";
   let registroInspectorId = "";
-  let baseDataUrl = "../data";
+  let baseDataUrl = "./data";
   let semestreActivoInfo = null;
   let datasetsDisponibles = [];
   let archivoActivo = "";

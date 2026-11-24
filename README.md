@@ -8,6 +8,12 @@ Aplicación web estática (arquitectura JAMstack) orientada a consultar horarios
 
 ```text
 proyecto-horarios/
+├── .nojekyll                 # Desactiva Jekyll en GitHub Pages
+├── index.html                # Interfaz Dark Swiss Architectural Studio (panel colapsable en 3 pestañas)
+├── styles.css                # Sistema visual reticular, responsivo y @media print
+├── render.js                 # Renderizado DOM, carriles de choque y exportación PNG
+├── scheduler.js              # Motor puro: choques, backtracking, métricas, puntaje y diagnóstico
+├── app.js                    # Estado, carga de carreras, filtros y vinculación de eventos UI
 ├── etl/
 │   ├── conexion.py           # Cliente de queysA.php (tipo=0,1,2,4), limpieza y normalización
 │   └── build_data.py         # Orquestador automático para último semestre y todas las carreras
@@ -16,12 +22,6 @@ proyecto-horarios/
 │   └── sem_35_carr_*.json    # Horarios normalizados por carrera (semestre 2027-1)
 ├── docs/
 │   └── design-dna.json       # Perfil Design DNA (tokens, estilo visual y efectos)
-├── src/
-│   ├── index.html            # Interfaz Dark Swiss Architectural Studio (panel colapsable en 3 pestañas)
-│   ├── styles.css            # Sistema visual reticular, responsivo y @media print
-│   ├── render.js             # Renderizado DOM, carriles de choque y exportación PNG
-│   ├── scheduler.js          # Motor puro: choques, backtracking, métricas, puntaje y diagnóstico
-│   └── app.js                # Estado, carga de carreras, filtros y vinculación de eventos UI
 ├── tests/
 │   ├── test_etl.py           # Pruebas unitarias y validación de esquema del ETL
 │   ├── scheduler.test.mjs    # Pruebas del motor de acomodo y benchmark < 1s
@@ -41,11 +41,11 @@ Como la aplicación carga los archivos JSON mediante `fetch`, sírvela desde la 
 python -m http.server 8000
 ```
 
-Después abre `http://localhost:8000/src/` en tu navegador.
+Después abre `http://localhost:8000/` en tu navegador.
 
-### Despliegue gratuito (GitHub Pages / Vercel / Cloudflare Pages)
+### Despliegue gratuito en GitHub Pages (raíz `/`)
 
-Publica el repositorio completo como sitio estático (conservando `src/` y `data/` en sus rutas relativas). La aplicación detecta automáticamente `../data/index.json` y permite elegir cualquier carrera del semestre vigente.
+Publica el repositorio en GitHub Pages seleccionando la rama principal (`main`) y la carpeta **`/ (root)`** como origen. El archivo `.nojekyll` sirve los recursos estáticos directamente y la aplicación carga `./data/index.json` desde la raíz para permitir elegir cualquier carrera del semestre vigente.
 
 ---
 
