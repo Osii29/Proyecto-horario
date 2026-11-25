@@ -13,6 +13,7 @@ export const PESOS_POR_DEFECTO = Object.freeze({
   huecos: 10,
   rangoHorario: 10,
   concentracionDiaria: 8,
+  modalidadEnLinea: 60,
   solapamiento: 2,
 });
 
@@ -34,6 +35,7 @@ export const PRESETS_PREFERENCIAS = Object.freeze({
       huecos: 8,
       rangoHorario: 5,
       concentracionDiaria: 25,
+      modalidadEnLinea: 60,
       solapamiento: 2,
     }),
   }),
@@ -47,6 +49,7 @@ export const PRESETS_PREFERENCIAS = Object.freeze({
       huecos: 30,
       rangoHorario: 8,
       concentracionDiaria: 6,
+      modalidadEnLinea: 60,
       solapamiento: 2,
     }),
   }),
@@ -60,6 +63,7 @@ export const PRESETS_PREFERENCIAS = Object.freeze({
       huecos: 10,
       rangoHorario: 25,
       concentracionDiaria: 3,
+      modalidadEnLinea: 60,
       solapamiento: 2,
     }),
   }),
@@ -73,6 +77,7 @@ export const PRESETS_PREFERENCIAS = Object.freeze({
       huecos: 10,
       rangoHorario: 25,
       concentracionDiaria: 3,
+      modalidadEnLinea: 60,
       solapamiento: 2,
     }),
   }),
@@ -392,6 +397,118 @@ export function calcularIndiceConcentracion(conteosPorDia = []) {
   );
 }
 
+function normalizarModalidadTexto(valor) {
+  return String(valor || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toUpperCase()
+    .trim()
+    .replace(/\s+/g, " ");
+}
+
+const SALONES_EN_LINEA = new Set([
+  "VIRTUAL",
+  "EN LINEA",
+  "A DISTANCIA",
+  "ONLINE",
+  "AULA VIRTUAL",
+]);
+
+function obtenerPesoTipoClaseTexto(valor) {
+  const texto = normalizarModalidadTexto(valor);
+  if (!texto) {
+    return 0;
+  }
+  const partes = texto
+    .split("/")
+    .map((p) => p.trim())
+    .filter(Boolean);
+  if (partes.length === 0) {
+    return 0;
+  }
+
+  let suma = 0;
+  for (const parte of partes) {
+    if (parte === "A DISTANCIA" || parte === "EN LINEA" || parte === "VIRTUAL") {
+      suma += 1;
+    } else if (parte === "HIBRIDO" || parte === "SEMIPRESENCIAL") {
+      suma += 0.5;
+    }
+  }
+  return suma / partes.length;
+}
+
+function obtenerPesoSalonTexto(valor) {
+  const texto = normalizarModalidadTexto(valor);
+  if (!texto) {
+    return 0;
+  }
+  const partes = texto
+    .split("/")
+    .map((p) => p.trim())
+    .filter(Boolean);
+  if (partes.length === 0) {
+    return 0;
+  }
+
+  let suma = 0;
+  for (const parte of partes) {
+    if (SALONES_EN_LINEA.has(parte)) {
+      suma += 1;
+    }
+  }
+  return suma / partes.length;
+}
+
+/**
+ * Clasifica la modalidad de un registro en un peso continuo [0, 1] considerando
+ * tanto `tipo_clase` como `salon` (p. ej. `salon: "VIRTUAL"` con `tipo_clase: "PRESENCIAL"`):
+ * - `A DISTANCIA` / `EN LINEA` / `VIRTUAL` → 1
+ * - `HIBRIDO` / `SEMIPRESENCIAL` o mezcla presencial + virtual (`A204 / VIRTUAL`) → 0.5
+ * - `PRESENCIAL` (incluido `salon: "SINDEF"`) u otros → 0
+ */
+export function obtenerPesoEnLineaRegistro(registro) {
+  const pesoTipo = obtenerPesoTipoClaseTexto(registro?.tipo_clase);
+  const pesoSalon = obtenerPesoSalonTexto(registro?.salon);
+  return Math.max(pesoTipo, pesoSalon);
+}
+
+/**
+ * Determina si un bloque individual corresponde a una sesión 100% en línea
+ * (sin asistencia presencial al plantel) según su `tipo_clase` o `salon`.
+ */
+export function esBloqueEnLinea(bloque, registro = null) {
+  const tipoEfectivo =
+    bloque && typeof bloque.tipo_clase === "string" && bloque.tipo_clase.trim()
+      ? bloque.tipo_clase
+      : registro?.tipo_clase;
+  const salonEfectivo =
+    bloque && typeof bloque.salon === "string" && bloque.salon.trim()
+      ? bloque.salon
+      : registro?.salon;
+  return (
+    Math.max(
+      obtenerPesoTipoClaseTexto(tipoEfectivo),
+      obtenerPesoSalonTexto(salonEfectivo)
+    ) >= 1
+  );
+}
+
+/**
+ * Devuelve una etiqueta legible de modalidad consistente con `tipo_clase` y `salon`.
+ */
+export function obtenerEtiquetaModalidad(registro) {
+  const peso = obtenerPesoEnLineaRegistro(registro);
+  const rawTipo = String(registro?.tipo_clase || "").trim();
+  if (peso >= 1) {
+    return obtenerPesoTipoClaseTexto(rawTipo) >= 1 ? rawTipo : "EN LÍNEA";
+  }
+  if (peso > 0) {
+    return obtenerPesoTipoClaseTexto(rawTipo) > 0 ? rawTipo : "HÍBRIDO";
+  }
+  return rawTipo || "N/D";
+}
+
 /**
  * Calcula las métricas semanales de un horario completo (RF-REC-03).
  *
@@ -412,11 +529,22 @@ export function calcularMetricasHorario(registros = [], opciones = {}) {
   let minutosFueraRango = 0;
   let horaPrimeraClaseMin = null;
   let horaUltimaClaseMin = null;
+  let materiasEnLinea = 0;
+  let materiasHibridas = 0;
+  let puntajeEnLineaRaw = 0;
 
   for (const registro of lista) {
+    const pesoEnLinea = obtenerPesoEnLineaRegistro(registro);
+    puntajeEnLineaRaw += pesoEnLinea;
+    if (pesoEnLinea >= 1) {
+      materiasEnLinea += 1;
+    } else if (pesoEnLinea > 0) {
+      materiasHibridas += 1;
+    }
+
     const diasRegistro = new Set();
     for (const bloque of obtenerBloquesValidos(registro)) {
-      if (bloquesPorDia.has(bloque.dia)) {
+      if (!esBloqueEnLinea(bloque, registro) && bloquesPorDia.has(bloque.dia)) {
         bloquesPorDia.get(bloque.dia).push(bloque);
         diasRegistro.add(bloque.dia);
       }
@@ -515,13 +643,20 @@ export function calcularMetricasHorario(registros = [], opciones = {}) {
     totalMinutosSolapamiento: resumenSolapamientos.totalMinutosSolapamiento,
     totalChoques: resumenSolapamientos.totalChoques,
     bloquesIrregulares: resumenSolapamientos.bloquesIrregulares.length,
+    materiasEnLinea,
+    materiasHibridas,
+    puntajeEnLineaRaw: redondear2(puntajeEnLineaRaw),
   };
 }
 
 /**
  * Calcula un puntaje ponderado a partir de las métricas del horario (RF-REC-04).
  */
-export function calcularPuntaje(metricas, pesos = PESOS_POR_DEFECTO) {
+export function calcularPuntaje(
+  metricas,
+  pesos = PESOS_POR_DEFECTO,
+  opciones = {}
+) {
   const w = {
     diasLibres: Number.isFinite(Number(pesos?.diasLibres))
       ? Number(pesos.diasLibres)
@@ -535,11 +670,15 @@ export function calcularPuntaje(metricas, pesos = PESOS_POR_DEFECTO) {
     concentracionDiaria: Number.isFinite(Number(pesos?.concentracionDiaria))
       ? Number(pesos.concentracionDiaria)
       : PESOS_POR_DEFECTO.concentracionDiaria,
+    modalidadEnLinea: Number.isFinite(Number(pesos?.modalidadEnLinea))
+      ? Number(pesos.modalidadEnLinea)
+      : PESOS_POR_DEFECTO.modalidadEnLinea,
     solapamiento: Number.isFinite(Number(pesos?.solapamiento))
       ? Number(pesos.solapamiento)
       : PESOS_POR_DEFECTO.solapamiento,
   };
 
+  const preferirEnLinea = opciones?.preferenciaModalidad === "preferirEnLinea";
   const base = 100;
   const bonoDiasLibres = metricas.diasLibres * w.diasLibres;
   const penalizacionHuecos = (metricas.totalHuecosMin / 60) * w.huecos;
@@ -548,13 +687,17 @@ export function calcularPuntaje(metricas, pesos = PESOS_POR_DEFECTO) {
     ? Number(metricas.indiceConcentracion)
     : 0;
   const ajusteConcentracion = indiceConcentracion * w.concentracionDiaria;
+  const bonoModalidad = preferirEnLinea
+    ? (Number(metricas?.puntajeEnLineaRaw) || 0) * w.modalidadEnLinea
+    : 0;
   const penalizacionSolapamiento =
     metricas.totalMinutosSolapamiento * w.solapamiento;
 
   const puntaje = redondear2(
     base +
       bonoDiasLibres +
-      ajusteConcentracion -
+      ajusteConcentracion +
+      bonoModalidad -
       penalizacionHuecos -
       penalizacionRango -
       penalizacionSolapamiento
@@ -566,6 +709,7 @@ export function calcularPuntaje(metricas, pesos = PESOS_POR_DEFECTO) {
       base,
       diasLibres: redondear2(bonoDiasLibres),
       concentracionDiaria: redondear2(ajusteConcentracion),
+      modalidadEnLinea: redondear2(bonoModalidad),
       huecos: redondear2(-penalizacionHuecos),
       rangoHorario: redondear2(-penalizacionRango),
       solapamiento: redondear2(-penalizacionSolapamiento),
@@ -870,7 +1014,7 @@ export function diagnosticarConflictos(materiasSeleccionadas = [], opciones = {}
       .map((m) => `${m.materia} (${m.clave})`)
       .join(", ");
     sugerencias.push(
-      `Las siguientes materias no tienen grupos disponibles con los filtros actuales: ${nombres}. Amplía el rango horario, días permitidos, cupo o profesores excluidos.`
+      `Las siguientes materias no tienen grupos disponibles con los filtros actuales: ${nombres}. Amplía el rango horario, días permitidos, modalidad, cupo o profesores excluidos.`
     );
   }
 
@@ -954,10 +1098,15 @@ export function generarRecomendaciones(
     concentracionDiaria: Number.isFinite(Number(rawPesos?.concentracionDiaria))
       ? Number(rawPesos.concentracionDiaria)
       : PESOS_POR_DEFECTO.concentracionDiaria,
+    modalidadEnLinea: Number.isFinite(Number(rawPesos?.modalidadEnLinea))
+      ? Number(rawPesos.modalidadEnLinea)
+      : PESOS_POR_DEFECTO.modalidadEnLinea,
     solapamiento: Number.isFinite(Number(rawPesos?.solapamiento))
       ? Number(rawPesos.solapamiento)
       : PESOS_POR_DEFECTO.solapamiento,
   };
+  const preferirEnLinea = opciones.preferenciaModalidad === "preferirEnLinea";
+  const pesoModalidad = preferirEnLinea ? pesos.modalidadEnLinea : 0;
   const { horaIdealInicioMin, horaIdealFinMin } = normalizarRangoIdeal(opciones);
   const diasConsiderados =
     Array.isArray(opciones.diasConsiderados) && opciones.diasConsiderados.length > 0
@@ -1008,10 +1157,12 @@ export function generarRecomendaciones(
       let fueraRangoMin = 0;
 
       for (const b of bloques) {
-        const idxDia = diaIndiceMap.get(b.dia);
-        if (idxDia !== undefined) {
-          porDia[idxDia].push(b);
-          diasMask |= 1 << idxDia;
+        if (!esBloqueEnLinea(b, registro)) {
+          const idxDia = diaIndiceMap.get(b.dia);
+          if (idxDia !== undefined) {
+            porDia[idxDia].push(b);
+            diasMask |= 1 << idxDia;
+          }
         }
         const dur = b.fin_min - b.inicio_min;
         const dentro = Math.max(
@@ -1029,11 +1180,13 @@ export function generarRecomendaciones(
         }
       }
 
+      const valorEnLinea = obtenerPesoEnLineaRegistro(registro);
       const costoOrden =
         (fueraRangoMin / 60) * Math.max(0, pesos.rangoHorario) +
         (huecosPropiosMin / 60) * Math.max(0, pesos.huecos) +
         contarBits(diasMask) * Math.max(0, pesos.diasLibres) * 0.25 +
-        contarBits(diasMask) * Math.max(0, pesos.concentracionDiaria) * 0.2;
+        contarBits(diasMask) * Math.max(0, pesos.concentracionDiaria) * 0.2 -
+        valorEnLinea * Math.max(0, pesoModalidad) * 0.6;
 
       const firma = registro.id || `${registro.clv_materia || ""}:${registro.grupo || ""}`;
 
@@ -1043,6 +1196,7 @@ export function generarRecomendaciones(
         porDia,
         diasMask,
         fueraRangoMin,
+        valorEnLinea,
         costoOrden,
         firma,
       };
@@ -1085,17 +1239,24 @@ export function generarRecomendaciones(
     pesos.huecos >= 0 &&
     pesos.rangoHorario >= 0 &&
     pesos.concentracionDiaria >= 0 &&
+    pesoModalidad >= 0 &&
     pesos.solapamiento >= 0;
 
   const n = ordenadas.length;
   // Máximo de materias adicionales que pueden caer en cada día a partir de `nivel`
   const restantesPorDia = Array.from({ length: n + 1 }, () => new Int32Array(numDias));
+  const maxEnLineaRestante = new Float64Array(n + 1);
   for (let nivel = n - 1; nivel >= 0; nivel -= 1) {
     let unionMaskNivel = 0;
+    let maxEnLineaNivel = 0;
     const optsNivel = ordenadas[nivel].opcionesInfo;
     for (let j = 0; j < optsNivel.length; j += 1) {
       unionMaskNivel |= optsNivel[j].diasMask;
+      if (optsNivel[j].valorEnLinea > maxEnLineaNivel) {
+        maxEnLineaNivel = optsNivel[j].valorEnLinea;
+      }
     }
+    maxEnLineaRestante[nivel] = maxEnLineaRestante[nivel + 1] + maxEnLineaNivel;
     for (let d = 0; d < numDias; d += 1) {
       restantesPorDia[nivel][d] =
         restantesPorDia[nivel + 1][d] + ((unionMaskNivel & (1 << d)) !== 0 ? 1 : 0);
@@ -1112,7 +1273,13 @@ export function generarRecomendaciones(
   let limiteAlcanzado = false;
   const maxNodos = maxCombinacionesEvaluadas * 15;
 
-  const backtrack = (nivel, solapamientoAcumulado, diasMaskAcum, fueraRangoAcum) => {
+  const backtrack = (
+    nivel,
+    solapamientoAcumulado,
+    diasMaskAcum,
+    fueraRangoAcum,
+    enLineaAcum
+  ) => {
     if (limiteAlcanzado) {
       return;
     }
@@ -1149,11 +1316,13 @@ export function generarRecomendaciones(
         totalHuecosMin,
         minutosFueraRango: fueraRangoAcum,
         totalMinutosSolapamiento: solapamientoAcumulado,
+        puntajeEnLineaRaw: redondear2(enLineaAcum),
       };
       const puntajeRapido = redondear2(
         100 +
           diasLibres * pesos.diasLibres +
-          indiceConcentracion * pesos.concentracionDiaria -
+          indiceConcentracion * pesos.concentracionDiaria +
+          enLineaAcum * pesoModalidad -
           (totalHuecosMin / 60) * pesos.huecos -
           (fueraRangoAcum / 60) * pesos.rangoHorario -
           solapamientoAcumulado * pesos.solapamiento
@@ -1218,8 +1387,9 @@ export function generarRecomendaciones(
       const nuevoSolap = solapamientoAcumulado + deltaSolapamiento;
       const nuevoDiasMask = diasMaskAcum | infoOpt.diasMask;
       const nuevoFueraRango = fueraRangoAcum + infoOpt.fueraRangoMin;
+      const nuevoEnLinea = enLineaAcum + infoOpt.valorEnLinea;
 
-      // Poda exacta Branch-and-Bound combinando días libres y concentración diaria máxima posible
+      // Poda exacta Branch-and-Bound combinando días libres, concentración diaria y modalidad en línea
       if (puedePodarPorCota && topResultados.length >= limiteResultados) {
         const remNivel = restantesPorDia[nivel + 1];
         let diasActivosMin = 0;
@@ -1254,13 +1424,16 @@ export function generarRecomendaciones(
               maxPromedio + (3 - diasActivosMin) - minPenalizacionPocas;
           }
         }
+        const maxEnLinea = nuevoEnLinea + maxEnLineaRestante[nivel + 1];
         const cotaSuperior =
           100 +
           maxDiasLibres * pesos.diasLibres +
-          maxIndiceConcentracion * pesos.concentracionDiaria -
+          maxIndiceConcentracion * pesos.concentracionDiaria +
+          maxEnLinea * pesoModalidad -
           (nuevoFueraRango / 60) * pesos.rangoHorario -
           nuevoSolap * pesos.solapamiento;
-        const margenRedondeo = 0.01 + 0.005 * pesos.concentracionDiaria;
+        const margenRedondeo =
+          0.01 + 0.005 * pesos.concentracionDiaria + 0.005 * pesoModalidad;
         const peorTop = topResultados[topResultados.length - 1].puntaje;
         if (cotaSuperior + margenRedondeo < peorTop) {
           podasPorCota += 1;
@@ -1274,7 +1447,13 @@ export function generarRecomendaciones(
         }
       }
       seleccionIndices[nivel] = idxOpt;
-      backtrack(nivel + 1, nuevoSolap, nuevoDiasMask, nuevoFueraRango);
+      backtrack(
+        nivel + 1,
+        nuevoSolap,
+        nuevoDiasMask,
+        nuevoFueraRango,
+        nuevoEnLinea
+      );
       for (let d = 0; d < numDias; d += 1) {
         if ((infoOpt.diasMask & (1 << d)) !== 0) {
           clasesPorDiaAcum[d] -= 1;
@@ -1287,7 +1466,7 @@ export function generarRecomendaciones(
     }
   };
 
-  backtrack(0, 0, 0, 0);
+  backtrack(0, 0, 0, 0, 0);
 
   // Calcula métricas detalladas, desglose y advertencias únicamente para los ganadores finales
   const recomendaciones = topResultados.map(({ _firma, registros }) => {
@@ -1298,7 +1477,9 @@ export function generarRecomendaciones(
       diasConsiderados,
       resumenSolapamientos: analisis,
     });
-    const evaluacion = calcularPuntaje(metricas, pesos);
+    const evaluacion = calcularPuntaje(metricas, pesos, {
+      preferenciaModalidad: opciones.preferenciaModalidad,
+    });
     return {
       id: _firma,
       registros,

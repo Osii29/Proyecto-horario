@@ -58,7 +58,7 @@
               <rect x="1.5" y="2" width="13" height="12" stroke="currentColor" stroke-width="1.4" />
               <line x1="6" y1="2" x2="6" y2="14" stroke="currentColor" stroke-width="1.4" />
             </svg>
-            <span id="label-toggle-sidebar">OCULTAR PANEL</span>
+            <span id="label-toggle-sidebar">OCULTAR</span>
           </button>
         </div>
 
@@ -72,51 +72,18 @@
 
           <a href="#seccion-recomendaciones" class="nav-link" data-nav-target="recomendaciones">RECOMENDACIONES</a>
           <a href="#seccion-grilla" class="nav-link" data-nav-target="grilla">HORARIO</a>
-          <button
-            id="btn-nav-manual"
-            type="button"
-            class="nav-link nav-link-btn"
-            data-nav-target="manual"
-          >
-            MANUAL
-          </button>
         </nav>
-
-        <div class="topbar-actions">
-          <button id="btn-generar-top" type="button" class="cta-primary">
-            <span class="cta-label">GENERAR HORARIO</span>
-            <span id="badge-cta-count" class="cta-count" hidden>0</span>
-          </button>
-        </div>
         <div id="topbar-progress" class="topbar-progress" aria-hidden="true"></div>
       </header>
 
-      <!-- Contenedor principal: Inspector colapsable | Estudio | Riel técnico -->
+      <!-- Contenedor principal: Panel lateral | Estudio -->
       <div id="app-shell" class="app-shell">
-        <!-- Columna izquierda colapsable organizada en 3 pestañas -->
+        <!-- Columna izquierda colapsable organizada en 2 pestañas -->
         <aside
           id="panel-inspector"
           class="inspector-panel"
-          aria-label="Configurador de materias, filtros y motor"
+          aria-label="Catálogo de materias y ajustes"
         >
-          <div class="inspector-header">
-            <div class="inspector-title-wrap">
-              <h2 class="inspector-title">Configurador</h2>
-              <span id="contador-catalogo" class="inspector-subtitle">
-                0 materias · 0 grupos
-              </span>
-            </div>
-            <button
-              id="btn-cerrar-inspector"
-              type="button"
-              class="btn-outline btn-xs"
-              title="Contraer barra lateral"
-              aria-label="Contraer barra lateral"
-            >
-              «
-            </button>
-          </div>
-
           <!-- Navegación segmentada del panel lateral -->
           <div class="inspector-tabs" role="tablist" aria-label="Secciones del panel lateral" style="--tab-index: 0">
             <button
@@ -131,28 +98,16 @@
               <span>01 MATERIAS</span>
             </button>
             <button
-              id="tab-panel-filtros"
+              id="tab-panel-ajustes"
               type="button"
               role="tab"
               aria-selected="false"
-              aria-controls="vista-panel-filtros"
-              data-panel-tab="filtros"
+              aria-controls="vista-panel-ajustes"
+              data-panel-tab="ajustes"
               class="inspector-tab"
             >
-              <span>02 FILTROS</span>
-              <span id="badge-filtros" class="tab-badge" hidden>0</span>
-            </button>
-            <button
-              id="tab-panel-motor"
-              type="button"
-              role="tab"
-              aria-selected="false"
-              aria-controls="vista-panel-motor"
-              data-panel-tab="motor"
-              class="inspector-tab"
-            >
-              <span>03 MOTOR</span>
-              <span id="badge-motor" class="tab-badge" hidden>!</span>
+              <span>02 AJUSTES</span>
+              <span id="badge-ajustes" class="tab-badge" hidden>0</span>
             </button>
           </div>
 
@@ -194,20 +149,6 @@
               </div>
             </div>
 
-            <div id="resumen-filtros-activos" class="catalog-summary-strip">
-              <span id="texto-resumen-catalogo" class="mono-meta">
-                Clic en un grupo para ver o elegir sus materias
-              </span>
-              <button
-                id="btn-ir-filtros"
-                type="button"
-                class="filter-jump-pill"
-                hidden
-              >
-                0 filtros activos →
-              </button>
-            </div>
-
             <div class="catalog-mode-switch" role="group" aria-label="Modo de agrupación del catálogo" style="--tab-index: 0">
               <button
                 id="btn-agrupar-grupo"
@@ -227,15 +168,85 @@
               </button>
             </div>
 
+            <div class="catalog-count-bar">
+              <span id="contador-catalogo" class="mono-meta">0 grupos · 0 materias</span>
+            </div>
+
             <div id="catalogo-materias" class="catalogo-materias"></div>
           </div>
 
-          <!-- Vista 02: Filtros en tarjetas diferenciadas -->
-          <div id="vista-panel-filtros" class="inspector-tabpanel inspector-scroll" role="tabpanel" hidden>
+          <!-- Vista 02: Ajustes esenciales y submenús secundarios -->
+          <div id="vista-panel-ajustes" class="inspector-tabpanel inspector-scroll" role="tabpanel" hidden>
+            <section class="filter-card">
+              <div class="filter-card-head">
+                <h3 class="filter-card-title">Prioridad de acomodo</h3>
+              </div>
+
+              <div id="preset-preferencias" class="preset-stack">
+                <button type="button" class="preset-card-btn is-active" data-preset="balanceado">
+                  <span class="preset-name">Balanceado</span>
+                  <span class="preset-hint">Equilibrio entre días libres y huecos cortos</span>
+                </button>
+                <button type="button" class="preset-card-btn" data-preset="masDiasLibres">
+                  <span class="preset-name">Más días libres y concentrados</span>
+                  <span class="preset-hint">Compacta clases y evita días con 1 o 2 materias</span>
+                </button>
+                <button type="button" class="preset-card-btn" data-preset="menosHuecos">
+                  <span class="preset-name">Menos huecos</span>
+                  <span class="preset-hint">Evita horas muertas entre asignaturas</span>
+                </button>
+                <button type="button" class="preset-card-btn" data-preset="matutino">
+                  <span class="preset-name">Turno matutino</span>
+                  <span class="preset-hint">Prioriza clases entre 07:00 y 15:00</span>
+                </button>
+                <button type="button" class="preset-card-btn" data-preset="vespertino">
+                  <span class="preset-name">Turno vespertino</span>
+                  <span class="preset-hint">Prioriza clases entre 14:00 y 22:00</span>
+                </button>
+              </div>
+
+              <div class="card-divider-section">
+                <span class="field-label">MATERIAS EN LÍNEA</span>
+                <div
+                  id="pref-modalidad-selector"
+                  class="segmented-control"
+                  role="group"
+                  aria-label="Preferencia de materias en línea"
+                >
+                  <button
+                    type="button"
+                    class="segmented-btn is-active"
+                    data-modalidad="indistinto"
+                    aria-pressed="true"
+                  >
+                    Indistinto
+                  </button>
+                  <button
+                    type="button"
+                    class="segmented-btn"
+                    data-modalidad="preferirEnLinea"
+                    aria-pressed="false"
+                  >
+                    Preferir en línea
+                  </button>
+                  <button
+                    type="button"
+                    class="segmented-btn"
+                    data-modalidad="soloPresenciales"
+                    aria-pressed="false"
+                  >
+                    Solo presenciales
+                  </button>
+                </div>
+                <p id="desc-modalidad-activa" class="param-desc">
+                  Incluye grupos presenciales, híbridos y en línea sin preferencia.
+                </p>
+              </div>
+            </section>
+
             <section class="filter-card">
               <div class="filter-card-head">
                 <h3 class="filter-card-title">Disponibilidad semanal</h3>
-                <p class="filter-card-desc">Restringe días permitidos y ventana horaria de clases.</p>
               </div>
 
               <div class="field-group">
@@ -262,172 +273,135 @@
               </div>
             </section>
 
-            <section class="filter-card">
-              <div class="filter-card-head">
-                <h3 class="filter-card-title">Modalidad y cupo</h3>
-                <p class="filter-card-desc">Filtra grupos presenciales, a distancia o por lugares.</p>
-              </div>
-
-              <div class="field-group">
-                <span class="field-label">MODALIDAD</span>
-                <div id="filtro-tipos-clase" class="pill-group"></div>
-              </div>
-
-              <div class="two-cols align-center">
-                <label class="checkbox-row">
-                  <input id="filtro-solo-cupo" type="checkbox" />
-                  <span>Solo con cupo &gt; 0</span>
-                </label>
-                <div class="field-group">
-                  <label for="filtro-cupo-min" class="field-label">CUPO MÍN.</label>
+            <details class="submenu-card">
+              <summary class="submenu-summary">
+                <span class="submenu-title">Cupo mínimo</span>
+                <span class="submenu-right">
+                  <span id="badge-sub-cupo" class="submenu-badge" hidden>≥ 1</span>
+                  <span class="submenu-chevron" aria-hidden="true">▸</span>
+                </span>
+              </summary>
+              <div class="submenu-body">
+                <div class="two-cols align-center">
+                  <label for="filtro-cupo-min" class="field-label">LUGARES MÍNIMOS</label>
                   <input
                     id="filtro-cupo-min"
                     type="number"
                     min="0"
+                    step="1"
                     class="input-control input-sm"
-                    placeholder="—"
+                    placeholder="Sin mín."
                   />
                 </div>
-              </div>
-            </section>
-
-            <section class="filter-card">
-              <div class="filter-card-head">
-                <h3 class="filter-card-title">Exclusiones</h3>
-                <p class="filter-card-desc">Descarta profesores o grupos específicos del cálculo.</p>
-              </div>
-
-              <div class="field-group">
-                <label for="input-excluir-profesor" class="field-label">EXCLUIR PROFESOR</label>
-                <div class="inline-action">
-                  <input
-                    id="input-excluir-profesor"
-                    type="text"
-                    list="datalist-profesores"
-                    class="input-control"
-                    placeholder="Nombre del docente..."
-                  />
-                  <button id="btn-excluir-profesor" type="button" class="btn-outline">
-                    EXCLUIR
-                  </button>
+                <div id="chips-cupo-min" class="pill-group">
+                  <button type="button" class="pill-btn is-active" data-cupo-min="0">Sin mín.</button>
+                  <button type="button" class="pill-btn" data-cupo-min="1">≥ 1</button>
+                  <button type="button" class="pill-btn" data-cupo-min="5">≥ 5</button>
+                  <button type="button" class="pill-btn" data-cupo-min="10">≥ 10</button>
+                  <button type="button" class="pill-btn" data-cupo-min="20">≥ 20</button>
                 </div>
-                <datalist id="datalist-profesores"></datalist>
-                <div id="lista-profesores-excluidos" class="chips-wrap"></div>
-              </div>
-
-              <div class="field-group">
-                <label for="input-excluir-grupo" class="field-label">EXCLUIR GRUPO O CLAVE:GRUPO</label>
-                <div class="inline-action">
-                  <input
-                    id="input-excluir-grupo"
-                    type="text"
-                    list="datalist-grupos"
-                    class="input-control"
-                    placeholder="Ej. 1557 o 1500:1557"
-                  />
-                  <button id="btn-excluir-grupo" type="button" class="btn-outline">
-                    EXCLUIR
-                  </button>
-                </div>
-                <datalist id="datalist-grupos"></datalist>
-                <div id="lista-grupos-excluidos" class="chips-wrap"></div>
-              </div>
-            </section>
-
-            <div class="panel-bottom-action">
-              <button id="btn-limpiar-filtros" type="button" class="btn-outline btn-full">
-                RESTABLECER TODOS LOS FILTROS
-              </button>
-            </div>
-          </div>
-
-          <!-- Vista 03: Preferencias del motor y tolerancia de solapamientos -->
-          <div id="vista-panel-motor" class="inspector-tabpanel inspector-scroll" role="tabpanel" hidden>
-            <section class="filter-card">
-              <div class="filter-card-head">
-                <h3 class="filter-card-title">Prioridad de acomodo</h3>
-                <p class="filter-card-desc">Define cómo ordenar tus horarios recomendados.</p>
-              </div>
-
-              <div id="preset-preferencias" class="preset-stack">
-                <button type="button" class="preset-card-btn is-active" data-preset="balanceado">
-                  <span class="preset-name">Balanceado</span>
-                  <span class="preset-hint">Equilibrio entre días libres y huecos cortos</span>
-                </button>
-                <button type="button" class="preset-card-btn" data-preset="masDiasLibres">
-                  <span class="preset-name">Más días libres y concentrados</span>
-                  <span class="preset-hint">Compacta clases en menos días y evita días con solo 1 o 2 materias</span>
-                </button>
-                <button type="button" class="preset-card-btn" data-preset="menosHuecos">
-                  <span class="preset-name">Menos huecos</span>
-                  <span class="preset-hint">Evita horas muertas entre asignaturas</span>
-                </button>
-                <button type="button" class="preset-card-btn" data-preset="matutino">
-                  <span class="preset-name">Turno matutino</span>
-                  <span class="preset-hint">Prioriza clases entre 07:00 y 15:00</span>
-                </button>
-                <button type="button" class="preset-card-btn" data-preset="vespertino">
-                  <span class="preset-name">Turno vespertino</span>
-                  <span class="preset-hint">Prioriza clases entre 14:00 y 22:00</span>
-                </button>
-              </div>
-            </section>
-
-            <section class="filter-card overlap-card">
-              <div class="filter-card-head">
-                <h3 class="filter-card-title">Tolerancia de solapamiento</h3>
-                <p class="filter-card-desc">Autoriza choques con advertencia según minutos máximos.</p>
-              </div>
-
-              <label class="checkbox-row checkbox-strong">
-                <input id="pref-permitir-solapamiento" type="checkbox" />
-                <span>Permitir solapamientos entre materias</span>
-              </label>
-
-              <div id="controles-tolerancia" class="tolerancia-box" hidden>
-                <div class="two-cols align-center">
-                  <label for="pref-tolerancia-min" class="field-label">TOLERANCIA MÁX. (MIN)</label>
-                  <input
-                    id="pref-tolerancia-min"
-                    type="number"
-                    min="0"
-                    step="5"
-                    value="30"
-                    class="input-control input-sm"
-                  />
-                </div>
-                <div id="chips-tolerancia" class="pill-group">
-                  <button type="button" class="pill-btn" data-tolerancia="15">15m</button>
-                  <button type="button" class="pill-btn is-active" data-tolerancia="30">30m</button>
-                  <button type="button" class="pill-btn" data-tolerancia="60">60m</button>
-                  <button type="button" class="pill-btn" data-tolerancia="90">90m</button>
-                  <button type="button" class="pill-btn" data-tolerancia="sin-limite">Sin límite</button>
-                </div>
-                <p class="helper-note">
-                  Admite cualquier cantidad de choques mientras la suma total no supere los minutos elegidos.
+                <p class="param-desc">
+                  Solo considera grupos que tengan al menos esta cantidad de lugares disponibles.
                 </p>
               </div>
-            </section>
+            </details>
 
-            <details class="advanced-details">
-              <summary class="advanced-summary">Ajuste avanzado de pesos y turno</summary>
-              <div class="advanced-body">
-                <div class="advanced-group">
-                  <div class="two-cols">
-                    <div class="field-group">
-                      <label for="pref-hora-ideal-inicio" class="field-label">INICIO IDEAL</label>
-                      <select id="pref-hora-ideal-inicio" class="select-control"></select>
-                    </div>
-                    <div class="field-group">
-                      <label for="pref-hora-ideal-fin" class="field-label">FIN IDEAL</label>
-                      <select id="pref-hora-ideal-fin" class="select-control"></select>
-                    </div>
+            <details class="submenu-card">
+              <summary class="submenu-summary">
+                <span class="submenu-title">Exclusiones</span>
+                <span class="submenu-right">
+                  <span id="badge-sub-exclusiones" class="submenu-badge" hidden>0</span>
+                  <span class="submenu-chevron" aria-hidden="true">▸</span>
+                </span>
+              </summary>
+              <div class="submenu-body">
+                <div class="field-group">
+                  <label for="input-excluir-profesor" class="field-label">EXCLUIR PROFESOR</label>
+                  <div class="inline-action">
+                    <input
+                      id="input-excluir-profesor"
+                      type="text"
+                      list="datalist-profesores"
+                      class="input-control"
+                      placeholder="Nombre del docente..."
+                    />
+                    <button id="btn-excluir-profesor" type="button" class="btn-outline">
+                      EXCLUIR
+                    </button>
                   </div>
-                  <p class="param-desc">
-                    Define tu turno preferido. Las horas de clase fuera de este horario se penalizan con "Fuera de turno".
-                  </p>
+                  <datalist id="datalist-profesores"></datalist>
+                  <div id="lista-profesores-excluidos" class="chips-wrap"></div>
                 </div>
 
+                <div class="field-group">
+                  <label for="input-excluir-grupo" class="field-label">EXCLUIR GRUPO O CLAVE:GRUPO</label>
+                  <div class="inline-action">
+                    <input
+                      id="input-excluir-grupo"
+                      type="text"
+                      list="datalist-grupos"
+                      class="input-control"
+                      placeholder="Ej. 1557 o 1500:1557"
+                    />
+                    <button id="btn-excluir-grupo" type="button" class="btn-outline">
+                      EXCLUIR
+                    </button>
+                  </div>
+                  <datalist id="datalist-grupos"></datalist>
+                  <div id="lista-grupos-excluidos" class="chips-wrap"></div>
+                </div>
+              </div>
+            </details>
+
+            <details class="submenu-card">
+              <summary class="submenu-summary">
+                <span class="submenu-title">Solapamientos</span>
+                <span class="submenu-right">
+                  <span id="badge-sub-solapamiento" class="submenu-badge is-warn" hidden>30m</span>
+                  <span class="submenu-chevron" aria-hidden="true">▸</span>
+                </span>
+              </summary>
+              <div class="submenu-body">
+                <label class="checkbox-row checkbox-strong">
+                  <input id="pref-permitir-solapamiento" type="checkbox" />
+                  <span>Permitir solapamientos entre materias</span>
+                </label>
+
+                <div id="controles-tolerancia" class="tolerancia-box" hidden>
+                  <div class="two-cols align-center">
+                    <label for="pref-tolerancia-min" class="field-label">TOLERANCIA MÁX. (MIN)</label>
+                    <input
+                      id="pref-tolerancia-min"
+                      type="number"
+                      min="0"
+                      step="5"
+                      value="30"
+                      class="input-control input-sm"
+                    />
+                  </div>
+                  <div id="chips-tolerancia" class="pill-group">
+                    <button type="button" class="pill-btn" data-tolerancia="15">15m</button>
+                    <button type="button" class="pill-btn is-active" data-tolerancia="30">30m</button>
+                    <button type="button" class="pill-btn" data-tolerancia="60">60m</button>
+                    <button type="button" class="pill-btn" data-tolerancia="90">90m</button>
+                    <button type="button" class="pill-btn" data-tolerancia="sin-limite">Sin límite</button>
+                  </div>
+                  <p class="helper-note">
+                    Admite choques mientras la suma total no supere los minutos elegidos.
+                  </p>
+                </div>
+              </div>
+            </details>
+
+            <details class="submenu-card">
+              <summary class="submenu-summary">
+                <span class="submenu-title">Ajuste avanzado de pesos</span>
+                <span class="submenu-right">
+                  <span id="badge-sub-pesos" class="submenu-badge" hidden>•</span>
+                  <span class="submenu-chevron" aria-hidden="true">▸</span>
+                </span>
+              </summary>
+              <div class="submenu-body">
                 <div class="sliders-stack">
                   <div class="slider-row">
                     <label for="peso-dias-libres" class="field-label">
@@ -453,7 +427,7 @@
                     </label>
                     <input id="peso-rango" type="range" min="0" max="50" step="1" value="10" />
                     <p class="param-desc">
-                      Penaliza cada hora de clase fuera de tu inicio y fin ideal (0 desactiva).
+                      Penaliza cada hora de clase fuera de tu turno preferido (0 desactiva).
                     </p>
                   </div>
                   <div class="slider-row">
@@ -483,6 +457,12 @@
                 </div>
               </div>
             </details>
+
+            <div class="panel-bottom-action">
+              <button id="btn-limpiar-filtros" type="button" class="btn-outline btn-full" hidden>
+                RESTABLECER FILTROS
+              </button>
+            </div>
           </div>
         </aside>
 
@@ -491,7 +471,7 @@
           <!-- Barra de materias seleccionadas -->
           <section
             id="barra-seleccionadas"
-            class="selection-strip"
+            class="selection-strip is-empty"
             aria-label="Materias seleccionadas"
           >
             <div class="selection-head">
@@ -503,11 +483,8 @@
               </div>
 
               <div class="selection-actions">
-                <button id="btn-limpiar-seleccion" type="button" class="btn-outline btn-xs">
+                <button id="btn-limpiar-seleccion" type="button" class="btn-outline btn-xs" hidden>
                   LIMPIAR
-                </button>
-                <button id="btn-generar-main" type="button" class="btn-accent-action">
-                  CALCULAR COMBINACIONES
                 </button>
               </div>
             </div>
@@ -519,7 +496,7 @@
             </div>
           </section>
 
-          <!-- Sección 02: Recomendaciones -->
+          <!-- Sección 01: Recomendaciones -->
           <section
             id="seccion-recomendaciones"
             class="studio-section"
@@ -527,12 +504,7 @@
             <div class="section-band">
               <div class="section-band-title-group">
                 <span class="section-index">01</span>
-                <div class="section-title-stack">
-                  <h1 class="section-display-title">RECOMENDACIONES</h1>
-                  <p class="section-subtitle">
-                    Combinaciones óptimas ordenadas según tu prioridad y restricciones
-                  </p>
-                </div>
+                <h1 class="section-display-title">RECOMENDACIONES</h1>
               </div>
               <div class="section-band-telemetry">
                 <span id="status-dot-recs" class="status-dot" aria-hidden="true"></span>
@@ -551,7 +523,7 @@
             </div>
           </section>
 
-          <!-- Sección 03: Ventana de estudio semanal -->
+          <!-- Sección 02: Ventana de estudio semanal -->
           <section
             id="seccion-grilla"
             class="studio-section"
@@ -559,16 +531,7 @@
             <div class="section-band">
               <div class="section-band-title-group">
                 <span class="section-index">02</span>
-                <div class="section-title-stack">
-                  <h2 class="section-display-title">HORARIO SEMANAL</h2>
-                  <p class="section-subtitle">
-                    Vista proporcional de lunes a sábado con inspección de bloques y exportación
-                  </p>
-                </div>
-              </div>
-              <div class="section-band-telemetry">
-                <span class="status-dot is-live" aria-hidden="true"></span>
-                <span class="mono-meta">LU – SA · VISTA PROPORCIONAL</span>
+                <h2 class="section-display-title">HORARIO SEMANAL</h2>
               </div>
             </div>
 
@@ -583,7 +546,7 @@
                     data-modo="recomendado"
                     class="studio-tab is-active"
                   >
-                    RECOMENDACIÓN ACTIVA
+                    RECOMENDADO
                   </button>
                   <button
                     id="tab-modo-manual"
@@ -593,7 +556,7 @@
                     data-modo="manual"
                     class="studio-tab"
                   >
-                    COMPARADOR MANUAL
+                    MANUAL
                   </button>
                 </div>
 
@@ -603,14 +566,19 @@
 
                 <div class="studio-bar-right">
                   <div id="studio-kpis" class="studio-kpis"></div>
-                  <div class="export-group">
-                    <button id="btn-exportar-pdf" type="button" class="btn-outline btn-xs">
-                      IMPRIMIR / PDF
-                    </button>
-                    <button id="btn-exportar-png" type="button" class="btn-outline btn-xs">
-                      EXPORTAR PNG
-                    </button>
-                  </div>
+                  <details id="menu-exportar" class="dropdown-menu">
+                    <summary class="btn-outline btn-xs dropdown-trigger">
+                      EXPORTAR ▾
+                    </summary>
+                    <div class="dropdown-panel" role="menu">
+                      <button id="btn-exportar-pdf" type="button" class="dropdown-item" role="menuitem">
+                        Imprimir / Guardar PDF
+                      </button>
+                      <button id="btn-exportar-png" type="button" class="dropdown-item" role="menuitem">
+                        Descargar imagen PNG
+                      </button>
+                    </div>
+                  </details>
                 </div>
               </div>
 

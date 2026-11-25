@@ -18,6 +18,7 @@ import {
   generarRecomendaciones,
   horaAMinutos,
   minutosAHora,
+  obtenerPesoEnLineaRegistro,
   obtenerSemestreDeGrupo,
 } from "./scheduler.js";
 import {
@@ -47,6 +48,7 @@ export const FILTROS_POR_DEFECTO = Object.freeze({
   horaMinInicio: null, // minutos o "HH:MM"
   horaMaxFin: null, // minutos o "HH:MM"
   tiposClase: [], // vacío = todas las modalidades
+  soloPresenciales: false,
   soloConCupo: false,
   cupoMinimo: null,
   profesoresExcluidos: [],
@@ -57,6 +59,7 @@ export const FILTROS_POR_DEFECTO = Object.freeze({
 
 export const PREFERENCIAS_POR_DEFECTO = Object.freeze({
   preset: "balanceado",
+  preferenciaModalidad: "indistinto", // "indistinto" | "preferirEnLinea" | "soloPresenciales"
   horaIdealInicioMin: 420, // 07:00
   horaIdealFinMin: 1320, // 22:00
   permitirSolapamiento: false,
@@ -155,11 +158,20 @@ export function consolidarRegistrosPorGrupoMateria(horarios = []) {
         cupoMax = cupoMax === null ? r.cupo : Math.max(cupoMax, r.cupo);
       }
       if (Array.isArray(r.bloques)) {
+        const tipoBloque = String(r.tipo_clase || "").trim();
+        const salonBloque = String(r.salon || "").trim();
         for (const b of r.bloques) {
           const bKey = `${b.dia}|${b.inicio_min}|${b.fin_min}|${b.hora_texto}`;
           if (!bloqueKeys.has(bKey)) {
             bloqueKeys.add(bKey);
-            bloquesUnicos.push(b);
+            const bloqueConMeta = { ...b };
+            if (tipoBloque && !bloqueConMeta.tipo_clase) {
+              bloqueConMeta.tipo_clase = tipoBloque;
+            }
+            if (salonBloque && !bloqueConMeta.salon) {
+              bloqueConMeta.salon = salonBloque;
+            }
+            bloquesUnicos.push(bloqueConMeta);
           }
         }
       }
@@ -307,6 +319,7 @@ export function filtrarHorarios(horarios = [], filtros = {}) {
       ? new Set(filtros.tiposClase.map((t) => normalizarTexto(t)))
       : null;
 
+  const soloPresenciales = Boolean(filtros.soloPresenciales);
   const soloConCupo = Boolean(filtros.soloConCupo);
   const cupoMinimo =
     filtros.cupoMinimo !== null &&
@@ -384,6 +397,19 @@ export function filtrarHorarios(horarios = [], filtros = {}) {
       const tipoNorm = normalizarTexto(tipoRaw);
       const tipoPartes = tipoRaw.split("/").map(normalizarTexto).filter(Boolean);
       if (!tiposClase.has(tipoNorm) && !tipoPartes.some((t) => tiposClase.has(t))) {
+        return false;
+      }
+    }
+
+    if (soloPresenciales) {
+      if (obtenerPesoEnLineaRegistro(registro) > 0) {
+        return false;
+      }
+      const tipoPartes = String(registro.tipo_clase || "")
+        .split("/")
+        .map(normalizarTexto)
+        .filter(Boolean);
+      if (tipoPartes.length === 0 || !tipoPartes.every((t) => t === "presencial")) {
         return false;
       }
     }
@@ -897,7 +923,11 @@ export function crearControladorHorarios(configInicial = {}) {
     }
 
     const metricas = calcularMetricasHorario(registros, estado.preferencias);
-    const evaluacion = calcularPuntaje(metricas, estado.preferencias.pesos);
+    const evaluacion = calcularPuntaje(
+      metricas,
+      estado.preferencias.pesos,
+      estado.preferencias
+    );
     const analisis = detectarSolapamientosHorario(registros);
 
     const resumen = {
@@ -1002,7 +1032,15 @@ function contarFiltrosActivos(filtros = {}) {
   if (Array.isArray(filtros.tiposClase) && filtros.tiposClase.length > 0) {
     total += 1;
   }
-  if (filtros.soloConCupo || (filtros.cupoMinimo !== null && filtros.cupoMinimo !== undefined)) {
+  if (filtros.soloPresenciales) {
+    total += 1;
+  }
+  if (
+    filtros.soloConCupo ||
+    (filtros.cupoMinimo !== null &&
+      filtros.cupoMinimo !== undefined &&
+      Number(filtros.cupoMinimo) > 0)
+  ) {
     total += 1;
   }
   total += (filtros.profesoresExcluidos || []).length;
@@ -1071,26 +1109,23 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
   const els = {
     topbar: doc.querySelector(".topbar"),
     topbarProgress: doc.getElementById("topbar-progress"),
-    badgeCtaCount: doc.getElementById("badge-cta-count"),
     appShell: doc.getElementById("app-shell"),
     badgeSemestreActivo: doc.getElementById("badge-semestre-activo"),
     btnToggleSidebar: doc.getElementById("btn-toggle-sidebar"),
     labelToggleSidebar: doc.getElementById("label-toggle-sidebar"),
     datasetSelect: doc.getElementById("dataset-select"),
     panelInspector: doc.getElementById("panel-inspector"),
-    btnCerrarInspector: doc.getElementById("btn-cerrar-inspector"),
     contadorCatalogo: doc.getElementById("contador-catalogo"),
     inspectorTabs: doc.querySelector(".inspector-tabs"),
     tabPanelMaterias: doc.getElementById("tab-panel-materias"),
-    tabPanelFiltros: doc.getElementById("tab-panel-filtros"),
-    tabPanelMotor: doc.getElementById("tab-panel-motor"),
-    badgeFiltros: doc.getElementById("badge-filtros"),
-    badgeMotor: doc.getElementById("badge-motor"),
+    tabPanelAjustes: doc.getElementById("tab-panel-ajustes"),
+    badgeAjustes: doc.getElementById("badge-ajustes"),
     vistaPanelMaterias: doc.getElementById("vista-panel-materias"),
-    vistaPanelFiltros: doc.getElementById("vista-panel-filtros"),
-    vistaPanelMotor: doc.getElementById("vista-panel-motor"),
-    textoResumenCatalogo: doc.getElementById("texto-resumen-catalogo"),
-    btnIrFiltros: doc.getElementById("btn-ir-filtros"),
+    vistaPanelAjustes: doc.getElementById("vista-panel-ajustes"),
+    badgeSubCupo: doc.getElementById("badge-sub-cupo"),
+    badgeSubExclusiones: doc.getElementById("badge-sub-exclusiones"),
+    badgeSubSolapamiento: doc.getElementById("badge-sub-solapamiento"),
+    badgeSubPesos: doc.getElementById("badge-sub-pesos"),
     catalogModeSwitch: doc.querySelector(".catalog-mode-switch"),
     btnAgruparGrupo: doc.getElementById("btn-agrupar-grupo"),
     btnAgruparMateria: doc.getElementById("btn-agrupar-materia"),
@@ -1100,9 +1135,8 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     filtroDias: doc.getElementById("filtro-dias"),
     filtroHoraMin: doc.getElementById("filtro-hora-min"),
     filtroHoraMax: doc.getElementById("filtro-hora-max"),
-    filtroTiposClase: doc.getElementById("filtro-tipos-clase"),
-    filtroSoloCupo: doc.getElementById("filtro-solo-cupo"),
     filtroCupoMin: doc.getElementById("filtro-cupo-min"),
+    chipsCupoMin: doc.getElementById("chips-cupo-min"),
     inputExcluirProf: doc.getElementById("input-excluir-profesor"),
     btnExcluirProf: doc.getElementById("btn-excluir-profesor"),
     datalistProfesores: doc.getElementById("datalist-profesores"),
@@ -1112,8 +1146,8 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     datalistGrupos: doc.getElementById("datalist-grupos"),
     listaGruposExcluidos: doc.getElementById("lista-grupos-excluidos"),
     presetPreferencias: doc.getElementById("preset-preferencias"),
-    prefHoraIdealInicio: doc.getElementById("pref-hora-ideal-inicio"),
-    prefHoraIdealFin: doc.getElementById("pref-hora-ideal-fin"),
+    prefModalidadSelector: doc.getElementById("pref-modalidad-selector"),
+    descModalidadActiva: doc.getElementById("desc-modalidad-activa"),
     pesoDiasLibres: doc.getElementById("peso-dias-libres"),
     valPesoDiasLibres: doc.getElementById("val-peso-dias-libres"),
     pesoHuecos: doc.getElementById("peso-huecos"),
@@ -1129,11 +1163,10 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     prefMaxCombinaciones: doc.getElementById("pref-max-combinaciones"),
     btnLimpiarFiltros: doc.getElementById("btn-limpiar-filtros"),
     catalogoMaterias: doc.getElementById("catalogo-materias"),
+    barraSeleccionadas: doc.getElementById("barra-seleccionadas"),
     contadorSeleccionadas: doc.getElementById("contador-seleccionadas"),
     listaSeleccionadas: doc.getElementById("lista-seleccionadas"),
     btnLimpiarSeleccion: doc.getElementById("btn-limpiar-seleccion"),
-    btnGenerarTop: doc.getElementById("btn-generar-top"),
-    btnGenerarMain: doc.getElementById("btn-generar-main"),
     seccionRecomendaciones: doc.getElementById("seccion-recomendaciones"),
     statusDotRecs: doc.getElementById("status-dot-recs"),
     telemetryRecomendaciones: doc.getElementById("telemetry-recomendaciones"),
@@ -1144,10 +1177,10 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     seccionGrilla: doc.getElementById("seccion-grilla"),
     tabModoRecomendado: doc.getElementById("tab-modo-recomendado"),
     tabModoManual: doc.getElementById("tab-modo-manual"),
-    btnNavManual: doc.getElementById("btn-nav-manual"),
     navLinks: Array.from(doc.querySelectorAll(".topbar-nav [data-nav-target]")),
     studioTitulo: doc.getElementById("studio-titulo"),
     studioKpis: doc.getElementById("studio-kpis"),
+    menuExportar: doc.getElementById("menu-exportar"),
     btnExportarPdf: doc.getElementById("btn-exportar-pdf"),
     btnExportarPng: doc.getElementById("btn-exportar-png"),
     bannerAdvertencias: doc.getElementById("banner-advertencias"),
@@ -1189,12 +1222,11 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
   const actualizarNavActivo = () => {
     if (!els.navLinks || els.navLinks.length === 0) return;
     let objetivo = "recomendaciones";
-    if (modoVista === "manual") {
-      objetivo = "manual";
-    } else if (seccionesVisibles.has("grilla") && !seccionesVisibles.has("recomendaciones")) {
+    if (
+      modoVista === "manual" ||
+      (seccionesVisibles.has("grilla") && !seccionesVisibles.has("recomendaciones"))
+    ) {
       objetivo = "grilla";
-    } else if (seccionesVisibles.has("recomendaciones")) {
-      objetivo = "recomendaciones";
     }
     for (const link of els.navLinks) {
       link.classList.toggle("is-active", link.dataset.navTarget === objetivo);
@@ -1210,8 +1242,6 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
 
   poblarSelectHoras(els.filtroHoraMin, true, "Sin mín.");
   poblarSelectHoras(els.filtroHoraMax, true, "Sin máx.");
-  poblarSelectHoras(els.prefHoraIdealInicio, false, "", 420);
-  poblarSelectHoras(els.prefHoraIdealFin, false, "", 1320);
 
   const obtenerHorarioActivo = (estado) => {
     if (modoVista === "manual") {
@@ -1224,18 +1254,71 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     return recs.find((r) => r.id === estado.recomendacionActivaId) || recs[0];
   };
 
-  const sincronizarControlesPreferencias = (estado) => {
+  const DESCRIPCIONES_MODALIDAD = {
+    indistinto: "Incluye grupos presenciales, híbridos y en línea sin preferencia.",
+    preferirEnLinea:
+      "Prioriza combinaciones con materias a distancia o híbridas sin excluir presenciales.",
+    soloPresenciales: "Muestra y combina únicamente grupos 100% presenciales.",
+  };
+
+  const sincronizarControlesPreferencias = (
+    estado,
+    materiasConEnLineaCarrera = 0,
+    materiasSelConEnLinea = 0
+  ) => {
     const p = estado.preferencias;
     if (els.presetPreferencias) {
       for (const btn of els.presetPreferencias.querySelectorAll("[data-preset]")) {
         btn.classList.toggle("is-active", btn.dataset.preset === p.preset);
       }
     }
-    if (els.prefHoraIdealInicio) {
-      els.prefHoraIdealInicio.value = String(p.horaIdealInicioMin);
+    const totalSel = estado.materiasSeleccionadas?.length || 0;
+    const puedeConfigurarModalidad =
+      materiasConEnLineaCarrera > 0 && materiasSelConEnLinea > 0;
+    const modActiva = puedeConfigurarModalidad
+      ? p.preferenciaModalidad || "indistinto"
+      : "indistinto";
+
+    if (els.prefModalidadSelector) {
+      for (const btn of els.prefModalidadSelector.querySelectorAll("[data-modalidad]")) {
+        const modoBtn = btn.dataset.modalidad;
+        const deshabilitado = !puedeConfigurarModalidad && modoBtn !== "indistinto";
+        const activo = modoBtn === modActiva;
+        btn.disabled = deshabilitado;
+        btn.classList.toggle("is-active", activo);
+        btn.setAttribute("aria-pressed", String(activo));
+      }
     }
-    if (els.prefHoraIdealFin) {
-      els.prefHoraIdealFin.value = String(p.horaIdealFinMin);
+    if (els.descModalidadActiva) {
+      let texto = DESCRIPCIONES_MODALIDAD.indistinto;
+      let claseEstado = "";
+
+      if (materiasConEnLineaCarrera === 0) {
+        texto =
+          "Esta carrera es 100% presencial en este semestre (no hay materias en línea).";
+        claseEstado = "is-info";
+      } else if (totalSel === 0) {
+        texto = `Esta carrera tiene ${materiasConEnLineaCarrera} ${
+          materiasConEnLineaCarrera === 1 ? "materia" : "materias"
+        } con opción en línea. Selecciona alguna para activar este ajuste.`;
+        claseEstado = "is-info";
+      } else if (materiasSelConEnLinea === 0) {
+        texto =
+          "Ninguna de tus materias elegidas tiene opción en línea o híbrida.";
+        claseEstado = "is-warn";
+      } else if (modActiva === "preferirEnLinea") {
+        texto = `Priorizando materias en línea/híbridas (${materiasSelConEnLinea} disponibles) sin afectar concentración ni días libres.`;
+        claseEstado = "is-info";
+      } else if (modActiva === "soloPresenciales") {
+        texto =
+          "Excluyendo grupos en línea/híbridos en tus materias elegidas (solo presenciales).";
+      } else {
+        texto = `${materiasSelConEnLinea} de tus materias tienen opción en línea/híbrida. Las materias en línea no penalizan días ni concentración.`;
+      }
+
+      els.descModalidadActiva.textContent = texto;
+      els.descModalidadActiva.classList.toggle("is-warn", claseEstado === "is-warn");
+      els.descModalidadActiva.classList.toggle("is-info", claseEstado === "is-info");
     }
     if (els.pesoDiasLibres) {
       els.pesoDiasLibres.value = String(p.pesos.diasLibres);
@@ -1303,32 +1386,53 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     }
 
     const totalFiltrosActivos = contarFiltrosActivos(estado.filtros);
-    if (els.badgeFiltros) {
-      els.badgeFiltros.hidden = totalFiltrosActivos === 0;
-      els.badgeFiltros.textContent = String(totalFiltrosActivos);
+    const cupoMinActual =
+      estado.filtros.cupoMinimo !== null &&
+      estado.filtros.cupoMinimo !== undefined &&
+      Number(estado.filtros.cupoMinimo) > 0
+        ? Number(estado.filtros.cupoMinimo)
+        : estado.filtros.soloConCupo
+        ? 1
+        : 0;
+    const exclusionesCount =
+      (estado.filtros.profesoresExcluidos?.length || 0) +
+      (estado.filtros.gruposExcluidos?.length || 0);
+    const solapActivo = Boolean(estado.preferencias.permitirSolapamiento);
+    const presetAlterado = estado.preferencias.preset !== "balanceado";
+    const pesosCustom = estado.preferencias.preset === "personalizado";
+    const modPreferirEnLinea =
+      estado.preferencias.preferenciaModalidad === "preferirEnLinea";
+
+    if (els.badgeSubCupo) {
+      els.badgeSubCupo.hidden = cupoMinActual <= 0;
+      els.badgeSubCupo.textContent = `≥ ${cupoMinActual}`;
     }
-    if (els.btnIrFiltros) {
-      els.btnIrFiltros.hidden = totalFiltrosActivos === 0;
-      els.btnIrFiltros.textContent = `${totalFiltrosActivos} ${
-        totalFiltrosActivos === 1 ? "filtro activo" : "filtros activos"
-      } →`;
+    if (els.badgeSubExclusiones) {
+      els.badgeSubExclusiones.hidden = exclusionesCount === 0;
+      els.badgeSubExclusiones.textContent = String(exclusionesCount);
     }
-    if (els.badgeMotor) {
-      const motorAlterado =
-        estado.preferencias.permitirSolapamiento ||
-        estado.preferencias.preset !== "balanceado";
-      els.badgeMotor.hidden = !motorAlterado;
-      els.badgeMotor.textContent = estado.preferencias.permitirSolapamiento ? "⚠" : "•";
+    if (els.badgeSubSolapamiento) {
+      els.badgeSubSolapamiento.hidden = !solapActivo;
+      els.badgeSubSolapamiento.textContent =
+        estado.preferencias.toleranciaSolapamientoMin === null
+          ? "∞"
+          : `${estado.preferencias.toleranciaSolapamientoMin}m`;
     }
-    if (els.textoResumenCatalogo) {
-      const semActivo = estado.filtros.semestresGrupo?.[0];
-      els.textoResumenCatalogo.textContent = estado.filtros.texto
-        ? `Resultados para "${estado.filtros.texto}"`
-        : semActivo
-        ? `Filtrado: ${formatearEtiquetaSemestre(semActivo)}`
-        : modoCatalogo === "grupo"
-        ? "Expande un grupo o elige todas sus materias"
-        : "Clic en una materia para seleccionarla";
+    if (els.badgeSubPesos) {
+      els.badgeSubPesos.hidden = !pesosCustom;
+    }
+
+    const totalAjustesActivos =
+      totalFiltrosActivos +
+      (solapActivo ? 1 : 0) +
+      (presetAlterado ? 1 : 0) +
+      (modPreferirEnLinea ? 1 : 0);
+    if (els.badgeAjustes) {
+      els.badgeAjustes.hidden = totalAjustesActivos === 0;
+      els.badgeAjustes.textContent = String(totalAjustesActivos);
+    }
+    if (els.btnLimpiarFiltros) {
+      els.btnLimpiarFiltros.hidden = totalFiltrosActivos === 0;
     }
 
     renderizarSelectSemestres(
@@ -1363,17 +1467,19 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
       els.filtroHoraMax.value =
         estado.filtros.horaMaxFin !== null ? String(estado.filtros.horaMaxFin) : "";
     }
-    if (els.filtroSoloCupo) {
-      els.filtroSoloCupo.checked = Boolean(estado.filtros.soloConCupo);
-    }
     if (els.filtroCupoMin) {
-      els.filtroCupoMin.value =
-        estado.filtros.cupoMinimo !== null ? String(estado.filtros.cupoMinimo) : "";
+      els.filtroCupoMin.value = cupoMinActual > 0 ? String(cupoMinActual) : "";
+    }
+    if (els.chipsCupoMin) {
+      const claveChip = String(cupoMinActual);
+      for (const btn of els.chipsCupoMin.querySelectorAll("[data-cupo-min]")) {
+        btn.classList.toggle("is-active", btn.dataset.cupoMin === claveChip);
+      }
     }
 
     renderizarCatalogoFiltros(
       {
-        tiposClaseEl: els.filtroTiposClase,
+        tiposClaseEl: null,
         datalistProfesoresEl: els.datalistProfesores,
         datalistGruposEl: els.datalistGrupos,
         profesoresExcluidosEl: els.listaProfExcluidos,
@@ -1383,7 +1489,38 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
       estado.filtros
     );
 
-    sincronizarControlesPreferencias(estado);
+    const clavesConEnLineaCarrera = new Set();
+    for (const r of estado.horarios) {
+      if (r.clv_materia && obtenerPesoEnLineaRegistro(r) > 0) {
+        clavesConEnLineaCarrera.add(r.clv_materia);
+      }
+    }
+    const seleccionadasLista = estado.materiasSeleccionadas || [];
+    const materiasSelConEnLinea = seleccionadasLista.filter((clv) =>
+      clavesConEnLineaCarrera.has(clv)
+    ).length;
+    const puedeConfigurarModalidad =
+      clavesConEnLineaCarrera.size > 0 && materiasSelConEnLinea > 0;
+
+    if (
+      !puedeConfigurarModalidad &&
+      (estado.preferencias.preferenciaModalidad !== "indistinto" ||
+        estado.filtros.soloPresenciales)
+    ) {
+      if (estado.preferencias.preferenciaModalidad !== "indistinto") {
+        ctrl.actualizarPreferencias({ preferenciaModalidad: "indistinto" });
+      }
+      if (estado.filtros.soloPresenciales) {
+        ctrl.actualizarFiltros({ soloPresenciales: false });
+      }
+      return;
+    }
+
+    sincronizarControlesPreferencias(
+      estado,
+      clavesConEnLineaCarrera.size,
+      materiasSelConEnLinea
+    );
 
     const esPorGrupo = modoCatalogo === "grupo";
     if (els.catalogModeSwitch?.style) {
@@ -1444,16 +1581,15 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
 
     if (cambioCantidad) {
       reanimarClase(els.contadorSeleccionadas, "is-bumped");
-      reanimarClase(els.badgeCtaCount, "is-bumped");
     }
 
     const totalSel = seleccionadasActual.length;
-    if (els.badgeCtaCount) {
-      els.badgeCtaCount.hidden = totalSel === 0;
-      els.badgeCtaCount.textContent = String(totalSel);
+    if (els.barraSeleccionadas) {
+      els.barraSeleccionadas.classList.toggle("is-empty", totalSel === 0);
     }
-    els.btnGenerarTop?.classList.toggle("is-ready", totalSel > 0);
-    els.btnGenerarMain?.classList.toggle("is-ready", totalSel > 0);
+    if (els.btnLimpiarSeleccion) {
+      els.btnLimpiarSeleccion.hidden = totalSel === 0;
+    }
 
     if (els.statusDotRecs) {
       const tieneRecs = (estado.resultadoRecomendaciones?.recomendaciones || []).length > 0;
@@ -1471,7 +1607,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     const firmaRecs = estado.resultadoRecomendaciones
       ? `${recsLista.length}:${recsLista
           .slice(0, limiteVisibleRecs)
-          .map((r) => r.id)
+          .map((r) => `${r.id}@${r.puntaje}`)
           .join(",")}`
       : "none";
     const animarEntradaRecs =
@@ -1488,6 +1624,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
       {
         mapaColores: mapaColoresGlobal,
         animarEntrada: animarEntradaRecs,
+        mostrarBadgeLimpio: Boolean(estado.preferencias.permitirSolapamiento),
       }
     );
 
@@ -1579,6 +1716,20 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
       ctrl.limpiarMateriasSeleccionadas();
       return;
     }
+    const tieneOpcionEnLinea = estado.horarios.some(
+      (r) =>
+        estado.materiasSeleccionadas.includes(r.clv_materia) &&
+        obtenerPesoEnLineaRegistro(r) > 0
+    );
+    if (!tieneOpcionEnLinea) {
+      if (estado.preferencias.preferenciaModalidad !== "indistinto") {
+        ctrl.actualizarPreferencias({ preferenciaModalidad: "indistinto" });
+      }
+      if (estado.filtros.soloPresenciales) {
+        ctrl.actualizarFiltros({ soloPresenciales: false });
+      }
+    }
+    pulsarBarraProgreso();
     ctrl.generarHorariosRecomendados();
   };
 
@@ -1623,7 +1774,17 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     renderizarSkeletonCatalogo(els.catalogoMaterias);
     try {
       const estadoNuevo = await ctrl.cargarDatos(`${baseDataUrl}/${archivo}`);
-      ctrl.actualizarFiltros({ semestresGrupo: [] });
+      const tieneNoPresenciales = estadoNuevo.horarios.some(
+        (r) => obtenerPesoEnLineaRegistro(r) > 0
+      );
+      if (!tieneNoPresenciales) {
+        if (estadoNuevo.preferencias.preferenciaModalidad !== "indistinto") {
+          ctrl.actualizarPreferencias({ preferenciaModalidad: "indistinto" });
+        }
+        ctrl.actualizarFiltros({ semestresGrupo: [], soloPresenciales: false });
+      } else {
+        ctrl.actualizarFiltros({ semestresGrupo: [] });
+      }
       const nombreCarr =
         estadoNuevo.metadata?.nombre_carrera ||
         datasetsDisponibles.find((d) => d.archivo === archivo)?.nombre_carrera ||
@@ -1634,17 +1795,16 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     }
   });
 
-  // Eventos: pestañas del configurador (01 MATERIAS / 02 FILTROS / 03 MOTOR)
+  // Eventos: pestañas del configurador (01 MATERIAS / 02 AJUSTES)
   const cambiarTabPanel = (tab) => {
     tabPanelActivo = tab;
-    const indices = { materias: "0", filtros: "1", motor: "2" };
+    const indices = { materias: "0", ajustes: "1" };
     if (els.inspectorTabs?.style) {
       els.inspectorTabs.style.setProperty("--tab-index", indices[tab] ?? "0");
     }
     const mapa = [
       ["materias", els.tabPanelMaterias, els.vistaPanelMaterias],
-      ["filtros", els.tabPanelFiltros, els.vistaPanelFiltros],
-      ["motor", els.tabPanelMotor, els.vistaPanelMotor],
+      ["ajustes", els.tabPanelAjustes, els.vistaPanelAjustes],
     ];
     for (const [clave, btn, panel] of mapa) {
       const activo = clave === tab;
@@ -1658,12 +1818,11 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
       }
     }
   };
-  for (const btn of [els.tabPanelMaterias, els.tabPanelFiltros, els.tabPanelMotor]) {
+  for (const btn of [els.tabPanelMaterias, els.tabPanelAjustes]) {
     btn?.addEventListener("click", () => {
       if (btn.dataset.panelTab) cambiarTabPanel(btn.dataset.panelTab);
     });
   }
-  els.btnIrFiltros?.addEventListener("click", () => cambiarTabPanel("filtros"));
 
   // Eventos: búsqueda de texto libre
   let timerTexto = null;
@@ -1708,7 +1867,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     recalcularRecomendaciones();
   });
 
-  // Eventos: rango horario, cupo y modalidad
+  // Eventos: rango horario y cupo mínimo
   els.filtroHoraMin?.addEventListener("change", (e) => {
     ctrl.actualizarFiltros({
       horaMinInicio: e.target.value ? Number(e.target.value) : null,
@@ -1723,28 +1882,24 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     recalcularRecomendaciones();
   });
 
-  els.filtroSoloCupo?.addEventListener("change", (e) => {
-    ctrl.actualizarFiltros({ soloConCupo: e.target.checked });
-    recalcularRecomendaciones();
-  });
-
   els.filtroCupoMin?.addEventListener("input", (e) => {
-    const val = e.target.value.trim();
-    ctrl.actualizarFiltros({ cupoMinimo: val === "" ? null : Number(val) });
+    const raw = e.target.value.trim();
+    const num = raw === "" ? 0 : Math.floor(Number(raw));
+    ctrl.actualizarFiltros({
+      soloConCupo: false,
+      cupoMinimo: Number.isFinite(num) && num > 0 ? num : null,
+    });
     recalcularRecomendaciones();
   });
 
-  els.filtroTiposClase?.addEventListener("click", (e) => {
-    const btn = e.target.closest("[data-tipo-clase]");
+  els.chipsCupoMin?.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-cupo-min]");
     if (!btn) return;
-    const tipo = btn.dataset.tipoClase;
-    const actuales = new Set(ctrl.obtenerEstado().filtros.tiposClase);
-    if (actuales.has(tipo)) {
-      actuales.delete(tipo);
-    } else {
-      actuales.add(tipo);
-    }
-    ctrl.actualizarFiltros({ tiposClase: Array.from(actuales) });
+    const min = Number(btn.dataset.cupoMin) || 0;
+    ctrl.actualizarFiltros({
+      soloConCupo: false,
+      cupoMinimo: min > 0 ? min : null,
+    });
     recalcularRecomendaciones();
   });
 
@@ -1795,7 +1950,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     recalcularRecomendaciones();
   });
 
-  // Eventos: preferencias, pesos y tolerancia de solapamiento
+  // Eventos: preferencias, modalidad, pesos y tolerancia de solapamiento
   els.presetPreferencias?.addEventListener("click", (e) => {
     const btn = e.target.closest("[data-preset]");
     if (!btn) return;
@@ -1803,20 +1958,19 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     recalcularRecomendaciones();
   });
 
-  els.prefHoraIdealInicio?.addEventListener("change", (e) => {
-    ctrl.actualizarPreferencias({
-      horaIdealInicioMin: Number(e.target.value),
-      preset: "personalizado",
-    });
+  els.prefModalidadSelector?.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-modalidad]");
+    if (!btn || btn.disabled) return;
+    const modo = btn.dataset.modalidad;
+    ctrl.actualizarPreferencias({ preferenciaModalidad: modo });
+    ctrl.actualizarFiltros({ soloPresenciales: modo === "soloPresenciales" });
     recalcularRecomendaciones();
-  });
-
-  els.prefHoraIdealFin?.addEventListener("change", (e) => {
-    ctrl.actualizarPreferencias({
-      horaIdealFinMin: Number(e.target.value),
-      preset: "personalizado",
-    });
-    recalcularRecomendaciones();
+    const etiquetasToast = {
+      indistinto: "Modalidad: Indistinto",
+      preferirEnLinea: "Modalidad: Preferir en línea",
+      soloPresenciales: "Modalidad: Solo presenciales",
+    };
+    mostrarToast(etiquetasToast[modo] || "Modalidad actualizada");
   });
 
   const enlazarSliderPeso = (sliderEl, clavePeso) => {
@@ -1874,6 +2028,9 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
 
   els.btnLimpiarFiltros?.addEventListener("click", () => {
     ctrl.limpiarFiltros();
+    if (ctrl.obtenerEstado().preferencias.preferenciaModalidad === "soloPresenciales") {
+      ctrl.actualizarPreferencias({ preferenciaModalidad: "indistinto" });
+    }
     recalcularRecomendaciones();
     mostrarToast("Filtros restablecidos");
   });
@@ -2011,14 +2168,14 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
       const abiertoMovil = Boolean(els.panelInspector?.classList.contains("is-open"));
       els.btnToggleSidebar?.setAttribute("aria-expanded", String(abiertoMovil));
       if (els.labelToggleSidebar) {
-        els.labelToggleSidebar.textContent = abiertoMovil ? "OCULTAR PANEL" : "ABRIR PANEL";
+        els.labelToggleSidebar.textContent = abiertoMovil ? "OCULTAR" : "PANEL";
       }
     } else {
       els.panelInspector?.classList.remove("is-open");
       els.appShell?.classList.toggle("is-sidebar-collapsed", sidebarColapsado);
       els.btnToggleSidebar?.setAttribute("aria-expanded", String(!sidebarColapsado));
       if (els.labelToggleSidebar) {
-        els.labelToggleSidebar.textContent = sidebarColapsado ? "ABRIR PANEL" : "OCULTAR PANEL";
+        els.labelToggleSidebar.textContent = sidebarColapsado ? "PANEL" : "OCULTAR";
       }
     }
   };
@@ -2038,21 +2195,6 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     cambiarTabPanel("materias");
     els.filtroTexto?.focus();
   };
-
-  const dispararGeneracionConScroll = () => {
-    const estadoActual = ctrl.obtenerEstado();
-    if (estadoActual.materiasSeleccionadas.length === 0) {
-      mostrarToast("Elige al menos una materia del panel izquierdo", "warning");
-      enfocarBusqueda();
-      return;
-    }
-    pulsarBarraProgreso();
-    modoVista = "recomendado";
-    recalcularRecomendaciones();
-    els.seccionRecomendaciones?.scrollIntoView({ behavior: "smooth" });
-  };
-  els.btnGenerarTop?.addEventListener("click", dispararGeneracionConScroll);
-  els.btnGenerarMain?.addEventListener("click", dispararGeneracionConScroll);
 
   // Eventos: recomendaciones y diagnóstico
   els.gridRecomendaciones?.addEventListener("click", (e) => {
@@ -2092,6 +2234,9 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
 
     if (e.target.closest('[data-action="limpiar-filtros-diag"]')) {
       ctrl.limpiarFiltros();
+      if (ctrl.obtenerEstado().preferencias.preferenciaModalidad === "soloPresenciales") {
+        ctrl.actualizarPreferencias({ preferenciaModalidad: "indistinto" });
+      }
       recalcularRecomendaciones();
       mostrarToast("Filtros restablecidos");
     }
@@ -2102,10 +2247,6 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     cambiarModoVista("recomendado")
   );
   els.tabModoManual?.addEventListener("click", () => cambiarModoVista("manual"));
-  els.btnNavManual?.addEventListener("click", () => {
-    cambiarModoVista("manual");
-    els.seccionGrilla?.scrollIntoView({ behavior: "smooth" });
-  });
 
   els.panelManual?.addEventListener("change", (e) => {
     const select = e.target.closest("[data-manual-materia]");
@@ -2237,18 +2378,18 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     aplicarEstadoSidebar();
   });
 
-  els.btnCerrarInspector?.addEventListener("click", () => {
-    if (esVistaMovil()) {
-      els.panelInspector?.classList.remove("is-open");
-    } else {
-      sidebarColapsado = true;
-      try {
-        globalThis.localStorage?.setItem("horarios:sidebarColapsado", "1");
-      } catch {
-        // Ignora errores de almacenamiento
+  // Cierre automático de submenús popover al hacer clic fuera o elegir una acción
+  doc.addEventListener("click", (e) => {
+    const menusAbiertos = doc.querySelectorAll(
+      "details.row-actions-menu[open], details.dropdown-menu[open]"
+    );
+    for (const menu of menusAbiertos) {
+      const clickDentro = menu.contains(e.target);
+      const clickEnAccion = Boolean(e.target.closest?.("button"));
+      if (!clickDentro || clickEnAccion) {
+        menu.open = false;
       }
     }
-    aplicarEstadoSidebar();
   });
 
   if (typeof globalThis.addEventListener === "function") {

@@ -7,9 +7,12 @@
 
 import {
   DIAS_SEMANA,
+  esBloqueEnLinea,
   esBloqueValido,
   formatearEtiquetaSemestre,
   minutosAHora,
+  obtenerEtiquetaModalidad,
+  obtenerPesoEnLineaRegistro,
   obtenerSemestreDeGrupo,
 } from "./scheduler.js";
 
@@ -337,6 +340,7 @@ export function renderizarCatalogoMaterias(
         semsMateria.length > 0
           ? semsMateria.map((n) => formatearEtiquetaSemestre(n, true)).join("/")
           : "";
+      const tieneEnLinea = item.grupos.some((g) => obtenerPesoEnLineaRegistro(g) > 0);
 
       const gruposHtml = estaExpandida
         ? `<div class="subject-groups-list ${animarLista ? "is-animating" : ""}">
@@ -347,21 +351,41 @@ export function renderizarCatalogoMaterias(
                     ? `Cupo ${g.cupo}`
                     : "Cupo N/D";
                 const sinCupo = g.cupo === 0;
+                const esNoPresencial = obtenerPesoEnLineaRegistro(g) > 0;
+                const etiquetaModalidad = obtenerEtiquetaModalidad(g);
                 return `
                   <div class="group-mini-card">
                     <div class="group-mini-head">
                       <span>GPO ${escapeHtml(g.grupo)}</span>
-                      <div class="group-meta-pills">
-                        <span class="group-meta-pill">${escapeHtml(
-                          g.tipo_clase || "N/D"
-                        )}</span>
-                        <span class="group-meta-pill">${escapeHtml(
-                          g.salon || "S/S"
-                        )}</span>
-                        <span class="group-meta-pill ${
-                          sinCupo ? "is-empty" : ""
-                        }">${escapeHtml(cupoTxt)}</span>
-                      </div>
+                      <details class="row-actions-menu">
+                        <summary class="row-actions-trigger" title="Opciones de grupo y docente" aria-label="Opciones">···</summary>
+                        <div class="row-actions-popover">
+                          ${
+                            g.profesor
+                              ? `<button type="button" class="row-actions-item" data-excluir-profesor="${escapeHtml(
+                                  g.profesor
+                                )}">Excluir profesor</button>`
+                              : ""
+                          }
+                          <button type="button" class="row-actions-item" data-excluir-grupo="${escapeHtml(
+                            `${g.clv_materia}:${g.grupo}`
+                          )}">Excluir grupo</button>
+                          <button type="button" class="row-actions-item" data-fijar-manual="${escapeHtml(
+                            g.id || `${g.clv_materia}:${g.grupo}`
+                          )}">Probar en manual</button>
+                        </div>
+                      </details>
+                    </div>
+                    <div class="group-meta-pills">
+                      <span class="group-meta-pill ${
+                        esNoPresencial ? "is-online" : ""
+                      }">${escapeHtml(etiquetaModalidad)}</span>
+                      <span class="group-meta-pill">${escapeHtml(
+                        g.salon || "S/S"
+                      )}</span>
+                      <span class="group-meta-pill ${
+                        sinCupo ? "is-empty" : ""
+                      }">${escapeHtml(cupoTxt)}</span>
                     </div>
                     <div class="group-mini-meta">${escapeHtml(
                       g.profesor || "Sin docente asignado"
@@ -369,21 +393,6 @@ export function renderizarCatalogoMaterias(
                     <div class="group-subject-hours">${escapeHtml(
                       formatearHorasCompactas(g.bloques)
                     )}</div>
-                    <div class="group-mini-actions">
-                      ${
-                        g.profesor
-                          ? `<button type="button" class="btn-outline btn-xs" data-excluir-profesor="${escapeHtml(
-                              g.profesor
-                            )}">Excluir prof.</button>`
-                          : ""
-                      }
-                      <button type="button" class="btn-outline btn-xs" data-excluir-grupo="${escapeHtml(
-                        `${g.clv_materia}:${g.grupo}`
-                      )}">Excluir grupo</button>
-                      <button type="button" class="btn-outline btn-xs" data-fijar-manual="${escapeHtml(
-                        g.id || `${g.clv_materia}:${g.grupo}`
-                      )}">Probar en manual</button>
-                    </div>
                   </div>
                 `;
               })
@@ -418,6 +427,11 @@ export function renderizarCatalogoMaterias(
                   <span>${item.totalGrupos} ${
         item.totalGrupos === 1 ? "grupo" : "grupos"
       }</span>
+                  ${
+                    tieneEnLinea
+                      ? `<span class="group-meta-pill is-online">EN LÍNEA</span>`
+                      : ""
+                  }
                 </span>
               </div>
             </button>
@@ -473,6 +487,9 @@ export function renderizarCatalogoPorGrupo(
       const semNum = obtenerSemestreDeGrupo(item.grupo);
       const semBadge =
         semNum !== null ? formatearEtiquetaSemestre(semNum, true) : "";
+      const grupoTieneEnLinea = item.registros.some(
+        (r) => obtenerPesoEnLineaRegistro(r) > 0
+      );
 
       const materiasHtml = estaExpandido
         ? `<div class="group-subjects-list ${animarLista ? "is-animating" : ""}">
@@ -485,54 +502,68 @@ export function renderizarCatalogoPorGrupo(
                     ? `Cupo ${r.cupo}`
                     : "Cupo N/D";
                 const sinCupo = r.cupo === 0;
+                const esNoPresencial = obtenerPesoEnLineaRegistro(r) > 0;
+                const etiquetaModalidad = obtenerEtiquetaModalidad(r);
                 return `
                   <div class="group-subject-card ${
                     estaSeleccionada ? "is-selected" : ""
                   }">
-                    <button
-                      type="button"
-                      class="subject-select-btn group-subject-btn"
-                      data-toggle-materia="${escapeHtml(clave)}"
-                      aria-pressed="${estaSeleccionada}"
-                    >
-                      <span class="subject-check" aria-hidden="true">${
-                        estaSeleccionada ? "✓" : ""
-                      }</span>
-                      <div class="subject-content">
-                        <span class="subject-title">${escapeHtml(
-                          r.materia || clave
-                        )}</span>
-                        <div class="group-meta-pills">
-                          <span class="group-meta-pill">CLV ${escapeHtml(clave)}</span>
-                          <span class="group-meta-pill">${escapeHtml(
-                            r.salon || "S/S"
+                    <div class="group-subject-row">
+                      <button
+                        type="button"
+                        class="subject-select-btn group-subject-btn"
+                        data-toggle-materia="${escapeHtml(clave)}"
+                        aria-pressed="${estaSeleccionada}"
+                      >
+                        <span class="subject-check" aria-hidden="true">${
+                          estaSeleccionada ? "✓" : ""
+                        }</span>
+                        <div class="subject-content">
+                          <span class="subject-title">${escapeHtml(
+                            r.materia || clave
                           )}</span>
-                          <span class="group-meta-pill ${
-                            sinCupo ? "is-empty" : ""
-                          }">${escapeHtml(cupoTxt)}</span>
+                          <div class="group-meta-pills">
+                            <span class="group-meta-pill">CLV ${escapeHtml(clave)}</span>
+                            <span class="group-meta-pill">${escapeHtml(
+                              r.salon || "S/S"
+                            )}</span>
+                            <span class="group-meta-pill ${
+                              sinCupo ? "is-empty" : ""
+                            }">${escapeHtml(cupoTxt)}</span>
+                            ${
+                              esNoPresencial
+                                ? `<span class="group-meta-pill is-online">${escapeHtml(
+                                    etiquetaModalidad
+                                  )}</span>`
+                                : ""
+                            }
+                          </div>
+                          <span class="group-subject-prof">${escapeHtml(
+                            r.profesor || "Sin docente asignado"
+                          )}</span>
+                          <span class="group-subject-hours">${escapeHtml(
+                            formatearHorasCompactas(r.bloques)
+                          )}</span>
                         </div>
-                        <span class="group-subject-prof">${escapeHtml(
-                          r.profesor || "Sin docente asignado"
-                        )}</span>
-                        <span class="group-subject-hours">${escapeHtml(
-                          formatearHorasCompactas(r.bloques)
-                        )}</span>
-                      </div>
-                    </button>
-                    <div class="group-subject-actions">
-                      ${
-                        r.profesor
-                          ? `<button type="button" class="btn-outline btn-xs" data-excluir-profesor="${escapeHtml(
-                              r.profesor
-                            )}">Excluir prof.</button>`
-                          : ""
-                      }
-                      <button type="button" class="btn-outline btn-xs" data-excluir-grupo="${escapeHtml(
-                        `${clave}:${r.grupo}`
-                      )}">Excluir grupo</button>
-                      <button type="button" class="btn-outline btn-xs" data-fijar-manual="${escapeHtml(
-                        r.id || `${clave}:${r.grupo}`
-                      )}">Probar en manual</button>
+                      </button>
+                      <details class="row-actions-menu">
+                        <summary class="row-actions-trigger" title="Opciones de grupo y docente" aria-label="Opciones">···</summary>
+                        <div class="row-actions-popover">
+                          ${
+                            r.profesor
+                              ? `<button type="button" class="row-actions-item" data-excluir-profesor="${escapeHtml(
+                                  r.profesor
+                                )}">Excluir profesor</button>`
+                              : ""
+                          }
+                          <button type="button" class="row-actions-item" data-excluir-grupo="${escapeHtml(
+                            `${clave}:${r.grupo}`
+                          )}">Excluir grupo</button>
+                          <button type="button" class="row-actions-item" data-fijar-manual="${escapeHtml(
+                            r.id || `${clave}:${r.grupo}`
+                          )}">Probar en manual</button>
+                        </div>
+                      </details>
                     </div>
                   </div>
                 `;
@@ -562,13 +593,17 @@ export function renderizarCatalogoPorGrupo(
                 <span class="group-head-meta">
                   ${
                     semBadge
-                      ? `<span class="semester-mini-tag">${escapeHtml(semBadge)}</span> · `
+                      ? `<span class="semester-mini-tag">${escapeHtml(semBadge)}</span><span>·</span>`
                       : ""
-                  }${item.totalMaterias} ${
+                  }<span>${item.totalMaterias} ${
         item.totalMaterias === 1 ? "materia" : "materias"
-      }${
+      }</span>${
         elegidasCount > 0
-          ? ` · ${elegidasCount}/${item.totalMaterias} elegidas`
+          ? `<span>·</span><span>${elegidasCount}/${item.totalMaterias} elegidas</span>`
+          : ""
+      }${
+        grupoTieneEnLinea
+          ? `<span class="group-meta-pill is-online">EN LÍNEA</span>`
           : ""
       }
                 </span>
@@ -709,7 +744,11 @@ export function renderizarRecomendaciones(
     return;
   }
 
-  const { mapaColores: mapaColoresExt = null, animarEntrada = false } = opciones;
+  const {
+    mapaColores: mapaColoresExt = null,
+    animarEntrada = false,
+    mostrarBadgeLimpio = false,
+  } = opciones;
 
   if (!resultado) {
     if (telemetryEl) {
@@ -733,7 +772,7 @@ export function renderizarRecomendaciones(
             <span class="onboarding-step-num">PASO 02</span>
             <h3 class="onboarding-step-title">Ajusta filtros y prioridad</h3>
             <p class="onboarding-step-desc">
-              Restringe días, turno ideal, modalidad o docentes excluidos en las pestañas 02 y 03.
+              Define tu prioridad, días y horario permitido en la pestaña 02 AJUSTES.
             </p>
           </div>
           <div class="onboarding-step">
@@ -745,7 +784,6 @@ export function renderizarRecomendaciones(
           </div>
         </div>
         <div class="onboarding-cta-row">
-          <span class="mono-meta">PROCESAMIENTO 100% LOCAL · SIN TIEMPOS DE ESPERA</span>
           <button type="button" class="btn-outline btn-xs" data-action="enfocar-busqueda">
             BUSCAR MATERIAS →
           </button>
@@ -796,6 +834,33 @@ export function renderizarRecomendaciones(
       const isBest = idx === 0;
       const m = rec.metricas;
 
+      const partesEnLinea = [];
+      if ((m.materiasEnLinea || 0) > 0) {
+        partesEnLinea.push(`${m.materiasEnLinea} en línea`);
+      }
+      if ((m.materiasHibridas || 0) > 0) {
+        partesEnLinea.push(
+          `${m.materiasHibridas} ${m.materiasHibridas === 1 ? "híbrida" : "híbridas"}`
+        );
+      }
+      const badgeChoqueHtml = rec.tieneSolapamiento
+        ? `<span class="rec-overlap-badge">⚠ ${m.totalChoques} ${
+            m.totalChoques === 1 ? "choque" : "choques"
+          } · ${m.totalMinutosSolapamiento} min</span>`
+        : mostrarBadgeLimpio
+        ? `<span class="rec-clean-badge">SIN CHOQUES</span>`
+        : "";
+      const badgeEnLineaHtml =
+        partesEnLinea.length > 0
+          ? `<span class="rec-online-badge">◆ ${escapeHtml(
+              partesEnLinea.join(" · ")
+            )}</span>`
+          : "";
+      const badgesRowHtml =
+        badgeChoqueHtml || badgeEnLineaHtml
+          ? `<div class="rec-badges-row">${badgeChoqueHtml}${badgeEnLineaHtml}</div>`
+          : "";
+
       return `
         <button
           type="button"
@@ -815,13 +880,7 @@ export function renderizarRecomendaciones(
             </div>
           </div>
 
-          ${
-            rec.tieneSolapamiento
-              ? `<span class="rec-overlap-badge">⚠ ${m.totalChoques} ${
-                  m.totalChoques === 1 ? "choque" : "choques"
-                } · ${m.totalMinutosSolapamiento} min</span>`
-              : `<span class="rec-clean-badge">SIN CHOQUES</span>`
-          }
+          ${badgesRowHtml}
 
           <div class="rec-kpi-grid">
             <div class="rec-kpi-cell">
@@ -1004,7 +1063,11 @@ export function renderizarGrillaSemanal(
         <span class="kpi-chip">${m.diasLibres} días libres</span>
         <span class="kpi-chip">${m.totalHuecosMin}m huecos</span>
         <span class="kpi-chip">${m.diasConPocasClases ?? 0} días 1–2 cls</span>
-        <span class="kpi-chip">${m.totalMinutosSolapamiento}m traslape</span>
+        ${
+          m.totalMinutosSolapamiento > 0
+            ? `<span class="kpi-chip is-warn">${m.totalMinutosSolapamiento}m traslape</span>`
+            : ""
+        }
       `;
     } else {
       kpisEl.innerHTML = "";
@@ -1093,6 +1156,7 @@ export function renderizarGrillaSemanal(
         const leftPct = item.colIndex * widthPct;
         const reg = item.registro;
         const isSelected = item.uid === bloqueInspectorId;
+        const esEnLinea = esBloqueEnLinea(item, reg);
         const ordenBloque = bloqueIdx;
         bloqueIdx += 1;
 
@@ -1100,8 +1164,8 @@ export function renderizarGrillaSemanal(
           <button
             type="button"
             class="class-block ${item.enChoque ? "is-overlap" : ""} ${
-          isSelected ? "is-selected" : ""
-        }"
+          esEnLinea ? "is-online-block" : ""
+        } ${isSelected ? "is-selected" : ""}"
             style="top:${top}px;height:${height}px;left:calc(${leftPct}% + 2px);width:calc(${widthPct}% - 4px);--block-accent:${
           item.color
         };--block-i:${ordenBloque};"
@@ -1113,9 +1177,9 @@ export function renderizarGrillaSemanal(
           item.hora_texto
         )}</span>
             <span class="block-title">${escapeHtml(reg.materia || reg.clv_materia)}</span>
-            <span class="block-meta">Gpo ${escapeHtml(reg.grupo)} · ${escapeHtml(
-          reg.salon || "S/S"
-        )}</span>
+            <span class="block-meta">Gpo ${escapeHtml(reg.grupo)} · ${
+          esEnLinea ? "EN LÍNEA" : escapeHtml(reg.salon || "S/S")
+        }</span>
           </button>
         `;
       })
@@ -1142,10 +1206,18 @@ export function renderizarGrillaSemanal(
   grillaEl.innerHTML = `
     <div class="grilla-corner">HORA</div>
     ${DIAS_SEMANA.map((d) => {
-      const esLibre = (porDia.get(d) || []).length === 0;
+      const bloquesDia = porDia.get(d) || [];
+      const esLibre = bloquesDia.length === 0;
+      const esSoloEnLineaDia =
+        !esLibre && bloquesDia.every((b) => esBloqueEnLinea(b, b.registro));
+      const pillDia = esLibre
+        ? `<span class="day-free-pill">LIBRE</span>`
+        : esSoloEnLineaDia
+        ? `<span class="day-online-pill">EN LÍNEA</span>`
+        : "";
       return `<div class="grilla-day-header ${esLibre ? "is-free-day" : ""}"><span>${
         NOMBRES_DIAS[d]
-      }</span>${esLibre ? `<span class="day-free-pill">LIBRE</span>` : ""}</div>`;
+      }</span>${pillDia}</div>`;
     }).join("")}
     <div class="grilla-time-axis" style="height:${alturaPx}px;">${marcasHorasHtml}</div>
     ${columnasDiasHtml}
@@ -1159,7 +1231,7 @@ export function renderizarGrillaSemanal(
           <div class="leyenda-item" style="border-left: 4px solid ${color};">
             <strong>${escapeHtml(r.clv_materia)} · ${escapeHtml(r.materia)}</strong><br />
             Gpo ${escapeHtml(r.grupo)} · ${escapeHtml(r.profesor || "Sin profesor")}<br />
-            Salón: ${escapeHtml(r.salon || "S/S")} · ${escapeHtml(r.tipo_clase || "")}
+            Salón: ${escapeHtml(r.salon || "S/S")} · ${escapeHtml(obtenerEtiquetaModalidad(r))}
           </div>
         `;
       })
@@ -1206,7 +1278,7 @@ export function renderizarInspectorBloque(contenedor, registro, colorMateria = "
           registro.salon || "S/S"
         )}</span>
         <span class="inspector-meta-pill">${escapeHtml(
-          registro.tipo_clase || "N/D"
+          obtenerEtiquetaModalidad(registro)
         )}</span>
         <span class="inspector-meta-pill">${escapeHtml(cupoTxt)}</span>
       </div>
@@ -1368,10 +1440,11 @@ export function exportarHorarioPNG(horarioActivo, metadata = null) {
       ctx.fillText(item.registro.materia || item.registro.clv_materia, x + 7, y + 27);
 
       if (h > 36) {
+        const esEnLineaPng = esBloqueEnLinea(item, item.registro);
         ctx.fillStyle = "#86878c";
         ctx.font = "10px 'JetBrains Mono', monospace";
         ctx.fillText(
-          `Gpo ${item.registro.grupo} · ${item.registro.salon || "S/S"}`,
+          `Gpo ${item.registro.grupo} · ${esEnLineaPng ? "EN LÍNEA" : (item.registro.salon || "S/S")}`,
           x + 7,
           y + 40
         );

@@ -14,10 +14,13 @@ import {
   compararRecomendaciones,
   detectarSolapamientosHorario,
   diagnosticarConflictos,
+  esBloqueEnLinea,
   generarRecomendaciones,
   hayColisionBloques,
   horaAMinutos,
   minutosAHora,
+  obtenerEtiquetaModalidad,
+  obtenerPesoEnLineaRegistro,
 } from "../scheduler.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -773,4 +776,317 @@ test("regresión real en data/sem_35_carr_12.json grupo 1307: aumentar concentra
   });
   assert.equal(r0.recomendaciones[0].metricas.diasConClase, 2);
   assert.equal(r50.recomendaciones[0].metricas.diasConClase, 2);
+});
+
+test("preferenciaModalidad preferirEnLinea prioriza grupos a distancia/híbridos y conserva poda Branch-and-Bound exacta", () => {
+  assert.equal(obtenerPesoEnLineaRegistro({ tipo_clase: "A DISTANCIA" }), 1);
+  assert.equal(obtenerPesoEnLineaRegistro({ tipo_clase: "HÍBRIDO" }), 0.5);
+  assert.equal(obtenerPesoEnLineaRegistro({ tipo_clase: "PRESENCIAL" }), 0);
+  assert.equal(obtenerPesoEnLineaRegistro({ tipo_clase: "PRESENCIAL / A DISTANCIA" }), 0.5);
+
+  const materias = [
+    {
+      clave: "M1",
+      opciones: [
+        {
+          ...crearRegistro({ clv: "M1", grupo: "PRES", bloques: [["LU", 660, 780]] }), // 11:00-13:00 (0m hueco)
+          tipo_clase: "PRESENCIAL",
+        },
+        {
+          ...crearRegistro({ clv: "M1", grupo: "HIB", bloques: [["LU", 690, 810]] }), // 11:30-13:30 (30m hueco)
+          tipo_clase: "HIBRIDO",
+        },
+        {
+          ...crearRegistro({ clv: "M1", grupo: "LINEA", bloques: [["LU", 720, 840]] }), // 12:00-14:00 (60m hueco)
+          tipo_clase: "A DISTANCIA",
+        },
+      ],
+    },
+    {
+      clave: "M2",
+      opciones: [
+        {
+          ...crearRegistro({ clv: "M2", grupo: "UNICO", bloques: [["LU", 540, 660]] }), // 09:00-11:00
+          tipo_clase: "PRESENCIAL",
+        },
+      ],
+    },
+  ];
+
+  // En modo indistinto, PRES gana por tener 0m de hueco
+  const ind = generarRecomendaciones(materias, {
+    preferenciaModalidad: "indistinto",
+  });
+  assert.equal(ind.recomendaciones[0].registros[0].grupo, "PRES");
+  assert.equal(ind.recomendaciones[0].metricas.materiasEnLinea, 0);
+
+  // Con preferirEnLinea, aunque M2 solo es presencial, se mantiene y elige LINEA > HIB > PRES
+  const enLinea = generarRecomendaciones(materias, {
+    preferenciaModalidad: "preferirEnLinea",
+  });
+  assert.equal(enLinea.recomendaciones.length, 3);
+  assert.deepEqual(
+    enLinea.recomendaciones.map((r) => r.registros[0].grupo),
+    ["LINEA", "HIB", "PRES"]
+  );
+  assert.equal(enLinea.recomendaciones[0].metricas.materiasEnLinea, 1);
+  assert.equal(enLinea.recomendaciones[1].metricas.materiasHibridas, 1);
+
+  // Exactitud Branch-and-Bound con limiteResultados=1 vs exhaustivo
+  const top1 = generarRecomendaciones(materias, {
+    preferenciaModalidad: "preferirEnLinea",
+    limiteResultados: 1,
+  });
+  assert.equal(top1.recomendaciones[0].id, enLinea.recomendaciones[0].id);
+  assert.equal(top1.recomendaciones[0].puntaje, enLinea.recomendaciones[0].puntaje);
+
+  // Incluso cuando el grupo en línea cae en otro día (y bajo masDiasLibres), preferirEnLinea lo promueve sobre presencial
+  const otroDia = [
+    {
+      clave: "X1",
+      opciones: [
+        {
+          ...crearRegistro({ clv: "X1", grupo: "PRES_MISMO_DIA", bloques: [["LU", 420, 540]] }),
+          tipo_clase: "PRESENCIAL",
+        },
+        {
+          ...crearRegistro({ clv: "X1", grupo: "LINEA_OTRO_DIA", bloques: [["MA", 420, 540]] }),
+          tipo_clase: "A DISTANCIA",
+        },
+      ],
+    },
+    {
+      clave: "X2",
+      opciones: [
+        {
+          ...crearRegistro({ clv: "X2", grupo: "BASE", bloques: [["LU", 540, 660]] }),
+          tipo_clase: "PRESENCIAL",
+        },
+      ],
+    },
+  ];
+  const resOtroDia = generarRecomendaciones(otroDia, {
+    ...PRESETS_PREFERENCIAS.masDiasLibres,
+    preferenciaModalidad: "preferirEnLinea",
+    limiteResultados: 1,
+  });
+  assert.equal(resOtroDia.recomendaciones[0].registros[0].grupo, "LINEA_OTRO_DIA");
+});
+
+test("preferirEnLinea modifica efectivamente las recomendaciones en datasets reales con oferta en línea", async (t) => {
+  const rutaCivil = path.join(ROOT_DIR, "data", "sem_35_carr_10.json");
+  const rutaCom = path.join(ROOT_DIR, "data", "sem_35_carr_4.json");
+  const rutaComp = path.join(ROOT_DIR, "data", "sem_35_carr_12.json");
+  if (!fs.existsSync(rutaCivil) || !fs.existsSync(rutaCom) || !fs.existsSync(rutaComp)) {
+    t.skip("Datasets de prueba reales no disponibles.");
+    return;
+  }
+  const { consolidarRegistrosPorGrupoMateria } = await import("../app.js");
+
+  for (const [ruta, claves, opcionesBase] of [
+    [rutaCivil, ["0205", "0219", "1024", "1091"], PRESETS_PREFERENCIAS.matutino],
+    [rutaCom, ["1119", "1132", "1133", "1319"], {}],
+    [rutaComp, ["1417", "1503", "1705"], PRESETS_PREFERENCIAS.vespertino],
+  ]) {
+    const ds = JSON.parse(fs.readFileSync(ruta, "utf-8"));
+    const consolidados = consolidarRegistrosPorGrupoMateria(ds.horarios);
+    const entrada = claves.map((clv) => ({
+      clave: clv,
+      materia: clv,
+      opciones: consolidados.filter((r) => r.clv_materia === clv),
+    }));
+    const ind = generarRecomendaciones(entrada, {
+      ...opcionesBase,
+      preferenciaModalidad: "indistinto",
+    });
+    const enLinea = generarRecomendaciones(entrada, {
+      ...opcionesBase,
+      preferenciaModalidad: "preferirEnLinea",
+    });
+    assert.ok(ind.recomendaciones.length > 0 && enLinea.recomendaciones.length > 0);
+    assert.ok(
+      enLinea.recomendaciones[0].metricas.puntajeEnLineaRaw >
+        ind.recomendaciones[0].metricas.puntajeEnLineaRaw,
+      `Se esperaba mayor presencia en línea en ${path.basename(ruta)}`
+    );
+  }
+});
+
+test("materias en línea no penalizan días libres, concentración ni huecos presenciales pero sí detectan choques", () => {
+  const pres1 = crearRegistro({
+    clv: "P1",
+    grupo: "1",
+    bloques: [["LU", 420, 540]], // 07:00-09:00 presencial
+  });
+  const pres2 = crearRegistro({
+    clv: "P2",
+    grupo: "1",
+    bloques: [["LU", 660, 780]], // 11:00-13:00 presencial (120m hueco con P1)
+  });
+  const onlineOtroDia = {
+    ...crearRegistro({
+      clv: "ON1",
+      grupo: "1",
+      bloques: [["SA", 420, 540]], // sábado en línea
+    }),
+    tipo_clase: "A DISTANCIA",
+  };
+  const onlineMismoDiaEntrePresenciales = {
+    ...crearRegistro({
+      clv: "ON2",
+      grupo: "1",
+      bloques: [["LU", 540, 660]], // 09:00-11:00 en línea entre P1 y P2
+    }),
+    tipo_clase: "A DISTANCIA",
+  };
+
+  assert.equal(esBloqueEnLinea({ dia: "SA" }, onlineOtroDia), true);
+  assert.equal(esBloqueEnLinea({ dia: "LU" }, pres1), false);
+
+  // Sábado en línea NO debe restar días libres ni contar como día suelto de 1 clase
+  const mSabatina = calcularMetricasHorario([pres1, onlineOtroDia]);
+  assert.equal(mSabatina.diasConClase, 1);
+  assert.equal(mSabatina.diasLibres, 5);
+  assert.equal(mSabatina.diasConUnaClase, 1); // solo LU (pres1), no SA
+  assert.equal(mSabatina.clasesPorDia.SA, 0);
+
+  // Clase en línea entre dos presenciales NO debe cerrar el hueco presencial en el plantel
+  const mHuecoPresencial = calcularMetricasHorario([
+    pres1,
+    onlineMismoDiaEntrePresenciales,
+    pres2,
+  ]);
+  assert.equal(mHuecoPresencial.totalHuecosMin, 120);
+  assert.equal(mHuecoPresencial.clasesPorDia.LU, 2);
+
+  // Sí debe detectar choque si coincide en horario con otra materia
+  const onlineChoca = {
+    ...crearRegistro({
+      clv: "ON_CHQ",
+      grupo: "1",
+      bloques: [["LU", 480, 600]], // choca 60m con P1
+    }),
+    tipo_clase: "A DISTANCIA",
+  };
+  const mChoque = calcularMetricasHorario([pres1, onlineChoca]);
+  assert.equal(mChoque.totalMinutosSolapamiento, 60);
+  assert.equal(mChoque.totalChoques, 1);
+
+  // Paridad exacta de Branch-and-Bound cuando hay opciones en línea en días distintos
+  const entrada = [
+    {
+      clave: "P1",
+      opciones: [pres1],
+    },
+    {
+      clave: "M_MIX",
+      opciones: [
+        crearRegistro({ clv: "M_MIX", grupo: "PRES_MA", bloques: [["MA", 420, 540]] }),
+        {
+          ...crearRegistro({ clv: "M_MIX", grupo: "LINEA_VI", bloques: [["VI", 420, 540]] }),
+          tipo_clase: "A DISTANCIA",
+        },
+        {
+          ...crearRegistro({ clv: "M_MIX", grupo: "LINEA_CHOCA", bloques: [["LU", 450, 570]] }),
+          tipo_clase: "A DISTANCIA",
+        },
+      ],
+    },
+  ];
+  const top1 = generarRecomendaciones(entrada, {
+    ...PRESETS_PREFERENCIAS.masDiasLibres,
+    preferenciaModalidad: "preferirEnLinea",
+    limiteResultados: 1,
+  });
+  const ex = generarRecomendaciones(entrada, {
+    ...PRESETS_PREFERENCIAS.masDiasLibres,
+    preferenciaModalidad: "preferirEnLinea",
+    limiteResultados: 50,
+  });
+  assert.equal(top1.recomendaciones[0].registros[1].grupo, "LINEA_VI");
+  assert.equal(top1.recomendaciones[0].metricas.diasLibres, 5);
+  assert.equal(top1.recomendaciones[0].id, ex.recomendaciones[0].id);
+  assert.equal(top1.recomendaciones[0].puntaje, ex.recomendaciones[0].puntaje);
+});
+
+test("detecta clases en línea por salón VIRTUAL aunque tipo_clase sea PRESENCIAL y excluye SINDEF", async (t) => {
+  const virtualConTipoPresencial = {
+    ...crearRegistro({ clv: "1417", grupo: "1407", bloques: [["SA", 420, 660]] }),
+    salon: "VIRTUAL",
+    tipo_clase: "PRESENCIAL",
+  };
+  const sindefPresencial = {
+    ...crearRegistro({ clv: "1417", grupo: "1401", bloques: [["LU", 420, 540]] }),
+    salon: "SINDEF",
+    tipo_clase: "PRESENCIAL",
+  };
+  const mixtoSalon = {
+    ...crearRegistro({
+      clv: "1420",
+      grupo: "1401",
+      bloques: [
+        ["LU", 420, 540],
+        ["SA", 420, 540],
+      ],
+    }),
+    salon: "A204 / VIRTUAL",
+    tipo_clase: "PRESENCIAL",
+  };
+  const aDistancia = {
+    ...crearRegistro({ clv: "1500", grupo: "1501", bloques: [["SA", 540, 660]] }),
+    salon: "VIRTUAL",
+    tipo_clase: "A DISTANCIA",
+  };
+
+  assert.equal(obtenerPesoEnLineaRegistro(virtualConTipoPresencial), 1);
+  assert.equal(esBloqueEnLinea({ dia: "SA" }, virtualConTipoPresencial), true);
+  assert.equal(obtenerEtiquetaModalidad(virtualConTipoPresencial), "EN LÍNEA");
+
+  assert.equal(obtenerPesoEnLineaRegistro(sindefPresencial), 0);
+  assert.equal(esBloqueEnLinea({ dia: "LU" }, sindefPresencial), false);
+  assert.equal(obtenerEtiquetaModalidad(sindefPresencial), "PRESENCIAL");
+
+  assert.equal(obtenerPesoEnLineaRegistro(mixtoSalon), 0.5);
+  assert.equal(obtenerEtiquetaModalidad(mixtoSalon), "HÍBRIDO");
+
+  assert.equal(obtenerPesoEnLineaRegistro(aDistancia), 1);
+  assert.equal(obtenerEtiquetaModalidad(aDistancia), "A DISTANCIA");
+
+  // Regresión real en Ingeniería en Computación (data/sem_35_carr_12.json)
+  const rutaComp = path.join(ROOT_DIR, "data", "sem_35_carr_12.json");
+  if (!fs.existsSync(rutaComp)) {
+    t.skip("data/sem_35_carr_12.json no disponible.");
+    return;
+  }
+
+  const { consolidarRegistrosPorGrupoMateria } = await import("../app.js");
+  const ds = JSON.parse(fs.readFileSync(rutaComp, "utf-8"));
+  const consolidados = consolidarRegistrosPorGrupoMateria(ds.horarios);
+
+  const registrosEnLinea = consolidados.filter((r) => obtenerPesoEnLineaRegistro(r) > 0);
+  const clavesEnLinea = new Set(registrosEnLinea.map((r) => r.clv_materia));
+  assert.equal(registrosEnLinea.length, 19);
+  assert.equal(clavesEnLinea.size, 11);
+  for (const claveEsperada of ["1417", "1503", "1705", "1810", "8702"]) {
+    assert.ok(clavesEnLinea.has(claveEsperada), `Debe detectar ${claveEsperada} en línea`);
+  }
+
+  // preferirEnLinea debe elegir grupos VIRTUAL en Computación y exentar el sábado de días presenciales
+  const entradaComp = ["1417", "1503", "1705"].map((clv) => ({
+    clave: clv,
+    materia: clv,
+    opciones: consolidados.filter((r) => r.clv_materia === clv),
+  }));
+  const resComp = generarRecomendaciones(entradaComp, {
+    ...PRESETS_PREFERENCIAS.masDiasLibres,
+    preferenciaModalidad: "preferirEnLinea",
+  });
+  assert.ok(resComp.recomendaciones.length > 0);
+  const top = resComp.recomendaciones[0];
+  assert.ok(top.metricas.materiasEnLinea > 0);
+  assert.ok(
+    top.registros.some((r) => r.salon === "VIRTUAL"),
+    "La mejor recomendación debe incluir al menos un grupo VIRTUAL"
+  );
+  assert.equal(top.metricas.clasesPorDia.SA, 0);
 });

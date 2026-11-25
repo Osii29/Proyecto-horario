@@ -478,3 +478,170 @@ test("filtrarHorarios y obtenerCatalogosDeFiltros separan codocentes y modalidad
   assert.deepEqual(cat.profesores, ["PROF A", "PROF B", "PROF C"]);
   assert.deepEqual(cat.tiposClase, ["A DISTANCIA", "PRESENCIAL"]);
 });
+
+test("filtrarHorarios con soloPresenciales y cupoMinimo filtra correctamente", () => {
+  const registros = [
+    {
+      id: "1",
+      clv_materia: "1001",
+      grupo: "1101",
+      salon: "A204",
+      tipo_clase: "PRESENCIAL",
+      cupo: 15,
+      bloques: [{ dia: "LU", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 }],
+    },
+    {
+      id: "2",
+      clv_materia: "1002",
+      grupo: "1102",
+      salon: "SINDEF",
+      tipo_clase: "PRESENCIAL",
+      cupo: 3,
+      bloques: [{ dia: "MA", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 }],
+    },
+    {
+      id: "3",
+      clv_materia: "1003",
+      grupo: "1103",
+      salon: "VIRTUAL",
+      tipo_clase: "A DISTANCIA",
+      cupo: 25,
+      bloques: [{ dia: "MI", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 }],
+    },
+    {
+      id: "4",
+      clv_materia: "1004",
+      grupo: "1104",
+      salon: "A205 / VIRTUAL",
+      tipo_clase: "PRESENCIAL / A DISTANCIA",
+      cupo: 10,
+      bloques: [{ dia: "JU", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 }],
+    },
+    {
+      id: "5",
+      clv_materia: "1005",
+      grupo: "1105",
+      salon: "SINDEF",
+      tipo_clase: "HIBRIDO",
+      cupo: 20,
+      bloques: [{ dia: "VI", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 }],
+    },
+    {
+      id: "6",
+      clv_materia: "1006",
+      grupo: "1106",
+      salon: "VIRTUAL",
+      tipo_clase: "PRESENCIAL",
+      cupo: 25,
+      bloques: [{ dia: "SA", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 }],
+    },
+    {
+      id: "7",
+      clv_materia: "1007",
+      grupo: "1107",
+      salon: "A204 / VIRTUAL",
+      tipo_clase: "PRESENCIAL",
+      cupo: 20,
+      bloques: [{ dia: "SA", hora_texto: "09:00-11:00", inicio_min: 540, fin_min: 660 }],
+    },
+  ];
+
+  // soloPresenciales debe conservar únicamente grupos 100% presenciales (incluido SINDEF),
+  // excluyendo A DISTANCIA, HIBRIDO, salon VIRTUAL y mezclas con VIRTUAL aunque digan PRESENCIAL
+  const soloPres = filtrarHorarios(registros, { soloPresenciales: true });
+  assert.deepEqual(soloPres.map((r) => r.id), ["1", "2"]);
+
+  // cupoMinimo = 10 excluye cupo 3
+  const cupo10 = filtrarHorarios(registros, { cupoMinimo: 10 });
+  assert.deepEqual(cupo10.map((r) => r.id), ["1", "3", "4", "5", "6", "7"]);
+
+  // Combinado: soloPresenciales + cupoMinimo = 10
+  const combinado = filtrarHorarios(registros, { soloPresenciales: true, cupoMinimo: 10 });
+  assert.deepEqual(combinado.map((r) => r.id), ["1"]);
+});
+
+test("consolidarRegistrosPorGrupoMateria preserva tipo_clase y salon por bloque en materias híbridas", async () => {
+  const { calcularMetricasHorario } = await import("../scheduler.js");
+  const crudos = [
+    {
+      id: "35_2_1420_1401",
+      clv_materia: "1420",
+      grupo: "1401",
+      semestre: "35",
+      carrera: "2",
+      materia: "PROYECTOS",
+      salon: "A313",
+      tipo_clase: "PRESENCIAL",
+      cupo: 25,
+      bloques: [
+        { dia: "LU", hora_texto: "09:30-12:00", inicio_min: 570, fin_min: 720 },
+        { dia: "VI", hora_texto: "09:30-12:00", inicio_min: 570, fin_min: 720 },
+      ],
+    },
+    {
+      id: "35_2_1420_1401_2",
+      clv_materia: "1420",
+      grupo: "1401",
+      semestre: "35",
+      carrera: "2",
+      materia: "PROYECTOS",
+      salon: "VIRTUAL",
+      tipo_clase: "A DISTANCIA",
+      cupo: 25,
+      bloques: [
+        { dia: "SA", hora_texto: "09:00-10:00", inicio_min: 540, fin_min: 600 },
+      ],
+    },
+  ];
+
+  const consolidado = consolidarRegistrosPorGrupoMateria(crudos);
+  assert.equal(consolidado.length, 1);
+  assert.equal(consolidado[0].bloques.length, 3);
+  assert.equal(consolidado[0].bloques[0].tipo_clase, "PRESENCIAL");
+  assert.equal(consolidado[0].bloques[0].salon, "A313");
+  assert.equal(consolidado[0].bloques[2].tipo_clase, "A DISTANCIA");
+  assert.equal(consolidado[0].bloques[2].salon, "VIRTUAL");
+
+  // Solo LU y VI deben contar como asistencia presencial; SA es en línea y queda libre presencial
+  const metricas = calcularMetricasHorario(consolidado);
+  assert.equal(metricas.diasConClase, 2);
+  assert.equal(metricas.diasLibres, 4);
+  assert.equal(metricas.clasesPorDia.SA, 0);
+
+  // Caso con tipo_clase PRESENCIAL en ambas filas pero salon A204 (LU) + VIRTUAL (SA)
+  const crudosPorSalon = [
+    {
+      id: "35_12_X_1",
+      clv_materia: "9999",
+      grupo: "1501",
+      semestre: "35",
+      carrera: "12",
+      materia: "TALLER",
+      salon: "A204",
+      tipo_clase: "PRESENCIAL",
+      cupo: 25,
+      bloques: [{ dia: "LU", hora_texto: "09:00-11:00", inicio_min: 540, fin_min: 660 }],
+    },
+    {
+      id: "35_12_X_2",
+      clv_materia: "9999",
+      grupo: "1501",
+      semestre: "35",
+      carrera: "12",
+      materia: "TALLER",
+      salon: "VIRTUAL",
+      tipo_clase: "PRESENCIAL",
+      cupo: 25,
+      bloques: [{ dia: "SA", hora_texto: "09:00-11:00", inicio_min: 540, fin_min: 660 }],
+    },
+  ];
+  const consSalon = consolidarRegistrosPorGrupoMateria(crudosPorSalon);
+  assert.equal(consSalon.length, 1);
+  assert.equal(consSalon[0].bloques[0].salon, "A204");
+  assert.equal(consSalon[0].bloques[1].salon, "VIRTUAL");
+  const metSalon = calcularMetricasHorario(consSalon);
+  assert.equal(metSalon.diasConClase, 1);
+  assert.equal(metSalon.diasLibres, 5);
+  assert.equal(metSalon.clasesPorDia.LU, 1);
+  assert.equal(metSalon.clasesPorDia.SA, 0);
+});
