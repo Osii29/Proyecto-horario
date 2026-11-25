@@ -1011,6 +1011,15 @@ a {
   flex-shrink: 0;
 }
 
+.chip-groups-tag {
+  padding: 1px 5px;
+  border: 1px solid var(--border-strong);
+  background-color: var(--bg-deep);
+  color: var(--text-secondary);
+  font-size: 0.62rem;
+  letter-spacing: 0.04em;
+}
+
 .chip-remove {
   background: transparent;
   border: 0;
@@ -1583,6 +1592,32 @@ a {
 
 .group-mini-card:hover {
   border-color: var(--border-strong);
+}
+
+.group-mini-card.is-selected {
+  border-color: var(--border-strong);
+  background-color: #171b27;
+}
+
+.group-mini-card.is-selected .subject-check {
+  background-color: var(--accent-cta-bg);
+  border-color: var(--accent-cta-bg);
+  color: var(--accent-cta-text);
+  transform: scale(1.06);
+}
+
+.group-mini-select-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: transparent;
+  border: 0;
+  padding: 2px 0;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .group-mini-head {

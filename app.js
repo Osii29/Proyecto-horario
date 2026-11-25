@@ -249,6 +249,7 @@ export function crearEstadoInicial() {
       materiasExcluidas: [],
     },
     materiasSeleccionadas: [],
+    gruposSeleccionadosPorMateria: {},
     preferencias: {
       ...PREFERENCIAS_POR_DEFECTO,
       diasConsiderados: [...DIAS_SEMANA],
@@ -258,6 +259,27 @@ export function crearEstadoInicial() {
     recomendacionActivaId: null,
     seleccionManual: [],
   };
+}
+
+/**
+ * Indica si un grupo específico está habilitado para una materia seleccionada.
+ * Si la materia no tiene lista de grupos específica, todos sus grupos participan.
+ */
+export function estaGrupoSeleccionadoParaMateria(estado, claveMateria, grupo) {
+  const clave = String(claveMateria || "").trim();
+  const grp = String(grupo || "").trim();
+  if (!clave || !grp) {
+    return false;
+  }
+  const seleccionadas = estado?.materiasSeleccionadas || [];
+  if (!seleccionadas.includes(clave)) {
+    return false;
+  }
+  const lista = estado?.gruposSeleccionadosPorMateria?.[clave];
+  if (!Array.isArray(lista) || lista.length === 0) {
+    return true;
+  }
+  return lista.includes(grp);
 }
 
 function coincideTextoLibre(registro, tokensBusqueda) {
@@ -669,6 +691,15 @@ export function crearControladorHorarios(configInicial = {}) {
   };
 
   function obtenerEstado() {
+    const gruposClonados = {};
+    for (const [clv, gpos] of Object.entries(
+      estado.gruposSeleccionadosPorMateria || {}
+    )) {
+      if (Array.isArray(gpos) && gpos.length > 0) {
+        gruposClonados[clv] = [...gpos];
+      }
+    }
+
     return {
       ...estado,
       filtros: {
@@ -683,6 +714,7 @@ export function crearControladorHorarios(configInicial = {}) {
         materiasExcluidas: [...estado.filtros.materiasExcluidas],
       },
       materiasSeleccionadas: [...estado.materiasSeleccionadas],
+      gruposSeleccionadosPorMateria: gruposClonados,
       preferencias: {
         ...estado.preferencias,
         diasConsiderados: [...estado.preferencias.diasConsiderados],
@@ -705,6 +737,7 @@ export function crearControladorHorarios(configInicial = {}) {
     estado.metadata = metadata;
     estado.horarios = horarios;
     estado.materiasSeleccionadas = [];
+    estado.gruposSeleccionadosPorMateria = {};
     estado.resultadoRecomendaciones = null;
     estado.recomendacionActivaId = null;
     estado.seleccionManual = [];
@@ -717,6 +750,7 @@ export function crearControladorHorarios(configInicial = {}) {
     estado.metadata = metadata;
     estado.horarios = horarios;
     estado.materiasSeleccionadas = [];
+    estado.gruposSeleccionadosPorMateria = {};
     estado.resultadoRecomendaciones = null;
     estado.recomendacionActivaId = null;
     estado.seleccionManual = [];
@@ -746,10 +780,122 @@ export function crearControladorHorarios(configInicial = {}) {
       estado.materiasSeleccionadas = estado.materiasSeleccionadas.filter(
         (c) => c !== clave
       );
+      delete estado.gruposSeleccionadosPorMateria[clave];
     } else {
       estado.materiasSeleccionadas = [...estado.materiasSeleccionadas, clave];
+      delete estado.gruposSeleccionadosPorMateria[clave];
     }
     notificar();
+  }
+
+  function obtenerGruposDisponiblesDeMateria(claveMateria) {
+    const vistos = new Set();
+    const grupos = [];
+    for (const r of estado.horarios) {
+      if (String(r.clv_materia || "").trim() === claveMateria) {
+        const g = String(r.grupo || "").trim();
+        if (g && !vistos.has(g)) {
+          vistos.add(g);
+          grupos.push(g);
+        }
+      }
+    }
+    return grupos;
+  }
+
+  function quitarGrupoDeMateriaEnEstado(clave, grp) {
+    if (!estado.materiasSeleccionadas.includes(clave)) {
+      return;
+    }
+    const actuales = estado.gruposSeleccionadosPorMateria[clave];
+    if (!Array.isArray(actuales) || actuales.length === 0) {
+      const restantes = obtenerGruposDisponiblesDeMateria(clave).filter(
+        (g) => g !== grp
+      );
+      if (restantes.length > 0) {
+        estado.gruposSeleccionadosPorMateria[clave] = restantes;
+      } else {
+        estado.materiasSeleccionadas = estado.materiasSeleccionadas.filter(
+          (c) => c !== clave
+        );
+        delete estado.gruposSeleccionadosPorMateria[clave];
+      }
+      return;
+    }
+
+    const siguientes = actuales.filter((g) => g !== grp);
+    if (siguientes.length > 0) {
+      estado.gruposSeleccionadosPorMateria[clave] = siguientes;
+    } else {
+      estado.materiasSeleccionadas = estado.materiasSeleccionadas.filter(
+        (c) => c !== clave
+      );
+      delete estado.gruposSeleccionadosPorMateria[clave];
+    }
+  }
+
+  function agregarGrupoAMateriaEnEstado(clave, grp) {
+    if (!estado.materiasSeleccionadas.includes(clave)) {
+      estado.materiasSeleccionadas = [...estado.materiasSeleccionadas, clave];
+      estado.gruposSeleccionadosPorMateria[clave] = [grp];
+      return;
+    }
+    const actuales = estado.gruposSeleccionadosPorMateria[clave];
+    if (!Array.isArray(actuales) || actuales.length === 0) {
+      return;
+    }
+    if (!actuales.includes(grp)) {
+      estado.gruposSeleccionadosPorMateria[clave] = [...actuales, grp];
+    }
+  }
+
+  function alternarGrupoDeMateria(claveMateria, grupo) {
+    const clave = String(claveMateria || "").trim();
+    const grp = String(grupo || "").trim();
+    if (!clave || !grp) {
+      return;
+    }
+    if (estaGrupoSeleccionadoParaMateria(estado, clave, grp)) {
+      quitarGrupoDeMateriaEnEstado(clave, grp);
+    } else {
+      agregarGrupoAMateriaEnEstado(clave, grp);
+    }
+    notificar();
+  }
+
+  function alternarGrupoCompleto(grupo, clavesGrupo = []) {
+    const grp = String(grupo || "").trim();
+    const unicas = [];
+    const vistas = new Set();
+    for (const c of clavesGrupo) {
+      const clave = String(c || "").trim();
+      if (clave && !vistas.has(clave)) {
+        vistas.add(clave);
+        unicas.push(clave);
+      }
+    }
+    if (!grp || unicas.length === 0) {
+      return { accion: "ninguna", grupo: grp, total: 0 };
+    }
+
+    const todasElegidas = unicas.every((c) =>
+      estaGrupoSeleccionadoParaMateria(estado, c, grp)
+    );
+    if (todasElegidas) {
+      for (const c of unicas) {
+        quitarGrupoDeMateriaEnEstado(c, grp);
+      }
+    } else {
+      for (const c of unicas) {
+        agregarGrupoAMateriaEnEstado(c, grp);
+      }
+    }
+    notificar();
+    return {
+      accion: todasElegidas ? "quitado" : "seleccionado",
+      grupo: grp,
+      total: unicas.length,
+    };
   }
 
   function seleccionarMaterias(claves = []) {
@@ -763,11 +909,17 @@ export function crearControladorHorarios(configInicial = {}) {
       }
     }
     estado.materiasSeleccionadas = unicas;
+    for (const clave of Object.keys(estado.gruposSeleccionadosPorMateria)) {
+      if (!vistas.has(clave)) {
+        delete estado.gruposSeleccionadosPorMateria[clave];
+      }
+    }
     notificar();
   }
 
   function limpiarMateriasSeleccionadas() {
     estado.materiasSeleccionadas = [];
+    estado.gruposSeleccionadosPorMateria = {};
     estado.resultadoRecomendaciones = null;
     estado.recomendacionActivaId = null;
     notificar();
@@ -885,13 +1037,26 @@ export function crearControladorHorarios(configInicial = {}) {
       }
     }
 
+    const mapaGruposElegidos = estado.gruposSeleccionadosPorMateria || {};
     const entradaMotor = estado.materiasSeleccionadas.map((clave) => {
       const encontrado = mapaAgrupado.get(clave);
+      const gruposEspecificos = mapaGruposElegidos[clave];
+      const setGrupos =
+        Array.isArray(gruposEspecificos) && gruposEspecificos.length > 0
+          ? new Set(gruposEspecificos.map((g) => String(g || "").trim()))
+          : null;
+      const opciones = encontrado
+        ? setGrupos
+          ? encontrado.grupos.filter((r) =>
+              setGrupos.has(String(r.grupo || "").trim())
+            )
+          : encontrado.grupos
+        : [];
       return {
         clave,
         materia:
           encontrado?.materia || mapaNombresGlobal.get(clave) || clave,
-        opciones: encontrado ? encontrado.grupos : [],
+        opciones,
       };
     });
 
@@ -954,6 +1119,8 @@ export function crearControladorHorarios(configInicial = {}) {
     actualizarFiltros,
     limpiarFiltros,
     alternarMateriaSeleccionada,
+    alternarGrupoDeMateria,
+    alternarGrupoCompleto,
     seleccionarMaterias,
     limpiarMateriasSeleccionadas,
     excluirProfesor,
@@ -1490,14 +1657,18 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     );
 
     const clavesConEnLineaCarrera = new Set();
+    const clavesSelConEnLineaSet = new Set();
     for (const r of estado.horarios) {
       if (r.clv_materia && obtenerPesoEnLineaRegistro(r) > 0) {
         clavesConEnLineaCarrera.add(r.clv_materia);
+        if (estaGrupoSeleccionadoParaMateria(estado, r.clv_materia, r.grupo)) {
+          clavesSelConEnLineaSet.add(r.clv_materia);
+        }
       }
     }
     const seleccionadasLista = estado.materiasSeleccionadas || [];
     const materiasSelConEnLinea = seleccionadasLista.filter((clv) =>
-      clavesConEnLineaCarrera.has(clv)
+      clavesSelConEnLineaSet.has(clv)
     ).length;
     const puedeConfigurarModalidad =
       clavesConEnLineaCarrera.size > 0 && materiasSelConEnLinea > 0;
@@ -1640,10 +1811,21 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     if (els.panelManual) {
       els.panelManual.hidden = !esManual;
       if (esManual) {
+        const manualIds = new Set(
+          (estado.seleccionManual || []).map(
+            (r) => r.id || `${r.clv_materia}:${r.grupo}`
+          )
+        );
         const filtradosManual = filtrarHorarios(estado.horarios, {
           ...estado.filtros,
           texto: "",
           semestresGrupo: [],
+        }).filter((r) => {
+          const id = r.id || `${r.clv_materia}:${r.grupo}`;
+          return (
+            manualIds.has(id) ||
+            estaGrupoSeleccionadoParaMateria(estado, r.clv_materia, r.grupo)
+          );
         });
         renderizarComparadorManual(
           els.panelManual,
@@ -1718,7 +1900,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     }
     const tieneOpcionEnLinea = estado.horarios.some(
       (r) =>
-        estado.materiasSeleccionadas.includes(r.clv_materia) &&
+        estaGrupoSeleccionadoParaMateria(estado, r.clv_materia, r.grupo) &&
         obtenerPesoEnLineaRegistro(r) > 0
     );
     if (!tieneOpcionEnLinea) {
@@ -2069,18 +2251,22 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
         .filter(Boolean);
       if (clavesGrupo.length === 0) return;
 
-      const actuales = ctrl.obtenerEstado().materiasSeleccionadas;
-      const setActuales = new Set(actuales);
-      const todasElegidas = clavesGrupo.every((c) => setActuales.has(c));
-
-      if (todasElegidas) {
-        const setGrupo = new Set(clavesGrupo);
-        ctrl.seleccionarMaterias(actuales.filter((c) => !setGrupo.has(c)));
+      const resGrupo = ctrl.alternarGrupoCompleto(grupoId, clavesGrupo);
+      if (resGrupo.accion === "quitado") {
         mostrarToast(`Grupo ${grupoId} quitado de la selección`);
       } else {
-        ctrl.seleccionarMaterias([...actuales, ...clavesGrupo]);
         mostrarToast(`Grupo ${grupoId} seleccionado (${clavesGrupo.length} materias)`, "success");
       }
+      recalcularRecomendaciones();
+      return;
+    }
+
+    const toggleMatGrupoBtn = e.target.closest("[data-toggle-materia-grupo]");
+    if (toggleMatGrupoBtn) {
+      ctrl.alternarGrupoDeMateria(
+        toggleMatGrupoBtn.dataset.toggleMateriaGrupo,
+        toggleMatGrupoBtn.dataset.grupo
+      );
       recalcularRecomendaciones();
       return;
     }
@@ -2131,8 +2317,14 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
         (r) => (r.id || `${r.clv_materia}:${r.grupo}`) === idBuscado
       );
       if (registro) {
-        if (!estado.materiasSeleccionadas.includes(registro.clv_materia)) {
-          ctrl.alternarMateriaSeleccionada(registro.clv_materia);
+        if (
+          !estaGrupoSeleccionadoParaMateria(
+            estado,
+            registro.clv_materia,
+            registro.grupo
+          )
+        ) {
+          ctrl.alternarGrupoDeMateria(registro.clv_materia, registro.grupo);
         }
         const manualSinMateria = estado.seleccionManual.filter(
           (r) => r.clv_materia !== registro.clv_materia

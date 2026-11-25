@@ -11,13 +11,19 @@ import {
   cargarIndiceDatasets,
   consolidarRegistrosPorGrupoMateria,
   crearControladorHorarios,
+  estaGrupoSeleccionadoParaMateria,
   filtrarHorarios,
   formatearEtiquetaSemestre,
   normalizarTexto,
   obtenerCatalogosDeFiltros,
   obtenerSemestreDeGrupo,
 } from "../app.js";
-import { calcularCarrilesSolapados, escapeHtml } from "../render.js";
+import {
+  calcularCarrilesSolapados,
+  escapeHtml,
+  renderizarCatalogoPorGrupo,
+  renderizarMateriasSeleccionadas,
+} from "../render.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, "..");
@@ -644,4 +650,195 @@ test("consolidarRegistrosPorGrupoMateria preserva tipo_clase y salon por bloque 
   assert.equal(metSalon.diasLibres, 5);
   assert.equal(metSalon.clasesPorDia.LU, 1);
   assert.equal(metSalon.clasesPorDia.SA, 0);
+});
+
+test("alternarGrupoDeMateria restringe recomendaciones únicamente a los grupos elegidos", () => {
+  const mk = (clv, gpo, dia, ini, fin) => ({
+    id: `35_12_${clv}_${gpo}`,
+    clv_materia: clv,
+    grupo: gpo,
+    semestre: "35",
+    carrera: "12",
+    materia: `Materia ${clv}`,
+    cupo: 30,
+    tipo_clase: "PRESENCIAL",
+    bloques: [{ dia, hora_texto: `${ini}-${fin}`, inicio_min: ini * 60, fin_min: fin * 60 }],
+  });
+
+  const ctrl = crearControladorHorarios({
+    horarios: [
+      mk("1500", "1557", "LU", 7, 9),
+      mk("1500", "1558", "MA", 7, 9),
+      mk("1500", "1559", "MI", 7, 9),
+      mk("1504", "1557", "LU", 9, 11),
+      mk("1504", "1558", "JU", 9, 11),
+    ],
+  });
+
+  // Elegir 1500 únicamente en grupo 1558 y 1504 únicamente en grupo 1557
+  ctrl.alternarGrupoDeMateria("1500", "1558");
+  ctrl.alternarGrupoDeMateria("1504", "1557");
+
+  const est = ctrl.obtenerEstado();
+  assert.deepEqual(est.gruposSeleccionadosPorMateria, {
+    1500: ["1558"],
+    1504: ["1557"],
+  });
+  assert.equal(estaGrupoSeleccionadoParaMateria(est, "1500", "1558"), true);
+  assert.equal(estaGrupoSeleccionadoParaMateria(est, "1500", "1557"), false);
+  assert.equal(estaGrupoSeleccionadoParaMateria(est, "1500", "1559"), false);
+
+  const res1 = ctrl.generarHorariosRecomendados();
+  assert.equal(res1.recomendaciones.length, 1);
+  assert.deepEqual(
+    res1.recomendaciones[0].registros.map((r) => `${r.clv_materia}:${r.grupo}`),
+    ["1500:1558", "1504:1557"]
+  );
+
+  // Agregar también el grupo 1557 a 1500 -> ahora debe combinar ambos (pero nunca 1559)
+  ctrl.alternarGrupoDeMateria("1500", "1557");
+  const res2 = ctrl.generarHorariosRecomendados();
+  assert.equal(res2.recomendaciones.length, 2);
+  const grupos1500Usados = new Set(res2.recomendaciones.map((rec) => rec.registros[0].grupo));
+  assert.deepEqual(grupos1500Usados, new Set(["1557", "1558"]));
+
+  // Desmarcar ambos grupos de 1500 elimina 1500 de la selección
+  ctrl.alternarGrupoDeMateria("1500", "1558");
+  ctrl.alternarGrupoDeMateria("1500", "1557");
+  assert.deepEqual(ctrl.obtenerEstado().materiasSeleccionadas, ["1504"]);
+  assert.equal(ctrl.obtenerEstado().gruposSeleccionadosPorMateria["1500"], undefined);
+});
+
+test("alternarMateriaSeleccionada y alternarGrupoDeMateria permiten desmarcar un grupo específico tras elegir todos", () => {
+  const mk = (clv, gpo, dia, ini, fin) => ({
+    id: `35_12_${clv}_${gpo}`,
+    clv_materia: clv,
+    grupo: gpo,
+    materia: `Materia ${clv}`,
+    cupo: 30,
+    bloques: [{ dia, hora_texto: `${ini}-${fin}`, inicio_min: ini * 60, fin_min: fin * 60 }],
+  });
+
+  const ctrl = crearControladorHorarios({
+    horarios: [
+      mk("1500", "1557", "LU", 7, 9),
+      mk("1500", "1558", "MA", 7, 9),
+      mk("1500", "1559", "MI", 7, 9),
+    ],
+  });
+
+  // Selección general (todos los grupos) -> luego quita solo 1557
+  ctrl.alternarMateriaSeleccionada("1500");
+  assert.equal(ctrl.obtenerEstado().gruposSeleccionadosPorMateria["1500"], undefined);
+  ctrl.alternarGrupoDeMateria("1500", "1557");
+  assert.deepEqual(ctrl.obtenerEstado().gruposSeleccionadosPorMateria["1500"], ["1558", "1559"]);
+
+  const res = ctrl.generarHorariosRecomendados();
+  assert.equal(res.recomendaciones.length, 2);
+  assert.equal(
+    res.recomendaciones.some((r) => r.registros[0].grupo === "1557"),
+    false
+  );
+});
+
+test("alternarGrupoCompleto elige solo ese grupo por materia y combina múltiples grupos elegidos sin arrastrar otros", () => {
+  const mk = (clv, gpo, dia, ini, fin) => ({
+    id: `35_12_${clv}_${gpo}`,
+    clv_materia: clv,
+    grupo: gpo,
+    materia: `Materia ${clv}`,
+    cupo: 30,
+    bloques: [{ dia, hora_texto: `${ini}-${fin}`, inicio_min: ini * 60, fin_min: fin * 60 }],
+  });
+
+  const ctrl = crearControladorHorarios({
+    horarios: [
+      mk("1500", "1557", "LU", 7, 9),
+      mk("1504", "1557", "LU", 9, 11),
+      mk("1500", "1558", "MA", 7, 9),
+      mk("1504", "1558", "MA", 9, 11),
+      mk("1500", "1559", "SA", 7, 9),
+      mk("1504", "1559", "SA", 9, 11),
+    ],
+  });
+
+  // Elegir grupo completo 1557 y luego agregar grupo completo 1558 (nunca 1559)
+  ctrl.alternarGrupoCompleto("1557", ["1500", "1504"]);
+  ctrl.alternarGrupoCompleto("1558", ["1500", "1504"]);
+
+  assert.deepEqual(ctrl.obtenerEstado().gruposSeleccionadosPorMateria, {
+    1500: ["1557", "1558"],
+    1504: ["1557", "1558"],
+  });
+
+  const res = ctrl.generarHorariosRecomendados();
+  assert.equal(res.recomendaciones.length, 4);
+  for (const rec of res.recomendaciones) {
+    for (const r of rec.registros) {
+      assert.notEqual(r.grupo, "1559");
+    }
+  }
+
+  // Quitar grupo 1557 mantiene 1558 seleccionado
+  ctrl.alternarGrupoCompleto("1557", ["1500", "1504"]);
+  assert.deepEqual(ctrl.obtenerEstado().gruposSeleccionadosPorMateria, {
+    1500: ["1558"],
+    1504: ["1558"],
+  });
+});
+
+test("renderizarCatalogoPorGrupo y renderizarMateriasSeleccionadas reflejan solo los grupos elegidos", () => {
+  const gruposAgrupados = agruparPorGrupo([
+    {
+      id: "35_12_1500_1557",
+      clv_materia: "1500",
+      grupo: "1557",
+      materia: "ALGORITMOS",
+      profesor: "PROF A",
+      salon: "A101",
+      cupo: 30,
+      tipo_clase: "PRESENCIAL",
+      bloques: [{ dia: "LU", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 }],
+    },
+    {
+      id: "35_12_1500_1558",
+      clv_materia: "1500",
+      grupo: "1558",
+      materia: "ALGORITMOS",
+      profesor: "PROF B",
+      salon: "A102",
+      cupo: 30,
+      tipo_clase: "PRESENCIAL",
+      bloques: [{ dia: "MA", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 }],
+    },
+  ]);
+
+  const estadoSolo1557 = {
+    materiasSeleccionadas: ["1500"],
+    gruposSeleccionadosPorMateria: { 1500: ["1557"] },
+  };
+
+  const contenedor = { innerHTML: "" };
+  renderizarCatalogoPorGrupo(
+    contenedor,
+    gruposAgrupados,
+    estadoSolo1557,
+    new Set(["1557", "1558"])
+  );
+
+  // Grupo 1557 aparece marcado con is-selected y "+ Elegir todas" convertido en "✓ Quitar grupo";
+  // Grupo 1558 NO aparece marcado aunque sea la misma materia 1500.
+  assert.match(contenedor.innerHTML, /data-toggle-materia-grupo="1500"\s+data-grupo="1557"\s+aria-pressed="true"/);
+  assert.match(contenedor.innerHTML, /data-toggle-materia-grupo="1500"\s+data-grupo="1558"\s+aria-pressed="false"/);
+  assert.equal((contenedor.innerHTML.match(/✓ Quitar grupo/g) || []).length, 1);
+
+  const chipContenedor = { innerHTML: "" };
+  const chipContador = { textContent: "" };
+  renderizarMateriasSeleccionadas(
+    chipContenedor,
+    chipContador,
+    estadoSolo1557,
+    new Map([["1500", "ALGORITMOS"]])
+  );
+  assert.match(chipContenedor.innerHTML, /GPO 1557/);
 });

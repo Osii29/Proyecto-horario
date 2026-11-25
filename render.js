@@ -303,6 +303,23 @@ export function renderizarCatalogoFiltros(contenedores, catalogos, filtros) {
   }
 }
 
+function estaGrupoSeleccionado(estado, claveMateria, grupo) {
+  const clave = String(claveMateria || "").trim();
+  const grp = String(grupo || "").trim();
+  if (!clave || !grp) {
+    return false;
+  }
+  const seleccionadas = estado?.materiasSeleccionadas || [];
+  if (!seleccionadas.includes(clave)) {
+    return false;
+  }
+  const lista = estado?.gruposSeleccionadosPorMateria?.[clave];
+  if (!Array.isArray(lista) || lista.length === 0) {
+    return true;
+  }
+  return lista.includes(grp);
+}
+
 /**
  * Renderiza el catálogo izquierdo de materias con jerarquía clara título -> metadato.
  */
@@ -327,6 +344,16 @@ export function renderizarCatalogoMaterias(
   contenedor.innerHTML = materiasAgrupadas
     .map((item) => {
       const estaSeleccionada = seleccionadas.has(item.clave);
+      const gruposEspecificos = estado?.gruposSeleccionadosPorMateria?.[item.clave];
+      const tieneGruposEspecificos =
+        estaSeleccionada &&
+        Array.isArray(gruposEspecificos) &&
+        gruposEspecificos.length > 0;
+      const etiquetaGruposElegidos = tieneGruposEspecificos
+        ? gruposEspecificos.length === 1
+          ? `GPO ${gruposEspecificos[0]}`
+          : `${gruposEspecificos.length}/${item.totalGrupos} gpos`
+        : "";
       const estaExpandida = materiasExpandidas.has(item.clave);
       const animarLista = estaExpandida && recienExpandida === item.clave;
       const semsMateria = Array.from(
@@ -346,6 +373,7 @@ export function renderizarCatalogoMaterias(
         ? `<div class="subject-groups-list ${animarLista ? "is-animating" : ""}">
             ${item.grupos
               .map((g) => {
+                const grupoSel = estaGrupoSeleccionado(estado, item.clave, g.grupo);
                 const cupoTxt =
                   g.cupo !== null && g.cupo !== undefined
                     ? `Cupo ${g.cupo}`
@@ -354,9 +382,20 @@ export function renderizarCatalogoMaterias(
                 const esNoPresencial = obtenerPesoEnLineaRegistro(g) > 0;
                 const etiquetaModalidad = obtenerEtiquetaModalidad(g);
                 return `
-                  <div class="group-mini-card">
+                  <div class="group-mini-card ${grupoSel ? "is-selected" : ""}">
                     <div class="group-mini-head">
-                      <span>GPO ${escapeHtml(g.grupo)}</span>
+                      <button
+                        type="button"
+                        class="group-mini-select-btn"
+                        data-toggle-materia-grupo="${escapeHtml(item.clave)}"
+                        data-grupo="${escapeHtml(g.grupo)}"
+                        aria-pressed="${grupoSel}"
+                      >
+                        <span class="subject-check" aria-hidden="true">${
+                          grupoSel ? "✓" : ""
+                        }</span>
+                        <span>GPO ${escapeHtml(g.grupo)}</span>
+                      </button>
                       <details class="row-actions-menu">
                         <summary class="row-actions-trigger" title="Opciones de grupo y docente" aria-label="Opciones">···</summary>
                         <div class="row-actions-popover">
@@ -428,6 +467,13 @@ export function renderizarCatalogoMaterias(
         item.totalGrupos === 1 ? "grupo" : "grupos"
       }</span>
                   ${
+                    etiquetaGruposElegidos
+                      ? `<span class="group-meta-pill">${escapeHtml(
+                          etiquetaGruposElegidos
+                        )}</span>`
+                      : ""
+                  }
+                  ${
                     tieneEnLinea
                       ? `<span class="group-meta-pill is-online">EN LÍNEA</span>`
                       : ""
@@ -473,14 +519,12 @@ export function renderizarCatalogoPorGrupo(
     return;
   }
 
-  const seleccionadas = new Set(estado.materiasSeleccionadas || []);
-
   contenedor.innerHTML = gruposAgrupados
     .map((item) => {
       const estaExpandido = expandirTodos || gruposExpandidos.has(item.grupo);
       const animarLista = !expandirTodos && estaExpandido && recienExpandido === item.grupo;
       const elegidasCount = item.clavesMaterias.filter((c) =>
-        seleccionadas.has(c)
+        estaGrupoSeleccionado(estado, c, item.grupo)
       ).length;
       const todasElegidas =
         item.totalMaterias > 0 && elegidasCount === item.totalMaterias;
@@ -496,7 +540,12 @@ export function renderizarCatalogoPorGrupo(
             ${item.registros
               .map((r) => {
                 const clave = String(r.clv_materia || "").trim();
-                const estaSeleccionada = clave && seleccionadas.has(clave);
+                const grupoRegistro = String(r.grupo || item.grupo || "").trim();
+                const estaSeleccionada = estaGrupoSeleccionado(
+                  estado,
+                  clave,
+                  grupoRegistro
+                );
                 const cupoTxt =
                   r.cupo !== null && r.cupo !== undefined
                     ? `Cupo ${r.cupo}`
@@ -512,7 +561,8 @@ export function renderizarCatalogoPorGrupo(
                       <button
                         type="button"
                         class="subject-select-btn group-subject-btn"
-                        data-toggle-materia="${escapeHtml(clave)}"
+                        data-toggle-materia-grupo="${escapeHtml(clave)}"
+                        data-grupo="${escapeHtml(grupoRegistro)}"
                         aria-pressed="${estaSeleccionada}"
                       >
                         <span class="subject-check" aria-hidden="true">${
@@ -666,12 +716,22 @@ export function renderizarMateriasSeleccionadas(
       const nombre = mapaNombres.get(clave) || clave;
       const color = asignarColorMateria(clave, mapaColores);
       const isNew = clavesNuevas instanceof Set && clavesNuevas.has(clave);
+      const gpos = estado?.gruposSeleccionadosPorMateria?.[clave];
+      const tagGrupos =
+        Array.isArray(gpos) && gpos.length > 0
+          ? `<span class="chip-groups-tag" title="${escapeHtml(
+              `Grupos elegidos: ${gpos.join(", ")}`
+            )}">${escapeHtml(
+              gpos.length <= 2 ? `GPO ${gpos.join(", ")}` : `${gpos.length} GPOS`
+            )}</span>`
+          : "";
       return `
         <span class="chip ${isNew ? "is-new" : ""}">
           <span class="chip-color-dot" style="--chip-color:${escapeHtml(
             color
           )}" aria-hidden="true"></span>
           <span>${escapeHtml(clave)} · ${escapeHtml(nombre)}</span>
+          ${tagGrupos}
           <button
             type="button"
             class="chip-remove"
