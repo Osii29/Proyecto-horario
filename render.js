@@ -62,6 +62,38 @@ export function asignarColorMateria(clvMateria, mapaColores) {
 }
 
 /**
+ * Construye un mapa de colores determinista compartido entre chips, tarjetas, grilla e inspector.
+ */
+export function construirMapaColoresMaterias(claves = []) {
+  const mapa = new Map();
+  for (const clave of claves || []) {
+    if (clave !== null && clave !== undefined && String(clave).trim() !== "") {
+      asignarColorMateria(String(clave).trim(), mapa);
+    }
+  }
+  return mapa;
+}
+
+/**
+ * Renderiza filas skeleton animadas mientras se descarga el catálogo de una carrera.
+ */
+export function renderizarSkeletonCatalogo(contenedor, filas = 6) {
+  if (!contenedor) {
+    return;
+  }
+  const items = Array.from(
+    { length: filas },
+    () => `
+      <div class="skeleton-row" aria-hidden="true">
+        <div class="skeleton-line is-title"></div>
+        <div class="skeleton-line is-meta"></div>
+      </div>
+    `
+  ).join("");
+  contenedor.innerHTML = `<div class="catalog-skeleton" role="status" aria-label="Cargando catálogo">${items}</div>`;
+}
+
+/**
  * Distribuye bloques de un mismo día en carriles laterales cuando existen solapamientos
  * para que ningún bloque quede oculto debajo de otro.
  */
@@ -275,7 +307,8 @@ export function renderizarCatalogoMaterias(
   contenedor,
   materiasAgrupadas = [],
   estado = {},
-  materiasExpandidas = new Set()
+  materiasExpandidas = new Set(),
+  recienExpandida = ""
 ) {
   if (!contenedor) {
     return;
@@ -292,6 +325,7 @@ export function renderizarCatalogoMaterias(
     .map((item) => {
       const estaSeleccionada = seleccionadas.has(item.clave);
       const estaExpandida = materiasExpandidas.has(item.clave);
+      const animarLista = estaExpandida && recienExpandida === item.clave;
       const semsMateria = Array.from(
         new Set(
           item.grupos
@@ -305,27 +339,34 @@ export function renderizarCatalogoMaterias(
           : "";
 
       const gruposHtml = estaExpandida
-        ? `<div class="subject-groups-list">
+        ? `<div class="subject-groups-list ${animarLista ? "is-animating" : ""}">
             ${item.grupos
               .map((g) => {
                 const cupoTxt =
                   g.cupo !== null && g.cupo !== undefined
                     ? `Cupo ${g.cupo}`
                     : "Cupo N/D";
+                const sinCupo = g.cupo === 0;
                 return `
                   <div class="group-mini-card">
                     <div class="group-mini-head">
-                      <span>GPO ${escapeHtml(g.grupo)} · ${escapeHtml(
-                  g.tipo_clase || "N/D"
-                )}</span>
-                      <span>${escapeHtml(g.salon || "S/S")} · ${escapeHtml(
-                  cupoTxt
-                )}</span>
+                      <span>GPO ${escapeHtml(g.grupo)}</span>
+                      <div class="group-meta-pills">
+                        <span class="group-meta-pill">${escapeHtml(
+                          g.tipo_clase || "N/D"
+                        )}</span>
+                        <span class="group-meta-pill">${escapeHtml(
+                          g.salon || "S/S"
+                        )}</span>
+                        <span class="group-meta-pill ${
+                          sinCupo ? "is-empty" : ""
+                        }">${escapeHtml(cupoTxt)}</span>
+                      </div>
                     </div>
                     <div class="group-mini-meta">${escapeHtml(
                       g.profesor || "Sin docente asignado"
                     )}</div>
-                    <div class="group-mini-meta">${escapeHtml(
+                    <div class="group-subject-hours">${escapeHtml(
                       formatearHorasCompactas(g.bloques)
                     )}</div>
                     <div class="group-mini-actions">
@@ -406,7 +447,8 @@ export function renderizarCatalogoPorGrupo(
   gruposAgrupados = [],
   estado = {},
   gruposExpandidos = new Set(),
-  expandirTodos = false
+  expandirTodos = false,
+  recienExpandido = ""
 ) {
   if (!contenedor) {
     return;
@@ -422,6 +464,7 @@ export function renderizarCatalogoPorGrupo(
   contenedor.innerHTML = gruposAgrupados
     .map((item) => {
       const estaExpandido = expandirTodos || gruposExpandidos.has(item.grupo);
+      const animarLista = !expandirTodos && estaExpandido && recienExpandido === item.grupo;
       const elegidasCount = item.clavesMaterias.filter((c) =>
         seleccionadas.has(c)
       ).length;
@@ -432,7 +475,7 @@ export function renderizarCatalogoPorGrupo(
         semNum !== null ? formatearEtiquetaSemestre(semNum, true) : "";
 
       const materiasHtml = estaExpandido
-        ? `<div class="group-subjects-list">
+        ? `<div class="group-subjects-list ${animarLista ? "is-animating" : ""}">
             ${item.registros
               .map((r) => {
                 const clave = String(r.clv_materia || "").trim();
@@ -441,6 +484,7 @@ export function renderizarCatalogoPorGrupo(
                   r.cupo !== null && r.cupo !== undefined
                     ? `Cupo ${r.cupo}`
                     : "Cupo N/D";
+                const sinCupo = r.cupo === 0;
                 return `
                   <div class="group-subject-card ${
                     estaSeleccionada ? "is-selected" : ""
@@ -458,13 +502,15 @@ export function renderizarCatalogoPorGrupo(
                         <span class="subject-title">${escapeHtml(
                           r.materia || clave
                         )}</span>
-                        <span class="subject-meta-line">
-                          <span>CLAVE ${escapeHtml(clave)}</span>
-                          <span>·</span>
-                          <span>${escapeHtml(r.salon || "S/S")}</span>
-                          <span>·</span>
-                          <span>${escapeHtml(cupoTxt)}</span>
-                        </span>
+                        <div class="group-meta-pills">
+                          <span class="group-meta-pill">CLV ${escapeHtml(clave)}</span>
+                          <span class="group-meta-pill">${escapeHtml(
+                            r.salon || "S/S"
+                          )}</span>
+                          <span class="group-meta-pill ${
+                            sinCupo ? "is-empty" : ""
+                          }">${escapeHtml(cupoTxt)}</span>
+                        </div>
                         <span class="group-subject-prof">${escapeHtml(
                           r.profesor || "Sin docente asignado"
                         )}</span>
@@ -510,9 +556,7 @@ export function renderizarCatalogoPorGrupo(
               data-expand-grupo="${escapeHtml(item.grupo)}"
               aria-expanded="${estaExpandido}"
             >
-              <span class="group-expand-arrow" aria-hidden="true">${
-                estaExpandido ? "▾" : "▸"
-              }</span>
+              <span class="group-expand-arrow" aria-hidden="true">▸</span>
               <div class="group-head-text">
                 <span class="group-head-title">Grupo ${escapeHtml(item.grupo)}</span>
                 <span class="group-head-meta">
@@ -559,7 +603,9 @@ export function renderizarMateriasSeleccionadas(
   contenedor,
   contadorEl,
   estado,
-  mapaNombres
+  mapaNombres,
+  clavesNuevas = new Set(),
+  mapaColoresExt = null
 ) {
   const seleccionadas = estado.materiasSeleccionadas || [];
 
@@ -578,11 +624,18 @@ export function renderizarMateriasSeleccionadas(
     return;
   }
 
+  const mapaColores = mapaColoresExt || construirMapaColoresMaterias(seleccionadas);
+
   contenedor.innerHTML = seleccionadas
     .map((clave) => {
       const nombre = mapaNombres.get(clave) || clave;
+      const color = asignarColorMateria(clave, mapaColores);
+      const isNew = clavesNuevas instanceof Set && clavesNuevas.has(clave);
       return `
-        <span class="chip">
+        <span class="chip ${isNew ? "is-new" : ""}">
+          <span class="chip-color-dot" style="--chip-color:${escapeHtml(
+            color
+          )}" aria-hidden="true"></span>
           <span>${escapeHtml(clave)} · ${escapeHtml(nombre)}</span>
           <button
             type="button"
@@ -649,11 +702,14 @@ export function renderizarRecomendaciones(
   telemetryEl,
   resultado,
   recomendacionActivaId,
-  limiteVisible = 6
+  limiteVisible = 6,
+  opciones = {}
 ) {
   if (!contenedor) {
     return;
   }
+
+  const { mapaColores: mapaColoresExt = null, animarEntrada = false } = opciones;
 
   if (!resultado) {
     if (telemetryEl) {
@@ -662,9 +718,38 @@ export function renderizarRecomendaciones(
     if (footerEl) {
       footerEl.hidden = true;
     }
+    contenedor.classList?.remove("is-entering");
     contenedor.innerHTML = `
-      <div class="rec-empty-cell">
-        Selecciona al menos una materia en el panel izquierdo para calcular combinaciones óptimas.
+      <div class="empty-onboarding">
+        <div class="onboarding-steps">
+          <div class="onboarding-step">
+            <span class="onboarding-step-num">PASO 01</span>
+            <h3 class="onboarding-step-title">Selecciona tus materias</h3>
+            <p class="onboarding-step-desc">
+              Explora por grupo o asignatura en el panel izquierdo y marca las materias que deseas cursar.
+            </p>
+          </div>
+          <div class="onboarding-step">
+            <span class="onboarding-step-num">PASO 02</span>
+            <h3 class="onboarding-step-title">Ajusta filtros y prioridad</h3>
+            <p class="onboarding-step-desc">
+              Restringe días, turno ideal, modalidad o docentes excluidos en las pestañas 02 y 03.
+            </p>
+          </div>
+          <div class="onboarding-step">
+            <span class="onboarding-step-num">PASO 03</span>
+            <h3 class="onboarding-step-title">Compara y exporta</h3>
+            <p class="onboarding-step-desc">
+              Alterna entre las combinaciones recomendadas, ajusta manualmente o exporta en PDF / PNG.
+            </p>
+          </div>
+        </div>
+        <div class="onboarding-cta-row">
+          <span class="mono-meta">PROCESAMIENTO 100% LOCAL · SIN TIEMPOS DE ESPERA</span>
+          <button type="button" class="btn-outline btn-xs" data-action="enfocar-busqueda">
+            BUSCAR MATERIAS →
+          </button>
+        </div>
       </div>
     `;
     return;
@@ -682,6 +767,7 @@ export function renderizarRecomendaciones(
     if (footerEl) {
       footerEl.hidden = true;
     }
+    contenedor.classList?.remove("is-entering");
     contenedor.innerHTML = `
       <div class="rec-empty-cell">
         No se encontraron horarios con la configuración actual. Revisa el diagnóstico arriba para resolver el conflicto.
@@ -690,17 +776,31 @@ export function renderizarRecomendaciones(
     return;
   }
 
+  const mapaColores = mapaColoresExt ? new Map(mapaColoresExt) : new Map();
   const visibles = recomendaciones.slice(0, limiteVisible);
+
+  if (contenedor.classList) {
+    if (animarEntrada) {
+      contenedor.classList.remove("is-entering");
+      void contenedor.offsetWidth;
+      contenedor.classList.add("is-entering");
+    } else {
+      contenedor.classList.remove("is-entering");
+    }
+  }
+
   contenedor.innerHTML = visibles
     .map((rec, idx) => {
       const indiceStr = String(idx + 1).padStart(2, "0");
       const isActive = rec.id === recomendacionActivaId;
+      const isBest = idx === 0;
       const m = rec.metricas;
 
       return `
         <button
           type="button"
-          class="rec-card ${isActive ? "is-active" : ""}"
+          class="rec-card ${isActive ? "is-active" : ""} ${isBest ? "is-best" : ""}"
+          style="--stagger-i:${idx};"
           data-seleccionar-rec="${escapeHtml(rec.id)}"
         >
           <div class="rec-card-top">
@@ -708,7 +808,11 @@ export function renderizarRecomendaciones(
               <span class="rec-score">${escapeHtml(rec.puntaje)}</span>
               <span class="rec-score-label">PTS</span>
             </div>
-            <span class="rec-index">${indiceStr}</span>
+            <div class="rec-index-wrap">
+              ${isBest ? `<span class="rec-best-badge">MEJOR OPCIÓN</span>` : ""}
+              ${isActive ? `<span class="rec-active-pill">EN VISTA</span>` : ""}
+              <span class="rec-index">${indiceStr}</span>
+            </div>
           </div>
 
           ${
@@ -721,31 +825,53 @@ export function renderizarRecomendaciones(
 
           <div class="rec-kpi-grid">
             <div class="rec-kpi-cell">
-              <span class="rec-kpi-val">${m.diasLibres}</span>
+              <span class="rec-kpi-val ${m.diasLibres >= 2 ? "is-good" : ""}">${
+        m.diasLibres
+      }</span>
               <span class="rec-kpi-lbl">Días libres</span>
             </div>
             <div class="rec-kpi-cell">
-              <span class="rec-kpi-val">${m.totalHuecosMin}m</span>
+              <span class="rec-kpi-val ${m.totalHuecosMin === 0 ? "is-good" : ""}">${
+        m.totalHuecosMin
+      }m</span>
               <span class="rec-kpi-lbl">Huecos</span>
             </div>
+            <div class="rec-kpi-cell" title="${escapeHtml(
+              `Máx. ${m.maxClasesEnUnDia ?? 0} mat./día · Prom. ${
+                m.promedioClasesPorDiaActivo ?? 0
+              }/día`
+            )}">
+              <span class="rec-kpi-val ${
+                (m.diasConPocasClases ?? 0) === 0 ? "is-good" : "is-warn"
+              }">${m.diasConPocasClases ?? 0}</span>
+              <span class="rec-kpi-lbl">Días 1–2 cls</span>
+            </div>
             <div class="rec-kpi-cell">
-              <span class="rec-kpi-val">${m.minutosFueraRango}m</span>
+              <span class="rec-kpi-val ${m.minutosFueraRango > 0 ? "is-warn" : ""}">${
+        m.minutosFueraRango
+      }m</span>
               <span class="rec-kpi-lbl">Fuera turno</span>
             </div>
           </div>
 
           <ul class="rec-subjects-list">
             ${rec.registros
-              .map(
-                (r) => `
+              .map((r) => {
+                const colorSubj = asignarColorMateria(r.clv_materia, mapaColores);
+                return `
                   <li>
-                    <span class="rec-subj-name">${escapeHtml(
-                      r.materia || r.clv_materia
-                    )}</span>
+                    <span class="rec-subj-main">
+                      <span class="rec-subj-dot" style="--subj-color:${escapeHtml(
+                        colorSubj
+                      )}" aria-hidden="true"></span>
+                      <span class="rec-subj-name">${escapeHtml(
+                        r.materia || r.clv_materia
+                      )}</span>
+                    </span>
                     <span class="rec-subj-group">${escapeHtml(r.grupo)}</span>
                   </li>
-                `
-              )
+                `;
+              })
               .join("")}
           </ul>
         </button>
@@ -847,7 +973,12 @@ function calcularRangoHoras(registros = []) {
 /**
  * Renderiza la grilla semanal interactiva (LU-SA), advertencias, KPIs y leyenda imprimible (RF-VIS-02).
  */
-export function renderizarGrillaSemanal(contenedores, horarioActivo, bloqueInspectorId = "") {
+export function renderizarGrillaSemanal(
+  contenedores,
+  horarioActivo,
+  bloqueInspectorId = "",
+  opciones = {}
+) {
   const {
     grillaEl,
     tituloEl,
@@ -856,6 +987,7 @@ export function renderizarGrillaSemanal(contenedores, horarioActivo, bloqueInspe
     leyendaImpresionEl,
   } = contenedores;
 
+  const { mapaColores: mapaColoresExt = null, animarBloques = false } = opciones;
   const registros = horarioActivo?.registros || [];
 
   if (tituloEl) {
@@ -871,6 +1003,7 @@ export function renderizarGrillaSemanal(contenedores, horarioActivo, bloqueInspe
       kpisEl.innerHTML = `
         <span class="kpi-chip">${m.diasLibres} días libres</span>
         <span class="kpi-chip">${m.totalHuecosMin}m huecos</span>
+        <span class="kpi-chip">${m.diasConPocasClases ?? 0} días 1–2 cls</span>
         <span class="kpi-chip">${m.totalMinutosSolapamiento}m traslape</span>
       `;
     } else {
@@ -896,9 +1029,17 @@ export function renderizarGrillaSemanal(contenedores, horarioActivo, bloqueInspe
   }
 
   if (registros.length === 0) {
+    grillaEl.classList?.remove("is-animating-blocks");
     grillaEl.innerHTML = `
       <div class="grilla-empty-state">
-        Aquí aparecerá tu horario semanal interactivo de lunes a sábado al seleccionar materias o cargar una recomendación.
+        <svg class="grilla-empty-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="16" stroke="currentColor" stroke-width="1.4" />
+          <line x1="3" y1="9" x2="21" y2="9" stroke="currentColor" stroke-width="1.4" />
+          <line x1="9" y1="9" x2="9" y2="20" stroke="currentColor" stroke-width="1.4" />
+          <line x1="15" y1="9" x2="15" y2="20" stroke="currentColor" stroke-width="1.4" />
+        </svg>
+        <span>Aquí aparecerá tu horario semanal interactivo de lunes a sábado al elegir materias o cargar una recomendación.</span>
+        <span class="grilla-empty-hint">CONSEJO: HAZ CLIC EN CUALQUIER BLOQUE PARA INSPECCIONAR DOCENTE, SALÓN Y EXCLUSIONES</span>
       </div>
     `;
     if (leyendaImpresionEl) {
@@ -907,7 +1048,7 @@ export function renderizarGrillaSemanal(contenedores, horarioActivo, bloqueInspe
     return;
   }
 
-  const mapaColores = new Map();
+  const mapaColores = mapaColoresExt ? new Map(mapaColoresExt) : new Map();
   for (const reg of registros) {
     asignarColorMateria(reg.clv_materia, mapaColores);
   }
@@ -941,6 +1082,7 @@ export function renderizarGrillaSemanal(contenedores, horarioActivo, bloqueInspe
     lineasHorizontalesHtml += `<div class="grilla-hour-line" style="top:${topPx}px;height:${pxPorHora}px;"></div>`;
   }
 
+  let bloqueIdx = 0;
   const columnasDiasHtml = DIAS_SEMANA.map((dia) => {
     const carriles = calcularCarrilesSolapados(porDia.get(dia));
     const bloquesHtml = carriles
@@ -951,6 +1093,8 @@ export function renderizarGrillaSemanal(contenedores, horarioActivo, bloqueInspe
         const leftPct = item.colIndex * widthPct;
         const reg = item.registro;
         const isSelected = item.uid === bloqueInspectorId;
+        const ordenBloque = bloqueIdx;
+        bloqueIdx += 1;
 
         return `
           <button
@@ -960,9 +1104,10 @@ export function renderizarGrillaSemanal(contenedores, horarioActivo, bloqueInspe
         }"
             style="top:${top}px;height:${height}px;left:calc(${leftPct}% + 2px);width:calc(${widthPct}% - 4px);--block-accent:${
           item.color
-        };"
+        };--block-i:${ordenBloque};"
             data-inspeccionar-bloque="${escapeHtml(item.uid)}"
             data-registro-id="${escapeHtml(reg.id || `${reg.clv_materia}:${reg.grupo}`)}"
+            data-clv-materia="${escapeHtml(reg.clv_materia || "")}"
           >
             <span class="block-time">${item.enChoque ? "⚠ " : ""}${escapeHtml(
           item.hora_texto
@@ -984,9 +1129,24 @@ export function renderizarGrillaSemanal(contenedores, horarioActivo, bloqueInspe
     `;
   }).join("");
 
+  if (grillaEl.classList) {
+    if (animarBloques) {
+      grillaEl.classList.remove("is-animating-blocks");
+      void grillaEl.offsetWidth;
+      grillaEl.classList.add("is-animating-blocks");
+    } else {
+      grillaEl.classList.remove("is-animating-blocks");
+    }
+  }
+
   grillaEl.innerHTML = `
     <div class="grilla-corner">HORA</div>
-    ${DIAS_SEMANA.map((d) => `<div class="grilla-day-header">${NOMBRES_DIAS[d]}</div>`).join("")}
+    ${DIAS_SEMANA.map((d) => {
+      const esLibre = (porDia.get(d) || []).length === 0;
+      return `<div class="grilla-day-header ${esLibre ? "is-free-day" : ""}"><span>${
+        NOMBRES_DIAS[d]
+      }</span>${esLibre ? `<span class="day-free-pill">LIBRE</span>` : ""}</div>`;
+    }).join("")}
     <div class="grilla-time-axis" style="height:${alturaPx}px;">${marcasHorasHtml}</div>
     ${columnasDiasHtml}
   `;
@@ -1010,7 +1170,7 @@ export function renderizarGrillaSemanal(contenedores, horarioActivo, bloqueInspe
 /**
  * Renderiza el detalle del bloque seleccionado en la grilla con acciones rápidas.
  */
-export function renderizarInspectorBloque(contenedor, registro) {
+export function renderizarInspectorBloque(contenedor, registro, colorMateria = "") {
   if (!contenedor) {
     return;
   }
@@ -1026,6 +1186,10 @@ export function renderizarInspectorBloque(contenedor, registro) {
       ? `Cupo: ${registro.cupo}`
       : "Cupo: N/D";
 
+  if (colorMateria && contenedor.style?.setProperty) {
+    contenedor.style.setProperty("--inspector-accent", colorMateria);
+  }
+
   contenedor.hidden = false;
   contenedor.innerHTML = `
     <div class="inspector-bloque-info">
@@ -1034,10 +1198,17 @@ export function renderizarInspectorBloque(contenedor, registro) {
     registro.grupo
   )})
       </div>
-      <div class="inspector-bloque-meta">
-        Prof: ${escapeHtml(registro.profesor || "N/D")} · Salón: ${escapeHtml(
-    registro.salon || "S/S"
-  )} · ${escapeHtml(registro.tipo_clase || "N/D")} · ${escapeHtml(cupoTxt)}
+      <div class="inspector-meta-pills">
+        <span class="inspector-meta-pill">Docente: ${escapeHtml(
+          registro.profesor || "N/D"
+        )}</span>
+        <span class="inspector-meta-pill">Salón: ${escapeHtml(
+          registro.salon || "S/S"
+        )}</span>
+        <span class="inspector-meta-pill">${escapeHtml(
+          registro.tipo_clase || "N/D"
+        )}</span>
+        <span class="inspector-meta-pill">${escapeHtml(cupoTxt)}</span>
       </div>
       <div class="inspector-bloque-meta">
         Horario completo: ${escapeHtml(formatearHorasCompactas(registro.bloques))}

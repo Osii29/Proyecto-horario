@@ -173,7 +173,9 @@ test("crearControladorHorarios gestiona carga, suscripciones, presets, recomenda
     HORARIOS_PRUEBA[2],
   ]);
   assert.equal(manual.tieneSolapamiento, false);
-  assert.ok(manual.puntaje > 100);
+  assert.ok(Number.isFinite(manual.puntaje));
+  assert.equal(manual.metricas.diasConPocasClases, 4);
+  assert.ok(manual.desglosePuntaje.concentracionDiaria < 0);
 
   desuscribir();
   assert.ok(notificaciones >= 4);
@@ -373,4 +375,106 @@ test("cargarIndiceDatasets prioriza ./data/index.json desde la raíz y retorna b
   assert.equal(indice.baseUrl, "./data");
   assert.equal(indice.semestreActivo.semestre, "35");
   assert.equal(indice.datasets.length, 1);
+});
+
+test("preset masDiasLibres combina diasLibres=40 y concentracionDiaria=25 para compactar clases", () => {
+  const ctrl = crearControladorHorarios();
+  ctrl.establecerDatos({
+    metadata: { semestre: "35", carrera: "12" },
+    horarios: [
+      {
+        id: "A_1",
+        clv_materia: "A",
+        grupo: "1557",
+        materia: "A",
+        cupo: 30,
+        bloques: [
+          { dia: "LU", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 },
+          { dia: "MA", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 },
+        ],
+      },
+      {
+        id: "B_1",
+        clv_materia: "B",
+        grupo: "1557",
+        materia: "B",
+        cupo: 30,
+        bloques: [
+          { dia: "LU", hora_texto: "09:00-11:00", inicio_min: 540, fin_min: 660 },
+          { dia: "MA", hora_texto: "09:00-11:00", inicio_min: 540, fin_min: 660 },
+        ],
+      },
+      {
+        id: "C_conc",
+        clv_materia: "C",
+        grupo: "1557",
+        materia: "C",
+        cupo: 30,
+        bloques: [
+          { dia: "LU", hora_texto: "11:00-13:00", inicio_min: 660, fin_min: 780 },
+          { dia: "MA", hora_texto: "11:00-13:00", inicio_min: 660, fin_min: 780 },
+        ],
+      },
+      {
+        id: "C_suelto",
+        clv_materia: "C",
+        grupo: "1558",
+        materia: "C",
+        cupo: 30,
+        bloques: [
+          { dia: "MI", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 },
+          { dia: "JU", hora_texto: "07:00-09:00", inicio_min: 420, fin_min: 540 },
+        ],
+      },
+    ],
+  });
+
+  ctrl.aplicarPresetPreferencias("masDiasLibres");
+  assert.equal(ctrl.obtenerEstado().preferencias.pesos.diasLibres, 40);
+  assert.equal(ctrl.obtenerEstado().preferencias.pesos.concentracionDiaria, 25);
+
+  ctrl.seleccionarMaterias(["A", "B", "C"]);
+  const res = ctrl.generarHorariosRecomendados();
+  assert.equal(res.recomendaciones.length, 2);
+  assert.equal(res.recomendaciones[0].registros[2].id, "C_conc");
+  assert.equal(res.recomendaciones[0].metricas.diasConPocasClases, 0);
+  assert.equal(res.recomendaciones[1].metricas.diasConPocasClases, 4);
+});
+
+test("filtrarHorarios y obtenerCatalogosDeFiltros separan codocentes y modalidades mixtas con '/'", () => {
+  const registros = [
+    {
+      id: "35_2_1036_1701",
+      clv_materia: "1036",
+      grupo: "1701",
+      materia: "ADMIN CONSTRUCCION",
+      profesor: "PROF A / PROF B",
+      tipo_clase: "PRESENCIAL / A DISTANCIA",
+      cupo: 35,
+      bloques: [{ dia: "MI", hora_texto: "10:00-13:00", inicio_min: 600, fin_min: 780 }],
+    },
+    {
+      id: "35_2_1037_1701",
+      clv_materia: "1037",
+      grupo: "1701",
+      materia: "PROYECTOS",
+      profesor: "PROF C",
+      tipo_clase: "A DISTANCIA",
+      cupo: 35,
+      bloques: [{ dia: "JU", hora_texto: "10:00-13:00", inicio_min: 600, fin_min: 780 }],
+    },
+  ];
+
+  // Excluir un docente individual debe excluir también donde aparezca como codocente
+  const sinProfA = filtrarHorarios(registros, { profesoresExcluidos: ["PROF A"] });
+  assert.deepEqual(sinProfA.map((r) => r.id), ["35_2_1037_1701"]);
+
+  // Filtrar una modalidad individual debe incluir registros con modalidad mixta
+  const presenciales = filtrarHorarios(registros, { tiposClase: ["PRESENCIAL"] });
+  assert.deepEqual(presenciales.map((r) => r.id), ["35_2_1036_1701"]);
+
+  // El catálogo debe listar nombres y modalidades individuales, no concatenados
+  const cat = obtenerCatalogosDeFiltros(registros);
+  assert.deepEqual(cat.profesores, ["PROF A", "PROF B", "PROF C"]);
+  assert.deepEqual(cat.tiposClase, ["A DISTANCIA", "PRESENCIAL"]);
 });

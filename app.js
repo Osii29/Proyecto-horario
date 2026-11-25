@@ -21,6 +21,8 @@ import {
   obtenerSemestreDeGrupo,
 } from "./scheduler.js";
 import {
+  asignarColorMateria,
+  construirMapaColoresMaterias,
   exportarHorarioPNG,
   renderizarCatalogoFiltros,
   renderizarCatalogoMaterias,
@@ -33,6 +35,7 @@ import {
   renderizarRecomendaciones,
   renderizarSelectDatasets,
   renderizarSelectSemestres,
+  renderizarSkeletonCatalogo,
 } from "./render.js";
 
 export { formatearEtiquetaSemestre, obtenerSemestreDeGrupo };
@@ -353,9 +356,16 @@ export function filtrarHorarios(horarios = [], filtros = {}) {
       return false;
     }
 
-    const profNorm = normalizarTexto(registro.profesor);
-    if (profNorm && profesoresExcluidos.has(profNorm)) {
-      return false;
+    const profRaw = String(registro.profesor || "");
+    const profNorm = normalizarTexto(profRaw);
+    if (profNorm) {
+      const profPartes = profRaw.split("/").map(normalizarTexto).filter(Boolean);
+      if (
+        profesoresExcluidos.has(profNorm) ||
+        profPartes.some((p) => profesoresExcluidos.has(p))
+      ) {
+        return false;
+      }
     }
 
     const grupoUpper = String(registro.grupo || "").trim().toUpperCase();
@@ -370,8 +380,10 @@ export function filtrarHorarios(horarios = [], filtros = {}) {
     }
 
     if (tiposClase) {
-      const tipoNorm = normalizarTexto(registro.tipo_clase);
-      if (!tiposClase.has(tipoNorm)) {
+      const tipoRaw = String(registro.tipo_clase || "");
+      const tipoNorm = normalizarTexto(tipoRaw);
+      const tipoPartes = tipoRaw.split("/").map(normalizarTexto).filter(Boolean);
+      if (!tiposClase.has(tipoNorm) && !tipoPartes.some((t) => tiposClase.has(t))) {
         return false;
       }
     }
@@ -536,10 +548,20 @@ export function obtenerCatalogosDeFiltros(horarios = []) {
 
   for (const registro of lista) {
     if (registro.tipo_clase) {
-      tiposClase.add(registro.tipo_clase);
+      for (const parte of String(registro.tipo_clase).split("/")) {
+        const limpia = parte.trim();
+        if (limpia) {
+          tiposClase.add(limpia);
+        }
+      }
     }
     if (registro.profesor) {
-      profesores.add(registro.profesor);
+      for (const parte of String(registro.profesor).split("/")) {
+        const limpio = parte.trim();
+        if (limpio) {
+          profesores.add(limpio);
+        }
+      }
     }
     if (registro.grupo) {
       const grpStr = String(registro.grupo);
@@ -1031,6 +1053,14 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
   let datasetsDisponibles = [];
   let archivoActivo = "";
   let sidebarColapsado = false;
+  let ultimasSeleccionadas = new Set();
+  let ultimaFirmaRecs = "";
+  let ultimaFirmaGrilla = "";
+  let ultimoGrupoExpandido = "";
+  let ultimaMateriaExpandida = "";
+  let ultimoInspectorRegistroId = "";
+  let timerPulsoBarra = null;
+  const seccionesVisibles = new Set(["recomendaciones"]);
 
   try {
     sidebarColapsado = globalThis.localStorage?.getItem("horarios:sidebarColapsado") === "1";
@@ -1039,6 +1069,9 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
   }
 
   const els = {
+    topbar: doc.querySelector(".topbar"),
+    topbarProgress: doc.getElementById("topbar-progress"),
+    badgeCtaCount: doc.getElementById("badge-cta-count"),
     appShell: doc.getElementById("app-shell"),
     badgeSemestreActivo: doc.getElementById("badge-semestre-activo"),
     btnToggleSidebar: doc.getElementById("btn-toggle-sidebar"),
@@ -1047,6 +1080,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     panelInspector: doc.getElementById("panel-inspector"),
     btnCerrarInspector: doc.getElementById("btn-cerrar-inspector"),
     contadorCatalogo: doc.getElementById("contador-catalogo"),
+    inspectorTabs: doc.querySelector(".inspector-tabs"),
     tabPanelMaterias: doc.getElementById("tab-panel-materias"),
     tabPanelFiltros: doc.getElementById("tab-panel-filtros"),
     tabPanelMotor: doc.getElementById("tab-panel-motor"),
@@ -1057,6 +1091,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     vistaPanelMotor: doc.getElementById("vista-panel-motor"),
     textoResumenCatalogo: doc.getElementById("texto-resumen-catalogo"),
     btnIrFiltros: doc.getElementById("btn-ir-filtros"),
+    catalogModeSwitch: doc.querySelector(".catalog-mode-switch"),
     btnAgruparGrupo: doc.getElementById("btn-agrupar-grupo"),
     btnAgruparMateria: doc.getElementById("btn-agrupar-materia"),
     filtroTexto: doc.getElementById("filtro-texto"),
@@ -1085,6 +1120,8 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     valPesoHuecos: doc.getElementById("val-peso-huecos"),
     pesoRango: doc.getElementById("peso-rango"),
     valPesoRango: doc.getElementById("val-peso-rango"),
+    pesoConcentracion: doc.getElementById("peso-concentracion"),
+    valPesoConcentracion: doc.getElementById("val-peso-concentracion"),
     prefPermitirSolap: doc.getElementById("pref-permitir-solapamiento"),
     controlesTolerancia: doc.getElementById("controles-tolerancia"),
     prefToleranciaMin: doc.getElementById("pref-tolerancia-min"),
@@ -1098,6 +1135,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     btnGenerarTop: doc.getElementById("btn-generar-top"),
     btnGenerarMain: doc.getElementById("btn-generar-main"),
     seccionRecomendaciones: doc.getElementById("seccion-recomendaciones"),
+    statusDotRecs: doc.getElementById("status-dot-recs"),
     telemetryRecomendaciones: doc.getElementById("telemetry-recomendaciones"),
     panelDiagnostico: doc.getElementById("panel-diagnostico"),
     gridRecomendaciones: doc.getElementById("grid-recomendaciones"),
@@ -1107,6 +1145,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     tabModoRecomendado: doc.getElementById("tab-modo-recomendado"),
     tabModoManual: doc.getElementById("tab-modo-manual"),
     btnNavManual: doc.getElementById("btn-nav-manual"),
+    navLinks: Array.from(doc.querySelectorAll(".topbar-nav [data-nav-target]")),
     studioTitulo: doc.getElementById("studio-titulo"),
     studioKpis: doc.getElementById("studio-kpis"),
     btnExportarPdf: doc.getElementById("btn-exportar-pdf"),
@@ -1117,6 +1156,56 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     inspectorBloque: doc.getElementById("inspector-bloque"),
     leyendaImpresion: doc.getElementById("leyenda-impresion"),
     footerDatasetInfo: doc.getElementById("footer-dataset-info"),
+    toastRegion: doc.getElementById("toast-region"),
+  };
+
+  const mostrarToast = (mensaje, tipo = "info") => {
+    if (!els.toastRegion || !mensaje) return;
+    while (els.toastRegion.children.length >= 3) {
+      els.toastRegion.firstElementChild?.remove();
+    }
+    const toast = doc.createElement("div");
+    toast.className = `toast-item is-${tipo}`;
+    toast.textContent = mensaje;
+    els.toastRegion.appendChild(toast);
+
+    setTimeout(() => {
+      toast.classList.add("is-leaving");
+      setTimeout(() => toast.remove(), 220);
+    }, 2400);
+  };
+
+  const pulsarBarraProgreso = () => {
+    if (!els.topbarProgress) return;
+    clearTimeout(timerPulsoBarra);
+    els.topbarProgress.classList.remove("is-pulsing");
+    void els.topbarProgress.offsetWidth;
+    els.topbarProgress.classList.add("is-pulsing");
+    timerPulsoBarra = setTimeout(() => {
+      els.topbarProgress?.classList.remove("is-pulsing");
+    }, 500);
+  };
+
+  const actualizarNavActivo = () => {
+    if (!els.navLinks || els.navLinks.length === 0) return;
+    let objetivo = "recomendaciones";
+    if (modoVista === "manual") {
+      objetivo = "manual";
+    } else if (seccionesVisibles.has("grilla") && !seccionesVisibles.has("recomendaciones")) {
+      objetivo = "grilla";
+    } else if (seccionesVisibles.has("recomendaciones")) {
+      objetivo = "recomendaciones";
+    }
+    for (const link of els.navLinks) {
+      link.classList.toggle("is-active", link.dataset.navTarget === objetivo);
+    }
+  };
+
+  const reanimarClase = (el, clase) => {
+    if (!el?.classList) return;
+    el.classList.remove(clase);
+    void el.offsetWidth;
+    el.classList.add(clase);
   };
 
   poblarSelectHoras(els.filtroHoraMin, true, "Sin mín.");
@@ -1159,6 +1248,12 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     if (els.pesoRango) {
       els.pesoRango.value = String(p.pesos.rangoHorario);
       if (els.valPesoRango) els.valPesoRango.textContent = String(p.pesos.rangoHorario);
+    }
+    if (els.pesoConcentracion) {
+      els.pesoConcentracion.value = String(p.pesos.concentracionDiaria);
+      if (els.valPesoConcentracion) {
+        els.valPesoConcentracion.textContent = String(p.pesos.concentracionDiaria);
+      }
     }
     if (els.prefMaxCombinaciones) {
       els.prefMaxCombinaciones.value = String(p.maxCombinacionesEvaluadas);
@@ -1291,6 +1386,9 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     sincronizarControlesPreferencias(estado);
 
     const esPorGrupo = modoCatalogo === "grupo";
+    if (els.catalogModeSwitch?.style) {
+      els.catalogModeSwitch.style.setProperty("--tab-index", esPorGrupo ? "0" : "1");
+    }
     if (els.btnAgruparGrupo) {
       els.btnAgruparGrupo.classList.toggle("is-active", esPorGrupo);
       els.btnAgruparGrupo.setAttribute("aria-pressed", String(esPorGrupo));
@@ -1306,28 +1404,79 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
         gruposAgrupados,
         estado,
         gruposExpandidos,
-        Boolean(estado.filtros.texto)
+        Boolean(estado.filtros.texto),
+        ultimoGrupoExpandido
       );
     } else {
       renderizarCatalogoMaterias(
         els.catalogoMaterias,
         materiasAgrupadas,
         estado,
-        materiasExpandidas
+        materiasExpandidas,
+        ultimaMateriaExpandida
       );
     }
+    ultimoGrupoExpandido = "";
+    ultimaMateriaExpandida = "";
+
+    const horarioActivo = obtenerHorarioActivo(estado);
+    const clavesColor = [
+      ...estado.materiasSeleccionadas,
+      ...(horarioActivo?.registros || []).map((r) => r.clv_materia),
+    ];
+    const mapaColoresGlobal = construirMapaColoresMaterias(clavesColor);
+
+    const seleccionadasActual = estado.materiasSeleccionadas || [];
+    const clavesNuevas = new Set(
+      seleccionadasActual.filter((c) => !ultimasSeleccionadas.has(c))
+    );
+    const cambioCantidad = seleccionadasActual.length !== ultimasSeleccionadas.size;
+    ultimasSeleccionadas = new Set(seleccionadasActual);
 
     renderizarMateriasSeleccionadas(
       els.listaSeleccionadas,
       els.contadorSeleccionadas,
       estado,
-      mapaNombres
+      mapaNombres,
+      clavesNuevas,
+      mapaColoresGlobal
     );
+
+    if (cambioCantidad) {
+      reanimarClase(els.contadorSeleccionadas, "is-bumped");
+      reanimarClase(els.badgeCtaCount, "is-bumped");
+    }
+
+    const totalSel = seleccionadasActual.length;
+    if (els.badgeCtaCount) {
+      els.badgeCtaCount.hidden = totalSel === 0;
+      els.badgeCtaCount.textContent = String(totalSel);
+    }
+    els.btnGenerarTop?.classList.toggle("is-ready", totalSel > 0);
+    els.btnGenerarMain?.classList.toggle("is-ready", totalSel > 0);
+
+    if (els.statusDotRecs) {
+      const tieneRecs = (estado.resultadoRecomendaciones?.recomendaciones || []).length > 0;
+      const tieneDiag = Boolean(estado.resultadoRecomendaciones?.diagnostico);
+      els.statusDotRecs.classList.toggle("is-ready", tieneRecs);
+      els.statusDotRecs.classList.toggle("is-warn", !tieneRecs && tieneDiag);
+    }
 
     renderizarDiagnostico(
       els.panelDiagnostico,
       estado.resultadoRecomendaciones?.diagnostico || null
     );
+
+    const recsLista = estado.resultadoRecomendaciones?.recomendaciones || [];
+    const firmaRecs = estado.resultadoRecomendaciones
+      ? `${recsLista.length}:${recsLista
+          .slice(0, limiteVisibleRecs)
+          .map((r) => r.id)
+          .join(",")}`
+      : "none";
+    const animarEntradaRecs =
+      firmaRecs !== ultimaFirmaRecs && Boolean(estado.resultadoRecomendaciones);
+    ultimaFirmaRecs = firmaRecs;
 
     renderizarRecomendaciones(
       els.gridRecomendaciones,
@@ -1335,7 +1484,11 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
       els.telemetryRecomendaciones,
       estado.resultadoRecomendaciones,
       estado.recomendacionActivaId,
-      limiteVisibleRecs
+      limiteVisibleRecs,
+      {
+        mapaColores: mapaColoresGlobal,
+        animarEntrada: animarEntradaRecs,
+      }
     );
 
     const esManual = modoVista === "manual";
@@ -1365,7 +1518,18 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
       }
     }
 
-    const horarioActivo = obtenerHorarioActivo(estado);
+    const firmaGrilla = `${modoVista}:${
+      horarioActivo
+        ? horarioActivo.id ||
+          (horarioActivo.registros || [])
+            .map((r) => r.id || `${r.clv_materia}:${r.grupo}`)
+            .join(",")
+        : "empty"
+    }`;
+    const animarBloques =
+      firmaGrilla !== ultimaFirmaGrilla && (horarioActivo?.registros?.length || 0) > 0;
+    ultimaFirmaGrilla = firmaGrilla;
+
     renderizarGrillaSemanal(
       {
         grillaEl: els.grillaSemanal,
@@ -1375,14 +1539,26 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
         leyendaImpresionEl: els.leyendaImpresion,
       },
       horarioActivo,
-      bloqueInspectorId
+      bloqueInspectorId,
+      {
+        mapaColores: mapaColoresGlobal,
+        animarBloques,
+      }
     );
 
     const regInspectado =
       horarioActivo?.registros?.find(
         (r) => (r.id || `${r.clv_materia}:${r.grupo}`) === registroInspectorId
       ) || null;
-    renderizarInspectorBloque(els.inspectorBloque, regInspectado);
+    const colorInspector = regInspectado
+      ? asignarColorMateria(regInspectado.clv_materia, mapaColoresGlobal)
+      : "";
+    renderizarInspectorBloque(els.inspectorBloque, regInspectado, colorInspector);
+    if (regInspectado && registroInspectorId !== ultimoInspectorRegistroId) {
+      reanimarClase(els.inspectorBloque, "is-entering");
+    }
+    ultimoInspectorRegistroId = regInspectado ? registroInspectorId : "";
+    actualizarNavActivo();
 
     if (els.footerDatasetInfo) {
       const m = estado.metadata;
@@ -1432,6 +1608,10 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     archivoActivo = archivo;
     bloqueInspectorId = "";
     registroInspectorId = "";
+    ultimoInspectorRegistroId = "";
+    ultimaFirmaRecs = "";
+    ultimaFirmaGrilla = "";
+    ultimasSeleccionadas = new Set();
     materiasExpandidas.clear();
     gruposExpandidos.clear();
     try {
@@ -1439,13 +1619,28 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     } catch {
       // Ignora si el almacenamiento local no está disponible
     }
-    await ctrl.cargarDatos(`${baseDataUrl}/${archivo}`);
-    ctrl.actualizarFiltros({ semestresGrupo: [] });
+    els.topbarProgress?.classList.add("is-loading");
+    renderizarSkeletonCatalogo(els.catalogoMaterias);
+    try {
+      const estadoNuevo = await ctrl.cargarDatos(`${baseDataUrl}/${archivo}`);
+      ctrl.actualizarFiltros({ semestresGrupo: [] });
+      const nombreCarr =
+        estadoNuevo.metadata?.nombre_carrera ||
+        datasetsDisponibles.find((d) => d.archivo === archivo)?.nombre_carrera ||
+        archivo;
+      mostrarToast(`Catálogo cargado: ${nombreCarr}`, "success");
+    } finally {
+      els.topbarProgress?.classList.remove("is-loading");
+    }
   });
 
   // Eventos: pestañas del configurador (01 MATERIAS / 02 FILTROS / 03 MOTOR)
   const cambiarTabPanel = (tab) => {
     tabPanelActivo = tab;
+    const indices = { materias: "0", filtros: "1", motor: "2" };
+    if (els.inspectorTabs?.style) {
+      els.inspectorTabs.style.setProperty("--tab-index", indices[tab] ?? "0");
+    }
     const mapa = [
       ["materias", els.tabPanelMaterias, els.vistaPanelMaterias],
       ["filtros", els.tabPanelFiltros, els.vistaPanelFiltros],
@@ -1455,7 +1650,12 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
       const activo = clave === tab;
       btn?.classList.toggle("is-active", activo);
       btn?.setAttribute("aria-selected", String(activo));
-      if (panel) panel.hidden = !activo;
+      if (panel) {
+        panel.hidden = !activo;
+        if (activo) {
+          reanimarClase(panel, "is-entering");
+        }
+      }
     }
   };
   for (const btn of [els.tabPanelMaterias, els.tabPanelFiltros, els.tabPanelMotor]) {
@@ -1555,6 +1755,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     ctrl.excluirProfesor(nombre);
     els.inputExcluirProf.value = "";
     recalcularRecomendaciones();
+    mostrarToast(`Docente excluido: ${nombre}`);
   };
   els.btnExcluirProf?.addEventListener("click", agregarExclusionProfesor);
   els.inputExcluirProf?.addEventListener("keydown", (e) => {
@@ -1570,6 +1771,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     ctrl.excluirGrupo(grupo);
     els.inputExcluirGrupo.value = "";
     recalcularRecomendaciones();
+    mostrarToast(`Grupo excluido: ${grupo}`);
   };
   els.btnExcluirGrupo?.addEventListener("click", agregarExclusionGrupo);
   els.inputExcluirGrupo?.addEventListener("keydown", (e) => {
@@ -1629,6 +1831,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
   enlazarSliderPeso(els.pesoDiasLibres, "diasLibres");
   enlazarSliderPeso(els.pesoHuecos, "huecos");
   enlazarSliderPeso(els.pesoRango, "rangoHorario");
+  enlazarSliderPeso(els.pesoConcentracion, "concentracionDiaria");
 
   els.prefMaxCombinaciones?.addEventListener("change", (e) => {
     ctrl.actualizarPreferencias({
@@ -1672,6 +1875,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
   els.btnLimpiarFiltros?.addEventListener("click", () => {
     ctrl.limpiarFiltros();
     recalcularRecomendaciones();
+    mostrarToast("Filtros restablecidos");
   });
 
   els.btnAgruparGrupo?.addEventListener("click", () => {
@@ -1693,6 +1897,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
         gruposExpandidos.delete(grp);
       } else {
         gruposExpandidos.add(grp);
+        ultimoGrupoExpandido = grp;
       }
       sincronizarVista();
       return;
@@ -1700,6 +1905,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
 
     const toggleGrupoBtn = e.target.closest("[data-toggle-grupo-completo]");
     if (toggleGrupoBtn) {
+      const grupoId = toggleGrupoBtn.dataset.toggleGrupoCompleto;
       const clavesGrupo = String(toggleGrupoBtn.dataset.claves || "")
         .split(",")
         .map((c) => c.trim())
@@ -1713,8 +1919,10 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
       if (todasElegidas) {
         const setGrupo = new Set(clavesGrupo);
         ctrl.seleccionarMaterias(actuales.filter((c) => !setGrupo.has(c)));
+        mostrarToast(`Grupo ${grupoId} quitado de la selección`);
       } else {
         ctrl.seleccionarMaterias([...actuales, ...clavesGrupo]);
+        mostrarToast(`Grupo ${grupoId} seleccionado (${clavesGrupo.length} materias)`, "success");
       }
       recalcularRecomendaciones();
       return;
@@ -1734,6 +1942,7 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
         materiasExpandidas.delete(clave);
       } else {
         materiasExpandidas.add(clave);
+        ultimaMateriaExpandida = clave;
       }
       sincronizarVista();
       return;
@@ -1741,15 +1950,19 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
 
     const exclProfBtn = e.target.closest("[data-excluir-profesor]");
     if (exclProfBtn) {
-      ctrl.excluirProfesor(exclProfBtn.dataset.excluirProfesor);
+      const prof = exclProfBtn.dataset.excluirProfesor;
+      ctrl.excluirProfesor(prof);
       recalcularRecomendaciones();
+      mostrarToast(`Docente excluido: ${prof}`);
       return;
     }
 
     const exclGrpBtn = e.target.closest("[data-excluir-grupo]");
     if (exclGrpBtn) {
-      ctrl.excluirGrupo(exclGrpBtn.dataset.excluirGrupo);
+      const grp = exclGrpBtn.dataset.excluirGrupo;
+      ctrl.excluirGrupo(grp);
       recalcularRecomendaciones();
+      mostrarToast(`Grupo excluido: ${grp}`);
       return;
     }
 
@@ -1787,7 +2000,53 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     ctrl.construirHorarioManual([]);
   });
 
+  // Barra lateral colapsable (escritorio y móvil)
+  const esVistaMovil = () =>
+    typeof globalThis.innerWidth === "number" && globalThis.innerWidth <= 1024;
+
+  const aplicarEstadoSidebar = () => {
+    const movil = esVistaMovil();
+    if (movil) {
+      els.appShell?.classList.remove("is-sidebar-collapsed");
+      const abiertoMovil = Boolean(els.panelInspector?.classList.contains("is-open"));
+      els.btnToggleSidebar?.setAttribute("aria-expanded", String(abiertoMovil));
+      if (els.labelToggleSidebar) {
+        els.labelToggleSidebar.textContent = abiertoMovil ? "OCULTAR PANEL" : "ABRIR PANEL";
+      }
+    } else {
+      els.panelInspector?.classList.remove("is-open");
+      els.appShell?.classList.toggle("is-sidebar-collapsed", sidebarColapsado);
+      els.btnToggleSidebar?.setAttribute("aria-expanded", String(!sidebarColapsado));
+      if (els.labelToggleSidebar) {
+        els.labelToggleSidebar.textContent = sidebarColapsado ? "ABRIR PANEL" : "OCULTAR PANEL";
+      }
+    }
+  };
+
+  const enfocarBusqueda = () => {
+    if (esVistaMovil()) {
+      els.panelInspector?.classList.add("is-open");
+    } else if (sidebarColapsado) {
+      sidebarColapsado = false;
+      try {
+        globalThis.localStorage?.setItem("horarios:sidebarColapsado", "0");
+      } catch {
+        // Ignora errores de almacenamiento
+      }
+    }
+    aplicarEstadoSidebar();
+    cambiarTabPanel("materias");
+    els.filtroTexto?.focus();
+  };
+
   const dispararGeneracionConScroll = () => {
+    const estadoActual = ctrl.obtenerEstado();
+    if (estadoActual.materiasSeleccionadas.length === 0) {
+      mostrarToast("Elige al menos una materia del panel izquierdo", "warning");
+      enfocarBusqueda();
+      return;
+    }
+    pulsarBarraProgreso();
     modoVista = "recomendado";
     recalcularRecomendaciones();
     els.seccionRecomendaciones?.scrollIntoView({ behavior: "smooth" });
@@ -1797,12 +2056,20 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
 
   // Eventos: recomendaciones y diagnóstico
   els.gridRecomendaciones?.addEventListener("click", (e) => {
+    if (e.target.closest('[data-action="enfocar-busqueda"]')) {
+      enfocarBusqueda();
+      return;
+    }
     const card = e.target.closest("[data-seleccionar-rec]");
     if (!card) return;
     modoVista = "recomendado";
     bloqueInspectorId = "";
     registroInspectorId = "";
     ctrl.seleccionarRecomendacion(card.dataset.seleccionarRec);
+    const idxEl = card.querySelector(".rec-index");
+    if (idxEl?.textContent) {
+      mostrarToast(`Vista actualizada: Opción #${idxEl.textContent.trim()}`);
+    }
   });
 
   els.btnVerMasRecs?.addEventListener("click", () => {
@@ -1819,12 +2086,14 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
         toleranciaSolapamientoMin: minutos,
       });
       recalcularRecomendaciones();
+      mostrarToast(`Tolerancia de solapamiento: ${minutos} min`, "warning");
       return;
     }
 
     if (e.target.closest('[data-action="limpiar-filtros-diag"]')) {
       ctrl.limpiarFiltros();
       recalcularRecomendaciones();
+      mostrarToast("Filtros restablecidos");
     }
   });
 
@@ -1859,13 +2128,47 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     ctrl.construirHorarioManual(restantes);
   });
 
-  // Eventos: inspector de bloques en la grilla
+  // Eventos: inspector de bloques y resaltado cruzado en la grilla
   els.grillaSemanal?.addEventListener("click", (e) => {
     const bloqueBtn = e.target.closest("[data-inspeccionar-bloque]");
     if (!bloqueBtn) return;
     bloqueInspectorId = bloqueBtn.dataset.inspeccionarBloque || "";
     registroInspectorId = bloqueBtn.dataset.registroId || "";
     sincronizarVista();
+  });
+
+  const limpiarHoverMateria = () => {
+    if (!els.grillaSemanal) return;
+    els.grillaSemanal.classList.remove("has-subject-hover");
+    for (const el of els.grillaSemanal.querySelectorAll(".class-block.is-same-subject")) {
+      el.classList.remove("is-same-subject");
+    }
+  };
+
+  els.grillaSemanal?.addEventListener("pointerover", (e) => {
+    const bloqueBtn = e.target.closest(".class-block");
+    if (!bloqueBtn || !els.grillaSemanal) return;
+    const clv = bloqueBtn.dataset.clvMateria;
+    if (!clv) return;
+    limpiarHoverMateria();
+    els.grillaSemanal.classList.add("has-subject-hover");
+    for (const el of els.grillaSemanal.querySelectorAll(".class-block")) {
+      if (el.dataset.clvMateria === clv) {
+        el.classList.add("is-same-subject");
+      }
+    }
+  });
+
+  els.grillaSemanal?.addEventListener("pointerout", (e) => {
+    const bloqueBtn = e.target.closest(".class-block");
+    if (!bloqueBtn) return;
+    const related = e.relatedTarget?.closest?.(".class-block");
+    if (related && related.dataset.clvMateria === bloqueBtn.dataset.clvMateria) {
+      return;
+    }
+    if (!related) {
+      limpiarHoverMateria();
+    }
   });
 
   els.inspectorBloque?.addEventListener("click", (e) => {
@@ -1878,19 +2181,23 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
 
     const exclProf = e.target.closest("[data-excluir-profesor]");
     if (exclProf) {
-      ctrl.excluirProfesor(exclProf.dataset.excluirProfesor);
+      const prof = exclProf.dataset.excluirProfesor;
+      ctrl.excluirProfesor(prof);
       bloqueInspectorId = "";
       registroInspectorId = "";
       recalcularRecomendaciones();
+      mostrarToast(`Docente excluido: ${prof}`);
       return;
     }
 
     const exclGrp = e.target.closest("[data-excluir-grupo]");
     if (exclGrp) {
-      ctrl.excluirGrupo(exclGrp.dataset.excluirGrupo);
+      const grp = exclGrp.dataset.excluirGrupo;
+      ctrl.excluirGrupo(grp);
       bloqueInspectorId = "";
       registroInspectorId = "";
       recalcularRecomendaciones();
+      mostrarToast(`Grupo excluido: ${grp}`);
     }
   });
 
@@ -1904,31 +2211,12 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
   els.btnExportarPng?.addEventListener("click", () => {
     const estado = ctrl.obtenerEstado();
     const horarioActivo = obtenerHorarioActivo(estado);
-    exportarHorarioPNG(horarioActivo, estado.metadata);
-  });
-
-  // Barra lateral colapsable (escritorio y móvil)
-  const esVistaMovil = () =>
-    typeof globalThis.innerWidth === "number" && globalThis.innerWidth <= 1024;
-
-  const aplicarEstadoSidebar = () => {
-    const movil = esVistaMovil();
-    if (movil) {
-      els.appShell?.classList.remove("is-sidebar-collapsed");
-      const abiertoMovil = Boolean(els.panelInspector?.classList.contains("is-open"));
-      els.btnToggleSidebar?.setAttribute("aria-expanded", String(abiertoMovil));
-      if (els.labelToggleSidebar) {
-        els.labelToggleSidebar.textContent = abiertoMovil ? "OCULTAR PANEL" : "ABRIR PANEL";
-      }
+    if (exportarHorarioPNG(horarioActivo, estado.metadata)) {
+      mostrarToast("Horario exportado como PNG", "success");
     } else {
-      els.panelInspector?.classList.remove("is-open");
-      els.appShell?.classList.toggle("is-sidebar-collapsed", sidebarColapsado);
-      els.btnToggleSidebar?.setAttribute("aria-expanded", String(!sidebarColapsado));
-      if (els.labelToggleSidebar) {
-        els.labelToggleSidebar.textContent = sidebarColapsado ? "ABRIR PANEL" : "OCULTAR PANEL";
-      }
+      mostrarToast("Selecciona un horario para exportar", "warning");
     }
-  };
+  });
 
   aplicarEstadoSidebar();
 
@@ -1965,9 +2253,38 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
 
   if (typeof globalThis.addEventListener === "function") {
     globalThis.addEventListener("resize", aplicarEstadoSidebar);
+    const actualizarScrollTopbar = () => {
+      if (els.topbar) {
+        els.topbar.classList.toggle("is-scrolled", (globalThis.scrollY || 0) > 8);
+      }
+    };
+    globalThis.addEventListener("scroll", actualizarScrollTopbar, { passive: true });
+    actualizarScrollTopbar();
+  }
+
+  if (typeof globalThis.IntersectionObserver === "function") {
+    const observer = new globalThis.IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          const clave =
+            entry.target === els.seccionRecomendaciones ? "recomendaciones" : "grilla";
+          if (entry.isIntersecting) {
+            seccionesVisibles.add(clave);
+          } else {
+            seccionesVisibles.delete(clave);
+          }
+        }
+        actualizarNavActivo();
+      },
+      { threshold: 0.25 }
+    );
+    if (els.seccionRecomendaciones) observer.observe(els.seccionRecomendaciones);
+    if (els.seccionGrilla) observer.observe(els.seccionGrilla);
   }
 
   // Carga inicial de índice de carreras (último semestre) y selección predeterminada
+  els.topbarProgress?.classList.add("is-loading");
+  renderizarSkeletonCatalogo(els.catalogoMaterias);
   try {
     const indice = await cargarIndiceDatasets();
     baseDataUrl = indice.baseUrl;
@@ -2004,6 +2321,8 @@ export async function iniciarAplicacionWeb(doc = globalThis.document) {
     if (els.catalogoMaterias) {
       els.catalogoMaterias.innerHTML = `<div class="rec-empty-cell">No se pudieron cargar los horarios (${err.message}). Sirve el proyecto desde un servidor estático (por ejemplo, <code>python -m http.server</code>).</div>`;
     }
+  } finally {
+    els.topbarProgress?.classList.remove("is-loading");
   }
 
   return ctrl;

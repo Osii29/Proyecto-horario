@@ -5,7 +5,9 @@ import test from "node:test";
 import { fileURLToPath } from "node:url";
 
 import {
+  PESOS_POR_DEFECTO,
   PRESETS_PREFERENCIAS,
+  calcularIndiceConcentracion,
   calcularMetricasHorario,
   calcularPuntaje,
   calcularSolapamientoBloques,
@@ -427,4 +429,348 @@ test("ordenamiento por preferencias y Branch-and-Bound encuentran horario vesper
   assert.ok(top.puntaje > 100, `Se esperaba puntaje vespertino óptimo > 100, obtenido: ${top.puntaje}`);
   assert.equal(top.metricas.minutosFueraRango, 0);
   assert.ok(res.estadisticas.tiempoMs < 1000);
+});
+
+test("calcularIndiceConcentracion y calcularMetricasHorario miden concentración y evitan inversiones 2 vs 3 días", () => {
+  assert.equal(calcularIndiceConcentracion([]), 0);
+  assert.equal(calcularIndiceConcentracion([0, 0, 0, 0, 0, 0]), 0);
+
+  // 1) A igualdad de densidad diaria, menos días siempre gana (2 días > 3 días)
+  assert.ok(calcularIndiceConcentracion([4, 4]) > calcularIndiceConcentracion([4, 4, 4]));
+  assert.ok(calcularIndiceConcentracion([3, 3]) > calcularIndiceConcentracion([3, 3, 3]));
+  assert.ok(calcularIndiceConcentracion([5, 5]) > calcularIndiceConcentracion([5, 5, 5]));
+  assert.ok(calcularIndiceConcentracion([4, 2]) > calcularIndiceConcentracion([3, 3, 3]));
+
+  // 2) Mayor densidad promedio por día gana
+  assert.ok(calcularIndiceConcentracion([5, 5]) > calcularIndiceConcentracion([4, 4]));
+  assert.ok(calcularIndiceConcentracion([4, 4]) > calcularIndiceConcentracion([3, 3]));
+  assert.ok(calcularIndiceConcentracion([4, 4, 4]) > calcularIndiceConcentracion([3, 3, 3, 3]));
+
+  // 3) Evitar días sueltos de 1 o 2 clases gana frente a tenerlos
+  assert.ok(calcularIndiceConcentracion([3, 3, 3, 3]) > calcularIndiceConcentracion([5, 5, 1, 1]));
+  assert.ok(calcularIndiceConcentracion([3, 3, 3, 1]) > calcularIndiceConcentracion([4, 2, 2, 2]));
+  assert.ok(calcularIndiceConcentracion([4, 3, 3]) > calcularIndiceConcentracion([5, 4, 1]));
+
+  // Dos bloques de la misma materia el mismo día (LU) deben contar como 1 clase en ese día
+  const mDobleMismoDia = crearRegistro({
+    clv: "M1",
+    grupo: "1",
+    bloques: [
+      ["LU", 420, 480],
+      ["LU", 540, 600],
+      ["MA", 420, 480],
+    ],
+  });
+  const m2 = crearRegistro({
+    clv: "M2",
+    grupo: "1",
+    bloques: [
+      ["LU", 600, 660],
+      ["MA", 480, 540],
+      ["MI", 420, 480],
+    ],
+  });
+  const m3 = crearRegistro({
+    clv: "M3",
+    grupo: "1",
+    bloques: [["LU", 660, 720]],
+  });
+
+  const metricas = calcularMetricasHorario([mDobleMismoDia, m2, m3]);
+  assert.deepEqual(metricas.clasesPorDia, {
+    LU: 3,
+    MA: 2,
+    MI: 1,
+    JU: 0,
+    VI: 0,
+    SA: 0,
+  });
+  assert.equal(metricas.diasConClase, 3);
+  assert.equal(metricas.diasConPocasClases, 2); // MA (2) y MI (1)
+  assert.equal(metricas.diasConUnaClase, 1); // MI (1)
+  assert.equal(metricas.diasConDosClases, 1); // MA (2)
+  assert.equal(metricas.diasConcentrados, 1); // LU (3)
+  assert.equal(metricas.maxClasesEnUnDia, 3);
+  assert.equal(metricas.promedioClasesPorDiaActivo, 2);
+  // 6/3 + (3 - 3) - 1.5*1 - 0.75*1 = 2 + 0 - 1.5 - 0.75 = -0.25
+  assert.equal(metricas.indiceConcentracion, -0.25);
+});
+
+test("concentracionDiaria prefiere 2 días sobre 3 días, evita 1-2 clases/día y mantiene poda BnB exacta", () => {
+  // Regresión del bug reportado: 4 materias donde cada una tiene opción de 2 días (MA/JU) o 3 días (LU/MI/VI).
+  // Incluso con diasLibres=0 y concentracionDiaria alto (50), siempre debe preferirse 2 días [0,4,0,4,0,0] sobre 3 días [4,0,4,0,4,0].
+  const mat2vs3 = [0, 1, 2, 3].map((idx) => {
+    const ini = 420 + idx * 60;
+    const fin = ini + 60;
+    const clv = `C${idx}`;
+    return {
+      clave: clv,
+      opciones: [
+        crearRegistro({
+          clv,
+          grupo: "3DIAS",
+          bloques: [
+            ["LU", ini, fin],
+            ["MI", ini, fin],
+            ["VI", ini, fin],
+          ],
+        }),
+        crearRegistro({
+          clv,
+          grupo: "2DIAS",
+          bloques: [
+            ["MA", ini, fin],
+            ["JU", ini, fin],
+          ],
+        }),
+      ],
+    };
+  });
+
+  for (const wConc of [0, 8, 25, 50]) {
+    const res = generarRecomendaciones(mat2vs3, {
+      pesos: { ...PESOS_POR_DEFECTO, diasLibres: 0, concentracionDiaria: wConc },
+      limiteResultados: 5,
+    });
+    assert.equal(res.recomendaciones[0].metricas.diasConClase, 2);
+    assert.deepEqual(res.recomendaciones[0].metricas.clasesPorDia, {
+      LU: 0,
+      MA: 4,
+      MI: 0,
+      JU: 4,
+      VI: 0,
+      SA: 0,
+    });
+  }
+
+  // Compara [3,3,3,1] (índice 0.0) vs [4,2,2,2] (índice -0.75) con iguales díasLibres=2, huecos=0 y fueraRango=0
+  const materias = [
+    { clave: "L1", opciones: [crearRegistro({ clv: "L1", grupo: "1", bloques: [["LU", 420, 480]] })] },
+    { clave: "L2", opciones: [crearRegistro({ clv: "L2", grupo: "1", bloques: [["LU", 480, 540]] })] },
+    { clave: "L3", opciones: [crearRegistro({ clv: "L3", grupo: "1", bloques: [["LU", 540, 600]] })] },
+    { clave: "M1", opciones: [crearRegistro({ clv: "M1", grupo: "1", bloques: [["MA", 420, 480]] })] },
+    { clave: "M2", opciones: [crearRegistro({ clv: "M2", grupo: "1", bloques: [["MA", 480, 540]] })] },
+    { clave: "X1", opciones: [crearRegistro({ clv: "X1", grupo: "1", bloques: [["MI", 420, 480]] })] },
+    { clave: "X2", opciones: [crearRegistro({ clv: "X2", grupo: "1", bloques: [["MI", 480, 540]] })] },
+    { clave: "J1", opciones: [crearRegistro({ clv: "J1", grupo: "1", bloques: [["JU", 420, 480]] })] },
+    {
+      clave: "V1",
+      opciones: [
+        crearRegistro({
+          clv: "V1",
+          grupo: "FRAG",
+          bloques: [
+            ["LU", 600, 660], // LU -> 4
+            ["JU", 480, 540], // JU -> 2  => [4,2,2,2]
+          ],
+        }),
+        crearRegistro({
+          clv: "V1",
+          grupo: "CONC",
+          bloques: [
+            ["MA", 540, 600], // MA -> 3
+            ["MI", 540, 600], // MI -> 3  => [3,3,3,1]
+          ],
+        }),
+      ],
+    },
+  ];
+
+  const conConcentracion = generarRecomendaciones(materias, {
+    ...PRESETS_PREFERENCIAS.masDiasLibres,
+  });
+  assert.equal(conConcentracion.recomendaciones.length, 2);
+  const mejor = conConcentracion.recomendaciones[0];
+  const peor = conConcentracion.recomendaciones[1];
+  assert.equal(mejor.registros[8].grupo, "CONC");
+  assert.equal(peor.registros[8].grupo, "FRAG");
+  assert.equal(mejor.metricas.indiceConcentracion, 0);
+  assert.equal(peor.metricas.indiceConcentracion, -0.75);
+  assert.equal(mejor.puntaje - peor.puntaje, 18.75); // (0 - (-0.75)) * 25
+
+  // Con peso concentracionDiaria = 0 se desactiva la diferencia
+  const desactivado = generarRecomendaciones(materias, {
+    pesos: {
+      diasLibres: 20,
+      huecos: 10,
+      rangoHorario: 10,
+      concentracionDiaria: 0,
+      solapamiento: 2,
+    },
+  });
+  assert.equal(
+    desactivado.recomendaciones[0].puntaje,
+    desactivado.recomendaciones[1].puntaje
+  );
+
+  // Verifica exactitud de poda Branch-and-Bound frente a búsqueda exhaustiva en todos los presets
+  const multi = [
+    {
+      clave: "A",
+      opciones: [
+        crearRegistro({ clv: "A", grupo: "1", bloques: [["LU", 420, 480], ["MI", 420, 480]] }),
+        crearRegistro({ clv: "A", grupo: "2", bloques: [["LU", 420, 480], ["MA", 420, 480]] }),
+        crearRegistro({ clv: "A", grupo: "3", bloques: [["VI", 900, 960], ["SA", 900, 960]] }),
+      ],
+    },
+    {
+      clave: "B",
+      opciones: [
+        crearRegistro({ clv: "B", grupo: "1", bloques: [["LU", 480, 540], ["MA", 480, 540]] }),
+        crearRegistro({ clv: "B", grupo: "2", bloques: [["JU", 480, 540], ["VI", 480, 540]] }),
+        crearRegistro({ clv: "B", grupo: "3", bloques: [["MI", 960, 1020], ["JU", 960, 1020]] }),
+      ],
+    },
+    {
+      clave: "C",
+      opciones: [
+        crearRegistro({ clv: "C", grupo: "1", bloques: [["LU", 540, 600], ["MA", 540, 600]] }),
+        crearRegistro({ clv: "C", grupo: "2", bloques: [["MI", 540, 600], ["VI", 540, 600]] }),
+        crearRegistro({ clv: "C", grupo: "3", bloques: [["JU", 1020, 1080], ["SA", 1020, 1080]] }),
+      ],
+    },
+    {
+      clave: "D",
+      opciones: [
+        crearRegistro({ clv: "D", grupo: "1", bloques: [["LU", 600, 660], ["MA", 600, 660]] }),
+        crearRegistro({ clv: "D", grupo: "2", bloques: [["MI", 600, 660]] }),
+        crearRegistro({ clv: "D", grupo: "3", bloques: [["VI", 1080, 1140], ["SA", 1080, 1140]] }),
+      ],
+    },
+  ];
+
+  for (const preset of [
+    ...Object.values(PRESETS_PREFERENCIAS),
+    { pesos: { ...PESOS_POR_DEFECTO, concentracionDiaria: 50 } },
+  ]) {
+    const top2 = generarRecomendaciones(multi, { ...preset, limiteResultados: 2 });
+    const exhaustivo = generarRecomendaciones(multi, { ...preset, limiteResultados: 1000 });
+    assert.deepEqual(
+      top2.recomendaciones.map((r) => [r.id, r.puntaje]),
+      exhaustivo.recomendaciones.slice(0, 2).map((r) => [r.id, r.puntaje])
+    );
+  }
+});
+
+test("todos los parámetros del motor (pesos, turno ideal, tolerancia, días y límite) funcionan correctamente", () => {
+  // 1. peso diasLibres vs 0
+  const mDias = [
+    {
+      clave: "D1",
+      opciones: [
+        crearRegistro({ clv: "D1", grupo: "LIBRE", bloques: [["LU", 420, 480]] }),
+        crearRegistro({ clv: "D1", grupo: "EXTRA", bloques: [["MA", 420, 480]] }),
+      ],
+    },
+    {
+      clave: "D2",
+      opciones: [crearRegistro({ clv: "D2", grupo: "BASE", bloques: [["LU", 480, 540]] })],
+    },
+  ];
+  const prefLibres = generarRecomendaciones(mDias, {
+    pesos: { diasLibres: 30, huecos: 0, rangoHorario: 0, concentracionDiaria: 0, solapamiento: 0 },
+  });
+  assert.equal(prefLibres.recomendaciones[0].registros[0].grupo, "LIBRE");
+  const sinDiasLibres = generarRecomendaciones(mDias, {
+    pesos: { diasLibres: 0, huecos: 0, rangoHorario: 0, concentracionDiaria: 0, solapamiento: 0 },
+  });
+  assert.equal(sinDiasLibres.recomendaciones[0].puntaje, sinDiasLibres.recomendaciones[1].puntaje);
+
+  // 2. peso huecos vs 0
+  const mHuecos = [
+    {
+      clave: "H1",
+      opciones: [crearRegistro({ clv: "H1", grupo: "BASE", bloques: [["LU", 420, 480]] })],
+    },
+    {
+      clave: "H2",
+      opciones: [
+        crearRegistro({ clv: "H2", grupo: "CON_HUECO", bloques: [["LU", 600, 660]] }), // 120m hueco
+        crearRegistro({ clv: "H2", grupo: "SIN_HUECO", bloques: [["LU", 480, 540]] }), // 0m hueco
+      ],
+    },
+  ];
+  const prefHuecos = generarRecomendaciones(mHuecos, {
+    pesos: { diasLibres: 0, huecos: 20, rangoHorario: 0, concentracionDiaria: 0, solapamiento: 0 },
+  });
+  assert.equal(prefHuecos.recomendaciones[0].registros[1].grupo, "SIN_HUECO");
+  assert.equal(prefHuecos.recomendaciones[0].puntaje - prefHuecos.recomendaciones[1].puntaje, 40);
+  const sinHuecosPeso = generarRecomendaciones(mHuecos, {
+    pesos: { diasLibres: 0, huecos: 0, rangoHorario: 0, concentracionDiaria: 0, solapamiento: 0 },
+  });
+  assert.equal(sinHuecosPeso.recomendaciones[0].puntaje, sinHuecosPeso.recomendaciones[1].puntaje);
+
+  // 3. rangoHorario + horaIdealInicioMin / horaIdealFinMin
+  const mTurno = [
+    {
+      clave: "T1",
+      opciones: [
+        crearRegistro({ clv: "T1", grupo: "MAT", bloques: [["LU", 420, 540]] }), // 07-09
+        crearRegistro({ clv: "T1", grupo: "VES", bloques: [["LU", 960, 1080]] }), // 16-18
+      ],
+    },
+  ];
+  const mat = generarRecomendaciones(mTurno, {
+    horaIdealInicioMin: 420,
+    horaIdealFinMin: 900,
+    pesos: { diasLibres: 0, huecos: 0, rangoHorario: 25, concentracionDiaria: 0, solapamiento: 0 },
+  });
+  assert.equal(mat.recomendaciones[0].registros[0].grupo, "MAT");
+  const ves = generarRecomendaciones(mTurno, {
+    horaIdealInicioMin: 840,
+    horaIdealFinMin: 1320,
+    pesos: { diasLibres: 0, huecos: 0, rangoHorario: 25, concentracionDiaria: 0, solapamiento: 0 },
+  });
+  assert.equal(ves.recomendaciones[0].registros[0].grupo, "VES");
+
+  // 4. diasConsiderados restringe qué días cuentan como libres y para huecos
+  const rSoloLuMa = generarRecomendaciones(
+    [{ clave: "X", opciones: [crearRegistro({ clv: "X", grupo: "1", bloques: [["LU", 420, 480]] })] }],
+    { diasConsiderados: ["LU", "MA"] }
+  );
+  assert.equal(rSoloLuMa.recomendaciones[0].metricas.diasLibres, 1);
+
+  // 5. maxCombinacionesEvaluadas acota combinaciones y marca limiteAlcanzado
+  const muchas = [0, 1, 2, 3].map((i) => ({
+    clave: `M${i}`,
+    opciones: [0, 1, 2].map((g) =>
+      crearRegistro({
+        clv: `M${i}`,
+        grupo: `G${g}`,
+        bloques: [["LU", 420 + i * 60, 480 + i * 60]],
+      })
+    ),
+  }));
+  const acotado = generarRecomendaciones(muchas, { maxCombinacionesEvaluadas: 5 });
+  assert.equal(acotado.estadisticas.limiteAlcanzado, true);
+  assert.equal(acotado.estadisticas.combinacionesEvaluadas, 5);
+});
+
+test("regresión real en data/sem_35_carr_12.json grupo 1307: aumentar concentracionDiaria no invierte 2 días a 3 días", (t) => {
+  const ruta = path.join(ROOT_DIR, "data", "sem_35_carr_12.json");
+  if (!fs.existsSync(ruta)) {
+    t.skip("data/sem_35_carr_12.json aún no existe.");
+    return;
+  }
+  const ds = JSON.parse(fs.readFileSync(ruta, "utf-8"));
+  const g1307 = ds.horarios.filter((r) => r.grupo === "1307").slice(0, 4);
+  if (g1307.length < 4) {
+    t.skip("Grupo 1307 insuficiente.");
+    return;
+  }
+  const entrada = g1307.map((r) => ({
+    clave: r.clv_materia,
+    materia: r.materia,
+    opciones: ds.horarios.filter((o) => o.clv_materia === r.clv_materia),
+  }));
+  const r0 = generarRecomendaciones(entrada, {
+    pesos: { ...PESOS_POR_DEFECTO, concentracionDiaria: 0 },
+    limiteResultados: 5,
+  });
+  const r50 = generarRecomendaciones(entrada, {
+    pesos: { ...PESOS_POR_DEFECTO, concentracionDiaria: 50 },
+    limiteResultados: 5,
+  });
+  assert.equal(r0.recomendaciones[0].metricas.diasConClase, 2);
+  assert.equal(r50.recomendaciones[0].metricas.diasConClase, 2);
 });

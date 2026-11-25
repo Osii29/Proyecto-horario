@@ -12,6 +12,7 @@ export const PESOS_POR_DEFECTO = Object.freeze({
   diasLibres: 20,
   huecos: 10,
   rangoHorario: 10,
+  concentracionDiaria: 8,
   solapamiento: 2,
 });
 
@@ -25,13 +26,14 @@ export const PRESETS_PREFERENCIAS = Object.freeze({
   }),
   masDiasLibres: Object.freeze({
     id: "masDiasLibres",
-    nombre: "Más días libres",
+    nombre: "Más días libres y concentrados",
     horaIdealInicioMin: 420,
     horaIdealFinMin: 1320,
     pesos: Object.freeze({
       diasLibres: 40,
       huecos: 8,
       rangoHorario: 5,
+      concentracionDiaria: 25,
       solapamiento: 2,
     }),
   }),
@@ -44,6 +46,7 @@ export const PRESETS_PREFERENCIAS = Object.freeze({
       diasLibres: 12,
       huecos: 30,
       rangoHorario: 8,
+      concentracionDiaria: 6,
       solapamiento: 2,
     }),
   }),
@@ -56,6 +59,7 @@ export const PRESETS_PREFERENCIAS = Object.freeze({
       diasLibres: 15,
       huecos: 10,
       rangoHorario: 25,
+      concentracionDiaria: 3,
       solapamiento: 2,
     }),
   }),
@@ -68,6 +72,7 @@ export const PRESETS_PREFERENCIAS = Object.freeze({
       diasLibres: 15,
       huecos: 10,
       rangoHorario: 25,
+      concentracionDiaria: 3,
       solapamiento: 2,
     }),
   }),
@@ -349,6 +354,45 @@ function contarBits(mascara) {
 }
 
 /**
+ * Calcula un índice semanal de concentración diaria que:
+ * - Premia mayor promedio de materias por día activo (`totalSesiones / diasConClase`).
+ * - Premia usar menos días totales (`3 - diasConClase`), garantizando que 2 días siempre
+ *   superen a 3 días a igualdad o mejor carga diaria (p. ej. [4,4] > [4,4,4]).
+ * - Penaliza cada día suelto con 1 clase (-1.5) o 2 clases (-0.75).
+ */
+export function calcularIndiceConcentracion(conteosPorDia = []) {
+  let diasConClase = 0;
+  let totalSesiones = 0;
+  let diasConUnaClase = 0;
+  let diasConDosClases = 0;
+
+  for (let i = 0; i < conteosPorDia.length; i += 1) {
+    const c = Number(conteosPorDia[i]) || 0;
+    if (c <= 0) {
+      continue;
+    }
+    diasConClase += 1;
+    totalSesiones += c;
+    if (c === 1) {
+      diasConUnaClase += 1;
+    } else if (c === 2) {
+      diasConDosClases += 1;
+    }
+  }
+
+  if (diasConClase === 0) {
+    return 0;
+  }
+
+  return redondear2(
+    totalSesiones / diasConClase +
+      (3 - diasConClase) -
+      1.5 * diasConUnaClase -
+      0.75 * diasConDosClases
+  );
+}
+
+/**
  * Calcula las métricas semanales de un horario completo (RF-REC-03).
  *
  * Para evitar huecos negativos o distorsionados cuando existen solapamientos,
@@ -363,15 +407,18 @@ export function calcularMetricasHorario(registros = [], opciones = {}) {
       : DIAS_SEMANA;
 
   const bloquesPorDia = new Map(diasConsiderados.map((dia) => [dia, []]));
+  const materiasPorDia = new Map(diasConsiderados.map((dia) => [dia, 0]));
   let totalMinutosClase = 0;
   let minutosFueraRango = 0;
   let horaPrimeraClaseMin = null;
   let horaUltimaClaseMin = null;
 
   for (const registro of lista) {
+    const diasRegistro = new Set();
     for (const bloque of obtenerBloquesValidos(registro)) {
       if (bloquesPorDia.has(bloque.dia)) {
         bloquesPorDia.get(bloque.dia).push(bloque);
+        diasRegistro.add(bloque.dia);
       }
 
       const duracion = bloque.fin_min - bloque.inicio_min;
@@ -391,15 +438,29 @@ export function calcularMetricasHorario(registros = [], opciones = {}) {
       );
       minutosFueraRango += duracion - dentroRango;
     }
+
+    for (const diaReg of diasRegistro) {
+      materiasPorDia.set(diaReg, (materiasPorDia.get(diaReg) || 0) + 1);
+    }
   }
 
   let diasConClase = 0;
   let diasLibres = 0;
   let totalHuecosMin = 0;
+  let diasConPocasClases = 0;
+  let diasConUnaClase = 0;
+  let diasConDosClases = 0;
+  let diasConcentrados = 0;
+  let maxClasesEnUnDia = 0;
+  let totalSesionesDia = 0;
   const listaDiasLibres = [];
+  const clasesPorDia = {};
 
   for (const dia of diasConsiderados) {
     const bloquesDia = bloquesPorDia.get(dia) || [];
+    const clasesDia = materiasPorDia.get(dia) || 0;
+    clasesPorDia[dia] = clasesDia;
+
     if (bloquesDia.length === 0) {
       diasLibres += 1;
       listaDiasLibres.push(dia);
@@ -408,7 +469,28 @@ export function calcularMetricasHorario(registros = [], opciones = {}) {
 
     diasConClase += 1;
     totalHuecosMin += calcularHuecosDia(bloquesDia);
+    totalSesionesDia += clasesDia;
+    if (clasesDia <= 2) {
+      diasConPocasClases += 1;
+    }
+    if (clasesDia === 1) {
+      diasConUnaClase += 1;
+    } else if (clasesDia === 2) {
+      diasConDosClases += 1;
+    }
+    if (clasesDia >= 3) {
+      diasConcentrados += 1;
+    }
+    if (clasesDia > maxClasesEnUnDia) {
+      maxClasesEnUnDia = clasesDia;
+    }
   }
+
+  const promedioClasesPorDiaActivo =
+    diasConClase > 0 ? redondear2(totalSesionesDia / diasConClase) : 0;
+  const indiceConcentracion = calcularIndiceConcentracion(
+    diasConsiderados.map((d) => clasesPorDia[d])
+  );
 
   const resumenSolapamientos =
     opciones.resumenSolapamientos || detectarSolapamientosHorario(lista);
@@ -417,6 +499,14 @@ export function calcularMetricasHorario(registros = [], opciones = {}) {
     diasConClase,
     diasLibres,
     listaDiasLibres,
+    clasesPorDia,
+    diasConPocasClases,
+    diasConUnaClase,
+    diasConDosClases,
+    diasConcentrados,
+    maxClasesEnUnDia,
+    promedioClasesPorDiaActivo,
+    indiceConcentracion,
     totalHuecosMin,
     minutosFueraRango,
     totalMinutosClase,
@@ -442,6 +532,9 @@ export function calcularPuntaje(metricas, pesos = PESOS_POR_DEFECTO) {
     rangoHorario: Number.isFinite(Number(pesos?.rangoHorario))
       ? Number(pesos.rangoHorario)
       : PESOS_POR_DEFECTO.rangoHorario,
+    concentracionDiaria: Number.isFinite(Number(pesos?.concentracionDiaria))
+      ? Number(pesos.concentracionDiaria)
+      : PESOS_POR_DEFECTO.concentracionDiaria,
     solapamiento: Number.isFinite(Number(pesos?.solapamiento))
       ? Number(pesos.solapamiento)
       : PESOS_POR_DEFECTO.solapamiento,
@@ -451,12 +544,17 @@ export function calcularPuntaje(metricas, pesos = PESOS_POR_DEFECTO) {
   const bonoDiasLibres = metricas.diasLibres * w.diasLibres;
   const penalizacionHuecos = (metricas.totalHuecosMin / 60) * w.huecos;
   const penalizacionRango = (metricas.minutosFueraRango / 60) * w.rangoHorario;
+  const indiceConcentracion = Number.isFinite(Number(metricas?.indiceConcentracion))
+    ? Number(metricas.indiceConcentracion)
+    : 0;
+  const ajusteConcentracion = indiceConcentracion * w.concentracionDiaria;
   const penalizacionSolapamiento =
     metricas.totalMinutosSolapamiento * w.solapamiento;
 
   const puntaje = redondear2(
     base +
-      bonoDiasLibres -
+      bonoDiasLibres +
+      ajusteConcentracion -
       penalizacionHuecos -
       penalizacionRango -
       penalizacionSolapamiento
@@ -467,6 +565,7 @@ export function calcularPuntaje(metricas, pesos = PESOS_POR_DEFECTO) {
     desglose: {
       base,
       diasLibres: redondear2(bonoDiasLibres),
+      concentracionDiaria: redondear2(ajusteConcentracion),
       huecos: redondear2(-penalizacionHuecos),
       rangoHorario: redondear2(-penalizacionRango),
       solapamiento: redondear2(-penalizacionSolapamiento),
@@ -543,6 +642,11 @@ export function compararRecomendaciones(a, b) {
   }
   if (a.metricas.minutosFueraRango !== b.metricas.minutosFueraRango) {
     return a.metricas.minutosFueraRango - b.metricas.minutosFueraRango;
+  }
+  const concA = a.metricas.indiceConcentracion ?? 0;
+  const concB = b.metricas.indiceConcentracion ?? 0;
+  if (concB !== concA) {
+    return concB - concA;
   }
   const firmaA = a._firma ?? construirFirmaRegistros(a.registros);
   const firmaB = b._firma ?? construirFirmaRegistros(b.registros);
@@ -847,6 +951,9 @@ export function generarRecomendaciones(
     rangoHorario: Number.isFinite(Number(rawPesos?.rangoHorario))
       ? Number(rawPesos.rangoHorario)
       : PESOS_POR_DEFECTO.rangoHorario,
+    concentracionDiaria: Number.isFinite(Number(rawPesos?.concentracionDiaria))
+      ? Number(rawPesos.concentracionDiaria)
+      : PESOS_POR_DEFECTO.concentracionDiaria,
     solapamiento: Number.isFinite(Number(rawPesos?.solapamiento))
       ? Number(rawPesos.solapamiento)
       : PESOS_POR_DEFECTO.solapamiento,
@@ -925,7 +1032,8 @@ export function generarRecomendaciones(
       const costoOrden =
         (fueraRangoMin / 60) * Math.max(0, pesos.rangoHorario) +
         (huecosPropiosMin / 60) * Math.max(0, pesos.huecos) +
-        contarBits(diasMask) * Math.max(0, pesos.diasLibres) * 0.25;
+        contarBits(diasMask) * Math.max(0, pesos.diasLibres) * 0.25 +
+        contarBits(diasMask) * Math.max(0, pesos.concentracionDiaria) * 0.2;
 
       const firma = registro.id || `${registro.clv_materia || ""}:${registro.grupo || ""}`;
 
@@ -976,10 +1084,26 @@ export function generarRecomendaciones(
     pesos.diasLibres >= 0 &&
     pesos.huecos >= 0 &&
     pesos.rangoHorario >= 0 &&
+    pesos.concentracionDiaria >= 0 &&
     pesos.solapamiento >= 0;
 
   const n = ordenadas.length;
+  // Máximo de materias adicionales que pueden caer en cada día a partir de `nivel`
+  const restantesPorDia = Array.from({ length: n + 1 }, () => new Int32Array(numDias));
+  for (let nivel = n - 1; nivel >= 0; nivel -= 1) {
+    let unionMaskNivel = 0;
+    const optsNivel = ordenadas[nivel].opcionesInfo;
+    for (let j = 0; j < optsNivel.length; j += 1) {
+      unionMaskNivel |= optsNivel[j].diasMask;
+    }
+    for (let d = 0; d < numDias; d += 1) {
+      restantesPorDia[nivel][d] =
+        restantesPorDia[nivel + 1][d] + ((unionMaskNivel & (1 << d)) !== 0 ? 1 : 0);
+    }
+  }
+
   const seleccionIndices = new Array(n);
+  const clasesPorDiaAcum = new Int32Array(numDias);
   const topResultados = [];
   let combinacionesEvaluadas = 0;
   let combinacionesValidas = 0;
@@ -1017,15 +1141,19 @@ export function generarRecomendaciones(
         }
       }
 
+      const indiceConcentracion = calcularIndiceConcentracion(clasesPorDiaAcum);
+
       const metricasParciales = {
         diasLibres,
+        indiceConcentracion,
         totalHuecosMin,
         minutosFueraRango: fueraRangoAcum,
         totalMinutosSolapamiento: solapamientoAcumulado,
       };
       const puntajeRapido = redondear2(
         100 +
-          diasLibres * pesos.diasLibres -
+          diasLibres * pesos.diasLibres +
+          indiceConcentracion * pesos.concentracionDiaria -
           (totalHuecosMin / 60) * pesos.huecos -
           (fueraRangoAcum / 60) * pesos.rangoHorario -
           solapamientoAcumulado * pesos.solapamiento
@@ -1091,23 +1219,67 @@ export function generarRecomendaciones(
       const nuevoDiasMask = diasMaskAcum | infoOpt.diasMask;
       const nuevoFueraRango = fueraRangoAcum + infoOpt.fueraRangoMin;
 
-      // Poda exacta Branch-and-Bound: la cota superior nunca supera el peor puntaje del Top-K
+      // Poda exacta Branch-and-Bound combinando días libres y concentración diaria máxima posible
       if (puedePodarPorCota && topResultados.length >= limiteResultados) {
-        const maxDiasLibres = numDias - contarBits(nuevoDiasMask);
+        const remNivel = restantesPorDia[nivel + 1];
+        let diasActivosMin = 0;
+        let maxC = 0;
+        let sumMaxC = 0;
+        let minPenalizacionPocas = 0;
+        for (let d = 0; d < numDias; d += 1) {
+          const cActual =
+            clasesPorDiaAcum[d] + ((infoOpt.diasMask & (1 << d)) !== 0 ? 1 : 0);
+          const cMax = cActual + remNivel[d];
+          if (cMax > maxC) {
+            maxC = cMax;
+          }
+          sumMaxC += cMax;
+          if (cActual > 0) {
+            diasActivosMin += 1;
+            if (cMax === 1) {
+              minPenalizacionPocas += 1.5;
+            } else if (cMax === 2) {
+              minPenalizacionPocas += 0.75;
+            }
+          }
+        }
+        const maxDiasLibres = numDias - diasActivosMin;
+        let maxIndiceConcentracion = 0;
+        if (sumMaxC > 0) {
+          if (diasActivosMin === 0) {
+            maxIndiceConcentracion = Math.max(0, maxC + 2);
+          } else {
+            const maxPromedio = Math.min(maxC, sumMaxC / diasActivosMin);
+            maxIndiceConcentracion =
+              maxPromedio + (3 - diasActivosMin) - minPenalizacionPocas;
+          }
+        }
         const cotaSuperior =
           100 +
-          maxDiasLibres * pesos.diasLibres -
+          maxDiasLibres * pesos.diasLibres +
+          maxIndiceConcentracion * pesos.concentracionDiaria -
           (nuevoFueraRango / 60) * pesos.rangoHorario -
           nuevoSolap * pesos.solapamiento;
+        const margenRedondeo = 0.01 + 0.005 * pesos.concentracionDiaria;
         const peorTop = topResultados[topResultados.length - 1].puntaje;
-        if (cotaSuperior + 0.005 < peorTop) {
+        if (cotaSuperior + margenRedondeo < peorTop) {
           podasPorCota += 1;
           continue;
         }
       }
 
+      for (let d = 0; d < numDias; d += 1) {
+        if ((infoOpt.diasMask & (1 << d)) !== 0) {
+          clasesPorDiaAcum[d] += 1;
+        }
+      }
       seleccionIndices[nivel] = idxOpt;
       backtrack(nivel + 1, nuevoSolap, nuevoDiasMask, nuevoFueraRango);
+      for (let d = 0; d < numDias; d += 1) {
+        if ((infoOpt.diasMask & (1 << d)) !== 0) {
+          clasesPorDiaAcum[d] -= 1;
+        }
+      }
 
       if (limiteAlcanzado) {
         return;

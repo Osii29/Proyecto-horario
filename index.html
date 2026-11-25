@@ -70,12 +70,13 @@
             </select>
           </label>
 
-          <a href="#seccion-recomendaciones" class="nav-link">RECOMENDACIONES</a>
-          <a href="#seccion-grilla" class="nav-link">HORARIO</a>
+          <a href="#seccion-recomendaciones" class="nav-link" data-nav-target="recomendaciones">RECOMENDACIONES</a>
+          <a href="#seccion-grilla" class="nav-link" data-nav-target="grilla">HORARIO</a>
           <button
             id="btn-nav-manual"
             type="button"
             class="nav-link nav-link-btn"
+            data-nav-target="manual"
           >
             MANUAL
           </button>
@@ -83,9 +84,11 @@
 
         <div class="topbar-actions">
           <button id="btn-generar-top" type="button" class="cta-primary">
-            GENERAR HORARIO
+            <span class="cta-label">GENERAR HORARIO</span>
+            <span id="badge-cta-count" class="cta-count" hidden>0</span>
           </button>
         </div>
+        <div id="topbar-progress" class="topbar-progress" aria-hidden="true"></div>
       </header>
 
       <!-- Contenedor principal: Inspector colapsable | Estudio | Riel técnico -->
@@ -115,7 +118,7 @@
           </div>
 
           <!-- Navegación segmentada del panel lateral -->
-          <div class="inspector-tabs" role="tablist" aria-label="Secciones del panel lateral">
+          <div class="inspector-tabs" role="tablist" aria-label="Secciones del panel lateral" style="--tab-index: 0">
             <button
               id="tab-panel-materias"
               type="button"
@@ -205,7 +208,7 @@
               </button>
             </div>
 
-            <div class="catalog-mode-switch" role="group" aria-label="Modo de agrupación del catálogo">
+            <div class="catalog-mode-switch" role="group" aria-label="Modo de agrupación del catálogo" style="--tab-index: 0">
               <button
                 id="btn-agrupar-grupo"
                 type="button"
@@ -352,8 +355,8 @@
                   <span class="preset-hint">Equilibrio entre días libres y huecos cortos</span>
                 </button>
                 <button type="button" class="preset-card-btn" data-preset="masDiasLibres">
-                  <span class="preset-name">Más días libres</span>
-                  <span class="preset-hint">Compacta las clases en menos días</span>
+                  <span class="preset-name">Más días libres y concentrados</span>
+                  <span class="preset-hint">Compacta clases en menos días y evita días con solo 1 o 2 materias</span>
                 </button>
                 <button type="button" class="preset-card-btn" data-preset="menosHuecos">
                   <span class="preset-name">Menos huecos</span>
@@ -409,15 +412,20 @@
             <details class="advanced-details">
               <summary class="advanced-summary">Ajuste avanzado de pesos y turno</summary>
               <div class="advanced-body">
-                <div class="two-cols">
-                  <div class="field-group">
-                    <label for="pref-hora-ideal-inicio" class="field-label">INICIO IDEAL</label>
-                    <select id="pref-hora-ideal-inicio" class="select-control"></select>
+                <div class="advanced-group">
+                  <div class="two-cols">
+                    <div class="field-group">
+                      <label for="pref-hora-ideal-inicio" class="field-label">INICIO IDEAL</label>
+                      <select id="pref-hora-ideal-inicio" class="select-control"></select>
+                    </div>
+                    <div class="field-group">
+                      <label for="pref-hora-ideal-fin" class="field-label">FIN IDEAL</label>
+                      <select id="pref-hora-ideal-fin" class="select-control"></select>
+                    </div>
                   </div>
-                  <div class="field-group">
-                    <label for="pref-hora-ideal-fin" class="field-label">FIN IDEAL</label>
-                    <select id="pref-hora-ideal-fin" class="select-control"></select>
-                  </div>
+                  <p class="param-desc">
+                    Define tu turno preferido. Las horas de clase fuera de este horario se penalizan con "Fuera de turno".
+                  </p>
                 </div>
 
                 <div class="sliders-stack">
@@ -426,22 +434,40 @@
                       PESO DÍAS LIBRES <span id="val-peso-dias-libres" class="mono-val">20</span>
                     </label>
                     <input id="peso-dias-libres" type="range" min="0" max="50" step="1" value="20" />
+                    <p class="param-desc">
+                      Premia cada día completo de lunes a sábado sin ninguna clase (0 desactiva).
+                    </p>
                   </div>
                   <div class="slider-row">
                     <label for="peso-huecos" class="field-label">
                       PENALIZAR HUECOS <span id="val-peso-huecos" class="mono-val">10</span>
                     </label>
                     <input id="peso-huecos" type="range" min="0" max="50" step="1" value="10" />
+                    <p class="param-desc">
+                      Descuenta puntaje por cada hora muerta entre clases del mismo día (0 desactiva).
+                    </p>
                   </div>
                   <div class="slider-row">
                     <label for="peso-rango" class="field-label">
                       FUERA DE TURNO <span id="val-peso-rango" class="mono-val">10</span>
                     </label>
                     <input id="peso-rango" type="range" min="0" max="50" step="1" value="10" />
+                    <p class="param-desc">
+                      Penaliza cada hora de clase fuera de tu inicio y fin ideal (0 desactiva).
+                    </p>
+                  </div>
+                  <div class="slider-row">
+                    <label for="peso-concentracion" class="field-label">
+                      CONCENTRACIÓN DIARIA <span id="val-peso-concentracion" class="mono-val">8</span>
+                    </label>
+                    <input id="peso-concentracion" type="range" min="0" max="50" step="1" value="8" />
+                    <p class="param-desc">
+                      Premia días con 3+ materias y penaliza días sueltos con solo 1 o 2 clases (0 desactiva).
+                    </p>
                   </div>
                 </div>
 
-                <div class="field-group">
+                <div class="field-group advanced-group">
                   <label for="pref-max-combinaciones" class="field-label">
                     LÍMITE DE COMBINACIONES EVALUADAS
                   </label>
@@ -451,6 +477,9 @@
                     <option value="25000" selected>25,000 combinaciones</option>
                     <option value="50000">50,000 combinaciones</option>
                   </select>
+                  <p class="param-desc">
+                    Tope de horarios válidos a evaluar; aumentarlo amplía la búsqueda con muchas materias a costa de más tiempo.
+                  </p>
                 </div>
               </div>
             </details>
@@ -465,26 +494,28 @@
             class="selection-strip"
             aria-label="Materias seleccionadas"
           >
-            <div class="selection-meta">
-              <span class="mono-overline">MATERIAS OBJETIVO</span>
-              <span id="contador-seleccionadas" class="mono-counter-pill">
-                0 SELECCIONADAS
-              </span>
+            <div class="selection-head">
+              <div class="selection-meta">
+                <span class="mono-overline">MATERIAS OBJETIVO</span>
+                <span id="contador-seleccionadas" class="mono-counter-pill">
+                  0 SELECCIONADAS
+                </span>
+              </div>
+
+              <div class="selection-actions">
+                <button id="btn-limpiar-seleccion" type="button" class="btn-outline btn-xs">
+                  LIMPIAR
+                </button>
+                <button id="btn-generar-main" type="button" class="btn-accent-action">
+                  CALCULAR COMBINACIONES
+                </button>
+              </div>
             </div>
 
             <div id="lista-seleccionadas" class="chips-wrap selection-chips">
               <span class="empty-inline">
                 Elige tus materias desde el panel izquierdo para calcular horarios.
               </span>
-            </div>
-
-            <div class="selection-actions">
-              <button id="btn-limpiar-seleccion" type="button" class="btn-outline">
-                LIMPIAR
-              </button>
-              <button id="btn-generar-main" type="button" class="btn-solid">
-                GENERAR COMBINACIONES
-              </button>
             </div>
           </section>
 
@@ -494,13 +525,21 @@
             class="studio-section"
           >
             <div class="section-band">
-              <div class="section-band-left">
-                <span class="mono-overline">01 / COMBINACIONES ÓPTIMAS</span>
+              <div class="section-band-title-group">
+                <span class="section-index">01</span>
+                <div class="section-title-stack">
+                  <h1 class="section-display-title">RECOMENDACIONES</h1>
+                  <p class="section-subtitle">
+                    Combinaciones óptimas ordenadas según tu prioridad y restricciones
+                  </p>
+                </div>
+              </div>
+              <div class="section-band-telemetry">
+                <span id="status-dot-recs" class="status-dot" aria-hidden="true"></span>
                 <span id="telemetry-recomendaciones" class="mono-meta">
                   ESPERANDO SELECCIÓN
                 </span>
               </div>
-              <h1 class="section-display-title">RECOMENDACIONES</h1>
             </div>
 
             <div id="panel-diagnostico" class="diagnostico-panel" hidden></div>
@@ -518,11 +557,19 @@
             class="studio-section"
           >
             <div class="section-band">
-              <div class="section-band-left">
-                <span class="mono-overline">02 / HORARIO SEMANAL</span>
+              <div class="section-band-title-group">
+                <span class="section-index">02</span>
+                <div class="section-title-stack">
+                  <h2 class="section-display-title">HORARIO SEMANAL</h2>
+                  <p class="section-subtitle">
+                    Vista proporcional de lunes a sábado con inspección de bloques y exportación
+                  </p>
+                </div>
+              </div>
+              <div class="section-band-telemetry">
+                <span class="status-dot is-live" aria-hidden="true"></span>
                 <span class="mono-meta">LU – SA · VISTA PROPORCIONAL</span>
               </div>
-              <h2 class="section-display-title">VISTA DE ESTUDIO</h2>
             </div>
 
             <div class="studio-window">
@@ -593,6 +640,14 @@
           </footer>
         </main>
       </div>
+
+      <div
+        id="toast-region"
+        class="toast-region"
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+      ></div>
     </div>
   </body>
 </html>
